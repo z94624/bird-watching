@@ -1,0 +1,9 @@
+.main-home {
+  background-image: url("./../images/cover.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=Home.css.map */
