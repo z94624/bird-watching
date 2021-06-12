@@ -17,11 +17,11 @@ const RootRouter = () => {
 		<Router>
 			<Layout>
 				<Switch>
-					<Route exact path="/" component={Home} />
-					<Route path="/ebird" component={EBird} />
-					<Route path="/youtube" component={YouTube} />
-					<Route path="/photos" component={Photos} />
-					<Route path="/records" component={Records} />
+					<Route exact path="/bird-watching" component={Home} />
+					<Route exact path="/bird-watching/ebird" component={EBird} />
+					<Route exact path="/bird-watching/youtube" component={YouTube} />
+					<Route exact path="/bird-watching/photos" component={Photos} />
+					<Route exact path="/bird-watching/records" component={Records} />
 				</Switch>
 			</Layout>
 		</Router>

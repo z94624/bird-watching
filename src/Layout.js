@@ -8,7 +8,7 @@ const Layout = props => {
 		<Fragment>
 			<div className="h-100 bg-dark text-center">
             	<div className="cover-container d-flex h-100 p-0 flex-column">
-					<Header />
+					<Header className="fixed-top" />
 					{props.children}
 					<Footer />
 				</div>
