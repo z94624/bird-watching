@@ -1,0 +1,8 @@
+@mixin background($size) {
+	background: {
+		position: center;
+		size: $size;
+		repeat: no-repeat;
+		color: #000000;
+	}
+}

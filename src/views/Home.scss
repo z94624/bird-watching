@@ -1,9 +1,7 @@
+@import "./css/_backgrounds";
+
 .main-home {
-	background: {
-		image: url("./../images/cover.JPG");
-		repeat: no-repeat;
-		size: cover;
-		position: center;
-	}
+	@include background(cover);
+	background-image: url("./../images/cover.JPG");
 	height: 100vh;
 }

@@ -31,7 +31,7 @@ const Header = () => {
                     <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse ms-5`} id="navbarTabs">
                         <ul className="navbar-nav">
                         	{navList.map(({to, text}, idx) => (
-                        		<li key={idx} className="nav-item">
+                        		<li key={"navItem-"+idx} className="nav-item">
                         			<NavLink
                         				exact
                         				className="nav-link"

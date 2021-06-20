@@ -1,8 +1,9 @@
 .main-home {
-  background-image: url("./../images/cover.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-image: url("./../images/cover.JPG");
   height: 100vh;
 }
 
