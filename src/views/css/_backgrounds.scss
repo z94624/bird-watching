@@ -1,3 +1,6 @@
+$bs-bgDark: rgba(33, 37, 41, 1);
+$bs-bgDark_blur: rgba(255, 255, 255, .55);
+
 @mixin background($size) {
 	background: {
 		position: center;

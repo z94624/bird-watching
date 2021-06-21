@@ -22,11 +22,13 @@ const YouTube = () => {
 
 	return (
 		<main className="h-100">
-			<div className="sortPanel row my-3 ms-3">
-				<div className="col-3">
+			<div className="sortPanel w-100 d-inline-flex justify-content-evenly my-3 pb-3 sticky-top">
+				<div className="w-25">
 					<DatePicker
 						formatStyle="medium"
-						hideLabel={true}
+						label="日期"
+						labelAlignment="left"
+						hideLabel={false}
 						id="ytDatePicker"
 						isCentered={true}
 						locale="tw"
@@ -38,16 +40,20 @@ const YouTube = () => {
 						value={dateRange}
 					/>
 				</div>
-				<div className="col-3">
+				<div className="w-25">
 					<Select
-						hideLabel={true}
+						label="地點"
+						labelAlignment="left"
+						hideLabel={false}
 						id="ytLocationSelect"
 						options={locationOptions}
 					/>
 				</div>
-				<div className="col-3">
+				<div className="w-25">
 					<Select
-						hideLabel={true}
+						label="鳥種"
+						labelAlignment="left"
+						hideLabel={false}
 						id="ytBirdSelect"
 						options={birdOptions}
 					/>

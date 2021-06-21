@@ -2,6 +2,37 @@
 
 $cardBodyContentHeight: 200px;
 
+main {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.sortPanel {
+	background-color: rgba($bs-bgDark, 0.87);
+
+	label {
+		color: $bs-bgDark_blur;
+		transition: color .2s ease;
+	}
+}
+
+#ytDatePicker,
+#ytLocationSelect,
+#ytBirdSelect {
+	&:hover label {
+		color: rgba($bs-bgDark_blur, 0.85);
+	}
+}
+
+.card-header {
+	max-height: 41px;
+	overflow-y: auto;
+}
+
+.card-body {
+	height: $cardBodyContentHeight;
+}
+
 .playBtn {
 	cursor: pointer;
 	position: relative;
@@ -43,9 +74,4 @@ $cardBodyContentHeight: 200px;
 .ytIframe {
 	width: 100%;
 	height: $cardBodyContentHeight;
-}
-
-main {
-	overflow-x: hidden;
-	overflow-y: auto;
 }
