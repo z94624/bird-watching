@@ -16,7 +16,7 @@ const YoutubeVideo = ({ videoId, videoLid }) => {
 		React.createElement("div", {
 			className: classNames.previewImage,
 			style: {
-				backgroundImage: "url(https://img.youtube.com/vi/" + videoId + "/maxresdefault.jpg)"
+				backgroundImage: "url(https://img.youtube.com/vi/" + videoId + "/hqdefault.jpg)"
 			},
 			onClick: handleShowVideoChange
 		}, React.createElement("div", {

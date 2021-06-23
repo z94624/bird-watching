@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { DatePicker, Select } from 'react-rainbow-components';
 
 import { getItems, itemsToRainbowOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
+import ScrollTopArrow from './../components/ScrollTopArrow';
 import './YouTube.css';
 
 const YouTube = () => {
@@ -61,6 +62,8 @@ const YouTube = () => {
 			</div>
 			
 			{videoCards}
+
+			<ScrollTopArrow />
 		</main>
 	);
 }

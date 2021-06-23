@@ -19,7 +19,7 @@ export const vidsToVideoCards = (vids, dates, locations, birds) => { // 暫時 b
 	return (
 		<div id="ytVideosContainer">
 			{vids.map((vid, idx) => (
-				<div key={"ytVideo-"+idx} className="w-25 p-2 d-inline-block">
+				<div key={"ytVideo-"+idx} className="w-25 p-3 d-inline-block">
 					<div className="card">
 						<div className="card-header">
 							{dates[idx] + "/" + locations[idx] + "/" + birds[idx]}
