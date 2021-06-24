@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 import { DatePicker, Select } from 'react-rainbow-components';
 
@@ -21,8 +21,19 @@ const YouTube = () => {
 	const fullBirds = getItems('bird', true);
 	const videoCards = vidsToVideoCards(vids, fullDates, fullLocations, fullBirds);
 
+	const [showScroll, setShowScroll] = useState(false);
+	// useRef for ytMain?
+	const handleScrollTop = () => {
+		let ytMain = document.getElementById("ytMain");
+		if (!showScroll && ytMain.scrollTop > 400) {
+			setShowScroll(true);
+		} else if (showScroll && ytMain.scrollTop <= 400) {
+			setShowScroll(false);
+		}
+	}
+
 	return (
-		<main className="h-100">
+		<main id="ytMain" className="h-100" onScroll={handleScrollTop}>
 			<div className="sortPanel w-100 d-inline-flex justify-content-evenly my-3 pb-3 sticky-top">
 				<div className="w-25">
 					<DatePicker
@@ -63,7 +74,7 @@ const YouTube = () => {
 			
 			{videoCards}
 
-			<ScrollTopArrow />
+			<ScrollTopArrow showScroll={showScroll} />
 		</main>
 	);
 }
