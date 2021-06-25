@@ -1,8 +1,13 @@
 .scrollTop {
   position: absolute;
-  right: 100px;
-  bottom: 100px;
+  right: 50px;
+  bottom: 80px;
   cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.3s;
+}
+.scrollTop:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=ScrollTopArrow.css.map */

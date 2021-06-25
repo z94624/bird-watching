@@ -13,13 +13,19 @@ import Photos from './views/Photos';
 import Records from './views/Records';
 
 const RootRouter = () => {
+	const scrollToElement = target => {
+		target.scrollIntoView({ behavior: 'smooth' });
+	}
+
 	return (
 		<Router>
 			<Layout>
 				<Switch>
 					<Route exact path="/bird-watching" component={Home} />
 					<Route exact path="/bird-watching/ebird" component={EBird} />
-					<Route exact path="/bird-watching/youtube" component={YouTube} />
+					<Route exact path="/bird-watching/youtube" component={() => 
+						<YouTube scrollToElement={scrollToElement} />
+					} />
 					<Route exact path="/bird-watching/photos" component={Photos} />
 					<Route exact path="/bird-watching/records" component={Records} />
 				</Switch>

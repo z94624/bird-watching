@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 import { DatePicker, Select } from 'react-rainbow-components';
 
@@ -6,7 +6,7 @@ import { getItems, itemsToRainbowOptions, vidsToVideoCards } from './../utils/yt
 import ScrollTopArrow from './../components/ScrollTopArrow';
 import './YouTube.css';
 
-const YouTube = () => {
+const YouTube = ({scrollToElement}) => {
 	const [dateRange, setDateRange] = useState(new Date());
 
 	const locations = getItems('location');
@@ -22,18 +22,16 @@ const YouTube = () => {
 	const videoCards = vidsToVideoCards(vids, fullDates, fullLocations, fullBirds);
 
 	const [showScroll, setShowScroll] = useState(false);
-	// useRef for ytMain?
-	const handleScrollTop = () => {
-		let ytMain = document.getElementById("ytMain");
-		if (!showScroll && ytMain.scrollTop > 400) {
+	const handleScrollTop = target => {
+		if (!showScroll && target.scrollTop > 400) {
 			setShowScroll(true);
-		} else if (showScroll && ytMain.scrollTop <= 400) {
+		} else if (showScroll && target.scrollTop <= 400) {
 			setShowScroll(false);
 		}
 	}
 
 	return (
-		<main id="ytMain" className="h-100" onScroll={handleScrollTop}>
+		<main className="h-100" onScroll={e => handleScrollTop(e.target)}>
 			<div className="sortPanel w-100 d-inline-flex justify-content-evenly my-3 pb-3 sticky-top">
 				<div className="w-25">
 					<DatePicker
@@ -74,7 +72,7 @@ const YouTube = () => {
 			
 			{videoCards}
 
-			<ScrollTopArrow showScroll={showScroll} />
+			<ScrollTopArrow showScroll={showScroll} scrollToElement={() => scrollToElement(document.getElementById("ytVideosContainer"))} />
 		</main>
 	);
 }

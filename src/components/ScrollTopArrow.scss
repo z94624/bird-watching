@@ -1,6 +1,12 @@
 .scrollTop {
 	position: absolute;
-	right: 100px;
-	bottom: 100px;
+	right: 50px;
+	bottom: 80px;
 	cursor: pointer;
+	color: rgba(255, 255, 255, .5);
+	transition: color .3s;
+
+	&:hover {
+		color: rgba(255, 255, 255, 1);
+	}
 }
