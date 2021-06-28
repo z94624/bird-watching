@@ -1,11 +1,27 @@
 import youTubeVideosData from './youtube-videos.json';
 import YoutubeVideo from './../components/YoutubeVideo';
 
-export const getItems = (key, duplicate=false) => {
+export const getItems = (key, duplicate=false, chunk = false) => {
 	let items = youTubeVideosData.reduce((arr, ele) => 
 		arr.concat([ele[key]])
 	, []);
-	return (duplicate ? items : [...(new Set(items))]);
+
+	if (!duplicate) {
+		items = [...(new Set(items))];
+	}
+
+	if (chunk) {
+		items = arrayToChunks(items, 4);
+	}
+	return items;
+}
+
+const arrayToChunks = (arr, size) => {
+	var chunkedArray = [];
+	while (arr.length) {
+		chunkedArray.push(arr.splice(0, size));
+	}
+	return chunkedArray;
 }
 
 export const itemsToRainbowOptions = (items) => {
@@ -37,7 +53,7 @@ export const vidsToVideoCards = (vids, dates, locations, birds) => { // 暫時 b
 		</div>
 	);
 }
-
+// 改用 <YouTube />
 /*export const linkToYouTube = () => {
 	// 影片數量
 	var videos = document.querySelectorAll('.lazyLoad');

@@ -15,17 +15,17 @@ const YouTube = ({scrollToElement}) => {
 	const birds = getItems('bird');
 	const birdOptions = itemsToRainbowOptions(birds);
 
-	const vids = getItems('vid');
-	const fullDates = getItems('date', true);
-	const fullLocations = getItems('location', true);
-	const fullBirds = getItems('bird', true);
-	const videoCards = vidsToVideoCards(vids, fullDates, fullLocations, fullBirds);
+	const fullVids = getItems('vid', true, true);
+	const fullDates = getItems('date', true, true);
+	const fullLocations = getItems('location', true, true);
+	const fullBirds = getItems('bird', true, true);
+	const videoCards = vidsToVideoCards(fullVids, fullDates, fullLocations, fullBirds);
 
 	const [showScroll, setShowScroll] = useState(false);
 	const handleScrollTop = target => {
-		if (!showScroll && target.scrollTop > 400) {
+		if (!showScroll && target.scrollTop > 500) {
 			setShowScroll(true);
-		} else if (showScroll && target.scrollTop <= 400) {
+		} else if (showScroll && target.scrollTop <= 500) {
 			setShowScroll(false);
 		}
 	}
