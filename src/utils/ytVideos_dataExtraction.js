@@ -34,20 +34,24 @@ export const itemsToRainbowOptions = (items) => {
 export const vidsToVideoCards = (vids, dates, locations, birds) => { // 暫時 birds/dates，可改其他做 header
 	return (
 		<div id="ytVideosContainer">
-			{vids.map((vid, idx) => (
-				<div key={"ytVideo-"+idx} className="w-25 p-3 d-inline-block">
-					<div className="card">
-						<div className="card-header">
-							{dates[idx] + "/" + locations[idx] + "/" + birds[idx]}
-						</div>
-						<div className="card-body p-0">
-							{/*<div className="lazyLoad" data-id={vid}>
-								<div className="ll-play-btn" role="button"></div>
-								<img className="w-100" role="button" src={"https://img.youtube.com/vi/"+vid+"/maxresdefault.jpg"} alt={vid} />
-							</div>*/}
-							<YoutubeVideo videoId={vid} videoLid="" />
+			{vids.map((row, rIdx) => (
+				<div key={"ytVideo-row-"+rIdx} className="row m-2">
+				{row.map((vid, vIdx) => (
+					<div key={"ytVideo-"+vIdx} className="col-md-3 col-sm-6 p-2">
+						<div className="card">
+							<div className="card-header">
+								{dates[rIdx][vIdx] + " / " + locations[rIdx][vIdx] + " / " + birds[rIdx][vIdx]}
+							</div>
+							<div className="card-body p-0">
+								{/*<div className="lazyLoad" data-id={vid}>
+									<div className="ll-play-btn" role="button"></div>
+									<img className="w-100" role="button" src={"https://img.youtube.com/vi/"+vid+"/maxresdefault.jpg"} alt={vid} />
+								</div>*/}
+								<YoutubeVideo videoId={vid} videoLid="" />
+							</div>
 						</div>
 					</div>
+				))}
 				</div>
 			))}
 		</div>
