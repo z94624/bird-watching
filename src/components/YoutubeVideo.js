@@ -1,21 +1,22 @@
 import React, { useState } from 'react';
-
+// 影片卡片各元素的 Class
 var classNames = {
-	"playButton": "playBtn",
-	"previewImage": "previewImg",
-	"iframe": "ytIframe"
+	"playButton": "playBtn", // 模仿的播放按鈕
+	"previewImage": "previewImg", // 預覽圖片
+	"iframe": "ytIframe" // YouTube 影片容器
 }
 
 const YoutubeVideo = ({ videoId, videoLid }) => {
+	// 載入真正的 YouTube 影片
 	const [showVideo, setShowVideo] = useState(false);
 	const handleShowVideoChange = () => {
 		setShowVideo(true);
 	}
-
+	// 預設為圖片，點選後載入真正影片
 	return !showVideo ?
 		React.createElement("div", {
 			className: classNames.previewImage,
-			style: {
+			style: { // 圖片畫質：hqdefault, mqdefault, sddefault, default, maxresdefault
 				backgroundImage: "url(https://img.youtube.com/vi/" + videoId + "/hqdefault.jpg)"
 			},
 			onClick: handleShowVideoChange

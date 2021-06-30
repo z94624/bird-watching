@@ -1,21 +1,21 @@
 @import "./css/_backgrounds";
-
+/* 影片卡片內容的高度 */
 $cardBodyContentHeight: 200px;
 
 main {
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: auto; /* 捲動頁面觀看更多影片 */
 }
-
+/* 篩選參數 */
 .sortPanel {
-	background-color: rgba($bs-bgDark, 0.87);
+	background-color: rgba($bs-bgDark, 0.87); /* 篩選參數區域為 fixed */
 
-	label {
+	label { /* 篩選參數的標題，模仿分頁列表 */
 		color: $bs-bgDark_blur;
 		transition: color .2s ease;
 	}
 }
-
+/* 各個篩選參數 */
 #ytDatePicker,
 #ytLocationSelect,
 #ytBirdSelect {
@@ -23,16 +23,16 @@ main {
 		color: rgba($bs-bgDark_blur, 0.85);
 	}
 }
-
+/* 影片卡片標題 */
 .card-header {
 	max-height: 41px;
 	overflow-y: auto;
 }
-
+/* 影片卡片內容 */
 .card-body {
 	height: $cardBodyContentHeight;
 }
-
+/* 模仿 YouTube 的播放按鈕 */
 .playBtn {
 	cursor: pointer;
 	position: relative;
@@ -56,7 +56,7 @@ main {
 		}
 	}
 }
-
+/* 影片卡片內容的預覽圖片 */
 .previewImg {
 	cursor: pointer;
 	position: relative;
@@ -70,7 +70,7 @@ main {
 		background-color: #FF0000;
 	}
 }
-
+/* 影片卡片內容的 YouTube 影片 */
 .ytIframe {
 	width: 100%;
 	height: $cardBodyContentHeight;

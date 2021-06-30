@@ -9,7 +9,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <RootRouter />
+    <RootRouter /> {/* 轉換頁面分流器 */}
   </React.StrictMode>,
   document.getElementById('root')
 );

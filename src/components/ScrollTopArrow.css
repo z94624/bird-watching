@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* 滾動至頂按鈕 */
 .scrollTop {
   position: absolute;
   right: 50px;

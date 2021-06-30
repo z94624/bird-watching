@@ -1,31 +1,44 @@
+@charset "UTF-8";
+/* Bootstrap 暗色背景背景顏色 */
+/* Bootstrap 暗色背景 Blur 的字體顏色 */
+/* 背景主題 */
+/* 影片卡片內容的高度 */
 main {
   overflow-x: hidden;
   overflow-y: auto;
+  /* 捲動頁面觀看更多影片 */
 }
 
+/* 篩選參數 */
 .sortPanel {
   background-color: rgba(33, 37, 41, 0.87);
+  /* 篩選參數區域為 fixed */
 }
 .sortPanel label {
+  /* 篩選參數的標題，模仿分頁列表 */
   color: rgba(255, 255, 255, 0.55);
   transition: color 0.2s ease;
 }
 
+/* 各個篩選參數 */
 #ytDatePicker:hover label,
 #ytLocationSelect:hover label,
 #ytBirdSelect:hover label {
   color: rgba(255, 255, 255, 0.85);
 }
 
+/* 影片卡片標題 */
 .card-header {
   max-height: 41px;
   overflow-y: auto;
 }
 
+/* 影片卡片內容 */
 .card-body {
   height: 200px;
 }
 
+/* 模仿 YouTube 的播放按鈕 */
 .playBtn {
   cursor: pointer;
   position: relative;
@@ -47,6 +60,7 @@ main {
   border-color: transparent transparent transparent #FFFFFF;
 }
 
+/* 影片卡片內容的預覽圖片 */
 .previewImg {
   cursor: pointer;
   position: relative;
@@ -56,6 +70,7 @@ main {
   height: 200px;
   background-position: center;
   background-size: cover;
+  /* auto, cover, contain */
   background-repeat: no-repeat;
   background-color: #000000;
 }
@@ -63,6 +78,7 @@ main {
   background-color: #FF0000;
 }
 
+/* 影片卡片內容的 YouTube 影片 */
 .ytIframe {
   width: 100%;
   height: 200px;

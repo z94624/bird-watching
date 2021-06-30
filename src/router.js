@@ -13,14 +13,15 @@ import Photos from './views/Photos';
 import Records from './views/Records';
 
 const RootRouter = () => {
+	// 頁面滾動至某元素
 	const scrollToElement = target => {
-		target.scrollIntoView({ behavior: 'smooth' });
+		target.scrollIntoView({ behavior: 'smooth' }); // 平滑地滾動到可見
 	}
 
 	return (
 		<Router>
-			<Layout>
-				<Switch>
+			<Layout> {/* 所有頁面的模板 */}
+				<Switch> {/* 匹配路徑載入對應分頁元件 */}
 					<Route exact path="/bird-watching" component={Home} />
 					<Route exact path="/bird-watching/ebird" component={EBird} />
 					<Route exact path="/bird-watching/youtube" component={() => 
