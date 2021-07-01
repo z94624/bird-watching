@@ -1,0 +1,7 @@
+.navbar-toggler {
+	transition: background-color 0.2s ease;
+
+	&:hover {
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+}
