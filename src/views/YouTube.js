@@ -6,6 +6,38 @@ import { getItems, itemsToRainbowOptions, vidsToVideoCards } from './../utils/yt
 import ScrollTopArrow from './../components/ScrollTopArrow';
 import './YouTube.css';
 
+const stopVideosAfterScroll = () => {
+	var videos = document.getElementsByTagName("iframe");
+	for (let i = 0; i < videos.length; i++) {
+		let video = videos[i];
+
+		var x = 0, y = 0,
+			w = video.offsetWidth, h = video.offsetHeight,
+			r, b, // right；bottom
+			visibleX, visibleY, visible,
+			parent;
+
+			parent = video;
+			while (parent && parent !== document.body) {
+				x += parent.offsetLeft;
+				y += parent.offsetTop;
+				parent = parent.offsetParent;
+			}
+
+			r = x + w;
+			b = y + h;
+
+			visibleX = Math.max(0, Math.min(w, window.pageXOffset+window.innerWidth-x, r-window.pageXOffset));
+			visibleY = Math.max(0, Math.min(h, window.pageYOffset+window.innerHeight-y, b-window.pageYOffset));
+
+			visible = visibleX * visibleY / (w * h);
+			console.log(visible);
+			if (visible > 1) {
+				video.pauseVideo();
+			}
+	}
+}
+
 const YouTube = ({scrollToElement}) => {
 	// 篩選參數：日期
 	const [dateRange, setDateRange] = useState(new Date());
@@ -30,6 +62,11 @@ const YouTube = ({scrollToElement}) => {
 			setShowScroll(false);
 		}
 	}
+	// 捲動頁面至影片離開，立即暫停影片播放
+	window.addEventListener('scroll', stopVideosAfterScroll, false);
+	window.addEventListener('resize', stopVideosAfterScroll, false);
+	window.addEventListener('load', stopVideosAfterScroll, false);
+	stopVideosAfterScroll();
 
 	return (
 		<main className="h-100" onScroll={e => handleScrollTop(e.target)}>
