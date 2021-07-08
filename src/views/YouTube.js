@@ -5,36 +5,13 @@ import { DatePicker, Select } from 'react-rainbow-components';
 import { getItems, itemsToRainbowOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
 import ScrollTopArrow from './../components/ScrollTopArrow';
 import './YouTube.css';
-
-const stopVideosAfterScroll = () => {
+// 捲動頁面立即暫停所有播放中的影片
+const pauseVideos = () => {
 	var videos = document.getElementsByTagName("iframe");
 	for (let i = 0; i < videos.length; i++) {
 		let video = videos[i];
-
-		var x = 0, y = 0,
-			w = video.offsetWidth, h = video.offsetHeight,
-			r, b, // right；bottom
-			visibleX, visibleY, visible,
-			parent;
-
-			parent = video;
-			while (parent && parent !== document.body) {
-				x += parent.offsetLeft;
-				y += parent.offsetTop;
-				parent = parent.offsetParent;
-			}
-
-			r = x + w;
-			b = y + h;
-
-			visibleX = Math.max(0, Math.min(w, window.pageXOffset+window.innerWidth-x, r-window.pageXOffset));
-			visibleY = Math.max(0, Math.min(h, window.pageYOffset+window.innerHeight-y, b-window.pageYOffset));
-
-			visible = visibleX * visibleY / (w * h);
-			console.log(visible);
-			if (visible > 1) {
-				video.pauseVideo();
-			}
+		// playVideo, pauseVideo, stopVideo
+		video.contentWindow.postMessage('{"event": "command", "func": "pauseVideo", "args": ""}', '*');
 	}
 }
 
@@ -62,14 +39,12 @@ const YouTube = ({scrollToElement}) => {
 			setShowScroll(false);
 		}
 	}
-	// 捲動頁面至影片離開，立即暫停影片播放
-	window.addEventListener('scroll', stopVideosAfterScroll, false);
-	window.addEventListener('resize', stopVideosAfterScroll, false);
-	window.addEventListener('load', stopVideosAfterScroll, false);
-	stopVideosAfterScroll();
 
 	return (
-		<main className="h-100" onScroll={e => handleScrollTop(e.target)}>
+		<main className="h-100" onScroll={e => {
+			handleScrollTop(e.target);
+			pauseVideos();
+		}}>
 			{/* 篩選參數區域 */}
 			<div className="sortPanel w-100 d-inline-flex justify-content-evenly my-3 pb-3 sticky-top">
 				<div className="w-25">
