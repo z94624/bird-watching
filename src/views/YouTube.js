@@ -6,13 +6,19 @@ import { getItems, itemsToRainbowOptions, vidsToVideoCards } from './../utils/yt
 import ScrollTopArrow from './../components/ScrollTopArrow';
 import './YouTube.css';
 // 捲動頁面立即暫停所有播放中的影片
-const pauseVideos = () => {
-	var videos = document.getElementsByTagName("iframe");
-	for (let i = 0; i < videos.length; i++) {
-		let video = videos[i];
-		// playVideo, pauseVideo, stopVideo
-		video.contentWindow.postMessage('{"event": "command", "func": "pauseVideo", "args": ""}', '*');
+const pauseVideos = playingVideos => {
+	for (let i = 0; i < playingVideos.length; i++) {
+		playingVideos[i].pauseVideo();
 	}
+}
+// 收集播放中的影片
+var playingVideos = []; // 播放中的影片清單
+const handleVideoPlay = target => { // 當影片播放
+	playingVideos.push(target); // 加入播放中影片
+}
+const handleVideoStop = target => { // 當影片暫停或結束
+	let index = playingVideos.indexOf(target);
+	playingVideos.splice(index, 1); // 從播放中影片清單移除
 }
 
 const YouTube = ({scrollToElement}) => {
@@ -29,7 +35,7 @@ const YouTube = ({scrollToElement}) => {
 	const fullDates = getItems('date', true, true); // 所有重複日期
 	const fullLocations = getItems('location', true, true); // 所有重複地點
 	const fullBirds = getItems('bird', true, true); // 所有重複鳥種
-	const videoCards = vidsToVideoCards(fullVids, fullDates, fullLocations, fullBirds); // 所有重複影片
+	const videoCards = vidsToVideoCards(fullVids, fullDates, fullLocations, fullBirds, handleVideoPlay, handleVideoStop); // 所有重複影片
 	// 滾動至頂按鈕
 	const [showScroll, setShowScroll] = useState(false); // 顯示狀態
 	const handleScrollTop = target => { // 改變顯示狀態
@@ -43,11 +49,11 @@ const YouTube = ({scrollToElement}) => {
 	return (
 		<main className="h-100" onScroll={e => {
 			handleScrollTop(e.target);
-			pauseVideos();
+			pauseVideos(playingVideos);
 		}}>
 			{/* 篩選參數區域 */}
-			<div className="sortPanel w-100 d-inline-flex justify-content-evenly my-3 pb-3 sticky-top">
-				<div className="w-25">
+			<div className="sortPanel w-100 d-inline-flex justify-content-evenly my-3 pb-3 sticky-top row">
+				<div className="col-sm-4">
 					{/* 日期選擇器 */}
 					<DatePicker
 						formatStyle="medium" // 顯示於框格中的日期格式；small, medium, large
@@ -65,7 +71,7 @@ const YouTube = ({scrollToElement}) => {
 						value={dateRange} // 日期的值
 					/>
 				</div>
-				<div className="w-25">
+				<div className="col-sm-4">
 					{/* 地點選單 */}
 					<Select
 						label="地點"
@@ -75,7 +81,7 @@ const YouTube = ({scrollToElement}) => {
 						options={locationOptions} // 地點選項
 					/>
 				</div>
-				<div className="w-25">
+				<div className="col-sm-4">
 					{/* 鳥種選單 */}
 					<Select
 						label="鳥種"

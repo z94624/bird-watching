@@ -55,7 +55,7 @@ export const itemsToRainbowOptions = (items) => {
  * birds: 所有影片鳥種
  * 輸出：Responsive YouTube Video Cards
  */
-export const vidsToVideoCards = (vids, dates, locations, birds) => { // 暫時 birds/dates，可改其他做 header
+export const vidsToVideoCards = (vids, dates, locations, birds, handleVideoPlay, handleVideoStop) => { // 暫時 birds/dates，可改其他做 header
 	return (
 		<div id="ytVideosContainer">
 			{/* 每列的影片 */}
@@ -70,11 +70,7 @@ export const vidsToVideoCards = (vids, dates, locations, birds) => { // 暫時 b
 							}
 							</div>
 							<div className="card-body p-0"> {/* 影片內容 */}
-								{/*<div className="lazyLoad" data-id={vid}>
-									<div className="ll-play-btn" role="button"></div>
-									<img className="w-100" role="button" src={"https://img.youtube.com/vi/"+vid+"/maxresdefault.jpg"} alt={vid} />
-								</div>*/}
-								<YoutubeVideo videoId={vid} videoLid="" />
+								<YoutubeVideo videoId={vid} videoLid="" handleVideoPlay={handleVideoPlay} handleVideoStop={handleVideoStop} />
 							</div>
 						</div>
 					</div>
@@ -84,32 +80,3 @@ export const vidsToVideoCards = (vids, dates, locations, birds) => { // 暫時 b
 		</div>
 	);
 }
-// 改用 <YouTube />
-/*export const linkToYouTube = () => {
-	// 影片數量
-	var videos = document.querySelectorAll('.lazyLoad');
-	for (let i = 0; i < videos.length; i++) {
-		let video = videos[i];
-		let video_ID = video.dataset.id;
-		let video_LID = video.dataset.lid;
-		// 建立 Iframe
-		video.addEventListener('click', function() {
-			var iframe = document.createElement('iframe');
-
-			iframe.setAttribute("class", "w-100");
-			if (video_LID === undefined) { // 單部影片
-				iframe.setAttribute("src", "https://www.youtube.com/embed/" + video_ID + "?rel=0&showinfo=0&autoplay=1");
-			} else { // 播放清單
-				iframe.setAttribute("src", "https://www.youtube.com/embed?listType=playlist&list=" + video_LID + "&rel=0&showinfo=0&autoplay=1");
-			}
-			iframe.setAttribute("frameborder", "0");
-			iframe.setAttribute("allowfullscreen", "");
-			// 移除影片縮圖
-			while (this.firstChild) {
-				this.removeChild(this.lastChild); // 從最後移除比較快
-			}
-			// 換成 Iframe
-			this.appendChild(iframe);
-		});
-	}
-}*/

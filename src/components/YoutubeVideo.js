@@ -8,7 +8,7 @@ var classNames = {
 	"iframe": "ytIframe" // YouTube 影片容器
 }
 
-const YoutubeVideo = ({ videoId, videoLid }) => {
+const YoutubeVideo = ({ videoId, videoLid, handleVideoPlay, handleVideoStop }) => {
 	// 載入真正的 YouTube 影片
 	const [showVideo, setShowVideo] = useState(false);
 	const handleShowVideoChange = () => {
@@ -37,24 +37,16 @@ const YoutubeVideo = ({ videoId, videoLid }) => {
 			onClick: handleShowVideoChange
 		}, React.createElement("div", {
 			className: classNames.playButton
-		})) :
-		/*React.createElement("iframe", {
-			className: classNames.iframe,
-			src: (!videoLid ?
-				"https://www.youtube.com/embed/" + videoId + "?rel=0&showinfo=0&autoplay=1" :
-				"https://www.youtube.com/embed?listType=playlist&list=" + videoLid + "&rel=0&showinfo=0&autoplay=1"
-			),
-			frameBorder: "0",
-			allowFullScreen: true
-		});*/
+		}))
+		:
 		<YouTube
 			videoId={videoId}
+			id={videoId}
 			className="ytVideo" // 為了限制高度
 			opts={opts}
-			onPlay={() => {}}
-			onPause={() => {}}
-			onEnd={() => {}}
-			onStateChange={() => {}}
+			onPlay={e => handleVideoPlay(e.target)}
+			onPause={e => handleVideoStop(e.target)}
+			onEnd={e => handleVideoStop(e.target)}
 		/>
 }
 
