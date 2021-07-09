@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bird-watching/static/css/main.27cc15aa.chunk.css",
-    "main.js": "/bird-watching/static/js/main.bfe4c88e.chunk.js",
-    "main.js.map": "/bird-watching/static/js/main.bfe4c88e.chunk.js.map",
+    "main.js": "/bird-watching/static/js/main.714045c8.chunk.js",
+    "main.js.map": "/bird-watching/static/js/main.714045c8.chunk.js.map",
     "runtime-main.js": "/bird-watching/static/js/runtime-main.ae848ae7.js",
     "runtime-main.js.map": "/bird-watching/static/js/runtime-main.ae848ae7.js.map",
     "static/css/2.61b4cb56.chunk.css": "/bird-watching/static/css/2.61b4cb56.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.00f233de.chunk.js",
     "static/css/main.27cc15aa.chunk.css",
-    "static/js/main.bfe4c88e.chunk.js"
+    "static/js/main.714045c8.chunk.js"
   ]
 }
