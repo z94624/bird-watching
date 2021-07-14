@@ -35,7 +35,7 @@ main {
 
 /* 影片卡片內容 */
 .card-body {
-  height: 200px;
+  height: 130px;
 }
 
 /* 模仿 YouTube 的播放按鈕 */
@@ -67,7 +67,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 130px;
   background-position: center;
   background-size: cover;
   /* auto, cover, contain */
@@ -81,7 +81,7 @@ main {
 /* 影片卡片內容的 YouTube 影片 */
 .ytVideo {
   width: 100%;
-  height: 200px;
+  height: 130px;
 }
 
 /*# sourceMappingURL=YouTube.css.map */

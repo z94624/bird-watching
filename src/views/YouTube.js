@@ -45,6 +45,11 @@ const YouTube = ({scrollToElement}) => {
 			setShowScroll(false);
 		}
 	}
+	// 最新日期作為日期篩選上限
+	const latestDateYMD = fullDates[0][0].split('-');
+	const latestYear = parseInt(latestDateYMD[0]);
+	const latestMonth = parseInt(latestDateYMD[1]);
+	const latestDay = parseInt(latestDateYMD[2]);
 
 	return (
 		<main className="h-100" onScroll={e => {
@@ -52,7 +57,7 @@ const YouTube = ({scrollToElement}) => {
 			pauseVideos(playingVideos);
 		}}>
 			{/* 篩選參數區域 */}
-			<div className="sortPanel w-100 d-inline-flex justify-content-evenly my-3 pb-3 sticky-top row">
+			<div className="sortPanel w-100 d-inline-flex justify-content-evenly pb-3 sticky-top row">
 				<div className="col-sm-4">
 					{/* 日期選擇器 */}
 					<DatePicker
@@ -63,7 +68,7 @@ const YouTube = ({scrollToElement}) => {
 						id="ytDatePicker"
 						isCentered={true} // 框格中的提示位置；boolean
 						locale="tw" // 地區；預設為瀏覽器語言
-						maxDate={new Date(2040, 11, 25)} // 依照 YouTube 賞鳥紀錄最新影片日期
+						maxDate={new Date(latestYear, latestMonth-1, latestDay)} // 依照 YouTube 賞鳥紀錄最新影片日期
 						minDate={new Date(2020, 10, 26)} // 第一部影片日期
 						onChange={value => setDateRange(value)} // 更新日期狀態
 						placeholder="單一日期 或 日期區間" // 框格中的提示內容

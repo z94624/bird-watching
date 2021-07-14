@@ -19,7 +19,7 @@ export const getItems = (key, duplicate=false, chunk = false) => {
 	}
 	// 資料分組
 	if (chunk) {
-		items = arrayToChunks(items, 4);
+		items = arrayToChunks(items, 6);
 	}
 	return items;
 }
@@ -62,19 +62,24 @@ export const vidsToVideoCards = (vids, dates, locations, birds, handleVideoPlay,
 			{vids.map((row, rIdx) => (
 				<div key={"ytVideo-row-"+rIdx} className="row m-2">
 				{/* 每支影片 */}
-				{row.map((vid, vIdx) => (
-					<div key={"ytVideo-"+vIdx} className="col-md-3 col-sm-6 p-2">
-						<div className="card">
-							<div className="card-header"> {/* 影片標題 */}
-								{dates[rIdx][vIdx] + " / " + locations[rIdx][vIdx] + " / " + birds[rIdx][vIdx]}
-							}
-							</div>
-							<div className="card-body p-0"> {/* 影片內容 */}
-								<YoutubeVideo videoId={vid} videoLid="" handleVideoPlay={handleVideoPlay} handleVideoStop={handleVideoStop} />
+				{row.map((vid, vIdx) => {
+					let date = dates[rIdx][vIdx];
+					let location = locations[rIdx][vIdx];
+					let bird = birds[rIdx][vIdx];
+					return (
+						<div key={"ytVideo-"+vIdx} className={`col-lg-2 col-md-4 col-sm-6 p-2 ${date} ${location} ${bird}`}>
+							<div className="card">
+								<div className="card-header"> {/* 影片標題 */}
+									{date + " / " + location + " / " + bird}
+								}
+								</div>
+								<div className="card-body p-0"> {/* 影片內容 */}
+									<YoutubeVideo videoId={vid} videoLid="" handleVideoPlay={handleVideoPlay} handleVideoStop={handleVideoStop} />
+								</div>
 							</div>
 						</div>
-					</div>
-				))}
+					);
+				})}
 				</div>
 			))}
 		</div>
