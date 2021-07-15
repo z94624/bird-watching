@@ -22,8 +22,8 @@ main {
 
 /* 各個篩選參數 */
 #ytDatePicker:hover label,
-#ytLocationSelect:hover label,
-#ytBirdSelect:hover label {
+#ytLocationMultiSelect:hover label,
+#ytBirdMultiSelect:hover label {
   color: rgba(255, 255, 255, 0.85);
 }
 

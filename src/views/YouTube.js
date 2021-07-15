@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import { DatePicker, Select } from 'react-rainbow-components';
+import { DatePicker } from 'react-rainbow-components';
 
-import { getItems, itemsToRainbowOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
+import { getItems, itemsToRainbowMultiSelectOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
 import ScrollTopArrow from './../components/ScrollTopArrow';
 import './YouTube.css';
 // 捲動頁面立即暫停所有播放中的影片
@@ -25,11 +25,30 @@ const YouTube = ({scrollToElement}) => {
 	// 篩選參數：日期
 	const [dateRange, setDateRange] = useState(new Date());
 	// 篩選參數：地點
-	const locations = getItems('location'); // 所有不重複地點
-	const locationOptions = itemsToRainbowOptions(locations); // 建立地點選項
+	const [locations, setLocations] = useState([]); // 多選地點清單
+	const handleLocationsChange = userLocations => {
+		setLocations(userLocations);
+
+		let videos = document.getElementsByClassName("ytVideoContainer");
+		let userVideos = userLocations.reduce((arr, ele) => {
+			let location = ele.value;
+			let locationVideos = document.getElementsByClassName(location);
+			return arr.concat([...locationVideos]);
+		}, []);
+
+		for (var i = 0; i < videos.length; i++) {
+			videos[i].style.display = "none";
+		}
+		for (var i = 0; i < userVideos.length; i++) {
+			userVideos[i].style.display = "block";
+		}
+	}
+	const listLocations = getItems('location'); // 不重複地點
+	const locationMultiSelect = itemsToRainbowMultiSelectOptions(listLocations, "ytLocationMultiSelect", "地點", locations, handleLocationsChange, "賞鳥地點"); // 地點篩選選項
 	// 篩選參數：鳥種
-	const birds = getItems('bird'); // 所有不重複鳥種
-	const birdOptions = itemsToRainbowOptions(birds); // 建立鳥種選項
+	const [birds, setBirds] = useState([]); // 多選鳥種清單
+	const listBirds = getItems('bird'); // 不重複鳥種
+	const birdMultiSelect = itemsToRainbowMultiSelectOptions(listBirds, "ytBirdMultiSelect", "鳥種", birds, setBirds, "觀賞鳥種"); // 鳥種篩選選項
 	// 影片列表
 	const fullVids = getItems('vid', true, true); // 所有重複影片 ID
 	const fullDates = getItems('date', true, true); // 所有重複日期
@@ -61,11 +80,11 @@ const YouTube = ({scrollToElement}) => {
 				<div className="col-sm-4">
 					{/* 日期選擇器 */}
 					<DatePicker
+						id="ytDatePicker"
 						formatStyle="medium" // 顯示於框格中的日期格式；small, medium, large
 						label="日期" // 標題
 						labelAlignment="left" // 標題位置；left, center, right
 						hideLabel={false} // 標題顯示；boolean
-						id="ytDatePicker"
 						isCentered={true} // 框格中的提示位置；boolean
 						locale="tw" // 地區；預設為瀏覽器語言
 						maxDate={new Date(latestYear, latestMonth-1, latestDay)} // 依照 YouTube 賞鳥紀錄最新影片日期
@@ -77,24 +96,10 @@ const YouTube = ({scrollToElement}) => {
 					/>
 				</div>
 				<div className="col-sm-4">
-					{/* 地點選單 */}
-					<Select
-						label="地點"
-						labelAlignment="left"
-						hideLabel={false}
-						id="ytLocationSelect"
-						options={locationOptions} // 地點選項
-					/>
+					{locationMultiSelect}
 				</div>
 				<div className="col-sm-4">
-					{/* 鳥種選單 */}
-					<Select
-						label="鳥種"
-						labelAlignment="left"
-						hideLabel={false}
-						id="ytBirdSelect"
-						options={birdOptions} // 鳥種選項
-					/>
+					{birdMultiSelect}
 				</div>
 			</div>
 			{/* 影片區域 */}

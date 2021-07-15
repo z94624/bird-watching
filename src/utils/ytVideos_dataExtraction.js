@@ -1,3 +1,5 @@
+import { MultiSelect, Option } from 'react-rainbow-components';
+
 import youTubeVideosData from './youtube-videos.json';
 import YoutubeVideo from './../components/YoutubeVideo';
 /*
@@ -41,11 +43,37 @@ const arrayToChunks = (arr, size) => {
  * items: 一階陣列資料
  * 輸出：產生選項所需資料
  */
-export const itemsToRainbowOptions = (items) => {
+export const itemsToRainbowSelectOptions = (items) => {
 	let allOption = { value: "*全部", label: "*全部" }; // 預設值
 	return items.reduce((arr, ele) => 
 		arr.concat([{ value: ele, label: ele }])
 	, [allOption]);
+}
+/*
+ * 產生 React Rainbow Components 多選選單的選項
+ * items: 一階陣列資料
+ * 輸出：產生多選選項
+ */
+export const itemsToRainbowMultiSelectOptions = (items, id, label, value, onChange, placeholder) => {
+	return (
+		<MultiSelect
+			id={id}
+			label={label}
+			labelAlignment="left"
+			hideLabel={false}
+			isLoading={false} // 選項載入中圖示
+			value={value}
+			onChange={onChange}
+			placeholder={placeholder}
+			variant="default" // 篩選框 style；default, chip, bare
+			chipVariant="brand" // 選擇結果 style；base, neutral, outline-brand, brand
+			showCheckbox
+		>
+			{items.map((item, iIdx) => (
+				<Option key={`ytMultiSelect-${iIdx}`} name={`option-${iIdx}`} label={item} value={item} />
+			))}
+		</MultiSelect>
+	);
 }
 /*
  * 建立所有影片卡片
@@ -60,14 +88,14 @@ export const vidsToVideoCards = (vids, dates, locations, birds, handleVideoPlay,
 		<div id="ytVideosContainer">
 			{/* 每列的影片 */}
 			{vids.map((row, rIdx) => (
-				<div key={"ytVideo-row-"+rIdx} className="row m-2">
+				<div key={`ytVideo-row-${rIdx}`} className="row m-2">
 				{/* 每支影片 */}
 				{row.map((vid, vIdx) => {
 					let date = dates[rIdx][vIdx];
 					let location = locations[rIdx][vIdx];
 					let bird = birds[rIdx][vIdx];
 					return (
-						<div key={"ytVideo-"+vIdx} className={`col-lg-2 col-md-4 col-sm-6 p-2 ${date} ${location} ${bird}`}>
+						<div key={`ytVideo-${vIdx}`} className={`ytVideoContainer col-lg-2 col-md-4 col-sm-6 p-2 ${date} ${location} ${bird}`}>
 							<div className="card">
 								<div className="card-header"> {/* 影片標題 */}
 									{date + " / " + location + " / " + bird}

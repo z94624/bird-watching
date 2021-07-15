@@ -17,8 +17,8 @@ main {
 }
 /* 各個篩選參數 */
 #ytDatePicker,
-#ytLocationSelect,
-#ytBirdSelect {
+#ytLocationMultiSelect,
+#ytBirdMultiSelect {
 	&:hover label {
 		color: rgba($bs-bgDark_blur, 0.85);
 	}
