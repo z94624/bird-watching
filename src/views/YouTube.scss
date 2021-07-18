@@ -1,4 +1,6 @@
 @import "./css/_backgrounds";
+/* 影片卡片寬度 */
+$cardWidth: 235px;
 /* 影片卡片內容的高度 */
 $cardBodyContentHeight: 130px;
 
@@ -22,6 +24,10 @@ main {
 	&:hover label {
 		color: rgba($bs-bgDark_blur, 0.85);
 	}
+}
+/* 影片卡片 */
+.ytVideoContainer {
+	width: $cardWidth;
 }
 /* 影片卡片標題 */
 .card-header {

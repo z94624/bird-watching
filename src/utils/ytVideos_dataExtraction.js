@@ -1,4 +1,5 @@
 import { MultiSelect, Option } from 'react-rainbow-components';
+import FadeIn from 'react-fade-in';
 
 import youTubeVideosData from './youtube-videos.json';
 import YoutubeVideo from './../components/YoutubeVideo';
@@ -85,31 +86,26 @@ export const itemsToRainbowMultiSelectOptions = (items, id, label, value, onChan
  */
 export const vidsToVideoCards = (vids, dates, locations, birds, handleVideoPlay, handleVideoStop) => { // 暫時 birds/dates，可改其他做 header
 	return (
-		<div id="ytVideosContainer">
-			{/* 每列的影片 */}
-			{vids.map((row, rIdx) => (
-				<div key={`ytVideo-row-${rIdx}`} className="row m-2">
-				{/* 每支影片 */}
-				{row.map((vid, vIdx) => {
-					let date = dates[rIdx][vIdx];
-					let location = locations[rIdx][vIdx];
-					let bird = birds[rIdx][vIdx];
-					return (
-						<div key={`ytVideo-${vIdx}`} className={`ytVideoContainer col-lg-2 col-md-4 col-sm-6 p-2 ${date} ${location} ${bird}`}>
-							<div className="card">
-								<div className="card-header"> {/* 影片標題 */}
-									{date + " / " + location + " / " + bird}
-								}
-								</div>
-								<div className="card-body p-0"> {/* 影片內容 */}
-									<YoutubeVideo videoId={vid} videoLid="" handleVideoPlay={handleVideoPlay} handleVideoStop={handleVideoStop} />
-								</div>
-							</div>
+		<FadeIn className="d-flex flex-row flex-wrap justify-content-center py-2" childClassName="ytVideoContainer m-2" delay="50" transitionDuration="400" wrapperTag="div" childTag="div" visible={true}>
+		{/* 所有影片為了百葉窗動畫放在一起 */}
+		{vids.map((vid, vIdx) => {
+			let date = dates[vIdx];
+			let location = locations[vIdx];
+			let bird = birds[vIdx];
+			return (
+				<div key={`ytVideo-${vIdx}`} className={`${date} ${location} ${bird}`}>
+					<div className="card">
+						<div className="card-header"> {/* 影片標題 */}
+							{date + " / " + location + " / " + bird}
+						}
 						</div>
-					);
-				})}
+						<div className="card-body p-0"> {/* 影片內容 */}
+							<YoutubeVideo videoId={vid} videoLid="" handleVideoPlay={handleVideoPlay} handleVideoStop={handleVideoStop} />
+						</div>
+					</div>
 				</div>
-			))}
-		</div>
+			);
+		})}
+		</FadeIn>
 	);
 }

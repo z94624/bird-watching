@@ -5,6 +5,12 @@ import { DatePicker } from 'react-rainbow-components';
 import { getItems, itemsToRainbowMultiSelectOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
 import ScrollTopArrow from './../components/ScrollTopArrow';
 import './YouTube.css';
+// Rainbow MultiSelect 的輸出簡化為值陣列
+const multiSelectOutputToValues = multiSelectOutput => {
+	return multiSelectOutput.reduce((arr, ele) => {
+		return arr.concat([ele.value]);
+	}, []);
+}
 // 捲動頁面立即暫停所有播放中的影片
 const pauseVideos = playingVideos => {
 	for (let i = 0; i < playingVideos.length; i++) {
@@ -22,26 +28,31 @@ const handleVideoStop = target => { // 當影片暫停或結束
 }
 
 const YouTube = ({scrollToElement}) => {
+	// 使用者設定所有篩選參數的值
+	var userDates = [], userLocations = [], userBirds = [];
+	const handleUserChange = () => {
+		let filterVids = [], filterDates = [], filterLocations = [], filterBirds = [];
+		for (let i = 0; i < fullVids.length; i++) { // 從所有影片來篩選
+			let fullVid = fullVids[i], fullDate = fullDates[i], fullLocation = fullLocations[i], fullBird = fullBirds[i];
+			if ((!userDates.length || userDates.includes(fullDate)) && (!userLocations.length || userLocations.includes(fullLocation)) && (!userBirds.length || userBirds.includes(fullBird))) { // (若無設定篩選則通過 || 若有則篩選)
+				filterVids.push(fullVid);
+				filterDates.push(fullDate);
+				filterLocations.push(fullLocation);
+				filterBirds.push(fullBird);
+			}
+		}
+		// 經過篩選後剩下的影片
+		let filterVideoCards = vidsToVideoCards(filterVids, filterDates, filterLocations, filterBirds, handleVideoPlay, handleVideoStop);
+		setVideoCards(filterVideoCards);
+	}
 	// 篩選參數：日期
 	const [dateRange, setDateRange] = useState(new Date());
 	// 篩選參數：地點
 	const [locations, setLocations] = useState([]); // 多選地點清單
-	const handleLocationsChange = userLocations => {
-		setLocations(userLocations);
-
-		let videos = document.getElementsByClassName("ytVideoContainer");
-		let userVideos = userLocations.reduce((arr, ele) => {
-			let location = ele.value;
-			let locationVideos = document.getElementsByClassName(location);
-			return arr.concat([...locationVideos]);
-		}, []);
-
-		for (var i = 0; i < videos.length; i++) {
-			videos[i].style.display = "none";
-		}
-		for (var i = 0; i < userVideos.length; i++) {
-			userVideos[i].style.display = "block";
-		}
+	const handleLocationsChange = userLocationObjects => {
+		setLocations(userLocationObjects); // 更新地點篩選值(物件陣列)
+		userLocations = multiSelectOutputToValues(userLocationObjects); // 更新地點篩選值(值陣列)
+		handleUserChange(); // 更新符合的影片
 	}
 	const listLocations = getItems('location'); // 不重複地點
 	const locationMultiSelect = itemsToRainbowMultiSelectOptions(listLocations, "ytLocationMultiSelect", "地點", locations, handleLocationsChange, "賞鳥地點"); // 地點篩選選項
@@ -50,11 +61,12 @@ const YouTube = ({scrollToElement}) => {
 	const listBirds = getItems('bird'); // 不重複鳥種
 	const birdMultiSelect = itemsToRainbowMultiSelectOptions(listBirds, "ytBirdMultiSelect", "鳥種", birds, setBirds, "觀賞鳥種"); // 鳥種篩選選項
 	// 影片列表
-	const fullVids = getItems('vid', true, true); // 所有重複影片 ID
-	const fullDates = getItems('date', true, true); // 所有重複日期
-	const fullLocations = getItems('location', true, true); // 所有重複地點
-	const fullBirds = getItems('bird', true, true); // 所有重複鳥種
-	const videoCards = vidsToVideoCards(fullVids, fullDates, fullLocations, fullBirds, handleVideoPlay, handleVideoStop); // 所有重複影片
+	const fullVids = getItems('vid', true); // 所有重複影片 ID
+	const fullDates = getItems('date', true); // 所有重複日期
+	const fullLocations = getItems('location', true); // 所有重複地點
+	const fullBirds = getItems('bird', true); // 所有重複鳥種
+	const fullVideos = vidsToVideoCards(fullVids, fullDates, fullLocations, fullBirds, handleVideoPlay, handleVideoStop); // 所有重複影片
+	const [videoCards, setVideoCards] = useState(fullVideos);
 	// 滾動至頂按鈕
 	const [showScroll, setShowScroll] = useState(false); // 顯示狀態
 	const handleScrollTop = target => { // 改變顯示狀態
@@ -103,7 +115,9 @@ const YouTube = ({scrollToElement}) => {
 				</div>
 			</div>
 			{/* 影片區域 */}
-			{videoCards}
+			<div id="ytVideosContainer">
+				{videoCards}
+			</div>
 			{/* 滾動至頂按鈕 */}
 			<ScrollTopArrow showScroll={showScroll} scrollToElement={() => scrollToElement(document.getElementById("ytVideosContainer"))} />
 		</main>

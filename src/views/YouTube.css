@@ -2,6 +2,7 @@
 /* Bootstrap 暗色背景背景顏色 */
 /* Bootstrap 暗色背景 Blur 的字體顏色 */
 /* 背景主題 */
+/* 影片卡片寬度 */
 /* 影片卡片內容的高度 */
 main {
   overflow-x: hidden;
@@ -25,6 +26,11 @@ main {
 #ytLocationMultiSelect:hover label,
 #ytBirdMultiSelect:hover label {
   color: rgba(255, 255, 255, 0.85);
+}
+
+/* 影片卡片 */
+.ytVideoContainer {
+  width: 235px;
 }
 
 /* 影片卡片標題 */
