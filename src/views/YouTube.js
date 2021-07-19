@@ -5,6 +5,13 @@ import { DatePicker } from 'react-rainbow-components';
 import { getItems, itemsToRainbowMultiSelectOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
 import ScrollTopArrow from './../components/ScrollTopArrow';
 import './YouTube.css';
+// Rainbow DatePicker 的輸出簡化為值陣列
+const datePickerOutputToValues = datePickerOutput => {
+	console.log(datePickerOutput[0].toLocaleString('zh-tw'));
+	return datePickerOutput.reduce((arr, ele) => {
+		return arr.concat([ele.toLocaleString('zh-tw')]);
+	}, []);
+}
 // Rainbow MultiSelect 的輸出簡化為值陣列
 const multiSelectOutputToValues = multiSelectOutput => {
 	return multiSelectOutput.reduce((arr, ele) => {
@@ -29,8 +36,13 @@ const handleVideoStop = target => { // 當影片暫停或結束
 
 const YouTube = ({scrollToElement}) => {
 	// 使用者設定所有篩選參數的值
-	var userDates = [], userLocations = [], userBirds = [];
+	var [userParameters] = useState({
+		userDates: [],
+		userLocations: [],
+		userBirds: []
+	});
 	const handleUserChange = () => {
+		let { userDates, userLocations, userBirds } = userParameters;
 		let filterVids = [], filterDates = [], filterLocations = [], filterBirds = [];
 		for (let i = 0; i < fullVids.length; i++) { // 從所有影片來篩選
 			let fullVid = fullVids[i], fullDate = fullDates[i], fullLocation = fullLocations[i], fullBird = fullBirds[i];
@@ -46,20 +58,39 @@ const YouTube = ({scrollToElement}) => {
 		setVideoCards(filterVideoCards);
 	}
 	// 篩選參數：日期
-	const [dateRange, setDateRange] = useState(new Date());
+	const [dateRange, setDateRange] = useState(new Date()); // 單選日期或日期區間
+	const handleDateRangeChange = userDateArray => {
+		setDateRange(userDateArray); // 更新日期篩選值(物件陣列)
+		userParameters = { // 更新日期篩選值(值陣列)
+			...userParameters,
+			userDates: datePickerOutputToValues(userDateArray)
+		}
+		handleUserChange(); // 更新符合的影片
+	}
 	// 篩選參數：地點
 	const [locations, setLocations] = useState([]); // 多選地點清單
 	const handleLocationsChange = userLocationObjects => {
 		setLocations(userLocationObjects); // 更新地點篩選值(物件陣列)
-		userLocations = multiSelectOutputToValues(userLocationObjects); // 更新地點篩選值(值陣列)
+		userParameters = { // 更新地點篩選值(值陣列)
+			...userParameters,
+			userLocations: multiSelectOutputToValues(userLocationObjects)
+		}
 		handleUserChange(); // 更新符合的影片
 	}
 	const listLocations = getItems('location'); // 不重複地點
 	const locationMultiSelect = itemsToRainbowMultiSelectOptions(listLocations, "ytLocationMultiSelect", "地點", locations, handleLocationsChange, "賞鳥地點"); // 地點篩選選項
 	// 篩選參數：鳥種
 	const [birds, setBirds] = useState([]); // 多選鳥種清單
+	const handleBirdsChange = userBirdObjects => {
+		setBirds(userBirdObjects); // 更新鳥種篩選值(物件陣列)
+		userParameters = { // 更新鳥種篩選值(值陣列)
+			...userParameters,
+			userBirds: multiSelectOutputToValues(userBirdObjects)
+		}
+		handleUserChange(); // 更新符合的影片
+	}
 	const listBirds = getItems('bird'); // 不重複鳥種
-	const birdMultiSelect = itemsToRainbowMultiSelectOptions(listBirds, "ytBirdMultiSelect", "鳥種", birds, setBirds, "觀賞鳥種"); // 鳥種篩選選項
+	const birdMultiSelect = itemsToRainbowMultiSelectOptions(listBirds, "ytBirdMultiSelect", "鳥種", birds, handleBirdsChange, "觀賞鳥種"); // 鳥種篩選選項
 	// 影片列表
 	const fullVids = getItems('vid', true); // 所有重複影片 ID
 	const fullDates = getItems('date', true); // 所有重複日期
@@ -101,7 +132,7 @@ const YouTube = ({scrollToElement}) => {
 						locale="tw" // 地區；預設為瀏覽器語言
 						maxDate={new Date(latestYear, latestMonth-1, latestDay)} // 依照 YouTube 賞鳥紀錄最新影片日期
 						minDate={new Date(2020, 10, 26)} // 第一部影片日期
-						onChange={value => setDateRange(value)} // 更新日期狀態
+						onChange={value => handleDateRangeChange(value)} // 更新日期狀態
 						placeholder="單一日期 或 日期區間" // 框格中的提示內容
 						selectionType="range" // 日期模式；single, range
 						value={dateRange} // 日期的值

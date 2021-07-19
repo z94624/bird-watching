@@ -86,7 +86,7 @@ export const itemsToRainbowMultiSelectOptions = (items, id, label, value, onChan
  */
 export const vidsToVideoCards = (vids, dates, locations, birds, handleVideoPlay, handleVideoStop) => { // 暫時 birds/dates，可改其他做 header
 	return (
-		<FadeIn className="d-flex flex-row flex-wrap justify-content-center py-2" childClassName="ytVideoContainer m-2" delay="50" transitionDuration="400" wrapperTag="div" childTag="div" visible={true}>
+		<FadeIn className="d-flex flex-row flex-wrap justify-content-center py-2" childClassName="ytVideoContainer m-2" delay="77" transitionDuration="777" wrapperTag="div" childTag="div" visible={true}>
 		{/* 所有影片為了百葉窗動畫放在一起 */}
 		{vids.map((vid, vIdx) => {
 			let date = dates[vIdx];
@@ -97,7 +97,6 @@ export const vidsToVideoCards = (vids, dates, locations, birds, handleVideoPlay,
 					<div className="card">
 						<div className="card-header"> {/* 影片標題 */}
 							{date + " / " + location + " / " + bird}
-						}
 						</div>
 						<div className="card-body p-0"> {/* 影片內容 */}
 							<YoutubeVideo videoId={vid} videoLid="" handleVideoPlay={handleVideoPlay} handleVideoStop={handleVideoStop} />
