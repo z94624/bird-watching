@@ -1,15 +1,24 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import { DatePicker } from 'react-rainbow-components';
 
 import { getItems, itemsToRainbowMultiSelectOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
 import ScrollTopArrow from './../components/ScrollTopArrow';
 import './YouTube.css';
+// 篩選參數篩選值
+var userParameters = {
+	userDates: [],
+	userLocations: [],
+	userBirds: []
+}
 // Rainbow DatePicker 的輸出簡化為值陣列
 const datePickerOutputToValues = datePickerOutput => {
-	console.log(datePickerOutput[0].toLocaleString('zh-tw'));
 	return datePickerOutput.reduce((arr, ele) => {
-		return arr.concat([ele.toLocaleString('zh-tw')]);
+		let localeDateStrings = ele.toLocaleDateString('zh-tw').split('/'); // 2021/7/20
+		let year = localeDateStrings[0]; // 2021
+		let month = localeDateStrings[1].padStart(2, '0'); // 07
+		let day = localeDateStrings[2].padStart(2, '0'); // 20
+		return arr.concat([`${year}-${month}-${day}`]); // 2021-07-20
 	}, []);
 }
 // Rainbow MultiSelect 的輸出簡化為值陣列
@@ -35,18 +44,30 @@ const handleVideoStop = target => { // 當影片暫停或結束
 }
 
 const YouTube = ({scrollToElement}) => {
+	// 若玩過此頁面後，切換至其他分頁再切回來，篩選值歸零
+	const setUserParameters = () => {
+		userParameters = {
+			userDates: [],
+			userLocations: [],
+			userBirds: []
+		}
+	}
+	useEffect(() => { // 初次進入該分頁時，把之前篩選歷史清除
+		setUserParameters();
+	}, []);
 	// 使用者設定所有篩選參數的值
-	var [userParameters] = useState({
-		userDates: [],
-		userLocations: [],
-		userBirds: []
-	});
 	const handleUserChange = () => {
 		let { userDates, userLocations, userBirds } = userParameters;
 		let filterVids = [], filterDates = [], filterLocations = [], filterBirds = [];
 		for (let i = 0; i < fullVids.length; i++) { // 從所有影片來篩選
 			let fullVid = fullVids[i], fullDate = fullDates[i], fullLocation = fullLocations[i], fullBird = fullBirds[i];
-			if ((!userDates.length || userDates.includes(fullDate)) && (!userLocations.length || userLocations.includes(fullLocation)) && (!userBirds.length || userBirds.includes(fullBird))) { // (若無設定篩選則通過 || 若有則篩選)
+			let fullDateTime = new Date(fullDate).getTime();
+			// Date Object 比較用 getTime()；有時間點與時間區間
+			let booleanDate = (userDates.length === 1 && fullDateTime === new Date(userDates[0]).getTime()) || (userDates.length === 2 && new Date(userDates[1]).getTime() >= fullDateTime && fullDateTime >= new Date(userDates[0]).getTime());
+			 // (若無設定篩選則通過 || 若有則篩選)
+			let booleanLocation = (!userLocations.length || userLocations.includes(fullLocation));
+			let booleanBird = (!userBirds.length || userBirds.includes(fullBird));
+			if (booleanDate && booleanLocation && booleanBird) {
 				filterVids.push(fullVid);
 				filterDates.push(fullDate);
 				filterLocations.push(fullLocation);
