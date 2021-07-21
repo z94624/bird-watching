@@ -1,4 +1,5 @@
 @import "./css/_backgrounds";
+@import "./css/_buttons";
 /* 影片卡片寬度 */
 $cardWidth: 235px;
 /* 影片卡片內容的高度 */
@@ -23,6 +24,14 @@ main {
 #ytBirdMultiSelect {
 	&:hover label {
 		color: rgba($bs-bgDark_blur, 0.85);
+	}
+}
+/* 日期篩選的清除按鈕 */
+#ytDatePickerDelBtn {
+	cursor: pointer;
+	/* 配上點擊動畫 */
+	&:active {
+		@include button-click-animation1;
 	}
 }
 /* 影片卡片 */

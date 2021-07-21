@@ -1,0 +1,6 @@
+/* 按鈕點擊動畫 1：位移與透明度 */
+@mixin button-click-animation1 {
+	opacity: .5;
+    transform: translateY(1px);
+    transition: opacity .1s;
+}

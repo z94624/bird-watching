@@ -63,7 +63,7 @@ const YouTube = ({scrollToElement}) => {
 			let fullVid = fullVids[i], fullDate = fullDates[i], fullLocation = fullLocations[i], fullBird = fullBirds[i];
 			let fullDateTime = new Date(fullDate).getTime();
 			// Date Object 比較用 getTime()；有時間點與時間區間
-			let booleanDate = (userDates.length === 1 && fullDateTime === new Date(userDates[0]).getTime()) || (userDates.length === 2 && new Date(userDates[1]).getTime() >= fullDateTime && fullDateTime >= new Date(userDates[0]).getTime());
+			let booleanDate = !userDates.length || (userDates.length === 1 && fullDateTime === new Date(userDates[0]).getTime()) || (userDates.length === 2 && new Date(userDates[1]).getTime() >= fullDateTime && fullDateTime >= new Date(userDates[0]).getTime());
 			 // (若無設定篩選則通過 || 若有則篩選)
 			let booleanLocation = (!userLocations.length || userLocations.includes(fullLocation));
 			let booleanBird = (!userBirds.length || userBirds.includes(fullBird));
@@ -141,7 +141,7 @@ const YouTube = ({scrollToElement}) => {
 		}}>
 			{/* 篩選參數區域 */}
 			<div className="sortPanel w-100 d-inline-flex justify-content-evenly pb-3 sticky-top row">
-				<div className="col-sm-4">
+				<div className="col-sm-4 d-inline-flex">
 					{/* 日期選擇器 */}
 					<DatePicker
 						id="ytDatePicker"
@@ -158,6 +158,12 @@ const YouTube = ({scrollToElement}) => {
 						selectionType="range" // 日期模式；single, range
 						value={dateRange} // 日期的值
 					/>
+					<div id="ytDatePickerDelBtn" onClick={() => {handleDateRangeChange([]);}}>
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="rgba(1,182,245,1)" className="bi bi-x-circle" viewBox="0 0 16 16">
+							<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+							<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+						</svg>
+					</div>
 				</div>
 				<div className="col-sm-4">
 					{locationMultiSelect}
