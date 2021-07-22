@@ -28,6 +28,8 @@ main {
 }
 /* 日期篩選的清除按鈕 */
 #ytDatePickerDelBtn {
+	width: 25px;
+	height: 25px;
 	cursor: pointer;
 	/* 配上點擊動畫 */
 	&:active {

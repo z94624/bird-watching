@@ -5,7 +5,7 @@ import YouTube from 'react-youtube';
 var classNames = {
 	"playButton": "playBtn", // 模仿的播放按鈕
 	"previewImage": "previewImg", // 預覽圖片
-	"iframe": "ytIframe" // YouTube 影片容器
+	"iframe": "ytVideo" // YouTube 影片容器
 }
 
 const YoutubeVideo = ({ videoId, videoLid, handleVideoPlay, handleVideoStop }) => {
@@ -23,7 +23,7 @@ const YoutubeVideo = ({ videoId, videoLid, handleVideoPlay, handleVideoStop }) =
 			autoplay: 1, // 0, 1
 			color: "red", // 觀看進度條顏色：red, white
 			controls: 1, // 播放器控制顯示：0, 1
-			list: "PL"+videoLid, // 播放清單 ID
+			list: (videoLid ? videoLid : undefined), // 播放清單 ID
 			listType: "playlist" // 播放清單選單
 		}
 	}
@@ -42,7 +42,7 @@ const YoutubeVideo = ({ videoId, videoLid, handleVideoPlay, handleVideoStop }) =
 		<YouTube
 			videoId={videoId}
 			id={videoId}
-			className="ytVideo" // 為了限制高度
+			className={classNames.iframe} // 為了限制高度
 			opts={opts}
 			onPlay={e => handleVideoPlay(e.target)}
 			onPause={e => handleVideoStop(e.target)}
