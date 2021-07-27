@@ -1,4 +1,4 @@
-const EBird = () => {
+const About = () => {
 	return (
 		<main className="h-100">
 			
@@ -6,4 +6,4 @@ const EBird = () => {
 	);
 }
 
-export default EBird;
+export default About;

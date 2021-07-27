@@ -13,7 +13,9 @@ const navList = [
     // Google Drive 中的鳥照
 	{to: "/bird-watching/photos", text: "Photos"},
     // Google Drive 中的鳥音
-	{to: "/bird-watching/records", text: "Records"}
+	{to: "/bird-watching/records", text: "Records"},
+    // 關於我
+    {to: "/bird-watching/about", text: "About"}
 ];
 
 const Header = () => {
