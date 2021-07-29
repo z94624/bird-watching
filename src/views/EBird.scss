@@ -1,0 +1,18 @@
+@import "./css/_buttons";
+// 選擇 eBirder 按鈕, eBirder 圖像
+#ebDrawerBtn, .eBirder {
+	cursor: pointer;
+	/* 配上點擊動畫 */
+	&:active {
+		@include button-click-animation1;
+	}
+}
+// 無法學 React Suite 的 Drawer 用 opacity=0.8
+#ebDrawer {
+	background-color: rgba(15, 19, 26, .8);
+
+	h1 {
+		color: white;
+		font-weight: bold;
+	}
+}

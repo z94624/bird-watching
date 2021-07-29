@@ -1,6 +1,11 @@
 import { useState } from 'react';
 
 import { Drawer } from 'react-rainbow-components';
+import Avatar from 'react-avatar';
+
+import './EBird.css';
+import avatar1 from './../images/avatar1.JPG';
+import avatar2 from './../images/avatar2.JPG';
 
 const EBird = () => {
 	// eBirder 抽屜的開合
@@ -31,7 +36,41 @@ const EBird = () => {
 					size="small" // 寬度；small, medium, large, full
 					slideFrom="left" // 從何方向展開；left, right
 					onRequestClose={() => setDrawerOpen(false)} // 在"點擊叉叉"或"按 ESC"或"點擊抽屜外"的動作
-				/>
+				>
+					{/* eBirders */}
+					<div id="ebAvatars" className="text-center">
+						<Avatar
+							className="eBirder"
+							name="黃健峯"
+							alt="黃健峯"
+							title="黃健峯"
+							color="#5EA9FF" // 文字圖像背景顏色；hexCode
+							fgColor="#FFFFFF" // 文字圖像字體顏色；hexCode
+							size="100%" // 圖像大小
+							textSizeRatio={3} // 字體大小佔比=總大小/字體大小
+							textMarginRatio={.15} // 字體 margin 比例
+							round={true} // border-radius；number, true(100%), false(0%)
+							src={avatar1} // 載入照片
+							style={{padding: "10px"}}
+							onClick={() => {}}
+						/>
+						<Avatar
+							className="eBirder"
+							name="林芬雯"
+							alt="林芬雯"
+							title="林芬雯"
+							color="#F4B9FF"
+							fgColor="#FFFFFF"
+							size="100%"
+							textSizeRatio={3}
+							textMarginRatio={.15}
+							round={true}
+							src={avatar2}
+							style={{padding: "10px"}}
+							onClick={() => {}}
+						/>
+					</div>
+				</Drawer>
 			</div>
 		</main>
 	);

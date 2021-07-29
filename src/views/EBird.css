@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 按鈕點擊動畫 1：位移與透明度 */
+#ebDrawerBtn, .eBirder {
+  cursor: pointer;
+  /* 配上點擊動畫 */
+}
+#ebDrawerBtn:active, .eBirder:active {
+  opacity: 0.5;
+  transform: translateY(1px);
+  transition: opacity 0.1s;
+}
+
+#ebDrawer {
+  background-color: rgba(15, 19, 26, 0.8);
+}
+#ebDrawer h1 {
+  color: white;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=EBird.css.map */
