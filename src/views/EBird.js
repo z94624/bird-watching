@@ -5,6 +5,7 @@ import Avatar from 'react-avatar';
 
 import { infos } from './../utils/ebird-ebirders.js';
 import { eBirderInfosToRainbowAvatars } from './../utils/ebEbirders_dataExtraction';
+import EBirdCharts from './EBirdCharts';
 import './EBird.css';
 
 const EBird = () => {
@@ -54,6 +55,8 @@ const EBird = () => {
 					{avatars}
 				</Drawer>
 			</div>
+			{/* 圖表區 */}
+			<EBirdCharts />
 		</main>
 	);
 }
