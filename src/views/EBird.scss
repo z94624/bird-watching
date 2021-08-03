@@ -1,4 +1,16 @@
 @import "./css/_buttons";
+// 選擇 eBirder 按鈕
+#ebDrawerBtn {
+	position: fixed;
+	top: 110px;
+	left: -40px;
+	z-index: 999;
+	transition: left 0.3s ease-out;
+	/* 滑鼠掠過滑出來 */
+	&:hover {
+		left: 0;
+	}
+}
 // 選擇 eBirder 按鈕, eBirder 圖像
 #ebDrawerBtn, .eBirder {
 	cursor: pointer;

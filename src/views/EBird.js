@@ -22,19 +22,18 @@ const EBird = () => {
 	const eBirderInfo = infos[avatarIndex];
 
 	return (
-		<main className="h-100">
+		<main className="h-100 p-3">
 			<div id="ebDrawerContainer">
 				{/* eBirder 抽屜開關 */}
 				<div
 					id="ebDrawerBtn"
-					className="float-start"
 					onClick={() => setDrawerOpen(true)}
 				>
 					<Avatar
 						name={eBirderInfo['name']}
 						alt={eBirderInfo['name']}
 						title={eBirderInfo['name']}
-						size="50"
+						size="70"
 						round={true}
 						src={eBirderInfo['avatar']}
 					/>

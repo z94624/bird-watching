@@ -6,6 +6,7 @@ import RootRouter from './router';
 
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/leaflet/dist/leaflet.css';
 
 ReactDOM.render(
   <React.StrictMode>

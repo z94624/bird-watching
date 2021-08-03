@@ -1,5 +1,17 @@
 @charset "UTF-8";
 /* 按鈕點擊動畫 1：位移與透明度 */
+#ebDrawerBtn {
+  position: fixed;
+  top: 110px;
+  left: -40px;
+  z-index: 999;
+  transition: left 0.3s ease-out;
+  /* 滑鼠掠過滑出來 */
+}
+#ebDrawerBtn:hover {
+  left: 0;
+}
+
 #ebDrawerBtn, .eBirder {
   cursor: pointer;
   /* 配上點擊動畫 */
