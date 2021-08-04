@@ -4,7 +4,7 @@
   position: fixed;
   top: 110px;
   left: -40px;
-  z-index: 999;
+  z-index: 9999;
   transition: left 0.3s ease-out;
   /* 滑鼠掠過滑出來 */
 }
@@ -28,6 +28,11 @@
 #ebDrawer h1 {
   color: white;
   font-weight: bold;
+}
+
+#leaflet {
+  width: 100%;
+  height: 484px;
 }
 
 /*# sourceMappingURL=EBird.css.map */
