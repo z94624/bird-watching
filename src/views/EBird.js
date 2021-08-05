@@ -22,7 +22,7 @@ const EBird = () => {
 	const eBirderInfo = infos[avatarIndex];
 
 	return (
-		<main className="h-100 p-3">
+		<main className="h-100 px-3">
 			<div id="ebDrawerContainer">
 				{/* eBirder 抽屜開關 */}
 				<div
