@@ -1,6 +1,8 @@
 // FIX: https://stackoverflow.com/questions/67552020/how-to-fix-error-failed-to-compile-node-modules-react-leaflet-core-esm-pat
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
+
+import { dataMergedByKeys } from '../utils/ebMetadata_dataExtraction';
 // 地圖圖釘
 import markerImg from '../images/leaflet/marker-icon.png';
 import markerShadowImg from '../images/leaflet/marker-shadow.png';
@@ -16,8 +18,8 @@ const markerIcon = new L.Icon({
 });
 
 const EBirdChartsMap = () => {
-	// 圖釘座標
-	const coordinate = [25.023204, 121.505271];
+	// 圖釘需要的資料
+	let markerData = dataMergedByKeys(["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Latitude", "Longitude"]);
 
 	return (
 		<div id="mapTab" aria-labelledby="map">
@@ -35,31 +37,40 @@ const EBirdChartsMap = () => {
 						detectRetina={true}
 					/>
 					{/* 圖釘 */}
-					<Marker
-						position={coordinate} // 座標
-						icon={markerIcon} // 圖示
-						title="青年公園" // Tooltip
-						alt="🐥" // 圖示替代文字
-						opacity={0.9} // 圖釘透明度
-						riseOnHover={true} // 浮出至最前
-					>
-						{/* 彈出說明 */}
-						<Popup
-							minWidth={200} // 固定寬度
-							maxHeight={300} // 最大高度，超過則 Scrollable
-							closeButton={false} // 打叉叉關閉
-						>
-							{/* 地點 */}
-							<p className="fs-5 fw-bold text-decoration-underline my-0">台北--田寮洋濕地</p>
-							{/* 時間 */}
-							<p className="fs-6 my-1">2021/2/6 12:52:00 PM</p>
-							{/* 鳥種 */}
-							<div className="form-floating">
-								<textarea id="S80683016" className="form-control" placeHolder="無鳥種" style={{height: "135px"}} disabled>{`寒林/凍原豆雁(4)\n琵嘴鴨(2)`}</textarea>
-								<label for="S80683016">鳥種</label>
-							</div>
-						</Popup>
-					</Marker>
+					{markerData.map(({Submission_ID, Location, Date, Time, Common_Name, Count, Latitude, Longitude}, mIdx) => {
+						let location = Location[0];
+						let datetime = Date[0] + " " + Time[0];
+						let position = [...Latitude, ...Longitude];
+						let birds = Common_Name.map((name, idx) => [name, Count[idx]]).join(`\n`);
+						return (
+							<Marker
+								key={`ebMarker-${mIdx}`}
+								position={position} // 座標
+								icon={markerIcon} // 圖示
+								title={location} // Tooltip
+								alt="🐥" // 圖示替代文字
+								opacity={0.9} // 圖釘透明度
+								riseOnHover={true} // 浮出至最前
+							>
+								{/* 彈出說明 */}
+								<Popup
+									minWidth={200} // 固定寬度
+									maxHeight={300} // 最大高度，超過則 Scrollable
+									closeButton={false} // 打叉叉關閉
+								>
+									{/* 地點 */}
+									<p className="fs-5 fw-bold text-decoration-underline my-0">{location}</p>
+									{/* 時間 */}
+									<p className="fs-6 my-1">{datetime}</p>
+									{/* 鳥種 */}
+									<div className="form-floating">
+										<textarea id={Submission_ID} className="form-control" placeholder="無鳥種" value={birds} style={{height: "135px"}} disabled></textarea>
+										<label htmlFor="S80683016">鳥種</label>
+									</div>
+								</Popup>
+							</Marker>
+						);
+					})}
 				</MapContainer>
 			</div>
 		</div>
