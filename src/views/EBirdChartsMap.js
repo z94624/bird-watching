@@ -4,16 +4,16 @@ import L from 'leaflet';
 
 import { dataMergedByKeys } from '../utils/ebMetadata_dataExtraction';
 // 地圖圖釘
-import markerImg from '../images/leaflet/marker-icon.png';
-import markerShadowImg from '../images/leaflet/marker-shadow.png';
+import markerImg from '../images/marker-icon.png';
+//import markerShadowImg from '../images/leaflet/marker-shadow.png';
 // 地圖圖釘圖片轉換成 Leaflet 格式
 const markerIcon = new L.Icon({
 	iconUrl: markerImg, // 圖釘
-	shadowUrl: markerShadowImg, // 陰影
-	iconSize:     [30, 45], // size of the icon
-    shadowSize:   [45, 45], // size of the shadow
-    iconAnchor:   [15, 45], // point of the icon which will correspond to marker's location
-    shadowAnchor: [15, 45],  // the same for the shadow
+	//shadowUrl: markerShadowImg, // 陰影
+	iconSize:     [36, 45], // size of the icon
+    //shadowSize:   [45, 45], // size of the shadow
+    iconAnchor:   [18, 45], // point of the icon which will correspond to marker's location
+    //shadowAnchor: [15, 45],  // the same for the shadow
     popupAnchor:  [1, -34] // point from which the popup should open relative to the iconAnchor
 });
 
@@ -39,22 +39,23 @@ const EBirdChartsMap = () => {
 					{/* 圖釘 */}
 					{markerData.map(({Submission_ID, Location, Date, Time, Common_Name, Count, Latitude, Longitude}, mIdx) => {
 						let location = Location[0];
-						let datetime = Date[0] + " " + Time[0];
-						let position = [...Latitude, ...Longitude];
-						let birds = Common_Name.map((name, idx) => [name, Count[idx]]).join(`\n`);
+						let locationShort = location.split("(")[0];
+						let datetime = `${Date[0]} ${Time[0]}`;
+						let position = [Latitude[0], Longitude[0]];
+						let birds = Common_Name.map((name, nIdx) => [name, Count[nIdx]]).join(`\n`);
 						return (
 							<Marker
 								key={`ebMarker-${mIdx}`}
 								position={position} // 座標
 								icon={markerIcon} // 圖示
-								title={location} // Tooltip
+								title={locationShort} // Tooltip
 								alt="🐥" // 圖示替代文字
 								opacity={0.9} // 圖釘透明度
 								riseOnHover={true} // 浮出至最前
 							>
 								{/* 彈出說明 */}
 								<Popup
-									minWidth={200} // 固定寬度
+									maxWidth={200} // 固定寬度
 									maxHeight={300} // 最大高度，超過則 Scrollable
 									closeButton={false} // 打叉叉關閉
 								>
@@ -65,7 +66,7 @@ const EBirdChartsMap = () => {
 									{/* 鳥種 */}
 									<div className="form-floating">
 										<textarea id={Submission_ID} className="form-control" placeholder="無鳥種" value={birds} style={{height: "135px"}} disabled></textarea>
-										<label htmlFor="S80683016">鳥種</label>
+										<label htmlFor={Submission_ID}>鳥種</label>
 									</div>
 								</Popup>
 							</Marker>
