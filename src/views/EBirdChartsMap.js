@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 
 import { dataMergedByKeys } from '../utils/ebMetadata_dataExtraction';
+import useGeoLocation from '../hooks/useGeoLocation';
 // 地圖圖釘
 import markerImg from '../images/marker-icon.png';
 //import markerShadowImg from '../images/leaflet/marker-shadow.png';
@@ -16,8 +17,13 @@ const markerIcon = new L.Icon({
     //shadowAnchor: [15, 45],  // the same for the shadow
     popupAnchor:  [1, -34] // point from which the popup should open relative to the iconAnchor
 });
+// 地圖預設中心
+const defaultCenter = [23.975650, 120.973882];
 
 const EBirdChartsMap = () => {
+	const location = useGeoLocation();
+	const lat = location.coordinates.lat;
+	const lng = location.coordinates.lng;
 	// 圖釘需要的資料
 	let markerData = dataMergedByKeys(["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Latitude", "Longitude"]);
 
@@ -25,8 +31,9 @@ const EBirdChartsMap = () => {
 		<div id="mapTab" aria-labelledby="map">
 			{/* 地圖容器 */}
 			<div id="birdMap">
+			{location.loaded ? 
 				<MapContainer
-					center={[23.975650, 120.973882]} // 台灣地理中心
+					center={location.loaded ? [lat, lng] : defaultCenter} // 台灣地理中心
 					zoom={7} // 放大倍率
 					style={{width: '100%', height: '100%'}} // 必設，預設高度 0
 				>
@@ -73,6 +80,7 @@ const EBirdChartsMap = () => {
 						);
 					})}
 				</MapContainer>
+			: <div />}
 			</div>
 		</div>
 	);
