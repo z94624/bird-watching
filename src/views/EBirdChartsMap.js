@@ -4,9 +4,13 @@ import L from 'leaflet';
 
 import { dataMergedByKeys } from '../utils/ebMetadata_dataExtraction';
 import useGeoLocation from '../hooks/useGeoLocation';
+// 無法取得位置資訊警告圖示
+import warning from '../images/warning.gif';
 // 地圖圖釘
 import markerImg from '../images/marker-icon.png';
 //import markerShadowImg from '../images/leaflet/marker-shadow.png';
+// eBirder 圖示
+import ebirderImg from '../images/ebirder.png';
 // 地圖圖釘圖片轉換成 Leaflet 格式
 const markerIcon = new L.Icon({
 	iconUrl: markerImg, // 圖釘
@@ -17,13 +21,18 @@ const markerIcon = new L.Icon({
     //shadowAnchor: [15, 45],  // the same for the shadow
     popupAnchor:  [1, -34] // point from which the popup should open relative to the iconAnchor
 });
-// 地圖預設中心
-const defaultCenter = [23.975650, 120.973882];
+// 使用者在地圖上顯示
+const ebirderIcon = new L.Icon({
+	iconUrl: ebirderImg,
+	iconSize:     [68, 50],
+    iconAnchor:   [34, 50]
+});
 
 const EBirdChartsMap = () => {
+	// 使用者座標
 	const location = useGeoLocation();
-	const lat = location.coordinates.lat;
-	const lng = location.coordinates.lng;
+	const loaded = location.loaded;
+	const ebirderLocation = [location.coordinates.lat, location.coordinates.lng];
 	// 圖釘需要的資料
 	let markerData = dataMergedByKeys(["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Latitude", "Longitude"]);
 
@@ -31,10 +40,10 @@ const EBirdChartsMap = () => {
 		<div id="mapTab" aria-labelledby="map">
 			{/* 地圖容器 */}
 			<div id="birdMap">
-			{location.loaded ? 
+			{loaded ?
 				<MapContainer
-					center={location.loaded ? [lat, lng] : defaultCenter} // 台灣地理中心
-					zoom={7} // 放大倍率
+					center={ebirderLocation} // 地圖預設中心
+					zoom={10} // 放大倍率
 					style={{width: '100%', height: '100%'}} // 必設，預設高度 0
 				>
 					{/* Used to load and display tile layers on the map. */}
@@ -43,6 +52,15 @@ const EBirdChartsMap = () => {
 						url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 						detectRetina={true}
 					/>
+						{/* 標示使用者座標 */}
+						<Marker
+							position={ebirderLocation}
+							icon={ebirderIcon}
+							title="我"
+							alt="🐥"
+							opacity={1}
+							riseOnHover={true}
+						></Marker>
 					{/* 圖釘 */}
 					{markerData.map(({Submission_ID, Location, Date, Time, Common_Name, Count, Latitude, Longitude}, mIdx) => {
 						let location = Location[0];
@@ -80,7 +98,11 @@ const EBirdChartsMap = () => {
 						);
 					})}
 				</MapContainer>
-			: <div />}
+			:
+				<div className="text-white d-flex justify-content-center align-items-center h-100 fs-1">
+					<img src={warning} alt="☢" className="me-3" />請等待取得位置資訊
+				</div>
+			}
 			</div>
 		</div>
 	);
