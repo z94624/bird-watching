@@ -1,0 +1,153 @@
+$bird-size: 40vh; // 整體大小
+$bird-face-size: $bird-size * 3*0.25; // 鳥臉大小
+$bird-face-gap: ($bird-size - $bird-face-size)*0.5; // 臉與頭間距
+$bird-eye-gap: $bird-size*0.5 - $bird-face-size*0.25; // 鳥眼位置
+
+@keyframes head-slide { // 頭旋轉
+    25%, 50% {
+        transform: rotate(180deg);
+    }
+    75%, 100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes face-slide { // 臉旋轉
+    25%, 50% {
+        transform: rotate(-180deg);
+    }
+    75%, 100% {
+        transform: rotate(-360deg);
+    }
+}
+@keyframes eye-slide { // 眼睛位移
+    25%, 50% {
+        transform: translate($bird-face-size*0.25);
+    }
+    75%, 100% {
+        transform: translate(0);
+    }
+}
+@keyframes cheek-slide { // 臉頰旋轉
+    15%, 50% {
+        transform: rotate(-90deg);
+    }
+    75%, 100% {
+        transform: rotate(-0deg);
+    }
+}
+@keyframes upper-mouth-slide { // 上嘴旋轉
+    25%, 50% {
+        transform: rotate(-90deg);
+    }
+    75%, 100% {
+        transform: rotate(0deg);
+    }
+}
+@keyframes lower-mouth-slide { // 下嘴旋轉
+    25%, 50% {
+        transform: rotate(90deg);
+    }
+    70%, 100% {
+        transform: rotate(0deg);
+    }
+}
+// 載入動畫方法
+@mixin slide($body-part) {
+    animation: $body-part 2s ease-in-out forwards infinite;
+}
+// 介面滿版
+@mixin m0p0bb {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// 整體
+.bird-loader {
+    @include m0p0bb;
+    position: relative;
+    height: $bird-size;
+    width: $bird-size;
+}
+// 鳥頭
+.bird-head {
+    @include m0p0bb;
+    @include slide(head-slide);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $bird-size;
+    width: $bird-size*0.5;
+    border-radius: $bird-size*0.5 0 0 $bird-size*0.5;
+    background-color: #fafa5a;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+    transform-origin: 100% 50%;
+}
+// 鳥臉
+.bird-face {
+    @include m0p0bb;
+    @include slide(face-slide);
+    position: absolute;
+    top: $bird-face-gap;
+    left: $bird-face-gap;
+    height: $bird-face-size;
+    width: $bird-face-size*0.5;
+    border-radius: $bird-face-size*0.5 0 0 $bird-face-size*0.5;
+    background-color: #f9faeb;
+    background-image: url("https://www.transparenttextures.com/patterns/skin-side-up.png");
+    transform-origin: 100% 50%;
+}
+// 鳥眼
+.bird-eye {
+    @include m0p0bb;
+    @include slide(eye-slide);
+    position: absolute;
+    top: $bird-eye-gap;
+    left: $bird-eye-gap;
+    height: $bird-face-size*0.25;
+    width: $bird-face-size*0.25;
+    border-radius: 50%;
+    background-color: #050000;
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
+}
+// 鳥臉頰
+.bird-cheek {
+    @include m0p0bb;
+    @include slide(cheek-slide);
+    position: absolute;
+    top: $bird-size*0.5;
+    left: $bird-face-gap;
+    height: $bird-face-size*0.5;
+    width: $bird-face-size*0.5;
+    border-radius: 0 0 0 $bird-face-size*0.5;
+    background-color: #d6593a;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+    transform-origin: 100% 0%;
+}
+// 鳥上嘴
+.bird-upper-mouth {
+    @include m0p0bb;
+    @include slide(upper-mouth-slide);
+    position: absolute;
+    top: $bird-face-gap;
+    left: $bird-size*0.5;
+    height: $bird-face-size*0.5;
+    width: $bird-face-size*0.5;
+    border-radius: 0 $bird-face-size*0.5 0 0;
+    background-color: #f8e8ff;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    transform-origin: 0% 100%;
+}
+// 鳥下嘴
+.bird-lower-mouth {
+    @include m0p0bb;
+    @include slide(lower-mouth-slide);
+    position: absolute;
+    top: $bird-size*0.5;
+    left: $bird-size*0.5;
+    height: $bird-face-size*0.25;
+    width: $bird-face-size*0.25;
+    border-radius: 0 0 $bird-face-size*0.25 0;
+    background-color: #f4d9ff;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    transform-origin: 0% 0%;
+}

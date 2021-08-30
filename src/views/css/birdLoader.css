@@ -1,0 +1,153 @@
+@keyframes head-slide {
+  25%, 50% {
+    transform: rotate(180deg);
+  }
+  75%, 100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes face-slide {
+  25%, 50% {
+    transform: rotate(-180deg);
+  }
+  75%, 100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes eye-slide {
+  25%, 50% {
+    transform: translate(7.5vh);
+  }
+  75%, 100% {
+    transform: translate(0);
+  }
+}
+@keyframes cheek-slide {
+  15%, 50% {
+    transform: rotate(-90deg);
+  }
+  75%, 100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes upper-mouth-slide {
+  25%, 50% {
+    transform: rotate(-90deg);
+  }
+  75%, 100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes lower-mouth-slide {
+  25%, 50% {
+    transform: rotate(90deg);
+  }
+  70%, 100% {
+    transform: rotate(0deg);
+  }
+}
+.bird-loader {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  height: 40vh;
+  width: 40vh;
+}
+
+.bird-head {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: head-slide 2s ease-in-out forwards infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40vh;
+  width: 20vh;
+  border-radius: 20vh 0 0 20vh;
+  background-color: #fafa5a;
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+  transform-origin: 100% 50%;
+}
+
+.bird-face {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: face-slide 2s ease-in-out forwards infinite;
+  position: absolute;
+  top: 5vh;
+  left: 5vh;
+  height: 30vh;
+  width: 15vh;
+  border-radius: 15vh 0 0 15vh;
+  background-color: #f9faeb;
+  background-image: url("https://www.transparenttextures.com/patterns/skin-side-up.png");
+  transform-origin: 100% 50%;
+}
+
+.bird-eye {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: eye-slide 2s ease-in-out forwards infinite;
+  position: absolute;
+  top: 12.5vh;
+  left: 12.5vh;
+  height: 7.5vh;
+  width: 7.5vh;
+  border-radius: 50%;
+  background-color: #050000;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
+}
+
+.bird-cheek {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: cheek-slide 2s ease-in-out forwards infinite;
+  position: absolute;
+  top: 20vh;
+  left: 5vh;
+  height: 15vh;
+  width: 15vh;
+  border-radius: 0 0 0 15vh;
+  background-color: #d6593a;
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-white-feathers.png");
+  transform-origin: 100% 0%;
+}
+
+.bird-upper-mouth {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: upper-mouth-slide 2s ease-in-out forwards infinite;
+  position: absolute;
+  top: 5vh;
+  left: 20vh;
+  height: 15vh;
+  width: 15vh;
+  border-radius: 0 15vh 0 0;
+  background-color: #f8e8ff;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  transform-origin: 0% 100%;
+}
+
+.bird-lower-mouth {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: lower-mouth-slide 2s ease-in-out forwards infinite;
+  position: absolute;
+  top: 20vh;
+  left: 20vh;
+  height: 7.5vh;
+  width: 7.5vh;
+  border-radius: 0 0 7.5vh 0;
+  background-color: #f4d9ff;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  transform-origin: 0% 0%;
+}
+
+/*# sourceMappingURL=birdLoader.css.map */

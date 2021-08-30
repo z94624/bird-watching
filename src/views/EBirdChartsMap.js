@@ -4,8 +4,7 @@ import L from 'leaflet';
 
 import { dataMergedByKeys } from '../utils/ebMetadata_dataExtraction';
 import useGeoLocation from '../hooks/useGeoLocation';
-// 無法取得位置資訊警告圖示
-import warning from '../images/warning.gif';
+import './css/birdLoader.css';
 // 地圖圖釘
 import markerImg from '../images/marker-icon.png';
 //import markerShadowImg from '../images/leaflet/marker-shadow.png';
@@ -99,8 +98,16 @@ const EBirdChartsMap = () => {
 					})}
 				</MapContainer>
 			:
-				<div className="text-white d-flex justify-content-center align-items-center h-100 fs-1">
-					<img src={warning} alt="☢" className="me-3" />請等待取得位置資訊
+				<div className="text-white d-flex flex-column justify-content-center align-items-center h-100 fs-1">
+					<div className="bird-loader">
+						<div className="bird-head"></div>
+						<div className="bird-face"></div>
+						<div className="bird-eye"></div>
+						<div className="bird-cheek"></div>
+						<div className="bird-upper-mouth"></div>
+						<div className="bird-lower-mouth"></div>
+					</div>
+					<span>等待定位中...</span>
 				</div>
 			}
 			</div>
