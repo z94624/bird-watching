@@ -55,7 +55,7 @@ const EBird = () => {
 				</Drawer>
 			</div>
 			{/* 圖表區 */}
-			<EBirdCharts />
+			<EBirdCharts avatarIndex={avatarIndex} />
 		</main>
 	);
 }

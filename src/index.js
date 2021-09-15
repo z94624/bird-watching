@@ -8,6 +8,7 @@ import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import '../node_modules/leaflet/dist/leaflet.css';
+import '../node_modules/react-leaflet-markercluster/dist/styles.min.css';
 //import 'leaflet-defaulticon-compatibility';
 
 ReactDOM.render(

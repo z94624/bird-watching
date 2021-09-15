@@ -1,6 +1,7 @@
 // FIX: https://stackoverflow.com/questions/67552020/how-to-fix-error-failed-to-compile-node-modules-react-leaflet-core-esm-pat
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
+import MarkerClusterGroup from 'react-leaflet-markercluster';
 
 import { dataMergedByKeys } from '../utils/ebMetadata_dataExtraction';
 import useGeoLocation from '../hooks/useGeoLocation';
@@ -27,13 +28,13 @@ const ebirderIcon = new L.Icon({
     iconAnchor:   [34, 50]
 });
 
-const EBirdChartsMap = () => {
+const EBirdChartsMap = ({ avatarIndex }) => {
 	// 使用者座標
 	const location = useGeoLocation();
 	const loaded = location.loaded;
 	const ebirderLocation = [location.coordinates.lat, location.coordinates.lng];
 	// 圖釘需要的資料
-	let markerData = dataMergedByKeys(["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Latitude", "Longitude"]);
+	let markerData = dataMergedByKeys(avatarIndex, ["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Latitude", "Longitude"]);
 
 	return (
 		<div id="mapTab" aria-labelledby="map">
@@ -60,6 +61,17 @@ const EBirdChartsMap = () => {
 							opacity={1}
 							riseOnHover={true}
 						></Marker>
+					{/*
+					  * 圖釘群組：相鄰或重複的壓縮而不重疊
+					  * 少(綠)/中(黃)/多(紅)：10 ~ 100
+					  */}
+					<MarkerClusterGroup
+						spiderLegPolylineOptions={{
+							weight: 1.5,
+							color: '#ab0047',
+							opacity: 0.7
+						}}
+					>
 					{/* 圖釘 */}
 					{markerData.map(({Submission_ID, Location, Date, Time, Common_Name, Count, Latitude, Longitude}, mIdx) => {
 						let location = Location[0];
@@ -96,6 +108,7 @@ const EBirdChartsMap = () => {
 							</Marker>
 						);
 					})}
+					</MarkerClusterGroup>
 				</MapContainer>
 			:
 				<div className="text-white d-flex flex-column justify-content-center align-items-center h-100 fs-1">

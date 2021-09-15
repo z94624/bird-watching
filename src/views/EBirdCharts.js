@@ -4,7 +4,7 @@ import { Tabset, Tab } from 'react-rainbow-components';
 
 import EBirdChartsMap from './EBirdChartsMap';
 
-const EBirdCharts = () => {
+const EBirdCharts = ({ avatarIndex }) => {
 	// 選擇的分頁
 	const [selectedTab, setSelectedTab] = useState("map");
 	const handleSelectedTabChange = (tabName) => {
@@ -13,7 +13,7 @@ const EBirdCharts = () => {
 	// 分頁的內容
 	const getTabContent = () => {
 		if (selectedTab === "map") { // 地圖分頁
-			return (<EBirdChartsMap />);
+			return (<EBirdChartsMap avatarIndex={avatarIndex} />);
 		} else if (selectedTab === "timeline") { // 時間軸分頁
 			return (<div id="timelineTab" aria-labelledby="timeline">timeline</div>);
 		}

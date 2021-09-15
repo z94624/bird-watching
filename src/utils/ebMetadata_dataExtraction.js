@@ -1,12 +1,31 @@
 import eBirdMetadataData_smoBEE from './ebird-metadata_smoBEE.json';
+import eBirdMetadataData_LinFenWen from './ebird-metadata_lin-fen-wen.json';
+/*
+ * 讀取 ebirder 資料
+ * avatarIndex: ebirder 編號
+ */
+const loadEBirdMetadataOfEBirder = avatarIndex => {
+	switch (avatarIndex) {
+		case 0:
+			return eBirdMetadataData_smoBEE;
+			break;
+		case 1:
+			return eBirdMetadataData_LinFenWen;
+			break;
+		default:
+			return eBirdMetadataData_smoBEE;
+	}
+}
 /*
  * 依照欲合併欄位合併賞鳥資料
  * keysToMerge: 依據欄位
  * keysToCollect: 合併欄位
  * keysToRemain: 保留欄位
  */
-export const dataMergedByKeys = (keysToMerge, keysToCollect, keysToRemain) => {
-	let mergedData = eBirdMetadataData_smoBEE.reduce((arr, ele) => { // EXCEL 的每列資料
+export const dataMergedByKeys = (avatarIndex, keysToMerge, keysToCollect, keysToRemain) => {
+	// 使用 ebirder 資料
+	let eBirdMetadataData = loadEBirdMetadataOfEBirder(avatarIndex);
+	let mergedData = eBirdMetadataData.reduce((arr, ele) => { // EXCEL 的每列資料
 		let exist = arr.findIndex(okEle => { // 是否有相同依據欄位資料
 			let match = true;
 			for (let keyToMerge of keysToMerge) { // 每個依據欄位都要相同

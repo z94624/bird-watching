@@ -67,7 +67,7 @@ dataURL = "https://mydata.ebird.org/downloads/" + dataID
 # In[ ]:
 
 
-time.sleep(20)
+time.sleep(30)
 # 請求檔案
 response = requests.get(dataURL)
 # 下載壓縮檔
@@ -123,7 +123,7 @@ for row in df_nan.itertuples():
 # In[ ]:
 
 
-with open('C:/Users/ressa/ReactHooks/bird-watching/src/utils/ebird-metadata_{}.json'.format(account), 'w', encoding="utf-8") as f:
+with open('C:/Users/ressa/ReactHooks/bird-watching/src/utils/ebird-metadata_{}.json'.format(account.replace(" ", "-")), 'w', encoding="utf-8") as f:
     json.dump(metadata, f, ensure_ascii=False, indent=4)
 
 
@@ -138,5 +138,5 @@ os.remove("C:/Users/ressa/ReactHooks/bird-watching/src/utils/MyEBirdData.csv")
 # In[ ]:
 
 
-sys.exit('"ebird-metadata_{}" has already been exported!'.format(account))
+sys.exit('"ebird-metadata_{}" has already been exported!'.format(account.replace(" ", "-")))
 
