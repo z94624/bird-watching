@@ -1,0 +1,16 @@
+@import "./views/css/_mouses";
+
+$mp0: 0;
+$hw100: 100%;
+
+html, body, #root {
+    height: $hw100;
+    width: $hw100;
+}
+
+html, body {
+    margin: $mp0;
+    padding: $mp0;
+    /* 鼠標圖案 */
+    @include cursor("./images/cursor.png");
+}

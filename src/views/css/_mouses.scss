@@ -1,0 +1,4 @@
+/* 全站使用玄鳳鼠標 */
+@mixin cursor($path) {
+	cursor: url($path) 5 10, auto;
+}
