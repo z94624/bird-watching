@@ -11,11 +11,19 @@ import './EBird.css';
 const EBird = () => {
 	// eBirder 抽屜的開合
 	const [drawerOpen, setDrawerOpen] = useState(false);
+	// 先從 LocalStorage 尋找是否有哪位 eBirder
+	const storageAvatar = localStorage.getItem('avatarIndex') || 0;
 	// eBirder 列表
-	const [avatarIndex, setAvatarIndex] = useState(0);
+	const [avatarIndex, setAvatarIndex] = useState(storageAvatar);
 	const handleAvatarIndexChange = (index) => {
 		setAvatarIndex(index);
 		setDrawerOpen(false); // 選擇完 eBirder 後，收合 Drawer
+		/*
+         * localStorage 是瀏覽器提供給各網站的一個儲存空間
+         * >>> Browser > Application > Local Storage
+         * setItem(keyName, keyValue) / getItem(keyName) / removeItem(keyName) / clear()
+         */
+        localStorage.setItem('avatarIndex', index);
 	}
 	const avatars = eBirderInfosToRainbowAvatars(handleAvatarIndexChange);
 	// eBirder 個人資料

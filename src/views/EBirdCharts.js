@@ -30,10 +30,10 @@ const EBirdCharts = ({ avatarIndex }) => {
 			>
 				{/* 留位置給 eBirder 抽屜開關 */}
 				<Tab
-					id="none"
+					id="blank"
 					label=""
-					name="none"
-					ariaControls="noneTab"
+					name="blank"
+					ariaControls="blankTab"
 					disabled={true}
 				/>
 				<Tab

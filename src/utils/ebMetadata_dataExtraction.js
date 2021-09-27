@@ -8,10 +8,8 @@ const loadEBirdMetadataOfEBirder = avatarIndex => {
 	switch (avatarIndex) {
 		case 0:
 			return eBirdMetadataData_smoBEE;
-			break;
 		case 1:
 			return eBirdMetadataData_LinFenWen;
-			break;
 		default:
 			return eBirdMetadataData_smoBEE;
 	}
