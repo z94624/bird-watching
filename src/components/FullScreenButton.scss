@@ -1,0 +1,11 @@
+// 全螢幕按鈕
+.fullscreenBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+
+	&:hover {
+		background-color: #E3E3E3 !important;
+	}
+}

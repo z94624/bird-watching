@@ -4,6 +4,7 @@ import { DatePicker } from 'react-rainbow-components';
 
 import { getItems, itemsToRainbowMultiSelectOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
 import ScrollTopArrow from './../components/ScrollTopArrow';
+import Footer from './../components/Footer';
 import './YouTube.css';
 // 篩選參數篩選值
 var userParameters = {
@@ -178,6 +179,8 @@ const YouTube = ({scrollToElement}) => {
 			</div>
 			{/* 滾動至頂按鈕 */}
 			<ScrollTopArrow showScroll={showScroll} scrollToElement={() => scrollToElement(document.getElementById("ytVideosContainer"))} />
+
+			<Footer />
 		</main>
 	);
 }

@@ -5,6 +5,7 @@ import eBirdMetadataData_LinFenWen from './ebird-metadata_lin-fen-wen.json';
  * avatarIndex: ebirder 編號
  */
 const loadEBirdMetadataOfEBirder = avatarIndex => {
+	console.log(avatarIndex);
 	switch (avatarIndex) {
 		case 0:
 			return eBirdMetadataData_smoBEE;

@@ -12,4 +12,15 @@ html, body {
   cursor: url("./images/cursor.png") 5 10, auto;
 }
 
+::selection {
+  color: white;
+  background-color: #FE9AFF;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background-color: #FE9AFF;
+}
+
 /*# sourceMappingURL=index.css.map */

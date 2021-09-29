@@ -6,13 +6,14 @@ import Avatar from 'react-avatar';
 import { infos } from './../utils/ebird-ebirders.js';
 import { eBirderInfosToRainbowAvatars } from './../utils/ebEbirders_dataExtraction';
 import EBirdCharts from './EBirdCharts';
+import Footer from './../components/Footer';
 import './EBird.css';
 
 const EBird = () => {
 	// eBirder 抽屜的開合
 	const [drawerOpen, setDrawerOpen] = useState(false);
 	// 先從 LocalStorage 尋找是否有哪位 eBirder
-	const storageAvatar = localStorage.getItem('avatarIndex') || 0;
+	const storageAvatar = parseInt(localStorage.getItem('avatarIndex')) || 0;
 	// eBirder 列表
 	const [avatarIndex, setAvatarIndex] = useState(storageAvatar);
 	const handleAvatarIndexChange = (index) => {
@@ -64,6 +65,8 @@ const EBird = () => {
 			</div>
 			{/* 圖表區 */}
 			<EBirdCharts avatarIndex={avatarIndex} />
+
+			<Footer />
 		</main>
 	);
 }

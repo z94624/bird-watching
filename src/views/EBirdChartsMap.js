@@ -4,14 +4,15 @@ import L from 'leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import { FullScreen, useFullScreenHandle } from 'react-full-screen';
 
-import { dataMergedByKeys } from '../utils/ebMetadata_dataExtraction';
-import useGeoLocation from '../hooks/useGeoLocation';
+import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
+import useGeoLocation from './../hooks/useGeoLocation';
+import FullScreenButton from './../components/FullScreenButton';
 import './css/birdLoader.css';
 // 地圖圖釘
-import markerImg from '../images/marker-icon.png';
-//import markerShadowImg from '../images/leaflet/marker-shadow.png';
+import markerImg from './../images/marker-icon.png';
+//import markerShadowImg from './../images/leaflet/marker-shadow.png';
 // eBirder 圖示
-import ebirderImg from '../images/ebirder.png';
+import ebirderImg from './../images/ebirder.png';
 // 地圖圖釘圖片轉換成 Leaflet 格式
 const markerIcon = new L.Icon({
 	iconUrl: markerImg, // 圖釘
@@ -42,11 +43,7 @@ const EBirdChartsMap = ({ avatarIndex }) => {
 	return (
 		<div id="mapTab" aria-labelledby="map">
 			{/* 全螢幕按鈕 */}
-			<button type="button" className="fullscreenBtn btn-light rounded" onClick={fullscreenHandler.enter}>
-				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-fullscreen" viewBox="0 0 16 16">
-					<path d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/>
-				</svg>
-			</button>
+			<FullScreenButton fullscreenHandler={fullscreenHandler} />
 			{/* 地圖容器 */}
 			<div id="birdMap">
 			{loaded ?

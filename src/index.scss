@@ -14,3 +14,12 @@ html, body {
     /* 鼠標圖案 */
     @include cursor("./images/cursor.png");
 }
+// 反白
+::selection {
+    color: white;
+    background-color: #FE9AFF;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background-color: #FE9AFF;
+}
