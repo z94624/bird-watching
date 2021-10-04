@@ -11,6 +11,8 @@ import '../node_modules/leaflet/dist/leaflet.css';
 import '../node_modules/react-leaflet-markercluster/dist/styles.min.css';
 //import 'leaflet-defaulticon-compatibility';
 
+import '../node_modules/react-vertical-timeline-component/style.min.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <RootRouter /> {/* 轉換頁面分流器 */}

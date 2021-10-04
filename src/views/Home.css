@@ -1,10 +1,15 @@
+@charset "UTF-8";
+/* Bootstrap 暗色背景背景顏色 */
+/* Bootstrap 暗色背景 Blur 的字體顏色 */
+/* 背景主題 */
 .main-home {
   background-position: center;
   background-size: cover;
+  /* auto, cover, contain */
   background-repeat: no-repeat;
   background-color: #000000;
   background-image: url("./../images/cover.JPG");
-  height: 100vh;
+  height: 79vh;
 }
 
 /*# sourceMappingURL=Home.css.map */

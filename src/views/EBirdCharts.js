@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Tabset, Tab } from 'react-rainbow-components';
 
 import EBirdChartsMap from './EBirdChartsMap';
+import EBirdChartsTimeline from './EBirdChartsTimeline';
 
 const EBirdCharts = ({ avatarIndex }) => {
 	// 選擇的分頁
@@ -15,7 +16,9 @@ const EBirdCharts = ({ avatarIndex }) => {
 		if (selectedTab === "map") { // 地圖分頁
 			return (<EBirdChartsMap avatarIndex={avatarIndex} />);
 		} else if (selectedTab === "timeline") { // 時間軸分頁
-			return (<div id="timelineTab" aria-labelledby="timeline">timeline</div>);
+			return (<EBirdChartsTimeline avatarIndex={avatarIndex} />);
+		} else if (selectedTab === "chart") { // 統計圖表分頁
+			return (<div id="chartTab" aria-labelledby="chart">chart</div>);
 		}
 	}
 
@@ -47,6 +50,12 @@ const EBirdCharts = ({ avatarIndex }) => {
 					label="時間軸"
 					name="timeline"
 					ariaControls="timelineTab"
+				/>
+				<Tab
+					id="chart"
+					label="統計圖表"
+					name="chart"
+					ariaControls="chartTab"
 				/>
 			</Tabset>
 			{/* 分頁內容 */}
