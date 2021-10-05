@@ -20,7 +20,9 @@ const loadEBirdMetadataOfEBirder = avatarIndex => {
  * keysToCollect: 合併欄位
  * keysToRemain: 保留欄位
  */
-export const dataMergedByKeys = (avatarIndex, keysToMerge, keysToCollect, keysToRemain) => {
+export const dataMergedByKeys = (avatarIndex, keysToMerge, keysToCollect, keysToRemain, sort, descendingOrder=true) => {
+	// 所有欄位
+	let allKeys = [...keysToMerge, ...keysToCollect, ...keysToRemain];
 	// 使用 ebirder 資料
 	let eBirdMetadataData = loadEBirdMetadataOfEBirder(avatarIndex);
 	let mergedData = eBirdMetadataData.reduce((arr, ele) => { // EXCEL 的每列資料
@@ -34,20 +36,36 @@ export const dataMergedByKeys = (avatarIndex, keysToMerge, keysToCollect, keysTo
 			}
 			return match;
 		});
+
 		if (exist !== -1) { // 若存在即合併
 			let matchedEle = arr[exist];
 			for (let keyToCollect of keysToCollect) { // 每個合併欄位
 				matchedEle[keyToCollect] = [...matchedEle[keyToCollect], ...ele[keyToCollect]];
 			}
+			if (sort && allKeys.includes("Date")) { // 為了依日期時間排序
+				matchedEle["datetime"] = [`${ele["Date"]} ${ele["Time"]}`];
+				matchedEle["milliTime"] = [new Date(`${ele["Date"]} ${ele["Time"]}`).getTime()];
+			}
 		} else { // 若不存在即新增
 			let newEle = {};
-			let allKeys = [...keysToMerge, ...keysToCollect, ...keysToRemain];
 			for (let allKey of allKeys) { // 只保留需要的欄位
 				newEle[allKey] = ele[allKey];
+			}
+			if (sort && allKeys.includes("Date")) { // 為了依日期時間排序
+				newEle["datetime"] = [`${ele["Date"]} ${ele["Time"]}`];
+				newEle["milliTime"] = [new Date(`${ele["Date"]} ${ele["Time"]}`).getTime()];
 			}
 			arr.push(newEle);
 		}
 		return arr;
 	}, []);
+	// 若要依日期時間排序
+	if (sort) {
+		if (descendingOrder) { // 降冪
+			mergedData.sort((a, b) => a["milliTime"][0] < b["milliTime"][0] ? 1 : -1);
+		} else { // 升冪
+			mergedData.sort((a, b) => a["milliTime"][0] > b["milliTime"][0] ? 1 : -1);
+		}
+	}
 	return mergedData;
 }

@@ -38,7 +38,7 @@ const EBirdChartsMap = ({ avatarIndex }) => {
 	const loaded = location.loaded;
 	const ebirderLocation = [location.coordinates.lat, location.coordinates.lng];
 	// 圖釘需要的資料
-	let markerData = dataMergedByKeys(avatarIndex, ["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Latitude", "Longitude"]);
+	let markerData = dataMergedByKeys(avatarIndex, ["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Latitude", "Longitude"], false);
 
 	return (
 		<div id="mapTab" aria-labelledby="map">

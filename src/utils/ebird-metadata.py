@@ -101,7 +101,7 @@ for row in df_nan.itertuples():
         "Submission_ID": [row[1]],
         "Common_Name": [row[2]],
         "Count": [row[5]],
-        "State/Province": [row[6]],
+        "State_Province": [row[6]],
         "County": [row[7]],
         "Location": [row[9]],
         "Latitude": [row[10]],
@@ -109,7 +109,7 @@ for row in df_nan.itertuples():
         "Date": [row[12]],
         "Time": [row[13]],
         "Protocol": [row[14]],
-        "Duration(Min)": [row[15]],
+        "Duration_Min": [row[15]],
         "Number_of_Observers": [row[19]],
         "Breeding_Code": [row[20]],
         "Observation_Details": [row[21]]
