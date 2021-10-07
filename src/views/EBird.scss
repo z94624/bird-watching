@@ -1,4 +1,9 @@
 @import "./css/_buttons";
+
+@mixin widthHeight($width, $height) {
+	width: $width;
+	height: $height;
+}
 // 選擇 eBirder 按鈕
 #ebDrawerBtn {
 	position: fixed;
@@ -32,18 +37,22 @@
 #mapTab {
 	position: relative;
 }
-// 'react-full-screen' 的全螢幕容器 => 避免 <MapContainer> 被壓縮
-.fullscreen {
-	width: 100%;
-	height: 100%;
+/*
+ * 'react-full-screen' 的全螢幕容器 => 避免 <MapContainer> 被壓縮
+ * 時間軸節點圖示
+ */
+.fullscreen, .timelineNodeIcon {
+	@include widthHeight(100%, 100%);
 }
 // 賞鳥清單地圖容器
 #birdMap {
-	width: 100%;
-	height: 80vh;
+	@include widthHeight(100%, 80vh);
 }
 // 時間軸資訊卡第 ? 點圖示
 .point {
-	width: 20px;
-	height: auto;
+	@include widthHeight(20px, auto);
+}
+// 時間軸鳥種按鈕群組
+.timelineBirdBtnGroup {
+	flex-wrap: wrap;
 }
