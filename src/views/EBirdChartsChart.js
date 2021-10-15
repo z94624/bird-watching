@@ -7,37 +7,65 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 	let chartData = dataMergedByKeys(avatarIndex, ["Submission_ID"], ["Common_Name"], ["Date", "Time"], true, false);
 	// Lifer 需要的資料
 	let liferRawData = chartData.reduce((obj, ele, idx) => {
-		if (idx === 0) {
-			obj["birdSpecies"] = ele["Common_Name"];
-			obj["birdNumbers"] = [obj["birdSpecies"].length];
-			obj["dates"] = [ele["datetime"]];
-		} else {
-			let diffBirdSpecies = ele["Common_Name"].filter(newBS => !obj["birdSpecies"].includes(newBS));
-			obj["birdSpecies"] = [...obj["birdSpecies"], ...diffBirdSpecies];
-			obj["birdNumbers"] = [...obj["birdNumbers"], obj["birdSpecies"].length];
-			obj["dates"] = [...obj["dates"], ele["datetime"]];
-		}
+		let newBS = ele["Common_Name"];
+		let oldBS = obj["birdSpecies"];
+		// 該筆出現新紀錄鳥種
+		let diffBirdSpecies = newBS.filter(nbs => !oldBS.includes(nbs));
+		obj["birdSpecies"] = [...oldBS, ...diffBirdSpecies];
+		obj["accuBirdNumbers"] = [...obj["accuBirdNumbers"], oldBS.length+diffBirdSpecies.length];
+		obj["diffBirdNumbers"] = [...obj["diffBirdNumbers"], diffBirdSpecies.length];
+		obj["eachBirdNumbers"] = [...obj["eachBirdNumbers"], newBS.length];
+		obj["dates"] = [...obj["dates"], ele["Date"]];
 		return obj;
-	}, {});
+	}, {"birdSpecies": [], "accuBirdNumbers": [], "diffBirdNumbers": [], "eachBirdNumbers": [], "dates": []});
+	// 生涯鳥種數 圖表資料
 	let liferData = {
-		labels: liferRawData["dates"],
+		labels: liferRawData["dates"], // x-axis
 		datasets: [
 			{
-				label: "生涯鳥種數",
-				data: liferRawData["birdNumbers"],
-				fill: false,
+				label: "生涯鳥種",
+				data: liferRawData["accuBirdNumbers"], // y-axis
+				fill: "start", // 塗滿風格；start, end, origin
 				backgroundColor: "rgb(255, 99, 132)",
-				borderColor: "rgba(255, 99, 132, 0.2)"
+				borderColor: "rgba(255, 99, 132, 0.2)",
+				yAxisID: "y-axis-1"
+			},
+			{
+				label: "解鎖鳥種",
+				data: liferRawData["diffBirdNumbers"], // y-axis
+				fill: "start", // 塗滿風格；start, end, origin
+				backgroundColor: "rgb(115, 234, 255)",
+				borderColor: "rgba(115, 234, 255, 0.2)",
+				yAxisID: "y-axis-2"
+			},
+			{
+				label: "觀察鳥種",
+				data: liferRawData["eachBirdNumbers"], // y-axis
+				fill: "start", // 塗滿風格；start, end, origin
+				backgroundColor: "rgb(149, 255, 146)",
+				borderColor: "rgba(149, 255, 146, 0.2)",
+				yAxisID: "y-axis-3"
 			}
 		]
 	}
+	// 生涯鳥種數 圖表設定
 	let liferOptions = {
 		scales: {
 			yAxes: [
 				{
-					ticks: {
-						beginAtZero: true
-					}
+					type: "linear",
+					display: true,
+					id: "y-axis-1"
+				},
+				{
+					type: "linear",
+					display: true,
+					id: "y-axis-2"
+				},
+				{
+					type: "linear",
+					display: true,
+					id: "y-axis-3"
 				}
 			]
 		}

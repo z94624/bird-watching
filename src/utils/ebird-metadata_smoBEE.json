@@ -330,6 +330,53 @@
     },
     {
         "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "花嘴鴨"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S86695813"
         ],
         "Common_Name": [
@@ -6017,6 +6064,53 @@
     },
     {
         "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "野鴿(野化)"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80406012"
         ],
         "Common_Name": [
@@ -8824,6 +8918,53 @@
         ],
         "Duration_Min": [
             11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
         ],
         "Number_of_Observers": [
             1
@@ -13725,6 +13866,100 @@
     },
     {
         "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95798954"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南市安平區觀夕平臺"
+        ],
+        "Latitude": [
+            22.9901863
+        ],
+        "Longitude": [
+            120.14711100000001
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "04:49 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80406018"
         ],
         "Common_Name": [
@@ -17052,6 +17287,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "紅冠水雞"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -21527,6 +21809,53 @@
     },
     {
         "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93710906"
         ],
         "Common_Name": [
@@ -22313,6 +22642,53 @@
         ],
         "Duration_Min": [
             32.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96061799"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 世杰橋"
+        ],
+        "Latitude": [
+            25.039994699999998
+        ],
+        "Longitude": [
+            121.6145824
+        ],
+        "Date": [
+            "2021-10-13"
+        ],
+        "Time": [
+            "04:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
         ],
         "Number_of_Observers": [
             1
@@ -23548,6 +23924,100 @@
     },
     {
         "Submission_ID": [
+            "S95660431"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-06"
+        ],
+        "Time": [
+            "01:36 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            2.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83709818"
         ],
         "Common_Name": [
@@ -24290,6 +24760,53 @@
         ],
         "Number_of_Observers": [
             5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -26640,6 +27157,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "蒼鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -31209,6 +31773,53 @@
     },
     {
         "Submission_ID": [
+            "S96061799"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 世杰橋"
+        ],
+        "Latitude": [
+            25.039994699999998
+        ],
+        "Longitude": [
+            121.6145824
+        ],
+        "Date": [
+            "2021-10-13"
+        ],
+        "Time": [
+            "04:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S74227654"
         ],
         "Common_Name": [
@@ -34029,6 +34640,100 @@
     },
     {
         "Submission_ID": [
+            "S95660431"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-06"
+        ],
+        "Time": [
+            "01:36 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            2.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94956554"
         ],
         "Common_Name": [
@@ -35439,6 +36144,53 @@
     },
     {
         "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            25
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88263616"
         ],
         "Common_Name": [
@@ -35899,6 +36651,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "黃頭鷺"
+        ],
+        "Count": [
+            15
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -37460,6 +38259,100 @@
     },
     {
         "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "黃頭鷺"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95798954"
+        ],
+        "Common_Name": [
+            "黃頭鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南市安平區觀夕平臺"
+        ],
+        "Latitude": [
+            22.9901863
+        ],
+        "Longitude": [
+            120.14711100000001
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "04:49 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88263615"
         ],
         "Common_Name": [
@@ -37591,6 +38484,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "黃頭鷺"
+        ],
+        "Count": [
+            25
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -38152,6 +39092,53 @@
         ],
         "Duration_Min": [
             44.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96061799"
+        ],
+        "Common_Name": [
+            "夜鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 世杰橋"
+        ],
+        "Latitude": [
+            25.039994699999998
+        ],
+        "Longitude": [
+            121.6145824
+        ],
+        "Date": [
+            "2021-10-13"
+        ],
+        "Time": [
+            "04:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
         ],
         "Number_of_Observers": [
             1
@@ -43946,6 +44933,53 @@
     },
     {
         "Submission_ID": [
+            "S95896327"
+        ],
+        "Common_Name": [
+            "魚鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "墾丁NP--社頂凌霄亭(賞鷹平台)(Kenting NP--Sheding Lingxiao Pavilion (Raptors Observation Spot))"
+        ],
+        "Latitude": [
+            21.9532822
+        ],
+        "Longitude": [
+            120.82334250000001
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "01:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            51.0
+        ],
+        "Number_of_Observers": [
+            5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85778117"
         ],
         "Common_Name": [
@@ -43983,6 +45017,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "黑翅鳶"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -48223,6 +49304,53 @@
     },
     {
         "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "灰面鵟鷹"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83704819"
         ],
         "Common_Name": [
@@ -49445,6 +50573,53 @@
     },
     {
         "Submission_ID": [
+            "S95896327"
+        ],
+        "Common_Name": [
+            "赤腹鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "墾丁NP--社頂凌霄亭(賞鷹平台)(Kenting NP--Sheding Lingxiao Pavilion (Raptors Observation Spot))"
+        ],
+        "Latitude": [
+            21.9532822
+        ],
+        "Longitude": [
+            120.82334250000001
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "01:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            51.0
+        ],
+        "Number_of_Observers": [
+            5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83704819"
         ],
         "Common_Name": [
@@ -49576,6 +50751,53 @@
         ],
         "Number_of_Observers": [
             50
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95896327"
+        ],
+        "Common_Name": [
+            "松雀鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "墾丁NP--社頂凌霄亭(賞鷹平台)(Kenting NP--Sheding Lingxiao Pavilion (Raptors Observation Spot))"
+        ],
+        "Latitude": [
+            21.9532822
+        ],
+        "Longitude": [
+            120.82334250000001
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "01:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            51.0
+        ],
+        "Number_of_Observers": [
+            5
         ],
         "Breeding_Code": [
             ""
@@ -52252,6 +53474,53 @@
         ],
         "Duration_Min": [
             31.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96061799"
+        ],
+        "Common_Name": [
+            "翠鳥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 世杰橋"
+        ],
+        "Latitude": [
+            25.039994699999998
+        ],
+        "Longitude": [
+            121.6145824
+        ],
+        "Date": [
+            "2021-10-13"
+        ],
+        "Time": [
+            "04:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
         ],
         "Number_of_Observers": [
             1
@@ -58657,6 +59926,53 @@
     },
     {
         "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -61900,6 +63216,53 @@
     },
     {
         "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "小啄木"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S81037411"
         ],
         "Common_Name": [
@@ -62125,6 +63488,53 @@
         ],
         "Number_of_Observers": [
             14
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "紅隼"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -62407,6 +63817,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95896327"
+        ],
+        "Common_Name": [
+            "遊隼"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "墾丁NP--社頂凌霄亭(賞鷹平台)(Kenting NP--Sheding Lingxiao Pavilion (Raptors Observation Spot))"
+        ],
+        "Latitude": [
+            21.9532822
+        ],
+        "Longitude": [
+            120.82334250000001
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "01:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            51.0
+        ],
+        "Number_of_Observers": [
+            5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "遊隼"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -63394,6 +64898,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -66177,6 +67728,53 @@
     },
     {
         "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -67352,6 +68950,53 @@
     },
     {
         "Submission_ID": [
+            "S95798954"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南市安平區觀夕平臺"
+        ],
+        "Latitude": [
+            22.9901863
+        ],
+        "Longitude": [
+            120.14711100000001
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "04:49 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S84269155"
         ],
         "Common_Name": [
@@ -67436,6 +69081,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -68198,6 +69890,53 @@
     },
     {
         "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "黑枕藍鶲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93352382"
         ],
         "Common_Name": [
@@ -68715,6 +70454,53 @@
     },
     {
         "Submission_ID": [
+            "S95798954"
+        ],
+        "Common_Name": [
+            "紅尾伯勞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南市安平區觀夕平臺"
+        ],
+        "Latitude": [
+            22.9901863
+        ],
+        "Longitude": [
+            120.14711100000001
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "04:49 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S81051125"
         ],
         "Common_Name": [
@@ -68997,6 +70783,53 @@
     },
     {
         "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "棕背伯勞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93352383"
         ],
         "Common_Name": [
@@ -69081,6 +70914,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "灰喜鵲"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -73462,6 +75342,53 @@
     },
     {
         "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S91525057"
         ],
         "Common_Name": [
@@ -77645,6 +79572,53 @@
     },
     {
         "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -80277,6 +82251,53 @@
     },
     {
         "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S76530558"
         ],
         "Common_Name": [
@@ -81922,6 +83943,53 @@
     },
     {
         "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "喜鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S77652772"
         ],
         "Common_Name": [
@@ -83040,6 +85108,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "喜鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -87797,6 +89912,53 @@
     },
     {
         "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "褐頭鷦鶯"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85778117"
         ],
         "Common_Name": [
@@ -88925,6 +91087,53 @@
     },
     {
         "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "家燕"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S91383097"
         ],
         "Common_Name": [
@@ -89335,6 +91544,53 @@
         ],
         "Duration_Min": [
             24.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96061799"
+        ],
+        "Common_Name": [
+            "家燕"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 世杰橋"
+        ],
+        "Latitude": [
+            25.039994699999998
+        ],
+        "Longitude": [
+            121.6145824
+        ],
+        "Date": [
+            "2021-10-13"
+        ],
+        "Time": [
+            "04:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
         ],
         "Number_of_Observers": [
             1
@@ -94330,6 +96586,53 @@
     },
     {
         "Submission_ID": [
+            "S95798954"
+        ],
+        "Common_Name": [
+            "洋燕"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南市安平區觀夕平臺"
+        ],
+        "Latitude": [
+            22.9901863
+        ],
+        "Longitude": [
+            120.14711100000001
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "04:49 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S84269155"
         ],
         "Common_Name": [
@@ -94367,6 +96670,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "洋燕"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -94790,6 +97140,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "烏頭翁"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95896327"
+        ],
+        "Common_Name": [
+            "烏頭翁"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "墾丁NP--社頂凌霄亭(賞鷹平台)(Kenting NP--Sheding Lingxiao Pavilion (Raptors Observation Spot))"
+        ],
+        "Latitude": [
+            21.9532822
+        ],
+        "Longitude": [
+            120.82334250000001
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "01:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            51.0
+        ],
+        "Number_of_Observers": [
+            5
         ],
         "Breeding_Code": [
             ""
@@ -98983,6 +101427,100 @@
     },
     {
         "Submission_ID": [
+            "S95660431"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-06"
+        ],
+        "Time": [
+            "01:36 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            2.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83364545"
         ],
         "Common_Name": [
@@ -102498,6 +105036,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            25
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -115903,6 +118488,100 @@
     },
     {
         "Submission_ID": [
+            "S95660431"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-06"
+        ],
+        "Time": [
+            "01:36 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            2.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -118065,6 +120744,53 @@
     },
     {
         "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S84147476"
         ],
         "Common_Name": [
@@ -118243,6 +120969,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -122953,6 +125726,53 @@
     },
     {
         "Submission_ID": [
+            "S95896327"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "墾丁NP--社頂凌霄亭(賞鷹平台)(Kenting NP--Sheding Lingxiao Pavilion (Raptors Observation Spot))"
+        ],
+        "Latitude": [
+            21.9532822
+        ],
+        "Longitude": [
+            120.82334250000001
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "01:39 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            51.0
+        ],
+        "Number_of_Observers": [
+            5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S76530558"
         ],
         "Common_Name": [
@@ -125716,6 +128536,100 @@
         ],
         "Number_of_Observers": [
             9
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "輝椋鳥"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95798954"
+        ],
+        "Common_Name": [
+            "輝椋鳥"
+        ],
+        "Count": [
+            15
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南市安平區觀夕平臺"
+        ],
+        "Latitude": [
+            22.9901863
+        ],
+        "Longitude": [
+            120.14711100000001
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "04:49 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -128630,6 +131544,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -131836,6 +134797,53 @@
     },
     {
         "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83709818"
         ],
         "Common_Name": [
@@ -133377,6 +136385,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95961382"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (22.047, 120.721)"
+        ],
+        "Latitude": [
+            22.0467285
+        ],
+        "Longitude": [
+            120.72120290000001
+        ],
+        "Date": [
+            "2021-10-11"
+        ],
+        "Time": [
+            "11:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -135727,6 +138782,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95798025"
+        ],
+        "Common_Name": [
+            "白尾八哥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--億載公園(Tainan--Yizai Park)"
+        ],
+        "Latitude": [
+            22.989974899999996
+        ],
+        "Longitude": [
+            120.15858459999998
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "03:11 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            73.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -142223,6 +145325,53 @@
     },
     {
         "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "台灣紫嘯鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -144516,6 +147665,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "斑文鳥"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -147487,6 +150683,53 @@
     },
     {
         "Submission_ID": [
+            "S95798954"
+        ],
+        "Common_Name": [
+            "麻雀"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南市安平區觀夕平臺"
+        ],
+        "Latitude": [
+            22.9901863
+        ],
+        "Longitude": [
+            120.14711100000001
+        ],
+        "Date": [
+            "2021-10-09"
+        ],
+        "Time": [
+            "04:49 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93352379"
         ],
         "Common_Name": [
@@ -147806,6 +151049,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95899823"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "100 福田路29巷, 滿州鄉, TW (22.02, 120.842)"
+        ],
+        "Latitude": [
+            22.0198534
+        ],
+        "Longitude": [
+            120.8415885
+        ],
+        "Date": [
+            "2021-10-10"
+        ],
+        "Time": [
+            "03:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            145.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -150106,6 +153396,100 @@
         ],
         "Duration_Min": [
             11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95660431"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-06"
+        ],
+        "Time": [
+            "01:36 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            2.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
         ],
         "Number_of_Observers": [
             1
@@ -158190,6 +161574,100 @@
         ],
         "Duration_Min": [
             1.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S95660431"
+        ],
+        "Common_Name": [
+            "白鶺鴒(白面)"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-06"
+        ],
+        "Time": [
+            "01:36 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            2.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96135098"
+        ],
+        "Common_Name": [
+            "白鶺鴒(白面)"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2021-10-15"
+        ],
+        "Time": [
+            "07:33 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            17.0
         ],
         "Number_of_Observers": [
             1
