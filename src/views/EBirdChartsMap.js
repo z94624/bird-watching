@@ -73,6 +73,7 @@ const EBirdChartsMap = ({ avatarIndex }) => {
 						  * 少(綠)/中(黃)/多(紅)：10 ~ 100
 						  */}
 						<MarkerClusterGroup
+							key={avatarIndex} // The cluster to be completely rerendered = clear all old markers.
 							spiderLegPolylineOptions={{
 								weight: 1.5,
 								color: '#ab0047',

@@ -44,7 +44,7 @@ const handleVideoStop = target => { // 當影片暫停或結束
 	playingVideos.splice(index, 1); // 從播放中影片清單移除
 }
 
-const YouTube = ({scrollToElement}) => {
+const YouTube = ({ scrollToElement }) => {
 	// 若玩過此頁面後，切換至其他分頁再切回來，篩選值歸零
 	const setUserParameters = () => {
 		userParameters = {

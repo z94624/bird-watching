@@ -26,24 +26,24 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 				label: "生涯鳥種",
 				data: liferRawData["accuBirdNumbers"], // y-axis
 				fill: "start", // 塗滿風格；start, end, origin
-				backgroundColor: "rgb(255, 99, 132)",
-				borderColor: "rgba(255, 99, 132, 0.2)",
+				backgroundColor: "rgba(255, 99, 132, .1)",
+				borderColor: "rgba(255, 99, 132, 1)",
 				yAxisID: "y-axis-1"
 			},
 			{
 				label: "解鎖鳥種",
 				data: liferRawData["diffBirdNumbers"], // y-axis
 				fill: "start", // 塗滿風格；start, end, origin
-				backgroundColor: "rgb(115, 234, 255)",
-				borderColor: "rgba(115, 234, 255, 0.2)",
+				backgroundColor: "rgba(115, 234, 255, .1)",
+				borderColor: "rgba(115, 234, 255, 1)",
 				yAxisID: "y-axis-2"
 			},
 			{
 				label: "觀察鳥種",
 				data: liferRawData["eachBirdNumbers"], // y-axis
 				fill: "start", // 塗滿風格；start, end, origin
-				backgroundColor: "rgb(149, 255, 146)",
-				borderColor: "rgba(149, 255, 146, 0.2)",
+				backgroundColor: "rgba(149, 255, 146, .1)",
+				borderColor: "rgba(149, 255, 146, 1)",
 				yAxisID: "y-axis-3"
 			}
 		]

@@ -6,10 +6,11 @@ import Avatar from 'react-avatar';
 import { infos } from './../utils/ebird-ebirders.js';
 import { eBirderInfosToRainbowAvatars } from './../utils/ebEbirders_dataExtraction';
 import EBirdCharts from './EBirdCharts';
+import ScrollTopArrow from './../components/ScrollTopArrow';
 import Footer from './../components/Footer';
 import './EBird.css';
 
-const EBird = () => {
+const EBird = ({ scrollToElement }) => {
 	// eBirder 抽屜的開合
 	const [drawerOpen, setDrawerOpen] = useState(false);
 	// 先從 LocalStorage 尋找是否有哪位 eBirder
@@ -29,9 +30,20 @@ const EBird = () => {
 	const avatars = eBirderInfosToRainbowAvatars(handleAvatarIndexChange);
 	// eBirder 個人資料
 	const eBirderInfo = infos[avatarIndex];
+	// 滾動至頂按鈕
+	const [showScroll, setShowScroll] = useState(false); // 顯示狀態
+	const handleScrollTop = target => { // 改變顯示狀態
+		if (!showScroll && target.scrollTop > 500) { // 頁面捲動 500px 後，顯示按鈕
+			setShowScroll(true);
+		} else if (showScroll && target.scrollTop <= 500) { // 頁面捲動接近頂端，隱藏按鈕
+			setShowScroll(false);
+		}
+	}
 
 	return (
-		<main className="h-100 px-3">
+		<main className="h-100 px-3" onScroll={e => {
+			handleScrollTop(e.target);
+		}}>
 			<div id="ebDrawerContainer">
 				{/* eBirder 抽屜開關 */}
 				<div
@@ -65,6 +77,8 @@ const EBird = () => {
 			</div>
 			{/* 圖表區 */}
 			<EBirdCharts avatarIndex={avatarIndex} />
+			{/* 滾動至頂按鈕 */}
+			<ScrollTopArrow showScroll={showScroll} scrollToElement={() => scrollToElement(document.getElementById("ebTabsetContainer"))} />
 
 			<Footer />
 		</main>

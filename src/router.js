@@ -24,7 +24,9 @@ const RootRouter = () => {
 			<Layout> {/* 所有頁面的模板 */}
 				<Switch> {/* 匹配路徑載入對應分頁元件 */}
 					<Route exact path="/bird-watching" component={Home} />
-					<Route exact path="/bird-watching/ebird" component={EBird} />
+					<Route exact path="/bird-watching/ebird" component={() => 
+						<EBird scrollToElement={scrollToElement} />
+					} />
 					<Route exact path="/bird-watching/youtube" component={() => 
 						<YouTube scrollToElement={scrollToElement} />
 					} />
