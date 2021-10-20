@@ -1,4 +1,4 @@
-import { MultiSelect, Option } from 'react-rainbow-components';
+import { Select, MultiSelect, Option } from 'react-rainbow-components';
 import FadeIn from 'react-fade-in';
 
 import youTubeVideosData from './youtube-videos.json';
@@ -44,11 +44,23 @@ const arrayToChunks = (arr, size) => {
  * items: 一階陣列資料
  * 輸出：產生選項所需資料
  */
-export const itemsToRainbowSelectOptions = (items) => {
+export const itemsToRainbowSelectOptions = (items, id, label, value, onChange, hasDefault=false) => {
 	let allOption = { value: "*全部", label: "*全部" }; // 預設值
-	return items.reduce((arr, ele) => 
+	let options = items.reduce((arr, ele) => 
 		arr.concat([{ value: ele, label: ele }])
-	, [allOption]);
+	, []);
+	return (
+		<Select
+			id={id}
+			label={label}
+			labelAlignment="left"
+			hideLabel={false}
+			options={hasDefault ? [...options, allOption] : options}
+			value={value}
+			onChange={onChange}
+			variant="default" // 篩選框 style；default, shaded
+		/>
+	);
 }
 /*
  * 產生 React Rainbow Components 多選選單的選項
