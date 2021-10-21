@@ -8,13 +8,12 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 	// 圖表需要的資料
 	let chartData = dataMergedByKeys(avatarIndex, ["Submission_ID"], ["Common_Name", "Count"], ["Date", "Time", "Location"], true, false);
 	//console.log(chartData);
-	// 重複地點清單
+	// (重複)所有地點
 	let locations = chartData.reduce((arr, ele) => {
-		let location = ele["Location"][0];
-		return [...arr, location];
+		return [...arr, ele["Location"][0]];
 	}, []);
-	// 不重複地點清單
-	let nonDuplicateLocations = [...new Set(locations)];
+	// (不重複)所有地點
+	let nonDupLocations = [...new Set(locations)];
 	// Lifer 需要的資料
 	let liferRawData = chartData.reduce((obj, ele, idx) => {
 		let newBS = ele["Common_Name"];
@@ -76,29 +75,40 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 		}
 	}
 	// Succession 地點
-	const [succLocation, setSuccLocation] = useState(nonDuplicateLocations[0]);
+	const [succLocation, setSuccLocation] = useState(nonDupLocations[0]);
 	const handleSuccLocationChange = () => {
 		setSuccLocation(document.getElementById("succLocationSelect").value);
 	}
 	// 該地點筆數
-	let succLocationNumber = locations.filter(location => location === succLocation).length;
+	let succLocationNum = locations.filter(location => location === succLocation).length;
 	// Succession 需要的資料
+	let succLocationIdx = 0; // 該地點第幾筆
 	let succRawData = chartData.reduce((obj, ele) => {
-		let eleLocation = ele["Location"];
-		if (eleLocation === succLocation) {
+		let eleLocation = ele["Location"][0];
+		if (eleLocation === succLocation) { // 該地點
+			succLocationIdx += 1;
 			obj["dates"] = [...obj["dates"], ele["Date"]];
-			let eleNames = ele["Common_Name"];
-			let eleCounts = ele["Count"];
-			for (let nIdx = 0; nIdx < eleNames.length; nIdx++) {
-				let eleName = eleNames[nIdx];
-				let eleCount = eleCounts[nIdx];
-				
+			let eleNames = ele["Common_Name"]; // 該筆所有鳥種
+			let eleCounts = ele["Count"]; // 該筆所有鳥種數
+			for (let i = 0; i < eleNames.length; i++) { // 每一鳥種
+				let eleName = eleNames[i]; // 鳥種
+				let eleCount = eleCounts[i]; // 數量
+				let objCounts = obj["succBirds"][eleName]; // 已登錄數量
+				if (!objCounts) { // 未登錄過
+					obj["succBirds"][eleName] = [...new Array(succLocationIdx-1).fill(0), eleCount];
+				} else { // 後續登錄
+					obj["succBirds"][eleName] = [...objCounts, ...new Array(succLocationIdx-1-objCounts.length).fill(0), eleCount];
+				}
 			}
 		}
 		return obj;
-	}, {"dates": []});
-	console.log(succRawData);
-
+	}, {"dates": [], "succBirds": {}});
+	// 所有鳥種數量檢查補零
+	let succBirds = succRawData["succBirds"];
+	for (const name of Object.keys(succBirds)) { // 每一鳥種
+		succBirds[name] = [...succBirds[name], ...new Array(succLocationNum-succBirds[name].length).fill(0)];
+	}
+	
 	return (
 		<div id="chartTab" className="container-fluid" aria-labelledby="chart">
 			{/* 生涯鳥種數 */}
@@ -113,9 +123,9 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 					className="form-select"
 					onChange={handleSuccLocationChange}
 				>
-				{nonDuplicateLocations.map((location, lIdx) => {
+				{nonDupLocations.map((location, lIdx) => {
 					return (
-						<option key={`succLocationSelect-${lIdx}`} value={location}>{location}</option>
+						<option key={`succLocationOption-${lIdx}`} value={location}>{location}</option>
 					);
 				})}
 				</select>
