@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Line } from 'react-chartjs-2';
 
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
+import { getRandomColor } from './../utils/tools';
 
 const EBirdChartsChart = ({ avatarIndex }) => {
 	// 圖表需要的資料
@@ -108,19 +109,47 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 	for (const name of Object.keys(succBirds)) { // 每一鳥種
 		succBirds[name] = [...succBirds[name], ...new Array(succLocationNum-succBirds[name].length).fill(0)];
 	}
+	// Succession 圖表資料
+	let succData = {
+		labels: succRawData["dates"], // x-axis
+		datasets: Object.entries(succRawData["succBirds"]).reduce((arr, [name, counts]) => {
+			let color = getRandomColor(); // 隨機顏色
+			let dataset = {
+				label: name,
+				data: counts,
+				fill: "start",
+				backgroundColor: color.replace(",1)", ",.1)"),
+				borderColor: color,
+				yAxisID: "y-axis-1"
+			}
+			return [...arr, dataset];
+		}, [])
+	}
+	// Succession 圖表設定
+	let succOptions = {
+		scales: {
+			yAxes: [
+				{
+					type: "linear",
+					display: true,
+					id: "y-axis-1"
+				}
+			]
+		}
+	}
 	
 	return (
 		<div id="chartTab" className="container-fluid" aria-labelledby="chart">
-			{/* 生涯鳥種數 */}
-			<div className="row">
+			{/* Lifer */}
+			<div className="row my-3">
 				<Line data={liferData} options={liferOptions} />
 			</div>
 			{/* 地點的鳥種數隨時變化 */}
-			<div className="row">
+			<div className="row my-3">
 				{/* Succession 單選地點 */}
 				<select
 					id="succLocationSelect"
-					className="form-select"
+					className="form-select form-select-sm"
 					onChange={handleSuccLocationChange}
 				>
 				{nonDupLocations.map((location, lIdx) => {
@@ -129,6 +158,8 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 					);
 				})}
 				</select>
+				{/* Succession */}
+				<Line data={succData} options={succOptions} />
 			</div>
 		</div>
 	);

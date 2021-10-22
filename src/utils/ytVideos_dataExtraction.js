@@ -3,6 +3,7 @@ import FadeIn from 'react-fade-in';
 
 import youTubeVideosData from './youtube-videos.json';
 import YoutubeVideo from './../components/YoutubeVideo';
+import { arrayToChunks } from './tools.js';
 /*
  * 取得所有影片的某項資訊
  * key: 影片資訊欄位
@@ -25,19 +26,6 @@ export const getItems = (key, duplicate=false, chunk = false) => {
 		items = arrayToChunks(items, 6);
 	}
 	return items;
-}
-/*
- * 陣列元素分組
- * arr: 一階陣列
- * size: 每組元素個數
- * 輸出：二階陣列
- */
-const arrayToChunks = (arr, size) => {
-	var chunkedArray = [];
-	while (arr.length) {
-		chunkedArray.push(arr.splice(0, size));
-	}
-	return chunkedArray;
 }
 /*
  * 產生 React Rainbow Components 選單的選項

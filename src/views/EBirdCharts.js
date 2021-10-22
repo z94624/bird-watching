@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 
 import { Tabset, Tab } from 'react-rainbow-components';
 
@@ -65,4 +65,4 @@ const EBirdCharts = ({ avatarIndex }) => {
 	);
 }
 
-export default EBirdCharts;
+export default memo(EBirdCharts);
