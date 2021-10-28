@@ -1,6 +1,11 @@
+import { useState } from 'react';
+
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { Pie } from 'react-chartjs-2';
+import { Modal } from 'react-bootstrap';
 
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
+import { getRandomColor } from './../utils/tools';
 // 時間軸節點圖示
 import timelineImg from './../images/timeline-icon.png';
 // 第 ? 點
@@ -11,6 +16,38 @@ import point3 from './../images/point/point3.png';
 const EBirdChartsTimeline = ({ avatarIndex }) => {
 	// 資訊卡需要的資料
 	let cardData = dataMergedByKeys(avatarIndex, ["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Number_of_Observers", "Breeding_Code", "Observation_Details"], true);
+	// 鳥種圓餅圖 Modal
+	const [modalShow, setModalShow] = useState(false);
+	const handleModalClose = () => setModalShow(false);
+	const handleModalShow = () => setModalShow(true);
+	const [modalData, setModalData] = useState();
+	const handleModalDataChange = (names, counts) => {
+		let borderColors = names.reduce((arr) => {
+			return [...arr, getRandomColor()];
+		}, []);
+		let backgroundColors = borderColors.reduce((arr, ele) => {
+			return [...arr, ele.replace(",1)", ",.2)")];
+		}, []);
+		// 圓餅圖資料
+		const pieData = {
+			labels: names,
+			datasets: [
+				{
+					label: "鳥種數量圓餅圖",
+					data: counts,
+					backgroundColor: backgroundColors,
+					borderColors: borderColors,
+					borderWidth: 1
+				}
+			]
+		}
+		// 更換成該筆觀察資料
+		setModalData(<Pie data={pieData} />);
+	}
+	const handleModalChange = (names, counts) => {
+		handleModalDataChange(names, counts);
+		handleModalShow();
+	}
 	
 	return (
 		<div id="timelineTab" aria-labelledby="timeline">
@@ -48,9 +85,16 @@ const EBirdChartsTimeline = ({ avatarIndex }) => {
 						<button key={`ebBird-${nIdx}`} type="button" className="btn btn-group-sm btn-outline-info">{`${name}(${Count[nIdx]})`}</button>
 					))}
 					</div>
+					{/* 鳥種圓餅圖 Modal 按鈕 */}
+					<button type="button" className="btn btn-dark" onClick={() => {handleModalChange(Common_Name, Count);}}>圓餅圖</button>
 				</VerticalTimelineElement>
 			))}
 			</VerticalTimeline>
+			{/* 鳥種圓餅圖 Modal */}
+			<Modal show={modalShow} onHide={handleModalClose}>
+				<Modal.Header closeButton></Modal.Header>
+				<Modal.Body>{modalData}</Modal.Body>
+			</Modal>
 		</div>
 	);
 }
