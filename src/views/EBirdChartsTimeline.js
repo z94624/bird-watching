@@ -24,7 +24,7 @@ const EBirdChartsTimeline = ({ avatarIndex }) => {
 		...modalInfo,
 		modalShow: false
 	});
-	const handleModalInfoChange = (location, names, counts) => { // 變更 Modal 內容
+	const handleModalInfoChange = (location, datetime, names, counts) => { // 變更 Modal 內容
 		let borderColors = names.reduce((arr) => {
 			return [...arr, getRandomColor()];
 		}, []);
@@ -53,7 +53,10 @@ const EBirdChartsTimeline = ({ avatarIndex }) => {
 					color: '#fff',
 					formatter: (value, context) => {
 						return `${context.chart.data.labels[context.dataIndex]}`;
-					}
+					},
+					anchor: 'end',
+					align: 'start',
+					offset: 10
 				}
 			}
 		}
@@ -61,7 +64,7 @@ const EBirdChartsTimeline = ({ avatarIndex }) => {
 		setModalInfo({
 			...modalInfo,
 			modalShow: true,
-			modalTitle: location,
+			modalTitle: <h4>{location.split('(')[0]}<sub className="text-muted">({datetime})</sub></h4>,
 			modalBody: <Pie data={pieData} plugins={[ChartDataLabels]} options={pieOptions} />
 		})
 	}
@@ -97,13 +100,13 @@ const EBirdChartsTimeline = ({ avatarIndex }) => {
 						</div>
 					</div>
 					{/* 鳥種 */}
-					<div className="btn-group timelineBirdBtnGroup mt-2" role="group">
+					<div className="btn-group btn-group-sm timelineBirdBtnGroup mt-2" role="group">
 					{Common_Name.map((name, nIdx) => (
-						<button key={`ebBird-${nIdx}`} type="button" className="btn btn-group-sm btn-outline-info">{`${name}(${Count[nIdx]})`}</button>
+						<button key={`ebBird-${nIdx}`} type="button" className="btn btn-outline-info">{`${name}(${Count[nIdx]})`}</button>
 					))}
-					</div>
 					{/* 鳥種圓餅圖 Modal 按鈕 */}
-					<button type="button" className="btn btn-outline-warning" onClick={() => {handleModalInfoChange(Location, Common_Name, Count)}}>鳥種圓餅圖</button>
+					<button type="button" className="btn btn-outline-warning" onClick={() => {handleModalInfoChange(Location[0], datetime, Common_Name, Count)}}>鳥種圓餅圖</button>
+					</div>
 				</VerticalTimelineElement>
 			))}
 			</VerticalTimeline>
