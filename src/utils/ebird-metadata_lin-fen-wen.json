@@ -2163,6 +2163,53 @@
     },
     {
         "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "黑長尾雉"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S95464901"
         ],
         "Common_Name": [
@@ -2341,6 +2388,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179550"
+        ],
+        "Common_Name": [
+            "藍腹鷴"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--收費站(35K)(Dasyueshan IBA--Ticket Booth (35K))"
+        ],
+        "Latitude": [
+            24.2441848
+        ],
+        "Longitude": [
+            120.97520890000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "04:08 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            35.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -7098,6 +7192,53 @@
     },
     {
         "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S74510084"
         ],
         "Common_Name": [
@@ -7276,6 +7417,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -9203,6 +9438,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -11563,6 +11845,53 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S74720559"
         ],
         "Common_Name": [
@@ -13819,6 +14148,53 @@
     },
     {
         "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "綠鳩"
+        ],
+        "Count": [
+            25
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94960354"
         ],
         "Common_Name": [
@@ -13856,6 +14232,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179554"
+        ],
+        "Common_Name": [
+            "綠鳩"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道15-23K(標記在19K處)(Dasyueshan IBA--Dasyueshan Forest-Road 15-23K)"
+        ],
+        "Latitude": [
+            24.2482832
+        ],
+        "Longitude": [
+            120.91849679999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "01:15 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            26.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -15981,6 +16404,53 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "小雨燕"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83184914"
         ],
         "Common_Name": [
@@ -16582,6 +17052,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "小雨燕"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -33371,6 +33888,53 @@
     },
     {
         "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S62798680"
         ],
         "Common_Name": [
@@ -33549,6 +34113,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -36050,6 +36661,53 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "黃頭鷺"
+        ],
+        "Count": [
+            20
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94858846"
         ],
         "Common_Name": [
@@ -36087,6 +36745,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "黃頭鷺"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -38165,6 +38870,53 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "夜鷺"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S95123620"
         ],
         "Common_Name": [
@@ -38296,6 +39048,53 @@
         ],
         "Number_of_Observers": [
             15
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "夜鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -39988,6 +40787,53 @@
         ],
         "Number_of_Observers": [
             19
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "黑冠麻鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -43523,6 +44369,53 @@
     },
     {
         "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "東方蜂鷹"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94916877"
         ],
         "Common_Name": [
@@ -44416,6 +45309,100 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83184914"
         ],
         "Common_Name": [
@@ -44688,6 +45675,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179553"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道23-35K(標示在29K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 23-35K)"
+        ],
+        "Latitude": [
+            24.2345395
+        ],
+        "Longitude": [
+            120.96541450000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -47142,6 +48223,53 @@
     },
     {
         "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "鳳頭蒼鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S72634684"
         ],
         "Common_Name": [
@@ -48505,6 +49633,147 @@
     },
     {
         "Submission_ID": [
+            "S96179549"
+        ],
+        "Common_Name": [
+            "黃嘴角鴞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道23K(Dasyueshan IBA--Dasyueshan Forest-Road 23K)"
+        ],
+        "Latitude": [
+            24.2477056
+        ],
+        "Longitude": [
+            120.934284
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "06:40 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            4.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179548"
+        ],
+        "Common_Name": [
+            "黃嘴角鴞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道31-32.5K(Dasyueshan IBA--Dasyueshan Forest-Road 31-32.5K)"
+        ],
+        "Latitude": [
+            24.228180300000002
+        ],
+        "Longitude": [
+            120.9778619
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "07:10 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179547"
+        ],
+        "Common_Name": [
+            "黃嘴角鴞"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道35-50K(Dasyueshan IBA--Dasyueshan Forest-Road 35-50K)"
+        ],
+        "Latitude": [
+            24.258706
+        ],
+        "Longitude": [
+            121.0091239
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "08:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            27.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94067401"
         ],
         "Common_Name": [
@@ -48824,6 +50093,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179553"
+        ],
+        "Common_Name": [
+            "鵂鶹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道23-35K(標示在29K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 23-35K)"
+        ],
+        "Latitude": [
+            24.2345395
+        ],
+        "Longitude": [
+            120.96541450000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179547"
+        ],
+        "Common_Name": [
+            "東方灰林鴞"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道35-50K(Dasyueshan IBA--Dasyueshan Forest-Road 35-50K)"
+        ],
+        "Latitude": [
+            24.258706
+        ],
+        "Longitude": [
+            121.0091239
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "08:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            27.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -49351,6 +50714,100 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "翠鳥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "翠鳥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S95123620"
         ],
         "Common_Name": [
@@ -49385,6 +50842,53 @@
         ],
         "Duration_Min": [
             243.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "翠鳥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
         ],
         "Number_of_Observers": [
             3
@@ -51889,6 +53393,53 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83444964"
         ],
         "Common_Name": [
@@ -52067,6 +53618,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -52866,6 +54464,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -54944,6 +56589,53 @@
     },
     {
         "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "小啄木"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83184914"
         ],
         "Common_Name": [
@@ -55216,6 +56908,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "小啄木"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -56495,6 +58234,100 @@
     },
     {
         "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "灰喉山椒鳥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179553"
+        ],
+        "Common_Name": [
+            "灰喉山椒鳥"
+        ],
+        "Count": [
+            16
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道23-35K(標示在29K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 23-35K)"
+        ],
+        "Latitude": [
+            24.2345395
+        ],
+        "Longitude": [
+            120.96541450000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94916877"
         ],
         "Common_Name": [
@@ -57331,6 +59164,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "綠畫眉"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -59503,6 +61383,53 @@
     },
     {
         "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93442857"
         ],
         "Common_Name": [
@@ -61242,6 +63169,53 @@
     },
     {
         "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "小卷尾"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S76267796"
         ],
         "Common_Name": [
@@ -61652,6 +63626,100 @@
         ],
         "Duration_Min": [
             113.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "黑枕藍鶲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "黑枕藍鶲"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
         ],
         "Number_of_Observers": [
             1
@@ -62313,6 +64381,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179558"
+        ],
+        "Common_Name": [
+            "黑枕藍鶲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標示在9K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.215199899999998
+        ],
+        "Longitude": [
+            120.8839345
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:13 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            6.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "黑枕藍鶲"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -64099,6 +66261,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "紅尾伯勞"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -67258,6 +69467,100 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83184914"
         ],
         "Common_Name": [
@@ -67671,6 +69974,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -68517,6 +70867,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            14
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -71723,6 +74120,53 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "巨嘴鴉"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83184909"
         ],
         "Common_Name": [
@@ -72287,6 +74731,53 @@
     },
     {
         "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "煤山雀"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93442849"
         ],
         "Common_Name": [
@@ -72757,6 +75248,53 @@
     },
     {
         "Submission_ID": [
+            "S96179552"
+        ],
+        "Common_Name": [
+            "青背山雀"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--鞍馬山莊(43K)(Dasyueshan IBA--Anmashan Lodge (43K))"
+        ],
+        "Latitude": [
+            24.2551921
+        ],
+        "Longitude": [
+            121.00803090000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:58 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            13.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S74300783"
         ],
         "Common_Name": [
@@ -72935,6 +75473,100 @@
         ],
         "Number_of_Observers": [
             20
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179554"
+        ],
+        "Common_Name": [
+            "黃山雀"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道15-23K(標記在19K處)(Dasyueshan IBA--Dasyueshan Forest-Road 15-23K)"
+        ],
+        "Latitude": [
+            24.2482832
+        ],
+        "Longitude": [
+            120.91849679999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "01:15 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            26.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179553"
+        ],
+        "Common_Name": [
+            "黃山雀"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道23-35K(標示在29K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 23-35K)"
+        ],
+        "Latitude": [
+            24.2345395
+        ],
+        "Longitude": [
+            120.96541450000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -77870,6 +80502,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "褐頭鷦鶯"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -86951,6 +89630,53 @@
     },
     {
         "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "洋燕"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85127799"
         ],
         "Common_Name": [
@@ -88690,6 +91416,53 @@
     },
     {
         "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "赤腰燕"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S73193730"
         ],
         "Common_Name": [
@@ -88868,6 +91641,53 @@
         ],
         "Number_of_Observers": [
             19
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179554"
+        ],
+        "Common_Name": [
+            "東方毛腳燕"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道15-23K(標記在19K處)(Dasyueshan IBA--Dasyueshan Forest-Road 15-23K)"
+        ],
+        "Latitude": [
+            24.2482832
+        ],
+        "Longitude": [
+            120.91849679999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "01:15 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            26.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -89291,6 +92111,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179558"
+        ],
+        "Common_Name": [
+            "白環鸚嘴鵯"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標示在9K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.215199899999998
+        ],
+        "Longitude": [
+            120.8839345
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:13 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            6.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -91604,6 +94471,100 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            20
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S74720559"
         ],
         "Common_Name": [
@@ -91876,6 +94837,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            31
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -92920,6 +95928,53 @@
     },
     {
         "Submission_ID": [
+            "S97014492"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-11-02"
+        ],
+        "Time": [
+            "01:51 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            19.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94956553"
         ],
         "Common_Name": [
@@ -92957,6 +96012,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -98795,6 +101897,100 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83184914"
         ],
         "Common_Name": [
@@ -99114,6 +102310,53 @@
         ],
         "Number_of_Observers": [
             19
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            14
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -99913,6 +103156,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -103401,6 +106691,100 @@
     },
     {
         "Submission_ID": [
+            "S96179554"
+        ],
+        "Common_Name": [
+            "棕面鶯"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道15-23K(標記在19K處)(Dasyueshan IBA--Dasyueshan Forest-Road 15-23K)"
+        ],
+        "Latitude": [
+            24.2482832
+        ],
+        "Longitude": [
+            120.91849679999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "01:15 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            26.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179553"
+        ],
+        "Common_Name": [
+            "棕面鶯"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道23-35K(標示在29K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 23-35K)"
+        ],
+        "Latitude": [
+            24.2345395
+        ],
+        "Longitude": [
+            120.96541450000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94960346"
         ],
         "Common_Name": [
@@ -103965,6 +107349,100 @@
     },
     {
         "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "小鶯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "深山鶯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S95464901"
         ],
         "Common_Name": [
@@ -104247,6 +107725,53 @@
     },
     {
         "Submission_ID": [
+            "S96179551"
+        ],
+        "Common_Name": [
+            "紅頭山雀"
+        ],
+        "Count": [
+            30
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道35-50K(Dasyueshan IBA--Dasyueshan Forest-Road 35-50K)"
+        ],
+        "Latitude": [
+            24.258706
+        ],
+        "Longitude": [
+            121.0091239
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "03:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94918965"
         ],
         "Common_Name": [
@@ -104294,6 +107819,53 @@
     },
     {
         "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "紅頭山雀"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S95464901"
         ],
         "Common_Name": [
@@ -104331,6 +107903,53 @@
         ],
         "Number_of_Observers": [
             6
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179550"
+        ],
+        "Common_Name": [
+            "紅頭山雀"
+        ],
+        "Count": [
+            30
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--收費站(35K)(Dasyueshan IBA--Ticket Booth (35K))"
+        ],
+        "Latitude": [
+            24.2441848
+        ],
+        "Longitude": [
+            120.97520890000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "04:08 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            35.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -105328,6 +108947,53 @@
     },
     {
         "Submission_ID": [
+            "S96179554"
+        ],
+        "Common_Name": [
+            "冠羽畫眉"
+        ],
+        "Count": [
+            22
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道15-23K(標記在19K處)(Dasyueshan IBA--Dasyueshan Forest-Road 15-23K)"
+        ],
+        "Latitude": [
+            24.2482832
+        ],
+        "Longitude": [
+            120.91849679999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "01:15 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            26.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94960346"
         ],
         "Common_Name": [
@@ -105459,6 +109125,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179551"
+        ],
+        "Common_Name": [
+            "冠羽畫眉"
+        ],
+        "Count": [
+            25
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道35-50K(Dasyueshan IBA--Dasyueshan Forest-Road 35-50K)"
+        ],
+        "Latitude": [
+            24.258706
+        ],
+        "Longitude": [
+            121.0091239
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "03:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "冠羽畫眉"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -107772,6 +111532,100 @@
     },
     {
         "Submission_ID": [
+            "S96204367"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-16"
+        ],
+        "Time": [
+            "09:11 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            60.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            20
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83184914"
         ],
         "Common_Name": [
@@ -108138,6 +111992,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            14
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -109266,6 +113167,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            15
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -112660,6 +116608,100 @@
     },
     {
         "Submission_ID": [
+            "S96179558"
+        ],
+        "Common_Name": [
+            "山紅頭"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標示在9K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.215199899999998
+        ],
+        "Longitude": [
+            120.8839345
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:13 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            6.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "山紅頭"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94960354"
         ],
         "Common_Name": [
@@ -112697,6 +116739,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179554"
+        ],
+        "Common_Name": [
+            "山紅頭"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道15-23K(標記在19K處)(Dasyueshan IBA--Dasyueshan Forest-Road 15-23K)"
+        ],
+        "Latitude": [
+            24.2482832
+        ],
+        "Longitude": [
+            120.91849679999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "01:15 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            26.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -114775,6 +118864,100 @@
     },
     {
         "Submission_ID": [
+            "S96179558"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標示在9K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.215199899999998
+        ],
+        "Longitude": [
+            120.8839345
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:13 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            6.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93442857"
         ],
         "Common_Name": [
@@ -116702,6 +120885,53 @@
     },
     {
         "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "頭烏線"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94960346"
         ],
         "Common_Name": [
@@ -117454,6 +121684,53 @@
     },
     {
         "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "繡眼畫眉"
+        ],
+        "Count": [
+            14
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94960354"
         ],
         "Common_Name": [
@@ -117491,6 +121768,147 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179554"
+        ],
+        "Common_Name": [
+            "繡眼畫眉"
+        ],
+        "Count": [
+            9
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道15-23K(標記在19K處)(Dasyueshan IBA--Dasyueshan Forest-Road 15-23K)"
+        ],
+        "Latitude": [
+            24.2482832
+        ],
+        "Longitude": [
+            120.91849679999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "01:15 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            26.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "繡眼畫眉"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179550"
+        ],
+        "Common_Name": [
+            "繡眼畫眉"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--收費站(35K)(Dasyueshan IBA--Ticket Booth (35K))"
+        ],
+        "Latitude": [
+            24.2441848
+        ],
+        "Longitude": [
+            120.97520890000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "04:08 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            35.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -118253,6 +122671,53 @@
     },
     {
         "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "台灣噪眉"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S95464901"
         ],
         "Common_Name": [
@@ -118525,6 +122990,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179554"
+        ],
+        "Common_Name": [
+            "白耳畫眉"
+        ],
+        "Count": [
+            11
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道15-23K(標記在19K處)(Dasyueshan IBA--Dasyueshan Forest-Road 15-23K)"
+        ],
+        "Latitude": [
+            24.2482832
+        ],
+        "Longitude": [
+            120.91849679999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "01:15 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            26.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -118958,6 +123470,100 @@
     },
     {
         "Submission_ID": [
+            "S96179551"
+        ],
+        "Common_Name": [
+            "紋翼畫眉"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道35-50K(Dasyueshan IBA--Dasyueshan Forest-Road 35-50K)"
+        ],
+        "Latitude": [
+            24.258706
+        ],
+        "Longitude": [
+            121.0091239
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "03:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179553"
+        ],
+        "Common_Name": [
+            "黃胸藪眉"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道23-35K(標示在29K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 23-35K)"
+        ],
+        "Latitude": [
+            24.2345395
+        ],
+        "Longitude": [
+            120.96541450000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94960346"
         ],
         "Common_Name": [
@@ -119042,6 +123648,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "黃胸藪眉"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -119841,6 +124494,147 @@
         ],
         "Number_of_Observers": [
             19
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179553"
+        ],
+        "Common_Name": [
+            "茶腹鳾"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道23-35K(標示在29K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 23-35K)"
+        ],
+        "Latitude": [
+            24.2345395
+        ],
+        "Longitude": [
+            120.96541450000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179551"
+        ],
+        "Common_Name": [
+            "茶腹鳾"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道35-50K(Dasyueshan IBA--Dasyueshan Forest-Road 35-50K)"
+        ],
+        "Latitude": [
+            24.258706
+        ],
+        "Longitude": [
+            121.0091239
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "03:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179550"
+        ],
+        "Common_Name": [
+            "茶腹鳾"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--收費站(35K)(Dasyueshan IBA--Ticket Booth (35K))"
+        ],
+        "Latitude": [
+            24.2441848
+        ],
+        "Longitude": [
+            120.97520890000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "04:08 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            35.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -121862,6 +126656,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -125058,6 +129899,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "白尾八哥"
+        ],
+        "Count": [
+            12
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -128546,6 +133434,53 @@
     },
     {
         "Submission_ID": [
+            "S96179550"
+        ],
+        "Common_Name": [
+            "紅尾鶲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--收費站(35K)(Dasyueshan IBA--Ticket Booth (35K))"
+        ],
+        "Latitude": [
+            24.2441848
+        ],
+        "Longitude": [
+            120.97520890000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "04:08 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            35.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S87226376"
         ],
         "Common_Name": [
@@ -130379,6 +135314,100 @@
     },
     {
         "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "白腰鵲鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "白腰鵲鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S74510084"
         ],
         "Common_Name": [
@@ -132118,6 +137147,100 @@
     },
     {
         "Submission_ID": [
+            "S96179551"
+        ],
+        "Common_Name": [
+            "台灣紫嘯鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道35-50K(Dasyueshan IBA--Dasyueshan Forest-Road 35-50K)"
+        ],
+        "Latitude": [
+            24.258706
+        ],
+        "Longitude": [
+            121.0091239
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "03:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179550"
+        ],
+        "Common_Name": [
+            "台灣紫嘯鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--收費站(35K)(Dasyueshan IBA--Ticket Booth (35K))"
+        ],
+        "Latitude": [
+            24.2441848
+        ],
+        "Longitude": [
+            120.97520890000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "04:08 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            35.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85127799"
         ],
         "Common_Name": [
@@ -133058,6 +138181,53 @@
     },
     {
         "Submission_ID": [
+            "S96179550"
+        ],
+        "Common_Name": [
+            "白尾鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--收費站(35K)(Dasyueshan IBA--Ticket Booth (35K))"
+        ],
+        "Latitude": [
+            24.2441848
+        ],
+        "Longitude": [
+            120.97520890000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "04:08 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            35.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S91573717"
         ],
         "Common_Name": [
@@ -133189,6 +138359,53 @@
         ],
         "Number_of_Observers": [
             20
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "栗背林鴝"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -133612,6 +138829,53 @@
         ],
         "Number_of_Observers": [
             19
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "鉛色水鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -134421,6 +139685,53 @@
     },
     {
         "Submission_ID": [
+            "S97014492"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-11-02"
+        ],
+        "Time": [
+            "01:51 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            19.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S76267796"
         ],
         "Common_Name": [
@@ -134881,6 +140192,194 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179555"
+        ],
+        "Common_Name": [
+            "綠啄花"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--橫流溪(15K)(Dasyueshan IBA--Hengliu Creek (15K))"
+        ],
+        "Latitude": [
+            24.2392182
+        ],
+        "Longitude": [
+            120.9095398
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "01:09 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179553"
+        ],
+        "Common_Name": [
+            "紅胸啄花"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道23-35K(標示在29K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 23-35K)"
+        ],
+        "Latitude": [
+            24.2345395
+        ],
+        "Longitude": [
+            120.96541450000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            8.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179551"
+        ],
+        "Common_Name": [
+            "紅胸啄花"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道35-50K(Dasyueshan IBA--Dasyueshan Forest-Road 35-50K)"
+        ],
+        "Latitude": [
+            24.258706
+        ],
+        "Longitude": [
+            121.0091239
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "03:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179552"
+        ],
+        "Common_Name": [
+            "紅胸啄花"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--鞍馬山莊(43K)(Dasyueshan IBA--Anmashan Lodge (43K))"
+        ],
+        "Latitude": [
+            24.2551921
+        ],
+        "Longitude": [
+            121.00803090000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "02:58 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            13.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -136996,6 +142495,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "白腰文鳥"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -139544,6 +145090,53 @@
     },
     {
         "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "麻雀"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85127799"
         ],
         "Common_Name": [
@@ -141753,6 +147346,53 @@
     },
     {
         "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S62798680"
         ],
         "Common_Name": [
@@ -141978,6 +147618,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179545"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標記於9K處)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.2152
+        ],
+        "Longitude": [
+            120.88393
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:56 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            36.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -143821,6 +149508,53 @@
     },
     {
         "Submission_ID": [
+            "S96257983"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-NAN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "南投--集集特有生物研究保育中心(Nantou--Jiji Endemic Species Research Institute)"
+        ],
+        "Latitude": [
+            23.82747
+        ],
+        "Longitude": [
+            120.80096770000002
+        ],
+        "Date": [
+            "2021-10-17"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S74720559"
         ],
         "Common_Name": [
@@ -144046,6 +149780,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179559"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東勢林業文化園區(Taichung--Dongshi Forestry Culture Park)"
+        ],
+        "Latitude": [
+            24.2442193
+        ],
+        "Longitude": [
+            120.83445490000001
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "10:14 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -144560,6 +150341,53 @@
         ],
         "Duration_Min": [
             8.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97014492"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-11-02"
+        ],
+        "Time": [
+            "01:51 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            19.0
         ],
         "Number_of_Observers": [
             1
@@ -146020,6 +151848,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S96179592"
+        ],
+        "Common_Name": [
+            "台灣朱雀"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--小雪山莊(50K)(Dasyueshan IBA--Xiaoxueshan Lodge (50K))"
+        ],
+        "Latitude": [
+            24.2792643
+        ],
+        "Longitude": [
+            121.02590559999999
+        ],
+        "Date": [
+            "2021-10-02"
+        ],
+        "Time": [
+            "06:54 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            54.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
