@@ -116,7 +116,7 @@ const EBirdChartsTimeline = ({ avatarIndex }) => {
 				onHide={handleModalClose}
 				centered // 垂直置中
 				fullscreen={false} // true,sm-down,md-down,lg-down,xl-down,xxl-down
-				scrollable={true} // Allows scrolling the <Modal.Body> instead of the entire Modal when overflowing.
+				scrollable={false} // Allows scrolling the <Modal.Body> instead of the entire Modal when overflowing.
 				contentClassName="bg-dark text-white" // 暗色系背景
 			>
 				<Modal.Header closeButton closeVariant="white">

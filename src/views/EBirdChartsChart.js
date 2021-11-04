@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Line } from 'react-chartjs-2';
 
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
-import { getRandomColor } from './../utils/tools';
+import { sortObjectByValue, getRandomColor } from './../utils/tools';
 
 const EBirdChartsChart = ({ avatarIndex }) => {
 	// 圖表需要的資料
@@ -137,6 +137,42 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 			]
 		}
 	}
+	// Hotspot 需要的資料 且 依次數降冪排序
+	let hotRawData = sortObjectByValue(locations.reduce((obj, ele) => {
+		let zhLocation = ele.split("(")[0]; // 中文地名
+		if (obj.hasOwnProperty(zhLocation)) {
+			obj[zhLocation] = obj[zhLocation] + 1;
+		} else {
+			obj[zhLocation] = 1;
+		}
+		return obj;
+	}, {}));
+	// Hotspot 圖表資料
+	let hotData = {
+		labels: Object.keys(hotRawData), // x-axis
+		datasets: [
+			{
+				label: "在地鳥導",
+				data: Object.values(hotRawData), // y-axis
+				fill: "start", // 塗滿風格；start, end, origin
+				backgroundColor: "rgba(255, 99, 132, .1)",
+				borderColor: "rgba(255, 99, 132, 1)",
+				yAxisID: "y-axis-1"
+			}
+		]
+	}
+	// Hotspot 圖表設定
+	let hotOptions = {
+		scales: {
+			yAxes: [
+				{
+					type: "linear",
+					display: true,
+					id: "y-axis-1"
+				}
+			]
+		}
+	}
 	
 	return (
 		<div id="chartTab" className="container-fluid" aria-labelledby="chart">
@@ -160,6 +196,10 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 				</select>
 				{/* Succession */}
 				<Line data={succData} options={succOptions} />
+			</div>
+			{/* Hotspot */}
+			<div className="row my-3">
+				<Line data={hotData} options={hotOptions} />
 			</div>
 		</div>
 	);

@@ -1,4 +1,16 @@
 /*
+ * 物件依照 value 排序
+ * obj: value 為可排序值
+ * 輸出：排序後物件
+ */
+export const sortObjectByValue = (obj, descendingOrder=true) => {
+    if (descendingOrder) {
+        return Object.fromEntries(Object.entries(obj).sort((a, b) => b[1] - a[1]));
+    } else {
+        return Object.fromEntries(Object.entries(obj).sort((a, b) => a[1] - b[1]));
+    }
+}
+/*
  * 陣列元素分組
  * arr: 一階陣列
  * size: 每組元素個數
