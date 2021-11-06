@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Line } from 'react-chartjs-2';
+import { Line, Bar } from 'react-chartjs-2';
 
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
 import { sortObjectByValue, getRandomColor } from './../utils/tools';
@@ -28,9 +28,11 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 		obj["dates"] = [...obj["dates"], ele["Date"]];
 		return obj;
 	}, {"birdSpecies": [], "accuBirdNumbers": [], "diffBirdNumbers": [], "eachBirdNumbers": [], "dates": []});
+	// 所有日期
+	let dates = liferRawData["dates"];
 	// Lifer 圖表資料
 	let liferData = {
-		labels: liferRawData["dates"], // x-axis
+		labels: dates, // x-axis
 		datasets: [
 			{
 				label: "生涯鳥種",
@@ -173,7 +175,53 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 			]
 		}
 	}
-	
+	// {2021:{1:[...],2:[...],...},2022:{...},...}
+	let mnbsEmptyData = {};
+	for (let year = dates[0][0].split('-')[0]; year <= dates[dates.length-1][0].split('-')[0]; year++) {
+		let mnbs = {};
+		for (let month = 1; month <= 12; month++) {
+			mnbs[month] = [];
+		}
+		mnbsEmptyData[year] = mnbs;
+	}
+	// Monthly number of bird species 需要的資料
+	let mnbsRawData = chartData.reduce((obj, ele) => {
+		let dateElements = ele["Date"][0].split('-');
+		let year = parseInt(dateElements[0]);
+		let month = parseInt(dateElements[1]);
+		obj[year][month] = [...obj[year][month], ...ele["Common_Name"]];
+		return obj;
+	}, mnbsEmptyData);
+	// Monthly number of bird species 圖表資料
+	let mnbsData = {
+		labels: Array.from({length: 12}, (ele, idx) => {
+		   return new Date(null, idx+1, null).toLocaleDateString("tw", {month: "short"});
+		}), // x-axis
+		datasets: Object.entries(mnbsRawData).reduce((arr, [year, mnbs]) => {
+			let color = getRandomColor(); // 隨機顏色
+			let dataset = { // 每一年所有月份資料
+				label: year,
+				data: Object.values(mnbs).map(bs => (new Set(bs)).size),
+				backgroundColor: color.replace(",1)", ",.7)"),
+				borderColor: color,
+				borderWidth: 2
+			}
+			return [...arr, dataset];
+		}, [])
+	}
+	// Monthly number of bird species 圖表設定
+	let mnbsOptions = {
+		scales: {
+			yAxes: [
+				{
+					ticks: {
+			        	beginAtZero: true,
+			        }
+				}
+			]
+		}
+	}
+
 	return (
 		<div id="chartTab" className="container-fluid" aria-labelledby="chart">
 			{/* Lifer */}
@@ -200,6 +248,10 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 			{/* Hotspot */}
 			<div className="row my-3">
 				<Line data={hotData} options={hotOptions} />
+			</div>
+			{/* Monthly number of bird species */}
+			<div className="row my-3">
+				<Bar data={mnbsData} options={mnbsOptions} />
 			</div>
 		</div>
 	);
