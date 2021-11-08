@@ -6,7 +6,7 @@ import { FullScreen, useFullScreenHandle } from 'react-full-screen';
 
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
 import useGeoLocation from './../hooks/useGeoLocation';
-import FullScreenButton from './../components/FullScreenButton';
+import { FullScreenButton } from './../components/ToolBox';
 import './css/birdLoader.css';
 // 地圖圖釘
 import markerImg from './../images/marker-icon.png';

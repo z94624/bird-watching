@@ -1,9 +1,13 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
-import { Line, Bar } from 'react-chartjs-2';
+import { Chart, Line, Bar } from 'react-chartjs-2';
+import zoomPlugin from 'chartjs-plugin-zoom';
 
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
 import { sortObjectByValue, getRandomColor } from './../utils/tools';
+import { ResetZoomButton } from './../components/ToolBox';
+
+Chart.register(zoomPlugin);
 
 const EBirdChartsChart = ({ avatarIndex }) => {
 	// 圖表需要的資料
@@ -75,7 +79,33 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 					id: "y-axis-2"
 				}
 			]
+		},
+		plugins: {
+			zoom: {
+				zoom: {
+					wheel: { // Mouse wheel
+						enabled: true,
+						modifierKey: 'ctrl' // Modifier key required for zooming via mouse wheel
+					},
+					drag: { // Drag-to-zoom
+						enabled: true,
+						borderColor: 'white',
+						borderWidth: 1
+					},
+					pinch: { // pinch
+						enabled: true
+					},
+					mode: 'x' // Allowed zoom directions；x, y, xy
+				},
+				pan: {},
+				limits: {}
+			}
 		}
+	}
+	// lifer 重設縮放
+	const liferRef = useRef(null);
+	const handleResetZoom = ref => {
+		ref.current.resetZoom();
 	}
 	// Succession 地點
 	const [succLocation, setSuccLocation] = useState(nonDupLocations[0]);
@@ -137,8 +167,29 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 					id: "y-axis-1"
 				}
 			]
+		},
+		plugins: {
+			zoom: {
+				zoom: {
+					wheel: { // Mouse wheel
+						enabled: true,
+						modifierKey: 'ctrl' // Modifier key required for zooming via mouse wheel
+					},
+					drag: { // Drag-to-zoom
+						enabled: true,
+						borderColor: 'white',
+						borderWidth: 1
+					},
+					pinch: { // pinch
+						enabled: true
+					},
+					mode: 'x' // Allowed zoom directions；x, y, xy
+				}
+			}
 		}
 	}
+	// Succession 重設縮放
+	const succRef = useRef(null);
 	// Hotspot 需要的資料 且 依次數降冪排序
 	let hotRawData = sortObjectByValue(locations.reduce((obj, ele) => {
 		let zhLocation = ele.split("(")[0]; // 中文地名
@@ -173,8 +224,29 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 					id: "y-axis-1"
 				}
 			]
+		},
+		plugins: {
+			zoom: {
+				zoom: {
+					wheel: { // Mouse wheel
+						enabled: true,
+						modifierKey: 'ctrl' // Modifier key required for zooming via mouse wheel
+					},
+					drag: { // Drag-to-zoom
+						enabled: true,
+						borderColor: 'white',
+						borderWidth: 1
+					},
+					pinch: { // pinch
+						enabled: true
+					},
+					mode: 'x' // Allowed zoom directions；x, y, xy
+				}
+			}
 		}
 	}
+	// Hotspot 重設縮放
+	const hotRef = useRef(null);
 	// {2021:{1:[...],2:[...],...},2022:{...},...}
 	let mnbsEmptyData = {};
 	for (let year = dates[0][0].split('-')[0]; year <= dates[dates.length-1][0].split('-')[0]; year++) {
@@ -226,7 +298,10 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 		<div id="chartTab" className="container-fluid" aria-labelledby="chart">
 			{/* Lifer */}
 			<div className="row my-3">
-				<Line data={liferData} options={liferOptions} />
+				<div style={{position: "relative"}}>
+					<ResetZoomButton handleResetZoom={() => handleResetZoom(liferRef)} />
+					<Line data={liferData} options={liferOptions} ref={liferRef} />
+				</div>
 			</div>
 			{/* 地點的鳥種數隨時變化 */}
 			<div className="row my-3">
@@ -243,11 +318,17 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 				})}
 				</select>
 				{/* Succession */}
-				<Line data={succData} options={succOptions} />
+				<div style={{position: "relative"}}>
+					<ResetZoomButton handleResetZoom={() => handleResetZoom(succRef)} />
+					<Line data={succData} options={succOptions} ref={succRef} />
+				</div>
 			</div>
 			{/* Hotspot */}
 			<div className="row my-3">
-				<Line data={hotData} options={hotOptions} />
+				<div style={{position: "relative"}}>
+					<ResetZoomButton handleResetZoom={() => handleResetZoom(hotRef)} />
+					<Line data={hotData} options={hotOptions} ref={hotRef} />
+				</div>
 			</div>
 			{/* Monthly number of bird species */}
 			<div className="row my-3">

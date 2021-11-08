@@ -1,11 +1,11 @@
-.fullscreenBtn {
+.toolbox {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 1000;
 }
-.fullscreenBtn:hover {
+.toolbox:hover {
   background-color: #E3E3E3 !important;
 }
 
-/*# sourceMappingURL=FullScreenButton.css.map */
+/*# sourceMappingURL=ToolBox.css.map */

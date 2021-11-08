@@ -13,6 +13,7 @@
     "bootstrap-icons": "^1.5.0",
     "chart.js": "^3.5.1",
     "chartjs-plugin-datalabels": "^2.0.0",
+    "chartjs-plugin-zoom": "^1.1.1",
     "emotion-theming": "^11.0.0",
     "gh-pages": "^3.2.3",
     "leaflet": "^1.7.1",
