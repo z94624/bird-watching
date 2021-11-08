@@ -1,7 +1,10 @@
 import './ToolBox.css';
 
 import { ReactComponent as ResetZoom } from './../images/resetZoom.svg';
-
+/*
+ * 全螢幕按鈕
+ * fullscreenHandler: 'react-full-screen'
+ */
 export const FullScreenButton = ({fullscreenHandler}) => {
 	return (
 		<button type="button" className="fullscreenBtn toolbox btn-light rounded" onClick={fullscreenHandler.enter}>
@@ -11,7 +14,10 @@ export const FullScreenButton = ({fullscreenHandler}) => {
 		</button>
 	);
 }
-
+/*
+ * 恢復縮放按鈕
+ * handleResetZoom: 'chartjs-plugin-zoom'
+ */
 export const ResetZoomButton = ({handleResetZoom}) => {
 	return (
 		<button type="button" className="resetZoomBtn toolbox btn-light rounded" onClick={handleResetZoom}>
