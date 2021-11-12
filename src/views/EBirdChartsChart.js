@@ -274,7 +274,7 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 			let dataset = { // 每一年所有月份資料
 				label: year,
 				data: Object.values(mnbs).map(bs => (new Set(bs)).size),
-				backgroundColor: color.replace(",1)", ",.7)"),
+				backgroundColor: color.replace(",1)", ",.8)"),
 				borderColor: color,
 				borderWidth: 2
 			}
@@ -297,14 +297,22 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 	return (
 		<div id="chartTab" className="container-fluid" aria-labelledby="chart">
 			{/* Lifer */}
-			<div className="row my-3">
+			<div className="row mt-3 chart">
+				<h6 className="text-white text-start m-0 chartTitle">
+					<span className="border border-white border-3 p-1 chartTitleContent">鳥種數隨時間累計</span>
+					<span className="text-muted fst-italic text-decoration-underline ms-2">✶Ctrl+滑鼠滾輪進行縮放</span>
+				</h6>
 				<div style={{position: "relative"}}>
 					<ResetZoomButton handleResetZoom={() => handleResetZoom(liferRef)} />
 					<Line data={liferData} options={liferOptions} ref={liferRef} />
 				</div>
 			</div>
 			{/* 地點的鳥種數隨時變化 */}
-			<div className="row my-3">
+			<div className="row mt-3 chart">
+				<h6 className="text-white text-start mb-2 chartTitle">
+					<span className="border border-white border-3 p-1 chartTitleContent">鳥隻數隨時間變化</span>
+					<span className="text-muted fst-italic text-decoration-underline ms-2">✶Ctrl+滑鼠滾輪進行縮放</span>
+				</h6>
 				{/* Succession 單選地點 */}
 				<select
 					id="succLocationSelect"
@@ -324,14 +332,21 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 				</div>
 			</div>
 			{/* Hotspot */}
-			<div className="row my-3">
+			<div className="row mt-3 chart">
+				<h6 className="text-white text-start m-0 chartTitle">
+					<span className="border border-white border-3 p-1 chartTitleContent">所有地點的賞鳥次數</span>
+					<span className="text-muted fst-italic text-decoration-underline ms-2">✶Ctrl+滑鼠滾輪進行縮放</span>
+				</h6>
 				<div style={{position: "relative"}}>
 					<ResetZoomButton handleResetZoom={() => handleResetZoom(hotRef)} />
 					<Line data={hotData} options={hotOptions} ref={hotRef} />
 				</div>
 			</div>
 			{/* Monthly number of bird species */}
-			<div className="row my-3">
+			<div className="row mt-3 chart">
+				<h6 className="text-white text-start m-0 chartTitle">
+					<span className="border border-white border-3 p-1 chartTitleContent">所有年份在各個月份的鳥種數</span>
+				</h6>
 				<Bar data={mnbsData} options={mnbsOptions} />
 			</div>
 		</div>

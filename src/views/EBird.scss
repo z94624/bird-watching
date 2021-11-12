@@ -56,3 +56,14 @@
 .timelineBirdBtnGroup {
 	flex-wrap: wrap;
 }
+// 統計圖表圖表標題
+.chart {
+	&:hover .chartTitle { // 標題
+		color: #FFD700 !important;
+		transition: color .3s;
+	}
+	&:hover .chartTitleContent { // 標題內容
+		border-color: #FFD700 !important;
+		transition: border-color .3s;
+	}
+}

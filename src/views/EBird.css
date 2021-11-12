@@ -57,4 +57,13 @@
   flex-wrap: wrap;
 }
 
+.chart:hover .chartTitle {
+  color: #FFD700 !important;
+  transition: color 0.3s;
+}
+.chart:hover .chartTitleContent {
+  border-color: #FFD700 !important;
+  transition: border-color 0.3s;
+}
+
 /*# sourceMappingURL=EBird.css.map */

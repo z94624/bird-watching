@@ -36,7 +36,7 @@ const Header = () => {
                 <div className="container-fluid">
                     {/* 網頁品牌 */}
                     <NavLink className="navbar-brand float-md-start" to="/bird-watching">
-                        <img src={LogoIcon} alt="島羽" width="50" height="auto" /> {/* 品牌圖示 */}
+                        <img src={LogoIcon} alt="島羽" width="30" height="auto" /> {/* 品牌圖示 */}
                         <span className="ms-2">楓楓與小芬的島羽</span> {/* 品牌名稱 */}
                     </NavLink>
                     {/* 分頁列表的展開按鈕 */}
