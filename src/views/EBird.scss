@@ -1,4 +1,5 @@
 @import "./css/_buttons";
+@import "./css/_themes";
 
 @mixin widthHeight($width, $height) {
 	width: $width;
@@ -59,11 +60,11 @@
 // 統計圖表圖表標題
 .chart {
 	&:hover .chartTitle { // 標題
-		color: #FFD700 !important;
+		color: $goldColor !important;
 		transition: color .3s;
 	}
 	&:hover .chartTitleContent { // 標題內容
-		border-color: #FFD700 !important;
+		border-color: $goldColor !important;
 		transition: border-color .3s;
 	}
 }

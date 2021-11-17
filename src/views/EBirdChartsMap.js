@@ -43,7 +43,7 @@ const EBirdChartsMap = ({ avatarIndex }) => {
 	return (
 		<div id="mapTab" aria-labelledby="map">
 			{/* 全螢幕按鈕 */}
-			<FullScreenButton fullscreenHandler={fullscreenHandler} />
+			<FullScreenButton fullscreenHandler={fullscreenHandler} absolutePosition={true} />
 			{/* 地圖容器 */}
 			<div id="birdMap">
 			{loaded ?

@@ -1,5 +1,10 @@
 // 小工具按鈕
 .toolbox {
+	&:hover {
+		background-color: #E3E3E3 !important;
+	}
+}
+.toolbox-t0r0 { /* 絕對位置 */
 	position: absolute;
 	top: 0;
 	right: 0;

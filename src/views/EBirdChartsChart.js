@@ -2,10 +2,11 @@ import { useState, useRef } from 'react';
 
 import { Chart, Line, Bar } from 'react-chartjs-2';
 import zoomPlugin from 'chartjs-plugin-zoom';
+import { FullScreen, useFullScreenHandle } from 'react-full-screen';
 
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
 import { sortObjectByValue, getRandomColor } from './../utils/tools';
-import { ResetZoomButton } from './../components/ToolBox';
+import { ResetZoomButton, FullScreenButton } from './../components/ToolBox';
 
 Chart.register(zoomPlugin);
 
@@ -107,6 +108,8 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 	const handleResetZoom = ref => {
 		ref.current.resetZoom();
 	}
+	// Lifer 全螢幕處理器
+	const liferFSHandler = useFullScreenHandle();
 	// Succession 地點
 	const [succLocation, setSuccLocation] = useState(nonDupLocations[0]);
 	const handleSuccLocationChange = () => {
@@ -190,6 +193,8 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 	}
 	// Succession 重設縮放
 	const succRef = useRef(null);
+	// Succession 全螢幕處理器
+	const succFSHandler = useFullScreenHandle();
 	// Hotspot 需要的資料 且 依次數降冪排序
 	let hotRawData = sortObjectByValue(locations.reduce((obj, ele) => {
 		let zhLocation = ele.split("(")[0]; // 中文地名
@@ -247,6 +252,8 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 	}
 	// Hotspot 重設縮放
 	const hotRef = useRef(null);
+	// Hotspot 全螢幕處理器
+	const hotFSHandler = useFullScreenHandle();
 	// {2021:{1:[...],2:[...],...},2022:{...},...}
 	let mnbsEmptyData = {};
 	for (let year = dates[0][0].split('-')[0]; year <= dates[dates.length-1][0].split('-')[0]; year++) {
@@ -293,61 +300,96 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 			]
 		}
 	}
+	// Monthly number of bird species 全螢幕處理器
+	const mnbsFSHandler = useFullScreenHandle();
 
 	return (
 		<div id="chartTab" className="container-fluid" aria-labelledby="chart">
-			{/* Lifer */}
+			{/* 鳥種數隨時間累計 */}
 			<div className="row mt-3 chart">
-				<h6 className="text-white text-start m-0 chartTitle">
-					<span className="border border-white border-3 p-1 chartTitleContent">鳥種數隨時間累計</span>
-					<span className="text-muted fst-italic text-decoration-underline ms-2">✶Ctrl+滑鼠滾輪進行縮放</span>
-				</h6>
 				<div style={{position: "relative"}}>
-					<ResetZoomButton handleResetZoom={() => handleResetZoom(liferRef)} />
+					{/* 標題 */}
+					<h6 className="text-white text-start m-0 chartTitle">
+						<span className="border border-white border-3 p-1 chartTitleContent">鳥種數隨時間累計</span>
+						<span className="text-muted fst-italic text-decoration-underline ms-2">✶Ctrl+滑鼠滾輪進行縮放</span>
+					</h6>
+					{/* 小工具 */}
+					<div className="btn-group position-absolute top-0 end-0" role="group" aria-label="lifer">
+						<ResetZoomButton handleResetZoom={() => handleResetZoom(liferRef)} absolutePosition={false} />
+						<FullScreenButton fullscreenHandler={liferFSHandler} absolutePosition={false} />
+					</div>
+				</div>
+				<FullScreen handle={liferFSHandler}>
+					{/* Lifer */}
 					<Line data={liferData} options={liferOptions} ref={liferRef} />
-				</div>
+				</FullScreen>
 			</div>
-			{/* 地點的鳥種數隨時變化 */}
+			{/* 鳥隻數隨時間變化 */}
 			<div className="row mt-3 chart">
-				<h6 className="text-white text-start mb-2 chartTitle">
-					<span className="border border-white border-3 p-1 chartTitleContent">鳥隻數隨時間變化</span>
-					<span className="text-muted fst-italic text-decoration-underline ms-2">✶Ctrl+滑鼠滾輪進行縮放</span>
-				</h6>
-				{/* Succession 單選地點 */}
-				<select
-					id="succLocationSelect"
-					className="form-select form-select-sm"
-					onChange={handleSuccLocationChange}
-				>
-				{nonDupLocations.map((location, lIdx) => {
-					return (
-						<option key={`succLocationOption-${lIdx}`} value={location}>{location}</option>
-					);
-				})}
-				</select>
-				{/* Succession */}
 				<div style={{position: "relative"}}>
-					<ResetZoomButton handleResetZoom={() => handleResetZoom(succRef)} />
+					{/* 標題 */}
+					<h6 className="text-white text-start mb-2 chartTitle">
+						<span className="border border-white border-3 p-1 chartTitleContent">鳥隻數隨時間變化</span>
+						<span className="text-muted fst-italic text-decoration-underline ms-2">✶Ctrl+滑鼠滾輪進行縮放</span>
+					</h6>
+					{/* 小工具 */}
+					<div className="btn-group position-absolute top-0 end-0" role="group" aria-label="succession">
+						<ResetZoomButton handleResetZoom={() => handleResetZoom(succRef)} absolutePosition={false} />
+						<FullScreenButton fullscreenHandler={succFSHandler} absolutePosition={false} />
+					</div>
+				</div>
+				<FullScreen handle={succFSHandler}>
+					{/* Succession 單選地點 */}
+					<select
+						id="succLocationSelect"
+						className="form-select form-select-sm"
+						onChange={handleSuccLocationChange}
+					>
+					{nonDupLocations.map((location, lIdx) => {
+						return (
+							<option key={`succLocationOption-${lIdx}`} value={location}>{location}</option>
+						);
+					})}
+					</select>
+					{/* Succession */}
 					<Line data={succData} options={succOptions} ref={succRef} />
-				</div>
+				</FullScreen>
 			</div>
-			{/* Hotspot */}
+			{/* 所有地點的賞鳥次數 */}
 			<div className="row mt-3 chart">
-				<h6 className="text-white text-start m-0 chartTitle">
-					<span className="border border-white border-3 p-1 chartTitleContent">所有地點的賞鳥次數</span>
-					<span className="text-muted fst-italic text-decoration-underline ms-2">✶Ctrl+滑鼠滾輪進行縮放</span>
-				</h6>
 				<div style={{position: "relative"}}>
-					<ResetZoomButton handleResetZoom={() => handleResetZoom(hotRef)} />
-					<Line data={hotData} options={hotOptions} ref={hotRef} />
+					{/* 標題 */}
+					<h6 className="text-white text-start m-0 chartTitle">
+						<span className="border border-white border-3 p-1 chartTitleContent">所有地點的賞鳥次數</span>
+						<span className="text-muted fst-italic text-decoration-underline ms-2">✶Ctrl+滑鼠滾輪進行縮放</span>
+					</h6>
+					{/* 小工具 */}
+					<div className="btn-group position-absolute top-0 end-0" role="group" aria-label="hotspot">
+						<ResetZoomButton handleResetZoom={() => handleResetZoom(hotRef)} absolutePosition={false} />
+						<FullScreenButton fullscreenHandler={hotFSHandler} absolutePosition={false} />
+					</div>
 				</div>
+				<FullScreen handle={hotFSHandler}>
+					{/* Hotspot */}
+					<Line data={hotData} options={hotOptions} ref={hotRef} />
+				</FullScreen>
 			</div>
-			{/* Monthly number of bird species */}
+			{/* 所有年份在各個月份的鳥種數 */}
 			<div className="row mt-3 chart">
-				<h6 className="text-white text-start m-0 chartTitle">
-					<span className="border border-white border-3 p-1 chartTitleContent">所有年份在各個月份的鳥種數</span>
-				</h6>
-				<Bar data={mnbsData} options={mnbsOptions} />
+				<div style={{position: "relative"}}>
+					{/* 標題 */}
+					<h6 className="text-white text-start m-0 chartTitle">
+						<span className="border border-white border-3 p-1 chartTitleContent">所有年份在各個月份的鳥種數</span>
+					</h6>
+					{/* 小工具 */}
+					<div className="btn-group position-absolute top-0 end-0" role="group" aria-label="mnbs">
+						<FullScreenButton fullscreenHandler={mnbsFSHandler} absolutePosition={false} />
+					</div>
+				</div>
+				<FullScreen handle={mnbsFSHandler}>
+					{/* Monthly number of bird species */}
+					<Bar data={mnbsData} options={mnbsOptions} />
+				</FullScreen>
 			</div>
 		</div>
 	);
