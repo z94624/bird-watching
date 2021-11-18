@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { Pie } from 'react-chartjs-2';
@@ -16,7 +16,7 @@ import point3 from './../images/point/point3.png';
 
 const EBirdChartsTimeline = ({ avatarIndex }) => {
 	// 資訊卡需要的資料
-	let cardData = dataMergedByKeys(avatarIndex, ["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Number_of_Observers", "Breeding_Code", "Observation_Details"], true);
+	let cardData = useMemo(() => dataMergedByKeys(avatarIndex, ["Submission_ID"], ["Common_Name", "Count"], ["Location", "Date", "Time", "Number_of_Observers", "Breeding_Code", "Observation_Details"], true), [avatarIndex]);
 	// 鳥種圓餅圖 Modal
 	const [modalInfo, setModalInfo] = useState({modalShow: false});
 	const {modalShow, modalTitle, modalBody} = modalInfo; // Modal 狀態與內容
