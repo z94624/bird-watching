@@ -67258,53 +67258,6 @@
     },
     {
         "Submission_ID": [
-            "S97554983"
-        ],
-        "Common_Name": [
-            "紅尾伯勞(灰頭)"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台北--幸福水漾公園(Taipei--Xingfushuiyang Park)"
-        ],
-        "Latitude": [
-            25.0573904
-        ],
-        "Longitude": [
-            121.47974909999999
-        ],
-        "Date": [
-            "2021-11-14"
-        ],
-        "Time": [
-            "05:29 PM"
-        ],
-        "Protocol": [
-            "eBird - Casual Observation"
-        ],
-        "Duration_Min": [
-            ""
-        ],
-        "Number_of_Observers": [
-            10
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S76632668"
         ],
         "Common_Name": [
@@ -67436,6 +67389,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97684702"
+        ],
+        "Common_Name": [
+            "棕背伯勞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--幸福水漾公園(Taipei--Xingfushuiyang Park)"
+        ],
+        "Latitude": [
+            25.0573904
+        ],
+        "Longitude": [
+            121.47974909999999
+        ],
+        "Date": [
+            "2021-11-14"
+        ],
+        "Time": [
+            "05:29 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            20.0
+        ],
+        "Number_of_Observers": [
+            10
         ],
         "Breeding_Code": [
             ""
@@ -141283,7 +141283,7 @@
     },
     {
         "Submission_ID": [
-            "S97554983"
+            "S97684702"
         ],
         "Common_Name": [
             "沙䳭"
@@ -141313,10 +141313,10 @@
             "05:29 PM"
         ],
         "Protocol": [
-            "eBird - Casual Observation"
+            "eBird - Stationary Count"
         ],
         "Duration_Min": [
-            ""
+            20.0
         ],
         "Number_of_Observers": [
             10
