@@ -1,9 +1,10 @@
-import { useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 
 import { Chart } from 'react-chartjs-2';
 import zoomPlugin from 'chartjs-plugin-zoom';
 
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
+import BirdLoader from './../components/BirdLoader';
 
 import Lifer from './EBirdChartsChart_Lifer.js';
 import Succession from './EBirdChartsChart_Succ.js';
@@ -13,6 +14,11 @@ import MNBS from './EBirdChartsChart_MNBS.js';
 Chart.register(zoomPlugin);
 
 const EBirdChartsChart = ({ avatarIndex }) => {
+	// 載入中
+	const [loading, setLoading] = useState(true);
+	useEffect(() => {
+		setTimeout(() => setLoading(false), 1);
+	}, []);
 	// 圖表需要的資料
 	let chartData = useMemo(() => dataMergedByKeys(avatarIndex, ["Submission_ID"], ["Common_Name", "Count"], ["Date", "Time", "Location"], true, false), [avatarIndex]);
 	//console.log(chartData);
@@ -31,21 +37,33 @@ const EBirdChartsChart = ({ avatarIndex }) => {
 
 	return (
 		<div id="chartTab" className="container-fluid" aria-labelledby="chart">
-			{/* 鳥種數隨時間累計 */}
-			<div className="row mt-3 chart">
-				<Lifer chartData={chartData} dates={dates} />
-			</div>
-			{/* 鳥隻數隨時間變化 */}
-			<div className="row mt-3 chart">
-				<Succession chartData={chartData} locations={locations} nonDupLocations={nonDupLocations} />
-			</div>
-			{/* 所有地點的賞鳥次數 */}
-			<div className="row mt-3 chart">
-				<Hotspot locations={locations} />
-			</div>
-			{/* 所有年份在各個月份的鳥種數 */}
-			<div className="row mt-3 chart">
-				<MNBS chartData={chartData} dates={dates} />
+			{/* 統計圖表容器 */}
+			<div id="birdChart">
+			{loading === false ?
+				<div id="chartContainer">
+					{/* 鳥種數隨時間累計 */}
+					<div className="row mt-3 chart">
+						<Lifer chartData={chartData} dates={dates} />
+					</div>
+					{/* 鳥隻數隨時間變化 */}
+					<div className="row mt-3 chart">
+						<Succession chartData={chartData} locations={locations} nonDupLocations={nonDupLocations} />
+					</div>
+					{/* 所有地點的賞鳥次數 */}
+					<div className="row mt-3 chart">
+						<Hotspot locations={locations} />
+					</div>
+					{/* 所有年份在各個月份的鳥種數 */}
+					<div className="row mt-3 chart">
+						<MNBS chartData={chartData} dates={dates} />
+					</div>
+				</div>
+			:
+				<div className="text-white d-flex flex-column justify-content-center align-items-center h-100 fs-1">
+					<BirdLoader />
+					<span>圖表建立中...</span>
+				</div>
+			}
 			</div>
 		</div>
 	);

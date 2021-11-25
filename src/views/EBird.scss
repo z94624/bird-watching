@@ -45,8 +45,8 @@
 .fullscreen, .timelineNodeIcon {
 	@include widthHeight(100%, 100%);
 }
-// 賞鳥清單地圖容器
-#birdMap {
+// 地圖、時間軸、統計圖表容器
+#birdMap, #birdTimeline, #birdChart {
 	@include widthHeight(100%, 80vh);
 }
 // 時間軸資訊卡第 ? 點圖示

@@ -8,7 +8,7 @@ import { FullScreen, useFullScreenHandle } from 'react-full-screen';
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
 import useGeoLocation from './../hooks/useGeoLocation';
 import { FullScreenButton } from './../components/ToolBox';
-import './css/birdLoader.css';
+import BirdLoader from './../components/BirdLoader';
 // 地圖圖釘
 import markerImg from './../images/marker-icon.png';
 //import markerShadowImg from './../images/leaflet/marker-shadow.png';
@@ -122,14 +122,7 @@ const EBirdChartsMap = ({ avatarIndex }) => {
 				</FullScreen>
 			:
 				<div className="text-white d-flex flex-column justify-content-center align-items-center h-100 fs-1">
-					<div className="bird-loader">
-						<div className="bird-head"></div>
-						<div className="bird-face"></div>
-						<div className="bird-eye"></div>
-						<div className="bird-cheek"></div>
-						<div className="bird-upper-mouth"></div>
-						<div className="bird-lower-mouth"></div>
-					</div>
+					<BirdLoader />
 					<span>等待定位中...</span>
 				</div>
 			}
