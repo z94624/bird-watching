@@ -4,6 +4,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import { Pie } from 'react-chartjs-2';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { Modal } from 'react-bootstrap';
+import CustomScroll from 'react-custom-scroll';
 
 import { dataMergedByKeys } from './../utils/ebMetadata_dataExtraction';
 import { getRandomColor } from './../utils/tools';
@@ -91,31 +92,33 @@ const EBirdChartsTimeline = ({ avatarIndex }) => {
 	    				iconStyle={{ background: '#fff' }} // 節點樣式
 	    				icon={(<img className="timelineNodeIcon" src={timelineImg} alt="" />)} // 節點圖示
 					>
-						{/* 地點 */}
-						<h5>【{Location}】</h5>
-						{/* 額外資訊 */}
-						<div className="d-flex justify-content-around">
-							<div>
-								<img className="point me-2" src={point1} alt="•" />
-								<span className="align-middle">人數：{Number_of_Observers}</span>
+						<CustomScroll heightRelativeToParent="140px">
+							{/* 地點 */}
+							<h5>【{Location}】</h5>
+							{/* 額外資訊 */}
+							<div className="d-flex justify-content-around">
+								<div>
+									<img className="point me-2" src={point1} alt="•" />
+									<span className="align-middle">人數：{Number_of_Observers}</span>
+								</div>
+								<div>
+									<img className="point me-2" src={point2} alt="•" />
+									<span className="align-middle">行為：{Breeding_Code && "無"}</span>
+								</div>
+								<div>
+									<img className="point me-2" src={point3} alt="•" />
+									<span className="align-middle">紀錄：{Observation_Details && "無"}</span>
+								</div>
 							</div>
-							<div>
-								<img className="point me-2" src={point2} alt="•" />
-								<span className="align-middle">行為：{Breeding_Code && "無"}</span>
+							{/* 鳥種 */}
+							<div className="btn-group btn-group-sm timelineBirdBtnGroup mt-2" role="group">
+								{Common_Name.map((name, nIdx) => (
+									<button key={`ebBird-${nIdx}`} type="button" className="btn btn-outline-info">{`${name}(${Count[nIdx]})`}</button>
+								))}
+								{/* 鳥種圓餅圖 Modal 按鈕 */}
+								<button type="button" className="btn btn-outline-warning" onClick={() => {handleModalInfoChange(Location[0], datetime, Common_Name, Count)}}>鳥種圓餅圖</button>
 							</div>
-							<div>
-								<img className="point me-2" src={point3} alt="•" />
-								<span className="align-middle">紀錄：{Observation_Details && "無"}</span>
-							</div>
-						</div>
-						{/* 鳥種 */}
-						<div className="btn-group btn-group-sm timelineBirdBtnGroup mt-2" role="group">
-						{Common_Name.map((name, nIdx) => (
-							<button key={`ebBird-${nIdx}`} type="button" className="btn btn-outline-info">{`${name}(${Count[nIdx]})`}</button>
-						))}
-						{/* 鳥種圓餅圖 Modal 按鈕 */}
-						<button type="button" className="btn btn-outline-warning" onClick={() => {handleModalInfoChange(Location[0], datetime, Common_Name, Count)}}>鳥種圓餅圖</button>
-						</div>
+						</CustomScroll>
 					</VerticalTimelineElement>
 				))}
 				</VerticalTimeline>

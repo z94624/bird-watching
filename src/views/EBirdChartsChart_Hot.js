@@ -81,7 +81,7 @@ const Hotspot = ({ locations }) => {
 					<FullScreenButton fullscreenHandler={hotFSHandler} absolutePosition={false} />
 				</div>
 			</div>
-			<FullScreen handle={hotFSHandler}>
+			<FullScreen handle={hotFSHandler} className="chartFullscreen">
 				{/* Hotspot */}
 				<Line data={hotData} options={hotOptions} ref={hotRef} />
 			</FullScreen>

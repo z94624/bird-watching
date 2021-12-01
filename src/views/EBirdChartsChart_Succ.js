@@ -107,7 +107,7 @@ const Succession = ({ chartData, locations, nonDupLocations }) => {
 					<FullScreenButton fullscreenHandler={succFSHandler} absolutePosition={false} />
 				</div>
 			</div>
-			<FullScreen handle={succFSHandler}>
+			<FullScreen handle={succFSHandler} className="chartFullscreen">
 				{/* Succession 單選地點 */}
 				<select
 					id="succLocationSelect"

@@ -12,6 +12,7 @@ import '../node_modules/react-leaflet-markercluster/dist/styles.min.css';
 //import 'leaflet-defaulticon-compatibility';
 
 import '../node_modules/react-vertical-timeline-component/style.min.css';
+import '../node_modules/react-custom-scroll/dist/customScroll.css';
 
 ReactDOM.render(
   <React.StrictMode>

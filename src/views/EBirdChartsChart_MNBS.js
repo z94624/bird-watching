@@ -66,7 +66,7 @@ const MNBS = ({ chartData, dates }) => {
 					<FullScreenButton fullscreenHandler={mnbsFSHandler} absolutePosition={false} />
 				</div>
 			</div>
-			<FullScreen handle={mnbsFSHandler}>
+			<FullScreen handle={mnbsFSHandler} className="chartFullscreen">
 				{/* Monthly number of bird species */}
 				<Bar data={mnbsData} options={mnbsOptions} />
 			</FullScreen>

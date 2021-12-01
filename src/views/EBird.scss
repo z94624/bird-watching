@@ -68,3 +68,7 @@
 		transition: border-color .3s;
 	}
 }
+// 統計圖表圖表高度
+.chartFullscreen > canvas {
+	max-height: 350px;
+}

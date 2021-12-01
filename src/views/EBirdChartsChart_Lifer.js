@@ -105,7 +105,7 @@ const Lifer = ({ chartData, dates }) => {
 					<FullScreenButton fullscreenHandler={liferFSHandler} absolutePosition={false} />
 				</div>
 			</div>
-			<FullScreen handle={liferFSHandler}>
+			<FullScreen handle={liferFSHandler} className="chartFullscreen">
 				{/* Lifer */}
 				<Line data={liferData} options={liferOptions} ref={liferRef} />
 			</FullScreen>

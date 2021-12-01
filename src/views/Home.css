@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-color: #000000;
   background-image: url("./../images/cover_77.JPG");
-  height: 79vh;
+  height: calc(100vh - 118px);
 }
 
 /*# sourceMappingURL=Home.css.map */
