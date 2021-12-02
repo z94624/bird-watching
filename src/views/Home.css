@@ -2,14 +2,34 @@
 /* Bootstrap 暗色背景背景顏色 */
 /* Bootstrap 暗色背景 Blur 的字體顏色 */
 /* 背景主題 */
-.main-home {
+/* 留 Footer 位置 */
+/* 封面高度 */
+#homeContainer {
+  position: relative;
+  height: calc(100vh - 118px);
+  overflow: hidden;
+}
+#homeContainer:hover #homeCover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+
+/* 封面圖片 */
+#homeCover {
   background-position: center;
   background-size: cover;
   /* auto, cover, contain */
   background-repeat: no-repeat;
   background-color: #000000;
   background-image: url("./../images/cover_77.JPG");
-  height: calc(100vh - 118px);
+  height: 100%;
+}
+
+/* 入口按鈕 */
+#homeEntrance {
+  position: absolute;
+  left: calc(100vw/2 - 57px);
+  top: calc(calc(100vh - 118px) / 2);
 }
 
 /*# sourceMappingURL=Home.css.map */

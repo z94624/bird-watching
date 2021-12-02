@@ -6,8 +6,14 @@ import './Home.css';
 const Home = () => {
     return (
         <main>
-            <div className="main-home d-flex align-items-center justify-content-center">
-                <NavLink to="/bird-watching/youtube" className="btn btn-lg fw-bold btn-outline-light">進入羽宙</NavLink>
+            {/* 封面容器 */}
+            <div id="homeContainer">
+                {/* 封面 */}
+                <div id="homeCover"></div>
+                {/* 入口 */}
+                <div id="homeEntrance">
+                    <NavLink to="/bird-watching/youtube" className="btn btn-lg fw-bold btn-outline-light">進入羽宙</NavLink>
+                </div>
             </div>
 
             <Footer />

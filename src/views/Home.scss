@@ -1,7 +1,30 @@
 @import "./css/_backgrounds";
+/* 留 Footer 位置 */
+$coverOffset: 118px;
+/* 封面高度 */
+$coverHeight: calc(100vh - #{$coverOffset});
 
-.main-home {
+#homeContainer {
+	position: relative;
+	height: $coverHeight;
+	overflow: hidden; // 封面圖片放大邊界限制
+
+	&:hover {
+		#homeCover {
+			transform: scale(1.2); // 封面圖片放大
+			transition: transform 1s;
+		}
+	}
+}
+/* 封面圖片 */
+#homeCover {
 	@include background(cover);
 	background-image: url("./../images/cover_77.JPG");
-	height: calc(100vh - 118px);
+	height: 100%;
+}
+/* 入口按鈕 */
+#homeEntrance {
+	position: absolute;
+	left: calc(100vw/2 - 57px);
+	top: calc(#{$coverHeight} / 2);
 }
