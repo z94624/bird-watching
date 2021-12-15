@@ -1,0 +1,6 @@
+@import "./css/_backgrounds";
+/* 廣告標語 */
+#abBanner {
+	@include background(cover);
+	background-image: url("./../images/birdsOfAFeather_68.jpg");
+}

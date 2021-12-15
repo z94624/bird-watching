@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"About.css"}
+{"version":3,"sourceRoot":"","sources":["css/_backgrounds.scss","About.scss"],"names":[],"mappings":";AAAA;AAEA;AAEA;ACHA;AACA;EDKE;EACA,iBCLmB;ADKN;EACb;EACA;ECND","file":"About.css"}
