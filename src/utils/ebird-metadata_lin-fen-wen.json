@@ -706,6 +706,53 @@
     },
     {
         "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "赤頸鴨"
+        ],
+        "Count": [
+            20
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80848516"
         ],
         "Common_Name": [
@@ -1257,6 +1304,194 @@
         ],
         "Duration_Min": [
             47.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "花嘴鴨"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120702"
+        ],
+        "Common_Name": [
+            "花嘴鴨"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖魚塭賞鳥區(Kinmen--Lake Ci Fishponds Birding Area)"
+        ],
+        "Latitude": [
+            24.4707091
+        ],
+        "Longitude": [
+            118.31234690000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            7.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "花嘴鴨"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "花嘴鴨"
+        ],
+        "Count": [
+            14
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
         ],
         "Number_of_Observers": [
             2
@@ -2529,6 +2764,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98112772"
+        ],
+        "Common_Name": [
+            "環頸雉"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "瓊安路 (24.461, 118.342)"
+        ],
+        "Latitude": [
+            24.4606617
+        ],
+        "Longitude": [
+            118.34211499999999
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:28 AM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -4372,6 +4654,194 @@
     },
     {
         "Submission_ID": [
+            "S98113217"
+        ],
+        "Common_Name": [
+            "小鸊鷉"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--太湖(Kinmen--Tai Lake)"
+        ],
+        "Latitude": [
+            24.4395702
+        ],
+        "Longitude": [
+            118.42577220000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:49 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            15.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "小鸊鷉"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120702"
+        ],
+        "Common_Name": [
+            "小鸊鷉"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖魚塭賞鳥區(Kinmen--Lake Ci Fishponds Birding Area)"
+        ],
+        "Latitude": [
+            24.4707091
+        ],
+        "Longitude": [
+            118.31234690000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            7.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "小鸊鷉"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S92406076"
         ],
         "Common_Name": [
@@ -5537,6 +6007,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "野鴿(野化)"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -6722,6 +7239,100 @@
     },
     {
         "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "野鴿(野化)"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "野鴿(野化)"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80053423"
         ],
         "Common_Name": [
@@ -7699,6 +8310,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -9777,6 +10435,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97862798"
         ],
         "Common_Name": [
@@ -10707,6 +11412,147 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -13020,6 +13866,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97862798"
         ],
         "Common_Name": [
@@ -14041,6 +14934,194 @@
         ],
         "Duration_Min": [
             25.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            12
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
         ],
         "Number_of_Observers": [
             2
@@ -15407,6 +16488,147 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "褐翅鴉鵑"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "褐翅鴉鵑"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "褐翅鴉鵑"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -17673,6 +18895,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "小雨燕"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83547618"
         ],
         "Common_Name": [
@@ -18697,6 +19966,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98113217"
+        ],
+        "Common_Name": [
+            "小雨燕"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--太湖(Kinmen--Tai Lake)"
+        ],
+        "Latitude": [
+            24.4395702
+        ],
+        "Longitude": [
+            118.42577220000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:49 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            15.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "小雨燕"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -20480,6 +21843,100 @@
         ],
         "Duration_Min": [
             22.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120702"
+        ],
+        "Common_Name": [
+            "紅冠水雞"
+        ],
+        "Count": [
+            20
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖魚塭賞鳥區(Kinmen--Lake Ci Fishponds Birding Area)"
+        ],
+        "Latitude": [
+            24.4707091
+        ],
+        "Longitude": [
+            118.31234690000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            7.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "紅冠水雞"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
         ],
         "Number_of_Observers": [
             3
@@ -22279,6 +23736,53 @@
     },
     {
         "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "白腹秧雞"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S92590583"
         ],
         "Common_Name": [
@@ -23031,6 +24535,100 @@
     },
     {
         "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "高蹺鴴"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "高蹺鴴"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S92590583"
         ],
         "Common_Name": [
@@ -23407,6 +25005,194 @@
     },
     {
         "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "蠣鴴"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "灰斑鴴"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98121132"
+        ],
+        "Common_Name": [
+            "灰斑鴴"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖慈堤(Kinmen--Ci Causeway)"
+        ],
+        "Latitude": [
+            24.463183100000002
+        ],
+        "Longitude": [
+            118.30094820000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:34 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            31.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "灰斑鴴"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80053429"
         ],
         "Common_Name": [
@@ -23488,6 +25274,53 @@
         ],
         "Duration_Min": [
             22.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "太平洋金斑鴴"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
         ],
         "Number_of_Observers": [
             3
@@ -24629,6 +26462,147 @@
     },
     {
         "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "東方環頸鴴"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98121132"
+        ],
+        "Common_Name": [
+            "東方環頸鴴"
+        ],
+        "Count": [
+            200
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖慈堤(Kinmen--Ci Causeway)"
+        ],
+        "Latitude": [
+            24.463183100000002
+        ],
+        "Longitude": [
+            118.30094820000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:34 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            31.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "東方環頸鴴"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93660910"
         ],
         "Common_Name": [
@@ -25616,6 +27590,53 @@
     },
     {
         "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "小環頸鴴"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S92450422"
         ],
         "Common_Name": [
@@ -26133,6 +28154,194 @@
     },
     {
         "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "中杓鷸"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "中杓鷸"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "大杓鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "大杓鷸"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88142433"
         ],
         "Common_Name": [
@@ -26415,6 +28624,53 @@
     },
     {
         "Submission_ID": [
+            "S98121132"
+        ],
+        "Common_Name": [
+            "紅胸濱鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖慈堤(Kinmen--Ci Causeway)"
+        ],
+        "Latitude": [
+            24.463183100000002
+        ],
+        "Longitude": [
+            118.30094820000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:34 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            31.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93660910"
         ],
         "Common_Name": [
@@ -26449,6 +28705,53 @@
         ],
         "Duration_Min": [
             22.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98121132"
+        ],
+        "Common_Name": [
+            "三趾濱鷸"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖慈堤(Kinmen--Ci Causeway)"
+        ],
+        "Latitude": [
+            24.463183100000002
+        ],
+        "Longitude": [
+            118.30094820000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:34 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            31.0
         ],
         "Number_of_Observers": [
             3
@@ -26546,6 +28849,53 @@
         ],
         "Number_of_Observers": [
             20
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "黑腹濱鷸"
+        ],
+        "Count": [
+            30
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -27496,6 +29846,147 @@
     },
     {
         "Submission_ID": [
+            "S98120702"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖魚塭賞鳥區(Kinmen--Lake Ci Fishponds Birding Area)"
+        ],
+        "Latitude": [
+            24.4707091
+        ],
+        "Longitude": [
+            118.31234690000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            7.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80053426"
         ],
         "Common_Name": [
@@ -27674,6 +30165,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "白腰草鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -28483,6 +31021,53 @@
     },
     {
         "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "青足鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93660910"
         ],
         "Common_Name": [
@@ -28520,6 +31105,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "小青足鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -30269,6 +32901,288 @@
     },
     {
         "Submission_ID": [
+            "S98113217"
+        ],
+        "Common_Name": [
+            "鸕鷀"
+        ],
+        "Count": [
+            150
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--太湖(Kinmen--Tai Lake)"
+        ],
+        "Latitude": [
+            24.4395702
+        ],
+        "Longitude": [
+            118.42577220000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:49 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            15.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98121132"
+        ],
+        "Common_Name": [
+            "鸕鷀"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖慈堤(Kinmen--Ci Causeway)"
+        ],
+        "Latitude": [
+            24.463183100000002
+        ],
+        "Longitude": [
+            118.30094820000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:34 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            31.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "鸕鷀"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "鸕鷀"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "鸕鷀"
+        ],
+        "Count": [
+            14
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "鸕鷀(sinensis/hanedae)"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80632522"
         ],
         "Common_Name": [
@@ -31914,6 +34828,288 @@
     },
     {
         "Submission_ID": [
+            "S98113217"
+        ],
+        "Common_Name": [
+            "蒼鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--太湖(Kinmen--Tai Lake)"
+        ],
+        "Latitude": [
+            24.4395702
+        ],
+        "Longitude": [
+            118.42577220000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:49 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            15.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "蒼鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "蒼鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "蒼鷺"
+        ],
+        "Count": [
+            12
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "蒼鷺"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "蒼鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S73193730"
         ],
         "Common_Name": [
@@ -33405,6 +36601,147 @@
         ],
         "Duration_Min": [
             22.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98113217"
+        ],
+        "Common_Name": [
+            "大白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--太湖(Kinmen--Tai Lake)"
+        ],
+        "Latitude": [
+            24.4395702
+        ],
+        "Longitude": [
+            118.42577220000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:49 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            15.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "大白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "大白鷺"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
         ],
         "Number_of_Observers": [
             3
@@ -35392,6 +38729,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97862798"
         ],
         "Common_Name": [
@@ -37027,6 +40411,241 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98113217"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--太湖(Kinmen--Tai Lake)"
+        ],
+        "Latitude": [
+            24.4395702
+        ],
+        "Longitude": [
+            118.42577220000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:49 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            15.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120702"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖魚塭賞鳥區(Kinmen--Lake Ci Fishponds Birding Area)"
+        ],
+        "Latitude": [
+            24.4707091
+        ],
+        "Longitude": [
+            118.31234690000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            7.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -39763,6 +43382,53 @@
     },
     {
         "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "黃頭鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S92590583"
         ],
         "Common_Name": [
@@ -41536,6 +45202,100 @@
         ],
         "Duration_Min": [
             22.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98113217"
+        ],
+        "Common_Name": [
+            "夜鷺"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--太湖(Kinmen--Tai Lake)"
+        ],
+        "Latitude": [
+            24.4395702
+        ],
+        "Longitude": [
+            118.42577220000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:49 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            15.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "夜鷺"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
         ],
         "Number_of_Observers": [
             3
@@ -44651,6 +48411,100 @@
     },
     {
         "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "魚鷹"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "魚鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S79797242"
         ],
         "Common_Name": [
@@ -45534,6 +49388,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98389275"
+        ],
+        "Common_Name": [
+            "東方蜂鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "300-1 台灣大道五段, 西屯區, 台中市, TW (24.183, 120.595)"
+        ],
+        "Latitude": [
+            24.18255
+        ],
+        "Longitude": [
+            120.5948125
+        ],
+        "Date": [
+            "2021-12-03"
+        ],
+        "Time": [
+            "11:44 AM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -51795,6 +55696,100 @@
     },
     {
         "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "戴勝"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "戴勝"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S72418544"
         ],
         "Common_Name": [
@@ -53581,6 +57576,100 @@
     },
     {
         "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "翠鳥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "翠鳥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S86857523"
         ],
         "Common_Name": [
@@ -53806,6 +57895,147 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "蒼翡翠"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "蒼翡翠"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "蒼翡翠"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -59127,6 +63357,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "小啄木"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94916877"
         ],
         "Common_Name": [
@@ -59678,6 +63955,53 @@
         ],
         "Duration_Min": [
             10.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98121132"
+        ],
+        "Common_Name": [
+            "紅隼"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖慈堤(Kinmen--Ci Causeway)"
+        ],
+        "Latitude": [
+            24.463183100000002
+        ],
+        "Longitude": [
+            118.30094820000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:34 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            31.0
         ],
         "Number_of_Observers": [
             3
@@ -63404,6 +67728,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S96179545"
         ],
         "Common_Name": [
@@ -64522,6 +68893,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -66402,6 +70820,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "黑枕藍鶲"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -69128,6 +73593,53 @@
         ],
         "Number_of_Observers": [
             5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "棕背伯勞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -73133,6 +77645,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83547618"
         ],
         "Common_Name": [
@@ -76376,6 +80935,147 @@
     },
     {
         "Submission_ID": [
+            "S98113217"
+        ],
+        "Common_Name": [
+            "喜鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--太湖(Kinmen--Tai Lake)"
+        ],
+        "Latitude": [
+            24.4395702
+        ],
+        "Longitude": [
+            118.42577220000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:49 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            15.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "喜鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "喜鵲"
+        ],
+        "Count": [
+            9
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88790783"
         ],
         "Common_Name": [
@@ -77024,6 +81724,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "玉頸鴉"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "玉頸鴉"
+        ],
+        "Count": [
+            15
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -81452,6 +86246,53 @@
     },
     {
         "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "灰頭鷦鶯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S92406076"
         ],
         "Common_Name": [
@@ -84920,6 +89761,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "褐頭鷦鶯"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -88549,6 +93437,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "家燕"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85127799"
         ],
         "Common_Name": [
@@ -92158,6 +97093,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "洋燕"
+        ],
+        "Count": [
+            33
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -98654,6 +103636,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            63
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97862798"
         ],
         "Common_Name": [
@@ -101803,6 +106832,53 @@
     },
     {
         "Submission_ID": [
+            "S98112772"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "瓊安路 (24.461, 118.342)"
+        ],
+        "Latitude": [
+            24.4606617
+        ],
+        "Longitude": [
+            118.34211499999999
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:28 AM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90164873"
         ],
         "Common_Name": [
@@ -102169,6 +107245,194 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            50
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            50
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            40
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -105892,6 +111156,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83547618"
         ],
         "Common_Name": [
@@ -108571,6 +113882,53 @@
     },
     {
         "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "黃眉柳鶯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80053435"
         ],
         "Common_Name": [
@@ -108605,6 +113963,53 @@
         ],
         "Duration_Min": [
             13.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "黃腰柳鶯"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
         ],
         "Number_of_Observers": [
             2
@@ -116138,6 +121543,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            57
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83547618"
         ],
         "Common_Name": [
@@ -118676,6 +124128,100 @@
     },
     {
         "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            22
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S92406076"
         ],
         "Common_Name": [
@@ -119606,6 +125152,53 @@
         ],
         "Number_of_Observers": [
             19
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "山紅頭"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -127136,6 +132729,147 @@
     },
     {
         "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "大陸畫眉"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "大陸畫眉"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "大陸畫眉"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83547078"
         ],
         "Common_Name": [
@@ -128781,6 +134515,53 @@
     },
     {
         "Submission_ID": [
+            "S98120702"
+        ],
+        "Common_Name": [
+            "黑領椋鳥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖魚塭賞鳥區(Kinmen--Lake Ci Fishponds Birding Area)"
+        ],
+        "Latitude": [
+            24.4707091
+        ],
+        "Longitude": [
+            118.31234690000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            7.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S87965169"
         ],
         "Common_Name": [
@@ -128959,6 +134740,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "絲光椋鳥"
+        ],
+        "Count": [
+            20
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -133152,6 +138980,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "白尾八哥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97862798"
         ],
         "Common_Name": [
@@ -134891,6 +140766,241 @@
     },
     {
         "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "八哥(冠八哥)"
+        ],
+        "Count": [
+            30
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120702"
+        ],
+        "Common_Name": [
+            "八哥(冠八哥)"
+        ],
+        "Count": [
+            30
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖魚塭賞鳥區(Kinmen--Lake Ci Fishponds Birding Area)"
+        ],
+        "Latitude": [
+            24.4707091
+        ],
+        "Longitude": [
+            118.31234690000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:17 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            7.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "八哥(冠八哥)"
+        ],
+        "Count": [
+            100
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "八哥(冠八哥)"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "八哥(冠八哥)"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S72418544"
         ],
         "Common_Name": [
@@ -135207,6 +141317,100 @@
         ],
         "Duration_Min": [
             60.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "中國黑鶇"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "烏灰鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
         ],
         "Number_of_Observers": [
             2
@@ -137993,6 +144197,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "鵲鴝"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85127799"
         ],
         "Common_Name": [
@@ -138403,6 +144654,241 @@
         ],
         "Duration_Min": [
             61.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "鵲鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "鵲鴝"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "鵲鴝"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "鵲鴝"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "鵲鴝"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
         ],
         "Number_of_Observers": [
             2
@@ -139393,6 +145879,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "白腰鵲鴝"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -141424,6 +147957,100 @@
     },
     {
         "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "白斑紫嘯鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "白斑紫嘯鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83184914"
         ],
         "Common_Name": [
@@ -143304,6 +149931,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97862798"
         ],
         "Common_Name": [
@@ -143774,6 +150448,241 @@
     },
     {
         "Submission_ID": [
+            "S98170680"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--建功嶼(Kinmen--Jiangong Islet)"
+        ],
+        "Latitude": [
+            24.427436
+        ],
+        "Longitude": [
+            118.30007309999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "01:45 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            49.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            12
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98169431"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            22.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80632522"
         ],
         "Common_Name": [
@@ -144046,6 +150955,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "叉尾太陽鳥"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -145080,6 +152036,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "斑文鳥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -148897,6 +155900,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "麻雀"
+        ],
+        "Count": [
+            30
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97862798"
         ],
         "Common_Name": [
@@ -150153,6 +157203,53 @@
         ],
         "Duration_Min": [
             4.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "麻雀"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
         ],
         "Number_of_Observers": [
             2
@@ -151435,6 +158532,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83547618"
         ],
         "Common_Name": [
@@ -151845,6 +158989,147 @@
         ],
         "Duration_Min": [
             120.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98121132"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖慈堤(Kinmen--Ci Causeway)"
+        ],
+        "Latitude": [
+            24.463183100000002
+        ],
+        "Longitude": [
+            118.30094820000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "04:34 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            31.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
         ],
         "Number_of_Observers": [
             2
@@ -154443,6 +161728,53 @@
     },
     {
         "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85127799"
         ],
         "Common_Name": [
@@ -155148,6 +162480,288 @@
     },
     {
         "Submission_ID": [
+            "S98113217"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--太湖(Kinmen--Tai Lake)"
+        ],
+        "Latitude": [
+            24.4395702
+        ],
+        "Longitude": [
+            118.42577220000001
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "08:49 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            15.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98164038"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--慈湖雙鯉自然中心(Kinmen--Lake Ci Shuangli Wetlands Nature Center)"
+        ],
+        "Latitude": [
+            24.4761716
+        ],
+        "Longitude": [
+            118.30998659999999
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:09 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            11.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98120412"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--浯江溪口(Kinmen--Wujiang River Estuary)"
+        ],
+        "Latitude": [
+            24.4282589
+        ],
+        "Longitude": [
+            118.30921409999998
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "02:37 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            74.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "白鶺鴒(灰背眼紋)"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83179973"
         ],
         "Common_Name": [
@@ -155185,6 +162799,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98426693"
+        ],
+        "Common_Name": [
+            "白鶺鴒(白面)"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中--東海大學(Taichuang--Tunghai University)"
+        ],
+        "Latitude": [
+            24.1795688
+        ],
+        "Longitude": [
+            120.6037765
+        ],
+        "Date": [
+            "2021-12-04"
+        ],
+        "Time": [
+            "08:19 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            103.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -155608,6 +163269,147 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "大花鷚"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98167667"
+        ],
+        "Common_Name": [
+            "樹鷚"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金湖榕園(Kinmen--Jinhu Rong Park)"
+        ],
+        "Latitude": [
+            24.4438312
+        ],
+        "Longitude": [
+            118.4319721
+        ],
+        "Date": [
+            "2021-11-28"
+        ],
+        "Time": [
+            "09:57 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            92.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "樹鷚"
+        ],
+        "Count": [
+            15
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -156454,6 +164256,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S98117418"
+        ],
+        "Common_Name": [
+            "黑臉鵐"
+        ],
+        "Count": [
+            22
+        ],
+        "State_Province": [
+            "TW-KIN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "金門--金門植物園(Kinmen--Botanical Garden)"
+        ],
+        "Latitude": [
+            24.454654
+        ],
+        "Longitude": [
+            118.3974132
+        ],
+        "Date": [
+            "2021-11-27"
+        ],
+        "Time": [
+            "09:29 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            156.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
