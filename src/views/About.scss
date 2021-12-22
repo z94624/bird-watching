@@ -1,34 +1,49 @@
 @import "./css/_backgrounds";
+@import "./css/_media";
 /* 社群網路圖示 */
-$socialNetworkSVG-tranSecs: 0.2s;
+$socialNetworkSVG-tranSecs: 0.3s;
 @mixin socialNetworkSVG($fill) {
 	transition: fill $socialNetworkSVG-tranSecs;
 	&:hover {
 		fill: $fill;
 	}
 }
-/* 廣告標語 */
+/* 首頁背景 */
 #abHome {
 	@include background(cover);
 	background-image: url("./../images/birdsOfAFeather_68.jpg");
 }
+/* 首頁容器 */
+#abHomeContainer {
+	width: 85%;
+}
+/* 首頁標題 */
+#abHomeTitle {
+	font-weight: 900;
+
+	@include responsive-fontSize(72px, 60px, 48px, 36px);
+}
+/* 首頁描述 */
+#abHomeDescription {
+	@include responsive-fontSize(20px, 18px, 16px, 14px);
+}
 /* 社群網路 */
-#abGithub {
+#abHomeGithub {
 	svg {
 		@include socialNetworkSVG(#000000);
 	}
 }
-#abYoutube {
+#abHomeYoutube {
 	svg {
 		@include socialNetworkSVG(#FF0000);
 	}
 }
-#abFacebook {
+#abHomeFacebook {
 	svg {
 		@include socialNetworkSVG(#1778F2);
 	}
 }
-#abInstagram {
+#abHomeInstagram {
 	svg {
 		&:hover {
 			stop {
@@ -55,7 +70,7 @@ $socialNetworkSVG-tranSecs: 0.2s;
 		}
 	}
 }
-#abLinkedin {
+#abHomeLinkedin {
 	svg {
 		@include socialNetworkSVG(#2867B2);
 	}

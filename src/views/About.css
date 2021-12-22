@@ -2,8 +2,9 @@
 /* Bootstrap 暗色背景背景顏色 */
 /* Bootstrap 暗色背景 Blur 的字體顏色 */
 /* 背景主題 */
+/* 字體大小 */
 /* 社群網路圖示 */
-/* 廣告標語 */
+/* 首頁背景 */
 #abHome {
   background-position: center;
   background-size: cover;
@@ -13,51 +14,103 @@
   background-image: url("./../images/birdsOfAFeather_68.jpg");
 }
 
-/* 社群網路 */
-#abGithub svg {
-  transition: fill 0.2s;
+/* 首頁容器 */
+#abHomeContainer {
+  width: 85%;
 }
-#abGithub svg:hover {
+
+/* 首頁標題 */
+#abHomeTitle {
+  font-weight: 900;
+}
+@media all and (min-width: 1200px) {
+  #abHomeTitle {
+    font-size: 72px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #abHomeTitle {
+    font-size: 60px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #abHomeTitle {
+    font-size: 48px;
+  }
+}
+@media all and (max-width: 767px) {
+  #abHomeTitle {
+    font-size: 36px;
+  }
+}
+
+/* 首頁描述 */
+@media all and (min-width: 1200px) {
+  #abHomeDescription {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #abHomeDescription {
+    font-size: 18px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #abHomeDescription {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 767px) {
+  #abHomeDescription {
+    font-size: 14px;
+  }
+}
+
+/* 社群網路 */
+#abHomeGithub svg {
+  transition: fill 0.3s;
+}
+#abHomeGithub svg:hover {
   fill: #000000;
 }
 
-#abYoutube svg {
-  transition: fill 0.2s;
+#abHomeYoutube svg {
+  transition: fill 0.3s;
 }
-#abYoutube svg:hover {
+#abHomeYoutube svg:hover {
   fill: #FF0000;
 }
 
-#abFacebook svg {
-  transition: fill 0.2s;
+#abHomeFacebook svg {
+  transition: fill 0.3s;
 }
-#abFacebook svg:hover {
+#abHomeFacebook svg:hover {
   fill: #1778F2;
 }
 
-#abInstagram svg:hover stop:nth-child(1) {
+#abHomeInstagram svg:hover stop:nth-child(1) {
   stop-color: #fdf497;
 }
-#abInstagram svg:hover stop:nth-child(2) {
+#abHomeInstagram svg:hover stop:nth-child(2) {
   stop-color: #fdf497;
 }
-#abInstagram svg:hover stop:nth-child(3) {
+#abHomeInstagram svg:hover stop:nth-child(3) {
   stop-color: #fd5949;
 }
-#abInstagram svg:hover stop:nth-child(4) {
+#abHomeInstagram svg:hover stop:nth-child(4) {
   stop-color: #d6249f;
 }
-#abInstagram svg:hover stop:nth-child(5) {
+#abHomeInstagram svg:hover stop:nth-child(5) {
   stop-color: #285AEB;
 }
-#abInstagram svg stop {
-  transition: stop-color 0.2s;
+#abHomeInstagram svg stop {
+  transition: stop-color 0.3s;
 }
 
-#abLinkedin svg {
-  transition: fill 0.2s;
+#abHomeLinkedin svg {
+  transition: fill 0.3s;
 }
-#abLinkedin svg:hover {
+#abHomeLinkedin svg:hover {
   fill: #2867B2;
 }
 

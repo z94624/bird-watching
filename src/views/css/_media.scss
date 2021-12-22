@@ -1,0 +1,48 @@
+$pcMinWidth: 1200px;
+
+$lapMaxWidth: 1199px;
+$lapMinWidth: 992px;
+
+$padMaxWidth: 991px;
+$padMinWidth: 768px;
+
+$phoneMaxWidth: 767px;
+
+@mixin pc() {
+	@media all and (min-width: $pcMinWidth) {
+		@content;
+	}
+}
+
+@mixin lap() {
+	@media all and (min-width: $lapMinWidth) and (max-width: $lapMaxWidth) {
+		@content;
+	}
+}
+
+@mixin pad() {
+	@media all and (min-width: $padMinWidth) and (max-width: $padMaxWidth) {
+		@content;
+	}
+}
+
+@mixin phone() {
+	@media all and (max-width: $phoneMaxWidth) {
+		@content;
+	}
+}
+/* 字體大小 */
+@mixin responsive-fontSize($pc, $lap, $pad, $phone) {
+	@include pc {
+		font-size: $pc;
+	}
+	@include lap {
+		font-size: $lap;
+	}
+	@include pad {
+		font-size: $pad;
+	}
+	@include phone {
+		font-size: $phone;
+	}
+}
