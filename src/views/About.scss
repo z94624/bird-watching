@@ -1,6 +1,62 @@
 @import "./css/_backgrounds";
+/* 社群網路圖示 */
+$socialNetworkSVG-tranSecs: 0.2s;
+@mixin socialNetworkSVG($fill) {
+	transition: fill $socialNetworkSVG-tranSecs;
+	&:hover {
+		fill: $fill;
+	}
+}
 /* 廣告標語 */
-#abBanner {
+#abHome {
 	@include background(cover);
 	background-image: url("./../images/birdsOfAFeather_68.jpg");
+}
+/* 社群網路 */
+#abGithub {
+	svg {
+		@include socialNetworkSVG(#000000);
+	}
+}
+#abYoutube {
+	svg {
+		@include socialNetworkSVG(#FF0000);
+	}
+}
+#abFacebook {
+	svg {
+		@include socialNetworkSVG(#1778F2);
+	}
+}
+#abInstagram {
+	svg {
+		&:hover {
+			stop {
+				&:nth-child(1) {
+					stop-color: #fdf497;
+				}
+				&:nth-child(2) {
+					stop-color: #fdf497;
+				}
+				&:nth-child(3) {
+					stop-color: #fd5949;
+				}
+				&:nth-child(4) {
+					stop-color: #d6249f;
+				}
+				&:nth-child(5) {
+					stop-color: #285AEB;
+				}
+			}
+		}
+
+		stop {
+			transition: stop-color $socialNetworkSVG-tranSecs;
+		}
+	}
+}
+#abLinkedin {
+	svg {
+		@include socialNetworkSVG(#2867B2);
+	}
 }
