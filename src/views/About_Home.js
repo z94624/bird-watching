@@ -3,7 +3,7 @@ const AboutHome = () => {
 		<div id="abHome" className="row h-100 d-flex flex-column align-items-center justify-content-center">
 			{/* 首頁內容 */}
 			<div id="abHomeContainer">
-				<h1 id="abHomeTitle" className="text-white">黃健峯 (smoBEE)</h1>
+				<h1 id="abHomeTitle" className="text-white bold-900">黃健峯 (smoBEE)</h1>
 				<h3 id="abHomeDescription" className="text-white my-3">目前完成研究天文的夢想。<br />天文研究利用 Python 爬蟲與控制 Microsoft Windows GUI，也應用技術於日常。<br />自學 Machine Learning、JavaScript、Django、Java、PHP 與法西日阿文。對機器學習、網頁前後端及 APP 開發有興趣。</h3>
 				<hr />
 				{/* 社群網路 */}

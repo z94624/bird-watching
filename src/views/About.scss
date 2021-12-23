@@ -19,8 +19,6 @@ $socialNetworkSVG-tranSecs: 0.3s;
 }
 /* 首頁標題 */
 #abHomeTitle {
-	font-weight: 900;
-
 	@include responsive-fontSize(72px, 60px, 48px, 36px);
 }
 /* 首頁描述 */
@@ -74,4 +72,8 @@ $socialNetworkSVG-tranSecs: 0.3s;
 	svg {
 		@include socialNetworkSVG(#2867B2);
 	}
+}
+
+.bold-900 {
+	font-weight: 900;
 }

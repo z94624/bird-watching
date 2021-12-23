@@ -20,9 +20,6 @@
 }
 
 /* 首頁標題 */
-#abHomeTitle {
-  font-weight: 900;
-}
 @media all and (min-width: 1200px) {
   #abHomeTitle {
     font-size: 72px;
@@ -112,6 +109,10 @@
 }
 #abHomeLinkedin svg:hover {
   fill: #2867B2;
+}
+
+.bold-900 {
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=About.css.map */
