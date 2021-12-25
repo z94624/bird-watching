@@ -8,6 +8,10 @@ $socialNetworkSVG-tranSecs: 0.3s;
 		fill: $fill;
 	}
 }
+/* 最粗粗體 */
+.bold-900 {
+	font-weight: 900;
+}
 /* 首頁背景 */
 #abHome {
 	@include background(cover);
@@ -72,8 +76,4 @@ $socialNetworkSVG-tranSecs: 0.3s;
 	svg {
 		@include socialNetworkSVG(#2867B2);
 	}
-}
-
-.bold-900 {
-	font-weight: 900;
 }

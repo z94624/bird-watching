@@ -4,6 +4,11 @@
 /* 背景主題 */
 /* 字體大小 */
 /* 社群網路圖示 */
+/* 最粗粗體 */
+.bold-900 {
+  font-weight: 900;
+}
+
 /* 首頁背景 */
 #abHome {
   background-position: center;
@@ -109,10 +114,6 @@
 }
 #abHomeLinkedin svg:hover {
   fill: #2867B2;
-}
-
-.bold-900 {
-  font-weight: 900;
 }
 
 /*# sourceMappingURL=About.css.map */

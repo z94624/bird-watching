@@ -1,5 +1,6 @@
 import AboutHome from './About_Home';
 import AboutMe from './About_Me';
+import AboutExperiance from './About_Experiance';
 import './About.css';
 
 const About = () => {
@@ -9,6 +10,8 @@ const About = () => {
 			<AboutHome />
 			{/* 自我介紹 */}
 			<AboutMe />
+			{/* 自我簡歷 */}
+			<AboutExperiance />
 		</main>
 	);
 }
