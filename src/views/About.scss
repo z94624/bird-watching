@@ -1,5 +1,6 @@
 @import "./css/_backgrounds";
 @import "./css/_media";
+@import "./css/_texts";
 /* 社群網路圖示 */
 $socialNetworkSVG-tranSecs: 0.3s;
 @mixin socialNetworkSVG($fill) {
@@ -26,7 +27,7 @@ $socialNetworkSVG-tranSecs: 0.3s;
 	@include responsive-fontSize(72px, 60px, 48px, 36px);
 }
 /* 首頁描述 */
-#abHomeDescription {
+#abHomeBadges, #abHomeDescription {
 	@include responsive-fontSize(20px, 18px, 16px, 14px);
 }
 /* 社群網路 */

@@ -3,8 +3,18 @@ const AboutHome = () => {
 		<div id="abHome" className="row h-100 d-flex flex-column align-items-center justify-content-center">
 			{/* 首頁內容 */}
 			<div id="abHomeContainer">
-				<h1 id="abHomeTitle" className="text-white bold-900">黃健峯 (smoBEE)</h1>
-				<h3 id="abHomeDescription" className="text-white my-3">目前完成研究天文的夢想。<br />天文研究利用 Python 爬蟲與控制 Microsoft Windows GUI，也應用技術於日常。<br />自學 Machine Learning、JavaScript、Django、Java、PHP 與法西日阿文。對機器學習、網頁前後端及 APP 開發有興趣。</h3>
+				<h1 id="abHomeTitle" className="text-white bold-900">黃健峯</h1>
+				<div id="abHomeKeywords">
+					<span className="badge rounded-pill bg-dark m-1">#紫嘯鶇</span>
+					<span className="badge rounded-pill bg-danger m-1">#前端工程師</span>
+					<span className="badge rounded-pill bg-primary m-1">#天文</span>
+					<span className="badge rounded-pill bg-success m-1">#賞鳥</span>
+				</div>
+				<h3 id="abHomeDescription" className="text-white my-3">
+					我熱愛學習了解新事物<br />
+					浩瀚的宇宙，認識天體運行；神奇的大自然，認識生物多樣性<br />
+					無法停止對這世界的好奇心，用心感受這世界萬物的存在
+				</h3>
 				<hr />
 				{/* 社群網路 */}
 				<ul id="abHomeSocialNetwork" className="nav justify-content-center mt-3">
