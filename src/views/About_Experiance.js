@@ -1,10 +1,12 @@
 import { Accordion, AccordionSection } from 'react-rainbow-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faBook, faStar, faCrosshairs, faBriefcase, faDumbbell } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faPython } from '@fortawesome/free-brands-svg-icons'
+import { faGraduationCap, faBook, faStar, faCrosshairs, faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faPython, faBlackTie } from '@fortawesome/free-brands-svg-icons'
 
 import ncu from "./../images/NCU.png";
 import ncku from "./../images/NCKU.png";
+import idl from "./../images/IDL.png";
+import ascdc from "./../images/ASCDC.png";
 
 const AboutExperiance = () => {
 	return (
@@ -30,6 +32,7 @@ const AboutExperiance = () => {
 								<AccordionSection
 									icon={<FontAwesomeIcon icon={faGraduationCap} />}
 									label="Thesis"
+									variant="error" // appearance；default, error
 								>
 									<div>
 										<FontAwesomeIcon icon={faBook} className="me-3" />
@@ -48,13 +51,13 @@ const AboutExperiance = () => {
 										Optical/spectral image processing, instrumentation
 									</div>
 								</AccordionSection>
-
+								{/* 其他 */}
 								<AccordionSection
 									icon={<FontAwesomeIcon icon={faCrosshairs} />}
 									label="Others"
 								>
 									<div>
-										<FontAwesomeIcon icon={faBriefcase} className="me-3" />
+										<FontAwesomeIcon icon={faBlackTie} className="me-3" />
 										Observatory docent, telescope installation & maintenance
 									</div>
 									<div>
@@ -74,27 +77,68 @@ const AboutExperiance = () => {
 								<span className="fst-italic">Bachelor Degree at Department of Physics (2011 - 2016)</span>
 							</div>
 						</div>
-						<div className="abExpContent">
-
+						<div className="abExpContent mt-3">
+							<Accordion>
+								{/* 專題 */}
+								<AccordionSection
+									icon={<FontAwesomeIcon icon={faGraduationCap} />}
+									label="Independent Study"
+									variant="error"
+								>
+									<div>
+										<FontAwesomeIcon icon={faBook} className="me-3" />
+										<a className="fst-italic a-dark" href="https://docs.google.com/document/d/1rlD497WKrdk6kQL_quCJvjxiQLvtNbaT/edit?usp=sharing&ouid=101383435501656958708&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">Triangulation Positioning of Gigantic Jet</a>
+									</div>
+									<div>
+										<img className="me-3" src={idl} alt="IDL" height="14" width="auto" />
+										Positioning by Newton's method & bisection method
+									</div>
+								</AccordionSection>
+								{/* 其他 */}
+								<AccordionSection
+									icon={<FontAwesomeIcon icon={faCrosshairs} />}
+									label="Others"
+								>
+									<div>
+										<FontAwesomeIcon icon={faBlackTie} className="me-3" />
+										Earth Science Exhibition docent, Confucius Temple Cultural Festival volunteer, orphanage volunteer, representative of physics graduates, assistant of ASICS-NCKU
+									</div>
+									<div>
+										<FontAwesomeIcon icon={faDumbbell} className="me-3" />
+										Student Representative Training Workshop, astronomy, swimming & archery
+									</div>
+								</AccordionSection>
+							</Accordion>
 						</div>
 					</div>
 				</div>
 			</div>
 			{/* 經歷 */}
-			<div id="abExpWork" className="my-5">
+			<div id="abExpWork" className="row my-5">
 				<div className="abExpHeader col col-md-3">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">WORK</span>
 				</div>
 				<div className="col col-md-9 text-start">
-					
+					<div>
+						<div className="abExpTitle">
+							<img className="float-start me-3" src={ascdc} alt="ASCDC" width="auto" height="65" />
+							<div>
+								<h2 className="bold-900">Academia Sinica Center for Digital Cultures</h2>
+								<span className="fst-italic">Research and Development Substitute Services (2019 - 2022)</span>
+							</div>
+						</div>
+						<div className="abExpContent mt-3">
+							{/* https://react-rainbow.io/#/CarouselCard */}
+						</div>
+					</div>
 				</div>
 			</div>
 			{/* 技能 */}
-			<div id="abExpSkill" className="my-5">
+			<div id="abExpSkill" className="row my-5">
 				<div className="abExpHeader col col-md-3">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">SKILLS</span>
 				</div>
-				<div className="col col-md-9 text-start">
+				<div className="col col-md-9">
 					
 				</div>
 			</div>
