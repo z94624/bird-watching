@@ -8,6 +8,22 @@ import ncku from "./../images/NCKU.png";
 import idl from "./../images/IDL.png";
 import ascdc from "./../images/ASCDC.png";
 
+import python from "./../images/language/Python.png";
+import java from "./../images/language/Java.png";
+import jsp from "./../images/language/JSP.png";
+import html from "./../images/language/HTML.png";
+import css from "./../images/language/CSS.png";
+import scss from "./../images/language/Sass.png";
+import js from "./../images/language/JS.png";
+import jquery from "./../images/language/JQuery.png";
+import bootstrap from "./../images/language/Bootstrap.png";
+import react from "./../images/language/React.png";
+import git from "./../images/language/GIT.png";
+import solr from "./../images/language/Solr.png";
+import mysql from "./../images/language/MySQL.png";
+// 技能
+const skills = [python, java, jsp, html, css, scss, js, jquery, bootstrap, react, git, solr, mysql];
+
 const AboutExperiance = () => {
 	return (
 		<div id="abExp" className="row h-auto bg-light">
@@ -20,7 +36,7 @@ const AboutExperiance = () => {
 					{/* 碩士 */}
 					<div className="pb-3">
 						<div className="abExpTitle">
-							<img className="float-start me-3" src={ncu} alt="NCU" width="75" height="auto" />
+							<img className="float-start me-3" src={ncu} alt="NCU" width="auto" height="72" />
 							<div>
 								<h2 className="bold-900">National Central University</h2>
 								<span className="fst-italic">Master Degree at Graduate Institute of Astronomy (2016 - 2019)</span>
@@ -71,7 +87,7 @@ const AboutExperiance = () => {
 					{/* 學士 */}
 					<div className="pt-3 border-top border-secondary">
 						<div className="abExpTitle">
-							<img className="float-start me-3" src={ncku} alt="NCKU" width="75" height="auto" />
+							<img className="float-start me-3" src={ncku} alt="NCKU" width="auto" height="72" />
 							<div>
 								<h2 className="bold-900">National Cheng Kung University</h2>
 								<span className="fst-italic">Bachelor Degree at Department of Physics (2011 - 2016)</span>
@@ -121,7 +137,7 @@ const AboutExperiance = () => {
 				<div className="col col-md-9 text-start">
 					<div>
 						<div className="abExpTitle">
-							<img className="float-start me-3" src={ascdc} alt="ASCDC" width="auto" height="65" />
+							<img className="float-start me-3" src={ascdc} alt="ASCDC" width="auto" height="72" />
 							<div>
 								<h2 className="bold-900">Academia Sinica Center for Digital Cultures</h2>
 								<span className="fst-italic">Research and Development Substitute Services (2019 - 2022)</span>
@@ -139,7 +155,11 @@ const AboutExperiance = () => {
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">SKILLS</span>
 				</div>
 				<div className="col col-md-9">
-					
+				{skills.map((skill, sIdx) => (
+					<div key={`abExpSkill-${sIdx}`} className="float-start p-4">
+						<img src={skill} alt={skill} width="auto" height="100" />
+					</div>
+				))}
 				</div>
 			</div>
 		</div>

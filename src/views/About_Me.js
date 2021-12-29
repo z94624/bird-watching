@@ -4,10 +4,10 @@ import headshot from './../images/headshot.JPG';
 // 網頁開發工具
 const programmingTools = [
 	"Python",
-	"JAVA", "JSP",
+	"Java", "JSP",
 	"HTML",
 	"CSS", "SCSS",
-	"JS","JQuery", "Bootstrap", "REACT",
+	"JS","JQuery", "Bootstrap", "React",
 	"GIT", "Solr", "MySQL"
 ];
 // 自學語言
