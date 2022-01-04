@@ -124,4 +124,16 @@
   fill: #2867B2;
 }
 
+/* 程式語言 */
+.abExpSkill {
+  border: 3px solid transparent;
+  border-radius: 100%;
+  transition: all 0.3s;
+}
+.abExpSkill:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border: 3px solid #FE9AFF;
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=About.css.map */

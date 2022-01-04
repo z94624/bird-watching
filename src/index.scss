@@ -1,4 +1,5 @@
 @import "./views/css/_mouses";
+@import "./views/css/_themes";
 
 $mp0: 0;
 $hw100: 100%;
@@ -17,9 +18,9 @@ html, body {
 // 反白
 ::selection {
     color: white;
-    background-color: #FE9AFF;
+    background-color: $highlightColor;
 }
 ::-moz-selection { /* Code for Firefox */
     color: white;
-    background-color: #FE9AFF;
+    background-color: $highlightColor;
 }

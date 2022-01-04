@@ -156,8 +156,8 @@ const AboutExperiance = () => {
 				</div>
 				<div className="col col-md-9">
 				{skills.map((skill, sIdx) => (
-					<div key={`abExpSkill-${sIdx}`} className="float-start p-4">
-						<img src={skill} alt={skill} width="auto" height="100" />
+					<div key={`abExpSkill-${sIdx}`} className="abExpSkill float-start p-3">
+						<img src={skill} alt={skill} width="auto" height="80" />
 					</div>
 				))}
 				</div>

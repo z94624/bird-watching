@@ -1,6 +1,8 @@
+@import "./_themes";
+
 .a-dark {
 	text-decoration: none;
-	color: #FE9AFF;
+	color: $highlightColor;
 
 	&:hover {
 		color: #FD4DFF;

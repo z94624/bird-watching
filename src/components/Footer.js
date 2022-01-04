@@ -1,5 +1,3 @@
-import './Footer.css';
-
 const Footer = () => {
 	return (
 		<footer className="pt-3 text-white-50">

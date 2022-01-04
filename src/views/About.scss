@@ -1,6 +1,7 @@
 @import "./css/_backgrounds";
 @import "./css/_media";
 @import "./css/_texts";
+@import "./css/_themes";
 /* 社群網路圖示 */
 $socialNetworkSVG-tranSecs: 0.3s;
 @mixin socialNetworkSVG($fill) {
@@ -76,5 +77,17 @@ $socialNetworkSVG-tranSecs: 0.3s;
 #abHomeLinkedin {
 	svg {
 		@include socialNetworkSVG(#2867B2);
+	}
+}
+/* 程式語言 */
+.abExpSkill {
+	border: 3px solid transparent;
+	border-radius: 100%; // 徽章感
+	transition: all .3s;
+
+	&:hover {
+		box-shadow: 0 .5rem 1rem rgba(black, .15); // BS's shadow
+		border: 3px solid $highlightColor;
+		transform: scale(1.1); // 凸顯感
 	}
 }
