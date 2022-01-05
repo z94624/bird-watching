@@ -1,6 +1,6 @@
 import { Accordion, AccordionSection } from 'react-rainbow-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faBook, faStar, faCrosshairs, faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faBook, faStar, faCrosshairs, faDumbbell, faLaptopCode, faFeather } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faPython, faBlackTie } from '@fortawesome/free-brands-svg-icons'
 
 import ncu from "./../images/NCU.png";
@@ -21,6 +21,10 @@ import react from "./../images/language/React.png";
 import git from "./../images/language/GIT.png";
 import solr from "./../images/language/Solr.png";
 import mysql from "./../images/language/MySQL.png";
+
+import ecopark from "./../images/ecoPark.png";
+import ffeco from "./../images/ffEco.png";
+import peacejudo from "./../images/peaceJudo.png";
 // 技能
 const skills = [python, java, jsp, html, css, scss, js, jquery, bootstrap, react, git, solr, mysql];
 
@@ -144,7 +148,36 @@ const AboutExperiance = () => {
 							</div>
 						</div>
 						<div className="abExpContent mt-3">
-							{/* https://react-rainbow.io/#/CarouselCard */}
+							<Accordion>
+								{/* 作品 */}
+								<AccordionSection
+									icon={<FontAwesomeIcon icon={faLaptopCode} />}
+									label="Works"
+									variant="error"
+								>
+									{/* https://react-rainbow.io/#/CarouselCard */}
+								</AccordionSection>
+								{/* 其他 */}
+								<AccordionSection
+									icon={<FontAwesomeIcon icon={faFeather} />}
+									label="Others"
+								>
+									<div className="d-flex justify-content-between align-items-center flex-wrap">
+										<div>
+											<img className="me-3" src={ecopark} alt="公園生態化" height="auto" width="50" />
+											台北萬華青年公園志工隊
+										</div>
+										<div>
+											<img className="me-3" src={ffeco} alt="羽林生態" height="auto" width="50" />
+											淡水河流域同步鳥類調查
+										</div>
+										<div>
+											<img className="me-3" src={peacejudo} alt="和平柔道" height="auto" width="50" />
+											和平柔道館
+										</div>
+									</div>
+								</AccordionSection>
+							</Accordion>
 						</div>
 					</div>
 				</div>
@@ -154,9 +187,9 @@ const AboutExperiance = () => {
 				<div className="abExpHeader col col-md-3">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">SKILLS</span>
 				</div>
-				<div className="col col-md-9">
+				<div className="col col-md-9 d-flex justify-content-between align-items-center flex-wrap">
 				{skills.map((skill, sIdx) => (
-					<div key={`abExpSkill-${sIdx}`} className="abExpSkill float-start p-3">
+					<div key={`abExpSkill-${sIdx}`} className="abExpSkill p-2">
 						<img src={skill} alt={skill} width="auto" height="80" />
 					</div>
 				))}
