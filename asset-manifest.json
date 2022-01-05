@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/bird-watching/static/css/main.682d1afe.chunk.css",
-    "main.js": "/bird-watching/static/js/main.8922b969.chunk.js",
-    "main.js.map": "/bird-watching/static/js/main.8922b969.chunk.js.map",
+    "main.js": "/bird-watching/static/js/main.7c889908.chunk.js",
+    "main.js.map": "/bird-watching/static/js/main.7c889908.chunk.js.map",
     "runtime-main.js": "/bird-watching/static/js/runtime-main.30008f3f.js",
     "runtime-main.js.map": "/bird-watching/static/js/runtime-main.30008f3f.js.map",
     "static/css/2.9e981650.chunk.css": "/bird-watching/static/css/2.9e981650.chunk.css",
-    "static/js/2.41ed2ca3.chunk.js": "/bird-watching/static/js/2.41ed2ca3.chunk.js",
-    "static/js/2.41ed2ca3.chunk.js.map": "/bird-watching/static/js/2.41ed2ca3.chunk.js.map",
+    "static/js/2.6f6a8dfe.chunk.js": "/bird-watching/static/js/2.6f6a8dfe.chunk.js",
+    "static/js/2.6f6a8dfe.chunk.js.map": "/bird-watching/static/js/2.6f6a8dfe.chunk.js.map",
     "static/js/3.387109e6.chunk.js": "/bird-watching/static/js/3.387109e6.chunk.js",
     "static/js/3.387109e6.chunk.js.map": "/bird-watching/static/js/3.387109e6.chunk.js.map",
     "index.html": "/bird-watching/index.html",
     "static/css/2.9e981650.chunk.css.map": "/bird-watching/static/css/2.9e981650.chunk.css.map",
     "static/css/main.682d1afe.chunk.css.map": "/bird-watching/static/css/main.682d1afe.chunk.css.map",
-    "static/js/2.41ed2ca3.chunk.js.LICENSE.txt": "/bird-watching/static/js/2.41ed2ca3.chunk.js.LICENSE.txt",
+    "static/js/2.6f6a8dfe.chunk.js.LICENSE.txt": "/bird-watching/static/js/2.6f6a8dfe.chunk.js.LICENSE.txt",
     "static/media/ASCDC.ebb6f62b.png": "/bird-watching/static/media/ASCDC.ebb6f62b.png",
     "static/media/CSS.1334cb45.png": "/bird-watching/static/media/CSS.1334cb45.png",
     "static/media/GIT.7d664489.png": "/bird-watching/static/media/GIT.7d664489.png",
@@ -33,9 +33,12 @@
     "static/media/About.css": "/bird-watching/static/media/birdsOfAFeather_68.dc593a7b.jpg",
     "static/media/Home.css": "/bird-watching/static/media/cover_77.4450d655.JPG",
     "static/media/ebirder.53c42286.png": "/bird-watching/static/media/ebirder.53c42286.png",
+    "static/media/ecoPark.48872a6b.png": "/bird-watching/static/media/ecoPark.48872a6b.png",
+    "static/media/ffEco.f6246ddf.png": "/bird-watching/static/media/ffEco.f6246ddf.png",
     "static/media/headshot.b82c46c8.JPG": "/bird-watching/static/media/headshot.b82c46c8.JPG",
     "static/media/logo.4fc1974f.png": "/bird-watching/static/media/logo.4fc1974f.png",
     "static/media/marker-icon.16762ddc.png": "/bird-watching/static/media/marker-icon.16762ddc.png",
+    "static/media/peaceJudo.3e0ba930.png": "/bird-watching/static/media/peaceJudo.3e0ba930.png",
     "static/media/point1.e4e00c55.png": "/bird-watching/static/media/point1.e4e00c55.png",
     "static/media/point2.c2efd565.png": "/bird-watching/static/media/point2.c2efd565.png",
     "static/media/point3.2432f373.png": "/bird-watching/static/media/point3.2432f373.png",
@@ -45,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.30008f3f.js",
     "static/css/2.9e981650.chunk.css",
-    "static/js/2.41ed2ca3.chunk.js",
+    "static/js/2.6f6a8dfe.chunk.js",
     "static/css/main.682d1afe.chunk.css",
-    "static/js/main.8922b969.chunk.js"
+    "static/js/main.7c889908.chunk.js"
   ]
 }
