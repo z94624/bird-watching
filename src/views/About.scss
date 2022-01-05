@@ -91,3 +91,12 @@ $socialNetworkSVG-tranSecs: 0.3s;
 		transform: scale(1.1); // 凸顯感
 	}
 }
+/* 名人 */
+.abGreatFigure {
+	height: 250px;
+}
+/* 愛因斯坦 */
+#abGreatEinsteinSection {
+	@include background(cover);
+	@include backgroundImage_darken(url("./../images/einsteinRing.jpg"), 0.5);
+}

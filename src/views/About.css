@@ -2,6 +2,7 @@
 /* Bootstrap 暗色背景背景顏色 */
 /* Bootstrap 暗色背景 Blur 的字體顏色 */
 /* 背景主題 */
+/* 背景圖片降低亮度 */
 /* 字體大小 */
 .a-dark {
   text-decoration: none;
@@ -134,6 +135,21 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border: 3px solid #FE9AFF;
   transform: scale(1.1);
+}
+
+/* 名人 */
+.abGreatFigure {
+  height: 250px;
+}
+
+/* 愛因斯坦 */
+#abGreatEinsteinSection {
+  background-position: center;
+  background-size: cover;
+  /* auto, cover, contain */
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/einsteinRing.jpg");
 }
 
 /*# sourceMappingURL=About.css.map */

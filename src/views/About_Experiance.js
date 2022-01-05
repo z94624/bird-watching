@@ -190,7 +190,7 @@ const AboutExperiance = () => {
 				<div className="col col-md-9 d-flex justify-content-between align-items-center flex-wrap">
 				{skills.map((skill, sIdx) => (
 					<div key={`abExpSkill-${sIdx}`} className="abExpSkill p-2">
-						<img src={skill} alt={skill} width="auto" height="80" />
+						<img src={skill} alt={skill} width="auto" height="85" />
 					</div>
 				))}
 				</div>

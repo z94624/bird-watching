@@ -11,3 +11,8 @@ $bs-bgDark_blur: rgba(255, 255, 255, .55);
 		color: #000000;
 	}
 }
+/* 背景圖片降低亮度 */
+@mixin backgroundImage_darken($url, $alpha) {
+	background-image: linear-gradient(rgba(0, 0, 0, $alpha),
+                       rgba(0, 0, 0, $alpha)), $url;
+}
