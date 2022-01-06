@@ -93,10 +93,20 @@ $socialNetworkSVG-tranSecs: 0.3s;
 }
 /* 名人 */
 .abGreatFigure {
-	height: 250px;
+	height: auto;
 }
 /* 愛因斯坦 */
 #abGreatEinsteinSection {
 	@include background(cover);
 	@include backgroundImage_darken(url("./../images/einsteinRing.jpg"), 0.5);
+}
+/* 霍金 */
+#abGreatHawkingSection {
+	@include background(cover);
+	@include backgroundImage_darken(url("./../images/blackhole.png"), 0.5);
+}
+/* 珍古德 */
+#abGreatJaneSection {
+	@include background(cover);
+	@include backgroundImage_darken(url("./../images/belugaWhales.webp"), 0.5);
 }
