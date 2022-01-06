@@ -1,4 +1,35 @@
+import { useForm } from "react-hook-form";
+
+const Input = ({ label, type, register, required, errors }) => (
+	<>
+		<label htmlFor={`abEmail${label}`} className="col-sm-2 col-form-label">
+			{label}
+			{required ? <sup className="requiredForm">*</sup> : <></>}
+		</label>
+		<div className="col-sm-10">
+			<input type={type} className="form-control form-control-lg" id={`abEmail${label}`} {...register(label, { required })} />
+			{required ? errors[label] && <span className="errorForm">This field is required</span> : <></>}
+		</div>
+	</>
+);
+
+const Textarea = ({ label, rows, register, required, errors }) => (
+	<>
+		<label htmlFor={`abEmail${label}`} className="col-sm-2 col-form-label">
+			{label}
+			{required ? <sup className="requiredForm">*</sup> : <></>}
+		</label>
+		<div className="col-sm-10">
+			<textarea className="form-control form-control-lg" id={`abEmail${label}`} rows={rows} {...register(label, { required })} />
+			{required ? errors[label] && <span className="errorForm">This field is required</span> : <></>}
+		</div>
+	</>
+);
+
 const AboutEmail = () => {
+	const { register, handleSubmit, formState: { errors } } = useForm();
+	const onSubmit = data => console.log(data);
+
 	return (
 		<div id="abEmail" className="h-100 text-white p-5">
 			<div className="d-flex justify-content-start align-items-center">
@@ -7,32 +38,25 @@ const AboutEmail = () => {
 				</svg>
 				<h1 className="bold-900">Contact Me</h1>
 			</div>
-			<div className="row my-5">
+			<div className="row mt-3">
 				<div className="col col-8">
-					<div className="mb-4 row">
-						<label htmlFor="abEmailName" className="col-sm-2 col-form-label">Name</label>
-						<div className="col-sm-10">
-							<input type="text" className="form-control form-control-lg" id="abEmailName" />
+					<form onSubmit={handleSubmit(onSubmit)}>
+						<div className="mb-4 row">
+							<Input label="Name" type="text" register={register} errors={errors} required />
 						</div>
-					</div>
-					<div className="mb-4 row">
-						<label htmlFor="abEmailEmail" className="col-sm-2 col-form-label">Email</label>
-						<div className="col-sm-10">
-							<input type="email" className="form-control form-control-lg" id="abEmailEmail" />
+						<div className="mb-4 row">
+							<Input label="Email" type="email" register={register} errors={errors} required />
 						</div>
-					</div>
-					<div className="mb-4 row">
-						<label htmlFor="abEmailSubject" className="col-sm-2 col-form-label">Subject</label>
-						<div className="col-sm-10">
-							<input type="text" className="form-control form-control-lg" id="abEmailSubject" />
+						<div className="mb-4 row">
+							<Input label="Subject" type="text" register={register} />
 						</div>
-					</div>
-					<div className="mb-4 row">
-						<label htmlFor="abEmailMessage" className="col-sm-2 col-form-label">Message</label>
-						<div className="col-sm-10">
-							<textarea className="form-control form-control-lg" id="abEmailMessage" rows="5" />
+						<div className="mb-4 row">
+							<Textarea label="Message" rows="5" register={register} errors={errors} required />
 						</div>
-					</div>
+						<div>
+							<button type="submit" className="btn btn-info btn-lg">SEND</button>
+						</div>
+					</form>
 				</div>
 				<div className="col col-4">
 

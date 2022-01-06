@@ -110,3 +110,8 @@ $socialNetworkSVG-tranSecs: 0.3s;
 	@include background(cover);
 	@include backgroundImage_darken(url("./../images/belugaWhales.webp"), 0.5);
 }
+/* 表單未填欄位錯誤訊息 */
+.errorForm {
+	color: $highlightColor;
+	font-size: 15px;
+}

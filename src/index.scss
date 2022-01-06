@@ -24,3 +24,8 @@ html, body {
     color: white;
     background-color: $highlightColor;
 }
+// 必填欄位的米字號
+.requiredForm {
+    color: red;
+    font-size: 1rem;
+}

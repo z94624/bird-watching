@@ -23,4 +23,9 @@ html, body {
   background-color: #FE9AFF;
 }
 
+.requiredForm {
+  color: red;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=index.css.map */

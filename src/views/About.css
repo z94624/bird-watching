@@ -172,4 +172,10 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/belugaWhales.webp");
 }
 
+/* 表單未填欄位錯誤訊息 */
+.errorForm {
+  color: #FE9AFF;
+  font-size: 15px;
+}
+
 /*# sourceMappingURL=About.css.map */
