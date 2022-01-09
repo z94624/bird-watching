@@ -187,10 +187,10 @@ const AboutExperiance = () => {
 				<div className="abExpHeader col col-md-3">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">SKILLS</span>
 				</div>
-				<div className="col col-md-9 d-flex justify-content-between align-items-center flex-wrap">
+				<div className="col col-md-9 d-flex justify-content-start align-items-center flex-wrap">
 				{skills.map((skill, sIdx) => (
-					<div key={`abExpSkill-${sIdx}`} className="abExpSkill p-2">
-						<img src={skill} alt={skill} width="auto" height="85" />
+					<div key={`abExpSkill-${sIdx}`} className="abExpSkill p-3 m-3">
+						<img src={skill} alt={skill} width="auto" height="80" />
 					</div>
 				))}
 				</div>
