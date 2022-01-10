@@ -115,3 +115,10 @@ $socialNetworkSVG-tranSecs: 0.3s;
 	color: $highlightColor;
 	font-size: 15px;
 }
+/* 信件寄出成功訊息 */
+#abEmailSuccessAlert {
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+	width: 200px;
+}

@@ -1,36 +1,63 @@
+import { useState, useRef } from 'react';
+
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
+import { Alert } from 'react-bootstrap';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 // (Bootstrap + react-hook-form) input
-const Input = ({ label, type, register, required, errors }) => (
+const Input = ({ label, name, type, register, required, errors }) => (
 	<>
-		<label htmlFor={`abEmail${label}`} className="col-sm-2 col-form-label">
-			{label}
+		<label htmlFor={`abEmail${name}`} className="col-sm-2 col-form-label">
+			{name}
 			{required ? <sup className="requiredForm">*</sup> : <></>} {/* 必填符號 */}
 		</label>
 		<div className="col-sm-10">
-			<input type={type} className="form-control form-control-lg" id={`abEmail${label}`} {...register(label, { required })} />
+			<input type={type} className="form-control form-control-lg" id={`abEmail${name}`} {...register(label, { required })} />
 			{required && errors[label] ? <span className="errorForm">This field is required</span> : <></>} {/* 必填訊息 */}
 		</div>
 	</>
 );
 // (Bootstrap + react-hook-form) textarea
-const Textarea = ({ label, rows, register, required, errors }) => (
+const Textarea = ({ label, name, rows, register, required, errors }) => (
 	<>
-		<label htmlFor={`abEmail${label}`} className="col-sm-2 col-form-label">
-			{label}
+		<label htmlFor={`abEmail${name}`} className="col-sm-2 col-form-label">
+			{name}
 			{required ? <sup className="requiredForm">*</sup> : <></>} {/* 必填符號 */}
 		</label>
 		<div className="col-sm-10">
-			<textarea className="form-control form-control-lg" id={`abEmail${label}`} rows={rows} {...register(label, { required })} />
+			<textarea className="form-control form-control-lg" id={`abEmail${name}`} rows={rows} {...register(label, { required })} />
 			{required && errors[label] ? <span className="errorForm">This field is required</span> : <></>} {/* 必填訊息 */}
 		</div>
 	</>
 );
 
 const AboutEmail = () => {
-	console.log(process.env.REACT_APP_EMAILJS_USER_ID);
 	// 表單
+	const emailForm = useRef();
 	const { register, handleSubmit, formState: { errors } } = useForm();
-	const onSubmit = data => console.log(data);
+	// 寄信
+	const sendEmail = e => {
+		emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, emailForm.current, process.env.REACT_APP_EMAILJS_USER_ID)
+		.then(response => {
+			handleEmailSuccessAlertShow();
+			//console.log('SUCCESS!', response.status, response.text);
+		}, error => {
+			console.log('FAILED...', error);
+		});
+	}
+	// 信件寄出成功訊息
+	const [emailSuccessAlertShow, setEmailSuccessAlertShow] = useState(false);
+	const handleEmailSuccessAlertShow = () => {
+		// 清空
+		emailForm.current.reset();
+		// 出現幾秒後自動消失
+		setEmailSuccessAlertShow(true);
+		setTimeout(() => {
+			setEmailSuccessAlertShow(false);
+		}, 2000);
+	}
 
 	return (
 		<div id="abEmail" className="h-100 text-white p-5">
@@ -45,18 +72,18 @@ const AboutEmail = () => {
 			<div className="row mt-3">
 				{/* 聯絡欄位 */}
 				<div className="col col-8">
-					<form onSubmit={handleSubmit(onSubmit)}>
+					<form ref={emailForm} onSubmit={handleSubmit(sendEmail)}>
 						<div className="mb-4 row">
-							<Input label="Name" type="text" register={register} errors={errors} required />
+							<Input label={process.env.REACT_APP_EMAILJS_FROM_NAME} name="Name" type="text" register={register} errors={errors} required />
 						</div>
 						<div className="mb-4 row">
-							<Input label="Email" type="email" register={register} errors={errors} required />
+							<Input label={process.env.REACT_APP_EMAILJS_FROM_EMAIL} name="Email" type="email" register={register} errors={errors} required />
 						</div>
 						<div className="mb-4 row">
-							<Input label="Subject" type="text" register={register} />
+							<Input label={process.env.REACT_APP_EMAILJS_SUBJECT} name="Subject" type="text" register={register} />
 						</div>
 						<div className="mb-4 row">
-							<Textarea label="Message" rows="5" register={register} errors={errors} required />
+							<Textarea label={process.env.REACT_APP_EMAILJS_MESSAGE} name="Message" rows="5" register={register} errors={errors} required />
 						</div>
 						<div>
 							<button type="submit" className="btn btn-outline-info btn-lg">SEND</button>
@@ -67,6 +94,13 @@ const AboutEmail = () => {
 				<div className="col col-4">
 
 				</div>
+			</div>
+			{/* 寄信成功訊息 */}
+			<div id="abEmailSuccessAlert">
+				<Alert show={emailSuccessAlertShow} variant="success" onClose={() => setEmailSuccessAlertShow(false)} transition={true}>
+					<FontAwesomeIcon icon={faPaperPlane} className="me-2" />
+					信件已成功寄出！
+				</Alert>
 			</div>
 		</div>
 	);
