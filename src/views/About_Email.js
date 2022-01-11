@@ -4,8 +4,9 @@ import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { Alert } from 'react-bootstrap';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import paperplane from "./../images/paperplane.svg";
+import emailSendingIcon from "./../images/loading/Interwind-1s-200px.gif";
+import mail from "./../images/mail.svg";
 // (Bootstrap + react-hook-form) input
 const Input = ({ label, name, type, register, required, errors }) => (
 	<>
@@ -36,8 +37,9 @@ const Textarea = ({ label, name, rows, register, required, errors }) => (
 const AboutEmail = () => {
 	// 表單
 	const emailForm = useRef();
-	const { register, handleSubmit, formState: { errors } } = useForm();
+	const { register, handleSubmit, reset, formState: { errors } } = useForm();
 	// 寄信
+	const [emailSending, setEmailSending] = useState(false);
 	const sendEmail = e => {
 		emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, emailForm.current, process.env.REACT_APP_EMAILJS_USER_ID)
 		.then(response => {
@@ -47,11 +49,17 @@ const AboutEmail = () => {
 			console.log('FAILED...', error);
 		});
 	}
+	const handleEmailSending = () => {
+		setEmailSending(true);
+		sendEmail();
+	}
 	// 信件寄出成功訊息
 	const [emailSuccessAlertShow, setEmailSuccessAlertShow] = useState(false);
 	const handleEmailSuccessAlertShow = () => {
-		// 清空
-		emailForm.current.reset();
+		// 寄信完成
+		setEmailSending(false);
+		// EmailJS 重置
+		reset();
 		// 出現幾秒後自動消失
 		setEmailSuccessAlertShow(true);
 		setTimeout(() => {
@@ -60,7 +68,7 @@ const AboutEmail = () => {
 	}
 
 	return (
-		<div id="abEmail" className="h-100 text-white p-5">
+		<div id="abEmail" className="h-auto text-white p-5">
 			{/* 聯絡標題 */}
 			<div className="d-flex justify-content-start align-items-center">
 				<svg xmlns="http://www.w3.org/2000/svg" width="87" height="87" fill="currentColor" className="bi bi-envelope me-4" viewBox="0 0 16 16">
@@ -72,7 +80,7 @@ const AboutEmail = () => {
 			<div className="row mt-3">
 				{/* 聯絡欄位 */}
 				<div className="col col-8">
-					<form ref={emailForm} onSubmit={handleSubmit(sendEmail)}>
+					<form ref={emailForm} onSubmit={handleSubmit(handleEmailSending)}>
 						<div className="mb-4 row">
 							<Input label={process.env.REACT_APP_EMAILJS_FROM_NAME} name="Name" type="text" register={register} errors={errors} required />
 						</div>
@@ -86,7 +94,9 @@ const AboutEmail = () => {
 							<Textarea label={process.env.REACT_APP_EMAILJS_MESSAGE} name="Message" rows="5" register={register} errors={errors} required />
 						</div>
 						<div>
-							<button type="submit" className="btn btn-outline-info btn-lg">SEND</button>
+							<button type="submit" className="btn btn-outline-light p-1" disabled={emailSending && true}>
+							{emailSending ? (<img src={emailSendingIcon} alt="SENDING" width="auto" height="50" />) : (<img src={paperplane} alt="SEND" width="auto" height="50" />)}
+							</button>
 						</div>
 					</form>
 				</div>
@@ -98,7 +108,7 @@ const AboutEmail = () => {
 			{/* 寄信成功訊息 */}
 			<div id="abEmailSuccessAlert">
 				<Alert show={emailSuccessAlertShow} variant="success" onClose={() => setEmailSuccessAlertShow(false)} transition={true}>
-					<FontAwesomeIcon icon={faPaperPlane} className="me-2" />
+					<img className="me-2" src={mail} alt="MAIL" width="auto" height="35" />
 					信件已成功寄出！
 				</Alert>
 			</div>
