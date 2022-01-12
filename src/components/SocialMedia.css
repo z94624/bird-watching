@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 社群網路圖示 */
+/* 社群網路 */
+.bi-github {
+  transition: fill 0.3s;
+}
+.bi-github:hover {
+  fill: #000000;
+}
+
+.bi-youtube {
+  transition: fill 0.3s;
+}
+.bi-youtube:hover {
+  fill: #FF0000;
+}
+
+.bi-facebook {
+  transition: fill 0.3s;
+}
+.bi-facebook:hover {
+  fill: #1778F2;
+}
+
+.bi-instagram:hover stop:nth-child(1) {
+  stop-color: #fdf497;
+}
+.bi-instagram:hover stop:nth-child(2) {
+  stop-color: #fdf497;
+}
+.bi-instagram:hover stop:nth-child(3) {
+  stop-color: #fd5949;
+}
+.bi-instagram:hover stop:nth-child(4) {
+  stop-color: #d6249f;
+}
+.bi-instagram:hover stop:nth-child(5) {
+  stop-color: #285AEB;
+}
+.bi-instagram stop {
+  transition: stop-color 0.3s;
+}
+
+.bi-linkedin {
+  transition: fill 0.3s;
+}
+.bi-linkedin:hover {
+  fill: #2867B2;
+}
+
+/*# sourceMappingURL=SocialMedia.css.map */

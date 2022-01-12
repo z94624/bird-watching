@@ -12,7 +12,6 @@
   color: #FD4DFF;
 }
 
-/* 社群網路圖示 */
 /* 最粗粗體 */
 .bold-900 {
   font-weight: 900;
@@ -75,54 +74,6 @@
   #abHomeBadges, #abHomeDescription {
     font-size: 14px;
   }
-}
-
-/* 社群網路 */
-#abHomeGithub svg {
-  transition: fill 0.3s;
-}
-#abHomeGithub svg:hover {
-  fill: #000000;
-}
-
-#abHomeYoutube svg {
-  transition: fill 0.3s;
-}
-#abHomeYoutube svg:hover {
-  fill: #FF0000;
-}
-
-#abHomeFacebook svg {
-  transition: fill 0.3s;
-}
-#abHomeFacebook svg:hover {
-  fill: #1778F2;
-}
-
-#abHomeInstagram svg:hover stop:nth-child(1) {
-  stop-color: #fdf497;
-}
-#abHomeInstagram svg:hover stop:nth-child(2) {
-  stop-color: #fdf497;
-}
-#abHomeInstagram svg:hover stop:nth-child(3) {
-  stop-color: #fd5949;
-}
-#abHomeInstagram svg:hover stop:nth-child(4) {
-  stop-color: #d6249f;
-}
-#abHomeInstagram svg:hover stop:nth-child(5) {
-  stop-color: #285AEB;
-}
-#abHomeInstagram svg stop {
-  transition: stop-color 0.3s;
-}
-
-#abHomeLinkedin svg {
-  transition: fill 0.3s;
-}
-#abHomeLinkedin svg:hover {
-  fill: #2867B2;
 }
 
 /* 程式語言 */

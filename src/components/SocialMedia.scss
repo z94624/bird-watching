@@ -1,0 +1,46 @@
+/* 社群網路圖示 */
+$socialNetworkSVG-tranSecs: 0.3s;
+@mixin socialNetworkSVG($fill) {
+	transition: fill $socialNetworkSVG-tranSecs;
+	&:hover {
+		fill: $fill;
+	}
+}
+/* 社群網路 */
+.bi-github {
+	@include socialNetworkSVG(#000000);
+}
+.bi-youtube {
+	@include socialNetworkSVG(#FF0000);
+}
+.bi-facebook {
+	@include socialNetworkSVG(#1778F2);
+}
+.bi-instagram {
+	&:hover {
+		stop {
+			&:nth-child(1) {
+				stop-color: #fdf497;
+			}
+			&:nth-child(2) {
+				stop-color: #fdf497;
+			}
+			&:nth-child(3) {
+				stop-color: #fd5949;
+			}
+			&:nth-child(4) {
+				stop-color: #d6249f;
+			}
+			&:nth-child(5) {
+				stop-color: #285AEB;
+			}
+		}
+	}
+
+	stop {
+		transition: stop-color $socialNetworkSVG-tranSecs;
+	}
+}
+.bi-linkedin {
+	@include socialNetworkSVG(#2867B2);
+}
