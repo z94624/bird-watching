@@ -17,10 +17,9 @@ const AboutMe = () => {
 	return (
 		<div id="abMe" className="row h-auto">
 			{/* 照片 */}
-			<div className="col-md-4">
+			<div className="col-md-3 my-5 p-3">
 				<Avatar
 					id="abMeHeadshot"
-					className="mt-5"
 					name="黃健峯"
 					alt="黃健峯"
 					title="黃健峯"
@@ -30,7 +29,7 @@ const AboutMe = () => {
 				/>
 			</div>
 			{/* 簡介 */}
-			<div className="col-md-8 text-white">
+			<div className="col-md-9 px-5 text-white">
 				{/* 關於我 */}
 				<div id="abMeAboutme" className="my-5 text-start">
 					<h2 className="bold-900">About Me</h2>
@@ -54,7 +53,7 @@ const AboutMe = () => {
 				</div>
 				<div className="row my-5">
 					{/* 聯絡資訊 */}
-					<div id="abMeContact" className="col col-md-6 text-start">
+					<div id="abMeContact" className="col-md-8 col-lg-6 text-start">
 						<h2 className="bold-900">Contact Details</h2>
 						<div id="abMeContactContent" className="p-1">
 							<p className="m-1">
@@ -67,7 +66,7 @@ const AboutMe = () => {
 						</div>
 					</div>
 					{/* 下載履歷 */}
-					<div id="abMeResume" className="col col-md-6">
+					<div id="abMeResume" className="col-md-4 col-lg-6 d-flex justify-content-start align-items-center p-3">
 						<a id="abMeResumeButton" className="btn btn-outline-info btn-lg" href="https://www.cakeresume.com/s--pr8NZaeW9nEDqxTlCm0oZg--/smoBEE" target="_blank" rel="noopener noreferrer" role="button">
 							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
 								<path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>

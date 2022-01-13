@@ -53,6 +53,11 @@ const MNBS = ({ chartData, dates }) => {
 	}
 	// Monthly number of bird species 全螢幕處理器
 	const mnbsFSHandler = useFullScreenHandle();
+	if (mnbsFSHandler.active) {
+		mnbsOptions["maintainAspectRatio"] = false; // 全螢幕時可以 100% 佔滿
+	} else {
+		mnbsOptions["maintainAspectRatio"] = true;
+	}
 
 	return (
 		<>

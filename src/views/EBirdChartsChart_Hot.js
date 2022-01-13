@@ -66,6 +66,11 @@ const Hotspot = ({ locations }) => {
 	const hotRef = useRef(null);
 	// Hotspot 全螢幕處理器
 	const hotFSHandler = useFullScreenHandle();
+	if (hotFSHandler.active) {
+		hotOptions["maintainAspectRatio"] = false; // 全螢幕時可以 100% 佔滿
+	} else {
+		hotOptions["maintainAspectRatio"] = true;
+	}
 
 	return (
 		<>

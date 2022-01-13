@@ -20,8 +20,8 @@ const AboutGreat = () => {
 				return (
 					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${great.briefName}Section`} className="abGreatFigure row p-3">
 						{/* 名言 */}
-						<div className="col col-9 d-flex flex-column justify-content-center text-white">
-							<div className="col-10 align-self-center">
+						<div className="col-md-9 d-flex flex-column justify-content-center text-white">
+							<div className="col-md-10 align-self-center">
 								<blockquote className="blockquote text-start fs-4" >
 									<p>
 										<FontAwesomeIcon icon={faQuoteLeft} className="me-2" />
@@ -29,12 +29,12 @@ const AboutGreat = () => {
 									</p>
 								</blockquote>
 							</div>
-							<span className="col-5 fs-6 fst-italic align-self-end" >
+							<span className="col-md-5 fs-6 fst-italic align-self-end" >
 								- {great.name}
 							</span>
 						</div>
 						{/* 頭像 */}
-						<div className="col col-3 m-auto">
+						<div className="col-md-3 m-auto">
 							<Avatar
 								id={`abGreat${great.briefName}`}
 								name={great.name}
@@ -51,7 +51,7 @@ const AboutGreat = () => {
 				return (
 					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${great.briefName}Section`} className="abGreatFigure row p-3">
 						{/* 頭像 */}
-						<div className="col col-3 m-auto">
+						<div className="col-md-3 m-auto">
 							<Avatar
 								id={`abGreat${great.briefName}`}
 								name={great.name}
@@ -63,8 +63,8 @@ const AboutGreat = () => {
 							/>
 						</div>
 						{/* 名言 */}
-						<div className="col col-9 d-flex flex-column justify-content-center text-white">
-							<div className="col-10 align-self-center">
+						<div className="col-md-9 d-flex flex-column justify-content-center text-white">
+							<div className="col-md-10 align-self-center">
 								<blockquote className="blockquote text-start fs-4" >
 									<p>
 										<FontAwesomeIcon icon={faQuoteLeft} className="me-2" />
@@ -72,7 +72,7 @@ const AboutGreat = () => {
 									</p>
 								</blockquote>
 							</div>
-							<span className="col-5 fs-6 fst-italic align-self-end" >
+							<span className="col-md-5 fs-6 fst-italic align-self-end" >
 								- {great.name}
 							</span>
 						</div>

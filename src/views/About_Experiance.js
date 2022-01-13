@@ -1,4 +1,4 @@
-import { Accordion, AccordionSection } from 'react-rainbow-components';
+import { Accordion, AccordionSection, CarouselCard, CarouselImage } from 'react-rainbow-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faBook, faStar, faCrosshairs, faDumbbell, faLaptopCode, faFeather } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faPython, faBlackTie } from '@fortawesome/free-brands-svg-icons'
@@ -21,6 +21,9 @@ import react from "./../images/language/React.png";
 import git from "./../images/language/GIT.png";
 import solr from "./../images/language/Solr.png";
 import mysql from "./../images/language/MySQL.png";
+
+import dh from "./../images/ascdc/數位人文平台.png";
+import dm from "./../images/ascdc/開放博物館.png";
 
 import ecopark from "./../images/ecoPark.png";
 import ffeco from "./../images/ffEco.png";
@@ -53,10 +56,10 @@ const AboutExperiance = () => {
 		<div id="abExp" className="row h-auto bg-light">
 			{/* 學歷 */}
 			<div id="abExpEducation" className="row my-5">
-				<div className="abExpHeader col col-md-3">
+				<div className="abExpHeader col-md-3 pb-5">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">EDUCATION</span>
 				</div>
-				<div className="col col-md-9 text-start">
+				<div className="col-md-9 text-start ps-5 pe-4">
 					{/* 碩士 */}
 					<div className="pb-3">
 						<div className="abExpTitle">
@@ -155,10 +158,10 @@ const AboutExperiance = () => {
 			</div>
 			{/* 經歷 */}
 			<div id="abExpWork" className="row my-5">
-				<div className="abExpHeader col col-md-3">
+				<div className="abExpHeader col-md-3 pb-5">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">WORK</span>
 				</div>
-				<div className="col col-md-9 text-start">
+				<div className="col-md-9 text-start ps-5 pe-4">
 					<div className="abExpTitle">
 						<img className="float-start me-3" src={ascdc} alt="ASCDC" width="auto" height="72" />
 						<div>
@@ -174,7 +177,24 @@ const AboutExperiance = () => {
 								label="Works"
 								variant="error"
 							>
-								{/* https://react-rainbow.io/#/CarouselCard */}
+								<CarouselCard
+									scrollDuration="3" // 每 ? 秒下一張
+								>
+									<CarouselImage
+										src={dh}
+										header="數位人文平台" // text|Component
+										description="數位人文平台" // text|Component
+										assistiveText="數位人文平台" // A description for assistive screen readers.
+										href="https://dh.ascdc.sinica.edu.tw/member/"
+									/>
+									<CarouselImage
+										src={dm}
+										header="開放博物館"
+										description="開放博物館"
+										assistiveText="開放博物館"
+										href="https://openmuseum.tw/"
+									/>
+								</CarouselCard>
 							</AccordionSection>
 							{/* 其他 */}
 							<AccordionSection
@@ -196,10 +216,10 @@ const AboutExperiance = () => {
 			</div>
 			{/* 技能 */}
 			<div id="abExpSkill" className="row my-5">
-				<div className="abExpHeader col col-md-3">
+				<div className="abExpHeader col-md-3 pb-5">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">SKILLS</span>
 				</div>
-				<div className="col col-md-9 d-flex justify-content-start align-items-center flex-wrap">
+				<div className="col-md-9 d-flex justify-content-around align-items-center flex-wrap ps-4">
 				{skills.map((skill, sIdx) => (
 					<div key={`abExpSkill-${sIdx}`} className="abExpSkill p-3 m-3">
 						<img src={skill.src} alt={skill.name} title={skill.name} width="auto" height="80" />

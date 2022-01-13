@@ -66,8 +66,11 @@
   transition: border-color 0.3s;
 }
 
-.chartFullscreen > canvas {
+.chartFullscreen:not(.fullscreen-enabled) > canvas {
   max-height: 350px;
+}
+.chartFullscreen.fullscreen-enabled > canvas {
+  max-height: 100vh;
 }
 
 /*# sourceMappingURL=EBird.css.map */

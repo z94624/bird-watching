@@ -3,6 +3,7 @@ import { useState, useRef } from 'react';
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { Alert } from 'react-bootstrap';
+import { FacebookProvider, Page } from 'react-facebook';
 
 import paperplane from "./../images/paperplane.svg";
 import emailSendingIcon from "./../images/loading/Interwind-1s-200px.gif";
@@ -77,9 +78,9 @@ const AboutEmail = () => {
 				<h1 className="bold-900">Contact Me</h1>
 			</div>
 			{/* 聯絡內容 */}
-			<div className="row mt-3">
+			<div className="row">
 				{/* 聯絡欄位 */}
-				<div className="col col-8">
+				<div className="col-md-6 col-lg-8 py-3">
 					<form ref={emailForm} onSubmit={handleSubmit(handleEmailSending)}>
 						<div className="mb-4 row">
 							<Input label={process.env.REACT_APP_EMAILJS_FROM_NAME} name="Name" type="text" register={register} errors={errors} required />
@@ -94,15 +95,17 @@ const AboutEmail = () => {
 							<Textarea label={process.env.REACT_APP_EMAILJS_MESSAGE} name="Message" rows="5" register={register} errors={errors} required />
 						</div>
 						<div>
-							<button type="submit" className="btn btn-outline-light p-1" disabled={emailSending && true}>
+							<button type="submit" className="btn btn-outline-light w-100" disabled={emailSending && true}>
 							{emailSending ? (<img src={emailSendingIcon} alt="SENDING" width="auto" height="50" />) : (<img src={paperplane} alt="SEND" width="auto" height="50" />)}
 							</button>
 						</div>
 					</form>
 				</div>
 				{/* 聯絡相關 */}
-				<aside className="col col-4 text-start">
-					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAgeOfMagicGame&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="auto" height="100%" style={{border:"none",overflow:"hidden"}} scrolling="no" frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+				<aside className="col-md-6 col-lg-4">
+					<FacebookProvider appId={process.env.REACT_APP_FACEBOOK_APP_ID}>
+						<Page href="https://www.facebook.com/RRGTaiwan" tabs="timeline"	 />
+					</FacebookProvider>
 				</aside>
 			</div>
 			{/* 寄信成功訊息 */}

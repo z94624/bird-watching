@@ -92,6 +92,11 @@ const Succession = ({ chartData, locations, nonDupLocations }) => {
 	const succRef = useRef(null);
 	// Succession 全螢幕處理器
 	const succFSHandler = useFullScreenHandle();
+	if (succFSHandler.active) {
+		succOptions["maintainAspectRatio"] = false; // 全螢幕時可以 100% 佔滿
+	} else {
+		succOptions["maintainAspectRatio"] = true;
+	}
 
 	return (
 		<>

@@ -7,7 +7,7 @@ import { ReactComponent as ResetZoom } from './../images/resetZoom.svg';
  * 全螢幕按鈕
  * fullscreenHandler: 'react-full-screen'
  */
-export const FullScreenButton = ({fullscreenHandler, absolutePosition=true}) => {
+export const FullScreenButton = ({fullscreenHandler, options, absolutePosition=true}) => {
 	return (
 		<OverlayTrigger
 			key="top"

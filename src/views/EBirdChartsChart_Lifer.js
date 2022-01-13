@@ -90,6 +90,11 @@ const Lifer = ({ chartData, dates }) => {
 	const liferRef = useRef(null);
 	// Lifer 全螢幕處理器
 	const liferFSHandler = useFullScreenHandle();
+	if (liferFSHandler.active) {
+		liferOptions["maintainAspectRatio"] = false; // 全螢幕時可以 100% 佔滿
+	} else {
+		liferOptions["maintainAspectRatio"] = true;
+	}
 
 	return (
 		<>
