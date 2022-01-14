@@ -1,0 +1,6 @@
+@import "./css/_backgrounds";
+/* 攝影藝廊 */
+#photosContainer {
+	@include background(cover);
+	background-image: url("./../images/table.jpg");
+}

@@ -2,10 +2,12 @@ import { useState, useEffect } from 'react';
 
 import { DatePicker } from 'react-rainbow-components';
 
-import { getItems, itemsToRainbowMultiSelectOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
+import { itemsToRainbowMultiSelectOptions, vidsToVideoCards } from './../utils/ytVideos_dataExtraction';
+import { getItemsByKey } from './../utils/tools';
 import ScrollTopArrow from './../components/ScrollTopArrow';
 import Footer from './../components/Footer';
 import './YouTube.css';
+import youTubeVideosData from './../utils/youtube-videos.json';
 // 篩選參數篩選值
 var userParameters = {
 	userDates: [],
@@ -99,7 +101,7 @@ const YouTube = ({ scrollToElement }) => {
 		}
 		handleUserChange(); // 更新符合的影片
 	}
-	const listLocations = getItems('location'); // 不重複地點
+	const listLocations = getItemsByKey(youTubeVideosData, 'location'); // 不重複地點
 	const locationMultiSelect = itemsToRainbowMultiSelectOptions(listLocations, "ytLocationMultiSelect", "地點", locations, handleLocationsChange, "賞鳥地點"); // 地點篩選選項
 	// 篩選參數：鳥種
 	const [birds, setBirds] = useState([]); // 多選鳥種清單
@@ -111,13 +113,13 @@ const YouTube = ({ scrollToElement }) => {
 		}
 		handleUserChange(); // 更新符合的影片
 	}
-	const listBirds = getItems('bird'); // 不重複鳥種
+	const listBirds = getItemsByKey(youTubeVideosData, 'bird'); // 不重複鳥種
 	const birdMultiSelect = itemsToRainbowMultiSelectOptions(listBirds, "ytBirdMultiSelect", "鳥種", birds, handleBirdsChange, "觀賞鳥種"); // 鳥種篩選選項
 	// 影片列表
-	const fullVids = getItems('vid', true); // 所有重複影片 ID
-	const fullDates = getItems('date', true); // 所有重複日期
-	const fullLocations = getItems('location', true); // 所有重複地點
-	const fullBirds = getItems('bird', true); // 所有重複鳥種
+	const fullVids = getItemsByKey(youTubeVideosData, 'vid', true); // 所有重複影片 ID
+	const fullDates = getItemsByKey(youTubeVideosData, 'date', true); // 所有重複日期
+	const fullLocations = getItemsByKey(youTubeVideosData, 'location', true); // 所有重複地點
+	const fullBirds = getItemsByKey(youTubeVideosData, 'bird', true); // 所有重複鳥種
 	const fullVideos = vidsToVideoCards(fullVids, fullDates, fullLocations, fullBirds, handleVideoPlay, handleVideoStop); // 所有重複影片
 	const [videoCards, setVideoCards] = useState(fullVideos);
 	// 滾動至頂按鈕

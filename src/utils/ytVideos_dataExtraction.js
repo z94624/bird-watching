@@ -1,32 +1,7 @@
 import { Select, MultiSelect, Option } from 'react-rainbow-components';
 import FadeIn from 'react-fade-in';
 
-import youTubeVideosData from './youtube-videos.json';
 import YoutubeVideo from './../components/YoutubeVideo';
-import { arrayToChunks } from './tools.js';
-/*
- * 取得所有影片的某項資訊
- * key: 影片資訊欄位
- * duplicate: 重不重複
- * chunk: 配合 BS Grid System 進行資料分組
- * (chunk=false) 輸出：[a, b, c, ...]
- * (chunk=true) 輸出：[[a, b, c], [...], ...]
- */
-export const getItems = (key, duplicate=false, chunk = false) => {
-	// 收集所有資料
-	let items = youTubeVideosData.reduce((arr, ele) => 
-		arr.concat([ele[key]])
-	, []);
-	// 取不重複
-	if (!duplicate) {
-		items = [...(new Set(items))];
-	}
-	// 資料分組
-	if (chunk) {
-		items = arrayToChunks(items, 6);
-	}
-	return items;
-}
 /*
  * 產生 React Rainbow Components 選單的選項
  * items: 一階陣列資料
