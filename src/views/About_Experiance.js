@@ -53,13 +53,13 @@ const skills = [
 
 const AboutExperiance = () => {
 	return (
-		<div id="abExp" className="row h-auto bg-light">
+		<div id="abExp" className="row h-auto bg-light ps-5 pe-4">
 			{/* 學歷 */}
-			<div id="abExpEducation" className="row my-5">
-				<div className="abExpHeader col-md-3 pb-5">
+			<div id="abExpEducation" className="row">
+				<div className="abExpHeader col-md-3 pt-5">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">EDUCATION</span>
 				</div>
-				<div className="col-md-9 text-start ps-5 pe-4">
+				<div className="col-md-9 text-start pt-5">
 					{/* 碩士 */}
 					<div className="pb-3">
 						<div className="abExpTitle">
@@ -157,11 +157,11 @@ const AboutExperiance = () => {
 				</div>
 			</div>
 			{/* 經歷 */}
-			<div id="abExpWork" className="row my-5">
-				<div className="abExpHeader col-md-3 pb-5">
+			<div id="abExpWork" className="row">
+				<div className="abExpHeader col-md-3 pt-5">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">WORK</span>
 				</div>
-				<div className="col-md-9 text-start ps-5 pe-4">
+				<div className="col-md-9 text-start pt-5">
 					<div className="abExpTitle">
 						<img className="float-start me-3" src={ascdc} alt="ASCDC" width="auto" height="72" />
 						<div>
@@ -178,7 +178,7 @@ const AboutExperiance = () => {
 								variant="error"
 							>
 								<CarouselCard
-									scrollDuration="3" // 每 ? 秒下一張
+									scrollDuration={3} // 每 ? 秒下一張
 								>
 									<CarouselImage
 										src={dh}
@@ -215,11 +215,11 @@ const AboutExperiance = () => {
 				</div>
 			</div>
 			{/* 技能 */}
-			<div id="abExpSkill" className="row my-5">
-				<div className="abExpHeader col-md-3 pb-5">
+			<div id="abExpSkill" className="row">
+				<div className="abExpHeader col-md-3 pt-5">
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">SKILLS</span>
 				</div>
-				<div className="col-md-9 d-flex justify-content-around align-items-center flex-wrap ps-4">
+				<div className="col-md-9 d-flex justify-content-around align-items-center flex-wrap py-5">
 				{skills.map((skill, sIdx) => (
 					<div key={`abExpSkill-${sIdx}`} className="abExpSkill p-3 m-3">
 						<img src={skill.src} alt={skill.name} title={skill.name} width="auto" height="80" />

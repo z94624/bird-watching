@@ -18,10 +18,10 @@ const AboutGreat = () => {
 		{greats.map((great, gIdx) => {
 			if (gIdx % 2) {
 				return (
-					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${great.briefName}Section`} className="abGreatFigure row p-3">
+					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${great.briefName}Section`} className="abGreatFigure row px-3">
 						{/* 名言 */}
-						<div className="col-md-9 d-flex flex-column justify-content-center text-white">
-							<div className="col-md-10 align-self-center">
+						<div className="col-md-9 d-flex flex-column justify-content-center text-white px-5 py-3">
+							<div className="col-md-12 align-self-center">
 								<blockquote className="blockquote text-start fs-4" >
 									<p>
 										<FontAwesomeIcon icon={faQuoteLeft} className="me-2" />
@@ -34,7 +34,7 @@ const AboutGreat = () => {
 							</span>
 						</div>
 						{/* 頭像 */}
-						<div className="col-md-3 m-auto">
+						<div className="col-md-3 m-auto p-3">
 							<Avatar
 								id={`abGreat${great.briefName}`}
 								name={great.name}
@@ -49,9 +49,9 @@ const AboutGreat = () => {
 				);
 			} else {
 				return (
-					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${great.briefName}Section`} className="abGreatFigure row p-3">
+					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${great.briefName}Section`} className="abGreatFigure row px-3">
 						{/* 頭像 */}
-						<div className="col-md-3 m-auto">
+						<div className="col-md-3 m-auto p-3">
 							<Avatar
 								id={`abGreat${great.briefName}`}
 								name={great.name}
@@ -63,8 +63,8 @@ const AboutGreat = () => {
 							/>
 						</div>
 						{/* 名言 */}
-						<div className="col-md-9 d-flex flex-column justify-content-center text-white">
-							<div className="col-md-10 align-self-center">
+						<div className="col-md-9 d-flex flex-column justify-content-center text-white px-5 py-3">
+							<div className="col-md-12 align-self-center">
 								<blockquote className="blockquote text-start fs-4" >
 									<p>
 										<FontAwesomeIcon icon={faQuoteLeft} className="me-2" />

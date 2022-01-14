@@ -15,11 +15,12 @@ const speakingLanguages = ["英文", "法文", "阿拉伯文", "西班牙文", "
 
 const AboutMe = () => {
 	return (
-		<div id="abMe" className="row h-auto">
+		<div id="abMe" className="row h-auto p-3">
 			{/* 照片 */}
-			<div className="col-md-3 my-5 p-3">
+			<div className="col-md-3 px-5">
 				<Avatar
 					id="abMeHeadshot"
+					className="my-3"
 					name="黃健峯"
 					alt="黃健峯"
 					title="黃健峯"
