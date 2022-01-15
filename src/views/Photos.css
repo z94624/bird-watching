@@ -43,6 +43,8 @@
 
 /* 相片藝廊 */
 #phPhotosGallery {
+  display: flex;
+  position: absolute;
   height: calc(100vh - 62px);
   overflow-x: hidden;
   overflow-y: auto;
@@ -50,26 +52,40 @@
 
 /* 拍立得 */
 .polaroid {
+  position: relative;
+  left: 70px;
   width: auto;
   height: 150px;
   border-top: 7px solid white;
   border-right: 7px solid white;
-  border-bottom: 28px solid white;
+  border-bottom: 35px solid white;
   border-left: 7px solid white;
   overflow: hidden;
-  cursor: grab;
+  cursor: move;
   box-shadow: 0 4px 8px 0 black;
   transition: box-shadow 0.3s;
 }
+.polaroid:not(:first-child) {
+  margin-left: -70px;
+}
+.polaroid ~ .polaroid {
+  transition: box-shadow 0.3s, left 0.3s ease-out;
+}
 .polaroid img {
   height: 100%;
+  cursor: crosshair;
   transition: transform 1s;
 }
+.polaroid img:hover {
+  transform: scale(2);
+}
 .polaroid:hover {
+  z-index: 6;
   box-shadow: 0 8px 16px 0 black;
 }
-.polaroid:hover img {
-  transform: scale(2);
+.polaroid:hover ~ .polaroid {
+  position: relative;
+  left: 140px;
 }
 
 /*# sourceMappingURL=Photos.css.map */

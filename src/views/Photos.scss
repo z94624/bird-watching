@@ -13,6 +13,9 @@
 }
 /* 相片藝廊 */
 #phPhotosGallery {
+	display: flex;
+	position: absolute;
+
 	height: calc(100vh - 62px);
 
 	overflow-x: hidden;
@@ -23,27 +26,47 @@
 }
 /* 拍立得 */
 .polaroid {
+	position: relative;
+	left: 70px;
+
 	width: auto;
 	height: 150px;
 	border-top: 7px solid white;
 	border-right: 7px solid white;
-	border-bottom: 28px solid white;
+	border-bottom: 35px solid white;
 	border-left: 7px solid white;
 	overflow: hidden;
-	cursor: grab;
+	cursor: move;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
 	transition: box-shadow .3s;
-
+	// 除了第一張外，往前面一張覆蓋一點
+	&:not(:first-child) {
+		margin-left: -70px;
+	}
+	// 除了這張以外的移動動畫
+	& ~ .polaroid {
+		transition: box-shadow .3s, left .3s ease-out;
+	}
+	// 影像放大
 	img {
 		height: 100%;
+		cursor: crosshair;
 		transition: transform 1s;
-	}
 
+		&:hover {
+			transform: scale(2);
+		}
+	}
+	// 陰影明顯
 	&:hover {
+		// 不能用，會干擾 Draggable 的拖曳
+		// transform: translateY(-10px) !important;
+		z-index: 6;
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
 
-		img {
-			transform: scale(2);
+		~ .polaroid {
+			position: relative;
+			left: 140px;
 		}
 	}
 }

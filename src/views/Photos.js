@@ -43,7 +43,7 @@ const Photos = () => {
 				{/* 日期選擇容器 */}
 				<div id="phDateSelectContainer">{dateSelect}</div>
 				{/* 相片藝廊 */}
-				<div id="phPhotosGallery" className="d-flex justify-content-around align-items-center flex-wrap">
+				<div id="phPhotosGallery" className="flex-wrap p-3">
 				{/* 照片 */}
 				{photosOfDate.map((photo, pIdx) => (
 					// 可拖曳
