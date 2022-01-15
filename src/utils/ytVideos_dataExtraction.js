@@ -7,7 +7,7 @@ import YoutubeVideo from './../components/YoutubeVideo';
  * items: 一階陣列資料
  * 輸出：產生選項所需資料
  */
-export const itemsToRainbowSelectOptions = (items, id, label, value, onChange, hasDefault=false) => {
+export const itemsToRainbowSelectOptions = (items, id, label, hideLabel=false, value, onChange, hasDefault=false) => {
 	let allOption = { value: "*全部", label: "*全部" }; // 預設值
 	let options = items.reduce((arr, ele) => 
 		arr.concat([{ value: ele, label: ele }])
@@ -17,7 +17,7 @@ export const itemsToRainbowSelectOptions = (items, id, label, value, onChange, h
 			id={id}
 			label={label}
 			labelAlignment="left"
-			hideLabel={false}
+			hideLabel={hideLabel}
 			options={hasDefault ? [...options, allOption] : options}
 			value={value}
 			onChange={onChange}

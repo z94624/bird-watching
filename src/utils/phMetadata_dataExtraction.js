@@ -5,7 +5,7 @@ import birdPhotosInfo from './birdPhotosInfo.json';
  */
 export const collectPhotosByDate = date => {
 	return birdPhotosInfo.reduce((arr, ele) => {
-		if (ele["date"] == date) {
+		if (ele["date"] === date) {
 			arr.push(ele["id"]);
 		}
 		return arr;

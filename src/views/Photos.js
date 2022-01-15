@@ -1,48 +1,64 @@
 import { useState } from 'react';
 
-import { DatePicker } from 'react-rainbow-components';
+import Draggable from 'react-draggable';
 
+import { itemsToRainbowSelectOptions } from './../utils/ytVideos_dataExtraction';
+import { collectPhotosByDate } from './../utils/phMetadata_dataExtraction';
 import { getItemsByKey } from './../utils/tools.js';
 import './Photos.css';
 import birdPhotosInfo from './../utils/birdPhotosInfo.json';
 
 const Photos = () => {
-	// 篩選參數：日期
-	const [userDate, setUserDate] = useState(new Date()); // 單選日期或日期區間
-	const handleDateChange = userDate => {
-		setUserDate(userDate); // 更新日期篩選值(物件陣列)
-		//handleUserChange(); // 更新符合的影片
-	}
 	// 不重複照片日期
 	const listDates = getItemsByKey(birdPhotosInfo, 'date');
-	// 降冪照片日期
+	// 照片日期降冪
 	const descendingDates = listDates.sort((a, b) => new Date(a).getTime() < new Date(b).getTime() ? 1 : -1);
-	// 最新日期作為日期篩選上限
-	const latestDateYMD = descendingDates[0].split('/');
-	const latestYear = parseInt(latestDateYMD[2]);
-	const latestMonth = parseInt(latestDateYMD[0]);
-	const latestDay = parseInt(latestDateYMD[1]);
+	// 照片日期調整格式
+	// const formattedDates = descendingDates.map(oldDate => {
+	// 	let dateYMD = new Date(oldDate).toLocaleDateString('zh-tw').split('/');
+	// 	let year = dateYMD[0];
+	// 	let month = dateYMD[1].padStart(2, '0');
+	// 	let day = dateYMD[2].padStart(2, '0');
+	// 	return `${year}/${month}/${day}`;
+	// });
+	// 日期
+	const [date, setDate] = useState(descendingDates[0]);
+	const handleDateChange = e => {
+		// let dateYMD = e.target.value.split('/');
+		// let year = dateYMD[0];
+		// let month = parseInt(dateYMD[1]);
+		// let day = parseInt(dateYMD[2]);
+		// setDate(`${month}/${day}/${year}`);
+		setDate(e.target.value);
+	}
+	// 日期選項
+	const dateSelect = itemsToRainbowSelectOptions(descendingDates, "phDateSelect", "日期", true, date, handleDateChange);
+	// 該日期所有照片
+	const photosOfDate = collectPhotosByDate(date);
 
 	return (
 		<main className="main h-100">
 			{/* 相片容器 */}
 			<div id="photosContainer" className="h-100">
-				{/* 日期選擇器 */}
-				<DatePicker
-					id="phDatePicker"
-					formatStyle="large" // 顯示於框格中的日期格式；small, medium, large
-					label="日期" // 標題
-					labelAlignment="left" // 標題位置；left, center, right
-					hideLabel={true} // 標題顯示；boolean
-					isCentered={true} // 框格中的提示位置；boolean
-					locale="tw" // 地區；預設為瀏覽器語言
-					maxDate={new Date(latestYear, latestMonth-1, latestDay)} // 依照 YouTube 賞鳥紀錄最新影片日期
-					minDate={new Date(2019, 9, 17)} // 第一部影片日期
-					onChange={value => handleDateChange(value)} // 更新日期狀態
-					placeholder="請選擇日期" // 框格中的提示內容
-					selectionType="single" // 日期模式；single, range
-					value={userDate} // 日期的值
-				/>
+				{/* 日期選擇容器 */}
+				<div id="phDateSelectContainer">{dateSelect}</div>
+				{/* 相片藝廊 */}
+				<div id="phPhotosGallery" className="d-flex justify-content-around align-items-center flex-wrap">
+				{/* 照片 */}
+				{photosOfDate.map((photo, pIdx) => (
+					// 可拖曳
+					<Draggable
+						key={`phPhoto-${pIdx}`}
+						bounds="body"
+					>
+						{/* 拍立得 */}
+						<div className="polaroid">
+							{/* thumbnail: 檔案小；uc: 原檔 */}
+							<img src={`https://drive.google.com/thumbnail?id=${photo}`} alt={photo} />
+						</div>
+					</Draggable>
+				))}
+				</div>
 			</div>
 		</main>
 	);

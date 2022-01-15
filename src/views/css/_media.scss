@@ -46,3 +46,18 @@ $phoneMaxWidth: 767px;
 		font-size: $phone;
 	}
 }
+/* 寬度 */
+@mixin responsive-width($pc, $lap, $pad, $phone) {
+	@include pc {
+		width: $pc;
+	}
+	@include lap {
+		width: $lap;
+	}
+	@include pad {
+		width: $pad;
+	}
+	@include phone {
+		width: $phone;
+	}
+}
