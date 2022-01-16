@@ -1,72 +1,78 @@
-@import "./css/_backgrounds";
 @import "./css/_media";
-/* 攝影藝廊 */
-#photosContainer {
-	@include background(cover);
-	background-image: url("./../images/table.jpg");
-}
+@import "./css/_themes";
 /* 日期選擇 */
 #phDateSelectContainer {
 	@include responsive-width(15%, 15%, 25%, 100%);
-	position: absolute;
-	z-index: 7;
+	display: inline-block;
 }
-/* 相片藝廊 */
+/* 攝影藝廊 */
 #phPhotosGallery {
-	display: flex;
-	position: absolute;
-
-	height: calc(100vh - 62px);
-
-	overflow-x: hidden;
-	overflow-y: auto;
-	// &::-webkit-scrollbar {
-	// 	display: none;
-	// }
-}
-/* 拍立得 */
-.polaroid {
-	position: relative;
-	left: 70px;
-
-	width: auto;
-	height: 150px;
-	border-top: 7px solid white;
-	border-right: 7px solid white;
-	border-bottom: 35px solid white;
-	border-left: 7px solid white;
-	overflow: hidden;
-	cursor: move;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
-	transition: box-shadow .3s;
-	// 除了第一張外，往前面一張覆蓋一點
-	&:not(:first-child) {
-		margin-left: -70px;
+	width: 100%;
+	height: calc(100vh - 61.95px - 48px);
+	/* 投影片播放 */
+	#swiperPlay {
+		width: 100%;
+		height: 75%;
 	}
-	// 除了這張以外的移動動畫
-	& ~ .polaroid {
-		transition: box-shadow .3s, left .3s ease-out;
-	}
-	// 影像放大
-	img {
-		height: 100%;
-		cursor: crosshair;
-		transition: transform 1s;
-
-		&:hover {
-			transform: scale(2);
+	/* 投影片預覽 */
+	#swiperPreview {
+		width: 100%;
+		height: 25%;
+		padding: 10px 0;
+		/* 投影片 */
+		.swiper-slide {
+			width: 25%;
+			height: 100%;
+			opacity: 0.4;
+			/* 播放中投影片 */
+			&.swiper-slide-thumb-active {
+				opacity: 1;
+			}
 		}
 	}
-	// 陰影明顯
-	&:hover {
-		// 不能用，會干擾 Draggable 的拖曳
-		// transform: translateY(-10px) !important;
-		z-index: 6;
-		box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+/* 投影片容器 */
+.swiper {
+	position: relative;
+	/* 上下一張 */
+	.swiper-button-prev, .swiper-button-next {
+		color: $highlightColor;
+		font-weight: bold;
+		background-color: rgba(0, 0, 0, 0.1);
+		width: 8%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		margin-top: auto;
+		margin-bottom: auto;
+		transition: background-color 0.3s;
 
-		~ .polaroid {
-			position: relative;
-			left: 140px;
+		&:hover {
+			background-color: rgba($highlightColor, 0.2);
+		}
+
+		&:active {
+			background-color: rgba($highlightColor, 0.8);
+		}
+	}
+	.swiper-button-prev {
+		left: 0;
+	}
+	.swiper-button-next {
+		right: 0;
+	}
+	/* 投影片 */
+	.swiper-slide {
+		cursor: grab;
+
+		&:active {
+			cursor: grabbing;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
 		}
 	}
 }
