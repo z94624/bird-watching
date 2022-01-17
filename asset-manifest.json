@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/bird-watching/static/css/main.a559f008.chunk.css",
-    "main.js": "/bird-watching/static/js/main.1704854b.chunk.js",
-    "main.js.map": "/bird-watching/static/js/main.1704854b.chunk.js.map",
+    "main.js": "/bird-watching/static/js/main.62b7bf0f.chunk.js",
+    "main.js.map": "/bird-watching/static/js/main.62b7bf0f.chunk.js.map",
     "runtime-main.js": "/bird-watching/static/js/runtime-main.b1acc5b1.js",
     "runtime-main.js.map": "/bird-watching/static/js/runtime-main.b1acc5b1.js.map",
     "static/css/2.2b2dc3a8.chunk.css": "/bird-watching/static/css/2.2b2dc3a8.chunk.css",
-    "static/js/2.ccec3f32.chunk.js": "/bird-watching/static/js/2.ccec3f32.chunk.js",
-    "static/js/2.ccec3f32.chunk.js.map": "/bird-watching/static/js/2.ccec3f32.chunk.js.map",
+    "static/js/2.ab30fb5c.chunk.js": "/bird-watching/static/js/2.ab30fb5c.chunk.js",
+    "static/js/2.ab30fb5c.chunk.js.map": "/bird-watching/static/js/2.ab30fb5c.chunk.js.map",
     "static/js/3.cd58b4db.chunk.js": "/bird-watching/static/js/3.cd58b4db.chunk.js",
     "static/js/3.cd58b4db.chunk.js.map": "/bird-watching/static/js/3.cd58b4db.chunk.js.map",
     "index.html": "/bird-watching/index.html",
     "static/css/2.2b2dc3a8.chunk.css.map": "/bird-watching/static/css/2.2b2dc3a8.chunk.css.map",
     "static/css/main.a559f008.chunk.css.map": "/bird-watching/static/css/main.a559f008.chunk.css.map",
-    "static/js/2.ccec3f32.chunk.js.LICENSE.txt": "/bird-watching/static/js/2.ccec3f32.chunk.js.LICENSE.txt",
+    "static/js/2.ab30fb5c.chunk.js.LICENSE.txt": "/bird-watching/static/js/2.ab30fb5c.chunk.js.LICENSE.txt",
     "static/media/ASCDC.ebb6f62b.png": "/bird-watching/static/media/ASCDC.ebb6f62b.png",
     "static/media/AlbertEinstein.e550b977.jpg": "/bird-watching/static/media/AlbertEinstein.e550b977.jpg",
     "static/media/CSS.1334cb45.png": "/bird-watching/static/media/CSS.1334cb45.png",
@@ -50,14 +50,18 @@
     "static/media/point3.2432f373.png": "/bird-watching/static/media/point3.2432f373.png",
     "static/media/resetZoom.34ea8e1b.svg": "/bird-watching/static/media/resetZoom.34ea8e1b.svg",
     "static/media/timeline-icon.5b0ecd5b.png": "/bird-watching/static/media/timeline-icon.5b0ecd5b.png",
-    "static/media/數位人文平台.723da658.png": "/bird-watching/static/media/數位人文平台.723da658.png",
-    "static/media/開放博物館.da5004d3.png": "/bird-watching/static/media/開放博物館.da5004d3.png"
+    "static/media/上傳Excel格式文本.cd4a4a19.png": "/bird-watching/static/media/上傳Excel格式文本.cd4a4a19.png",
+    "static/media/文本目錄編輯.7af98629.png": "/bird-watching/static/media/文本目錄編輯.7af98629.png",
+    "static/media/權威檔目錄編輯.c1133915.png": "/bird-watching/static/media/權威檔目錄編輯.c1133915.png",
+    "static/media/權威檔統計資料.7044f55a.jpg": "/bird-watching/static/media/權威檔統計資料.7044f55a.jpg",
+    "static/media/綴詞分析.ef9c796e.png": "/bird-watching/static/media/綴詞分析.ef9c796e.png",
+    "static/media/間距查詢.0fcf3d15.png": "/bird-watching/static/media/間距查詢.0fcf3d15.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b1acc5b1.js",
     "static/css/2.2b2dc3a8.chunk.css",
-    "static/js/2.ccec3f32.chunk.js",
+    "static/js/2.ab30fb5c.chunk.js",
     "static/css/main.a559f008.chunk.css",
-    "static/js/main.1704854b.chunk.js"
+    "static/js/main.62b7bf0f.chunk.js"
   ]
 }
