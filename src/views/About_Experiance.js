@@ -22,12 +22,25 @@ import git from "./../images/language/GIT.png";
 import solr from "./../images/language/Solr.png";
 import mysql from "./../images/language/MySQL.png";
 
-import dh from "./../images/ascdc/數位人文平台.png";
-import dm from "./../images/ascdc/開放博物館.png";
+import project1 from "./../images/ascdc/上傳Excel格式文本.png";
+import project2 from "./../images/ascdc/權威檔統計資料.jpg";
+import project3 from "./../images/ascdc/文本目錄編輯.png";
+import project4 from "./../images/ascdc/權威檔目錄編輯.png";
+import project5 from "./../images/ascdc/綴詞分析.png";
+import project6 from "./../images/ascdc/間距查詢.png";
 
 import ecopark from "./../images/ecoPark.png";
 import ffeco from "./../images/ffEco.png";
 import peacejudo from "./../images/peaceJudo.png";
+// ASCDC 專案
+const projects = [
+	{src: project1, header: "Excel 目錄編輯", desc: ""},
+	{src: project2, header: "統計資訊後臺", desc: ""},
+	{src: project3, header: "文本目錄編輯", desc: ""},
+	{src: project4, header: "權威檔目錄編輯", desc: ""},
+	{src: project5, header: "綴詞分析", desc: ""},
+	{src: project6, header: "間距查詢", desc: ""}
+]
 // 研替團體
 const ascdcGroups = [
 	{name: "台北萬華青年公園志工隊", src: ecopark, group: "荒野保護協會"},
@@ -180,20 +193,16 @@ const AboutExperiance = () => {
 								<CarouselCard
 									scrollDuration={3} // 每 ? 秒下一張
 								>
+								{projects.map((project, pIdx) => (
 									<CarouselImage
-										src={dh}
-										header="數位人文平台" // text|Component
-										description="數位人文平台" // text|Component
+										key={`abProject-${pIdx}`}
+										src={project.src}
+										header={project.header} // text|Component
+										description={project.desc} // text|Component
 										assistiveText="數位人文平台" // A description for assistive screen readers.
 										href="https://dh.ascdc.sinica.edu.tw/member/"
 									/>
-									<CarouselImage
-										src={dm}
-										header="開放博物館"
-										description="開放博物館"
-										assistiveText="開放博物館"
-										href="https://openmuseum.tw/"
-									/>
+								))}
 								</CarouselCard>
 							</AccordionSection>
 							{/* 其他 */}
