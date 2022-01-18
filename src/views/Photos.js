@@ -26,6 +26,31 @@ const Photos = () => {
 	const photosOfDate = collectPhotosByDate(date);
 	// 投影片預覽
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
+	// swiperPlay
+	const swiperPlayParams = {
+		id: "swiperPlay",
+		spaceBetween: 10,
+		loop: true,
+		navigation: true,
+		thumbs: { swiper: thumbsSwiper },
+		effect: "coverflow",
+		coverflowEffect: { depth: 100, modifier: 2, rotate: 50, scale: 1, slideShadows: true, stretch: 0 },
+		scrollbar: { draggable: true, hide: true, snapOnRelease: true },
+		keyboard: { enabled: true, onlyInViewport: true, pageUpDown: true },
+		mousewheel: true,
+		autoplay: { delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true },
+		lazy: { loadOnTransitionStart: true, loadPrevNext: true },
+		zoom: {  }
+	}
+	// swiperPreview
+	const swiperPreviewParams = {
+		id: "swiperPreview",
+		spaceBetween: 10,
+		loop: false,
+		slidesPerView: "auto",
+		freeMode: true,
+		onSwiper: setThumbsSwiper
+	}
 
 	return (
 		<main className="main h-100">
@@ -36,23 +61,9 @@ const Photos = () => {
 				{/* 相片藝廊 */}
 				<div id="phPhotosGallery" className="row px-4">
 					{/* 投影片播放 */}
-					<Swiper
-						id="swiperPlay"
-						loop={true}
-						effect="coverflow"
-						coverflowEffect={{ depth: 100, modifier: 2, rotate: 50, scale: 1, slideShadows: true, stretch: 0 }}
-						spaceBetween={10}
-						navigation={true}
-						scrollbar={{ draggable: true, hide: true, snapOnRelease: true }}
-						keyboard={{ enabled: true, onlyInViewport: true, pageUpDown: true }}
-						mousewheel
-						autoplay={{ delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true }}
-						lazy={{ loadOnTransitionStart: true, loadPrevNext: true }}
-						zoom={{  }}
-						thumbs={{ swiper: thumbsSwiper }}
-					>
+					<Swiper {...swiperPlayParams}>
 					{photosOfDate.map((photo, pIdx) => (
-						<SwiperSlide key={`phSwiperPlay-${pIdx}`}>
+						<SwiperSlide key={`phSwiperPlay-${photo}`}>
 							<div className="swiper-zoom-container">
 								{/* thumbnail: 檔案小；uc: 原檔 */}
 								<img className="swiper-lazy" data-src={`https://drive.google.com/uc?id=${photo}`} alt="" />
@@ -62,17 +73,9 @@ const Photos = () => {
 					))}
 					</Swiper>
 					{/* 投影片預覽 */}
-					<Swiper
-						id="swiperPreview"
-						loop={true}
-						spaceBetween={10}
-						slidesPerView={4}
-						freeMode={true}
-						watchSlidesProgress={true}
-						onSwiper={setThumbsSwiper}
-					>
+					<Swiper {...swiperPreviewParams}>
 					{photosOfDate.map((photo, pIdx) => (
-						<SwiperSlide key={`phSwiperPreview-${pIdx}`}>
+						<SwiperSlide key={`phSwiperPreview-${photo}`}>
 							{/* thumbnail: 檔案小；uc: 原檔 */}
 							<img src={`https://drive.google.com/thumbnail?id=${photo}`} alt="" />
 						</SwiperSlide>
