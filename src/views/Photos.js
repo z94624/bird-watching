@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
+import { Swiper, SwiperSlide } from './../../node_modules/swiper/react/swiper-react.js';
 import SwiperCore, { EffectCoverflow, Navigation, Scrollbar, Keyboard, Mousewheel, Autoplay, Lazy, Zoom, Thumbs, FreeMode } from 'swiper';
 import './../../node_modules/swiper/swiper-bundle.css';
 
