@@ -22,6 +22,7 @@
     "chartjs-plugin-zoom": "^1.1.1",
     "dotenv": "^10.0.0",
     "emotion-theming": "^11.0.0",
+    "firebase": "^9.6.3",
     "gh-pages": "^3.2.3",
     "leaflet": "^1.7.1",
     "leaflet.markercluster": "^1.5.3",
