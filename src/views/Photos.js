@@ -48,17 +48,18 @@ const Photos = () => {
 		id: "swiperPreview",
 		spaceBetween: 10,
 		loop: false,
+		slidesPerView: 3,
 		scrollbar: { draggable: true, hide: false, snapOnRelease: true },
 		freeMode: { enabled: true, sticky: true },
 		breakpoints: {
 			992: {
-				slidesPerView: "5"
+				slidesPerView: "6"
 			},
 			768: {
-				slidesPerView: "4"
+				slidesPerView: "5"
 			},
 			576: {
-				slidesPerView: "3"
+				slidesPerView: "4"
 			}
 		},
 
