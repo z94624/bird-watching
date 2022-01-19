@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { Swiper, SwiperSlide } from './../../node_modules/swiper/react/swiper-react.js';
-import SwiperCore, { EffectCoverflow, Navigation, Scrollbar, Keyboard, Mousewheel, Autoplay, Lazy, Zoom, Thumbs, FreeMode } from 'swiper';
+import SwiperCore, { Navigation, Scrollbar, Autoplay, Lazy, EffectCoverflow, Thumbs, Zoom, Keyboard, Mousewheel, FreeMode } from 'swiper';
 import './../../node_modules/swiper/swiper-bundle.css';
 
 import { itemsToRainbowSelectOptions } from './../utils/ytVideos_dataExtraction';
@@ -10,7 +10,7 @@ import { getItemsByKey } from './../utils/tools.js';
 import './Photos.css';
 import birdPhotosInfo from './../utils/birdPhotosInfo.json';
 
-SwiperCore.use([EffectCoverflow, Navigation, Scrollbar, Keyboard, Mousewheel, Autoplay, Lazy, Zoom, Thumbs, FreeMode]);
+SwiperCore.use([Navigation, Scrollbar, Autoplay, Lazy, EffectCoverflow, Thumbs, Zoom, Keyboard, Mousewheel, FreeMode]);
 
 const Photos = () => {
 	// 不重複照片日期
@@ -26,29 +26,42 @@ const Photos = () => {
 	const photosOfDate = collectPhotosByDate(date);
 	// 投影片預覽
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
+	/* https://swiperjs.com/swiper-api#modules */
 	// swiperPlay
 	const swiperPlayParams = {
 		id: "swiperPlay",
 		spaceBetween: 10,
 		loop: true,
-		navigation: true,
-		thumbs: { swiper: thumbsSwiper },
-		effect: "coverflow",
-		coverflowEffect: { depth: 100, modifier: 2, rotate: 50, scale: 1, slideShadows: true, stretch: 0 },
-		scrollbar: { draggable: true, hide: true, snapOnRelease: true },
-		keyboard: { enabled: true, onlyInViewport: true, pageUpDown: true },
-		mousewheel: true,
+		navigation: {  },
+		scrollbar: { draggable: true, hide: false, snapOnRelease: true },
 		autoplay: { delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true },
 		lazy: { loadOnTransitionStart: true, loadPrevNext: true },
-		zoom: {  }
+		effect: "coverflow",
+		coverflowEffect: {  },
+		thumbs: { swiper: thumbsSwiper },
+		zoom: {  },
+		keyboard: { enabled: true, pageUpDown: false },
+		mousewheel: {  }
 	}
 	// swiperPreview
 	const swiperPreviewParams = {
 		id: "swiperPreview",
 		spaceBetween: 10,
 		loop: false,
-		slidesPerView: "auto",
-		freeMode: true,
+		scrollbar: { draggable: true, hide: false, snapOnRelease: true },
+		freeMode: { enabled: true, sticky: true },
+		breakpoints: {
+			992: {
+				slidesPerView: "5"
+			},
+			768: {
+				slidesPerView: "4"
+			},
+			576: {
+				slidesPerView: "3"
+			}
+		},
+
 		onSwiper: setThumbsSwiper
 	}
 
@@ -59,7 +72,7 @@ const Photos = () => {
 				{/* 日期選擇容器 */}
 				<div id="phDateSelectContainer" className="row pb-1">{dateSelect}</div>
 				{/* 相片藝廊 */}
-				<div id="phPhotosGallery" className="row px-4">
+				<div id="phPhotosGallery" className="row ps-4">
 					{/* 投影片播放 */}
 					<Swiper {...swiperPlayParams}>
 					{photosOfDate.map((photo, pIdx) => (
@@ -68,7 +81,7 @@ const Photos = () => {
 								{/* thumbnail: 檔案小；uc: 原檔 */}
 								<img className="swiper-lazy" data-src={`https://drive.google.com/uc?id=${photo}`} alt="" />
 							</div>
-							<div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							<div className="swiper-lazy-preloader"></div>
 						</SwiperSlide>
 					))}
 					</Swiper>

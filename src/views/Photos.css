@@ -57,6 +57,7 @@
 .swiper {
   position: relative;
   /* 上下一張 */
+  /* Scrollbar */
   /* 投影片 */
 }
 .swiper .swiper-button-prev, .swiper .swiper-button-next {
@@ -64,9 +65,9 @@
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.1);
   width: 8%;
-  height: 100%;
+  height: 95%;
   position: absolute;
-  top: 0;
+  top: 2.5%;
   margin-top: auto;
   margin-bottom: auto;
   transition: background-color 0.3s;
@@ -82,6 +83,9 @@
 }
 .swiper .swiper-button-next {
   right: 0;
+}
+.swiper .swiper-scrollbar .swiper-scrollbar-drag {
+  cursor: move;
 }
 .swiper .swiper-slide {
   cursor: grab;
