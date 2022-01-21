@@ -2,6 +2,7 @@
 /* Bootstrap 暗色背景背景顏色 */
 /* Bootstrap 暗色背景 Blur 的字體顏色 */
 /* 背景主題 */
+/* 背景圖片降低亮度 */
 /* 留 Footer 位置 */
 /* 封面高度 */
 #homeContainer {
@@ -30,6 +31,13 @@
   position: absolute;
   left: calc(100vw/2 - 57px);
   top: calc(calc(100vh - 118px) / 2);
+}
+
+/* 計數器 */
+#hitCounter {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=Home.css.map */

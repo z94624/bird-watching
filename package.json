@@ -42,6 +42,7 @@
     "react-leaflet-markercluster": "^3.0.0-rc1",
     "react-player": "^2.9.0",
     "react-rainbow-components": "^1.26.0",
+    "react-retro-hit-counter": "^1.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.0",
     "react-transition-group": "^1.2.1",
