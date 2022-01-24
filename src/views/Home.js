@@ -47,6 +47,10 @@ const Home = () => {
     onValue(totalHitsFirebaseRef, snapshot => {
         totalHitsComponentRef.current = snapshot.val();
     });
+    const retroHitCounters = [
+        {name: "today", nameChi: "當日", ref: todayHitsComponentRef},
+        {name: "total", nameChi: "累計", ref: totalHitsComponentRef}
+    ];
 
     return (
         <main>
@@ -63,34 +67,22 @@ const Home = () => {
             <Footer />
             {/* 計數器 */}
             <div id="hitCounter" className="d-inline-flex flex-wrap">
-                {/* 當日次數 */}
-                <div className="px-1">
-                    <label htmlFor="todayHitsComponent" className="form-label text-white">當日人次：</label>
+            {retroHitCounters.map((rhc, rIdx) => (
+                <div key={`homeHitsComponent-${rIdx}`} className="px-1">
+                    <label htmlFor={`${rhc.name}HitsComponent`} className="form-label text-muted">{rhc.nameChi}人次：</label>
                     <RetroHitCounter
-                        id="todayHitsComponent"
-                        ref={todayHitsComponentRef}
-                        hits={todayHitsComponentRef.current}
-                        size={30}
+                        id={`${rhc.name}HitsComponent`}
+                        ref={rhc.ref}
+                        hits={rhc.ref.current}
+                        minLength={4}
+                        size={25}
                         padding={0}
                         segmentActiveColor="#FE9AFF"
-                        segmentInactiveColor="rgba(#FE9AFF, .8)"
+                        segmentInactiveColor="#331F33"
                         withBorder={false}
                     />
                 </div>
-                {/* 所有次數 */}
-                <div className="px-1">
-                    <label htmlFor="totalHitsComponent" className="form-label text-white">累計人次：</label>
-                    <RetroHitCounter
-                        id="totalHitsComponent"
-                        ref={totalHitsComponentRef}
-                        hits={totalHitsComponentRef.current}
-                        size={30}
-                        padding={0}
-                        segmentActiveColor="#FE9AFF"
-                        segmentInactiveColor="rgba(#FE9AFF, .8)"
-                        withBorder={false}
-                    />
-                </div>
+            ))}
             </div>
         </main>
     );
