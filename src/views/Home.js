@@ -15,7 +15,7 @@ const checkUserCookie = (cookies) => {
     const cookieRE = new RegExp(todayCookie.name, 'g');
     const cookieExists = document.cookie.match(cookieRE);
     if (!cookieExists) { // 若今日 Cookie 不存在
-
+        // 判斷與前次紀錄同不同天
         let newDate = false;
         runTransaction(todayCookie.refDate, (date) => {
             newDate = date != new Date().getDate();
@@ -44,7 +44,7 @@ const Home = () => {
      */
     // Cookie 資訊
     const cookies = [
-        {name: "TodayHits", expire: new Date().getDate() + 1, ref: ref(database, '/TodayHits'), refDate: ref(database, 'TodayDate'), id: "todayHitCounter", nameChi: "今日人次"},
+        {name: "TodayHits", expire: new Date().getDate() + 1, ref: ref(database, '/TodayHits'), refDate: ref(database, '/TodayDate'), id: "todayHitCounter", nameChi: "今日人次"},
         {name: "TotalHits", expire: new Date(2147483647 * 1000).getDate(), ref: ref(database, '/TotalHits'), id: "totalHitCounter", nameChi: "累計人次"}
     ];
     checkUserCookie(cookies);
