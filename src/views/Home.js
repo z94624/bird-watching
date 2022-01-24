@@ -1,4 +1,3 @@
-import { useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { database } from './../config/firebase';
@@ -9,17 +8,29 @@ import Footer from './../components/Footer';
 import './Home.css';
 /*
  * 檢查 Cookie
- * cookie: Cookie 資訊
- * hit: 不管存不存在，
+ * cookies: Cookie 資訊
  */
-const checkUserCookie = (cookie, hit) => {
-    const regEx = new RegExp(cookie.name, "g");
-    const cookieExists = document.cookie.match(regEx);
-    if (cookieExists == null) { // 若 Cookie 不存在
-        createUserCookie(cookie);
-        runTransaction(cookie.firebaseRef, hit => hit + 1);
-    } else if (hit) { // 若 Cookie 已存在
-        runTransaction(cookie.firebaseRef, hit => hit + 1);
+const checkUserCookie = (cookies) => {
+    const [todayCookie, totalCookie] = cookies;
+    const cookieRE = new RegExp(todayCookie.name, 'g');
+    const cookieExists = document.cookie.match(cookieRE);
+    if (!cookieExists) { // 若今日 Cookie 不存在
+
+        let newDate = false;
+        runTransaction(todayCookie.refDate, (date) => {
+            newDate = date != new Date().getDate();
+        });
+
+        cookies.map((cookie, cIdx) => {
+            createUserCookie(cookie); // 建立 Cookie
+            runTransaction(cookie.ref, (hits) => { // 計數資料庫
+                if (hits && (cIdx == 1 || !newDate)) { // 存在資料庫 && (只要是累計 || 今日且同天)
+                    return (hits + 1);
+                } else { // 尚未建立資料庫 || 今日但新天
+                    return 1;
+                }
+            });
+        });
     }
 }
 // 建立 Cookie
@@ -31,26 +42,19 @@ const Home = () => {
     /*
      * Hit Counter: https://w3collective.com/hit-counter-javascript-firebase/
      */
-    const todayHitsFirebaseRef = ref(database, '/TodayHits');
-    const totalHitsFirebaseRef = ref(database, '/TotalHits');
     // Cookie 資訊
-    const todayHitsCookie = {name: "TodayHits", last: new Date().getDate() + 1, firebaseRef: todayHitsFirebaseRef};
-    const totalHitsCookie = {name: "TotalHits", last: new Date(2147483647 * 1000).getDate(), firebaseRef: totalHitsFirebaseRef};
-    checkUserCookie(todayHitsCookie, false);
-    checkUserCookie(totalHitsCookie, true);
-    // 計數器
-    const todayHitsComponentRef = useRef(0);
-    const totalHitsComponentRef = useRef(0);
-    onValue(todayHitsFirebaseRef, snapshot => {
-        todayHitsComponentRef.current = snapshot.val();
-    });
-    onValue(totalHitsFirebaseRef, snapshot => {
-        totalHitsComponentRef.current = snapshot.val();
-    });
-    const retroHitCounters = [
-        {name: "today", nameChi: "當日", ref: todayHitsComponentRef},
-        {name: "total", nameChi: "累計", ref: totalHitsComponentRef}
+    const cookies = [
+        {name: "TodayHits", expire: new Date().getDate() + 1, ref: ref(database, '/TodayHits'), refDate: ref(database, 'TodayDate'), id: "todayHitCounter", nameChi: "今日人次"},
+        {name: "TotalHits", expire: new Date(2147483647 * 1000).getDate(), ref: ref(database, '/TotalHits'), id: "totalHitCounter", nameChi: "累計人次"}
     ];
+    checkUserCookie(cookies);
+    // 新計數
+    const newHits = cookies.reduce((obj, cookie) => {
+        onValue(cookie.ref, (snapshot) => {
+            obj = {...obj, [cookie.name]: snapshot.val()}
+        });
+        return obj;
+    }, {TodayHits: 1, TotalHits: 1});
 
     return (
         <main>
@@ -67,13 +71,12 @@ const Home = () => {
             <Footer />
             {/* 計數器 */}
             <div id="hitCounter" className="d-inline-flex flex-wrap">
-            {retroHitCounters.map((rhc, rIdx) => (
-                <div key={`homeHitsComponent-${rIdx}`} className="px-1">
-                    <label htmlFor={`${rhc.name}HitsComponent`} className="form-label text-muted">{rhc.nameChi}人次：</label>
+            {cookies.map((cookie, cIdx) => (
+                <div key={`homeRetroHitCounter-${cIdx}`} className="px-1">
+                    <label htmlFor={cookie.id} className="form-label text-muted">{cookie.nameChi}：</label>
                     <RetroHitCounter
-                        id={`${rhc.name}HitsComponent`}
-                        ref={rhc.ref}
-                        hits={rhc.ref.current}
+                        id={cookie.id}
+                        hits={newHits[cookie.name]}
                         minLength={4}
                         size={25}
                         padding={0}
