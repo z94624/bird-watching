@@ -37,7 +37,8 @@
 #hitCounter {
   position: absolute;
   right: 0;
-  bottom: 8px;
+  bottom: 46px;
+  background-color: rgba(33, 37, 41, 0.5);
 }
 
 /*# sourceMappingURL=Home.css.map */

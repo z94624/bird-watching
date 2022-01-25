@@ -32,5 +32,6 @@ $coverHeight: calc(100vh - #{$coverOffset});
 #hitCounter {
 	position: absolute;
 	right: 0;
-	bottom: 8px;
+	bottom: 46px;
+	background-color: rgba($bs-bgDark, 0.5);
 }

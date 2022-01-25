@@ -12,26 +12,32 @@ import './Home.css';
  */
 const checkUserCookie = (cookies) => {
     const [todayCookie, totalCookie] = cookies;
-    const cookieRE = new RegExp(todayCookie.name, 'g');
-    const cookieExists = document.cookie.match(cookieRE);
-    if (!cookieExists) { // 若今日 Cookie 不存在
-        // 判斷與前次紀錄同不同天
-        let newDate = false;
-        runTransaction(todayCookie.refDate, (date) => {
-            newDate = date != new Date().getDate();
-        });
-
+    // 判斷與前次紀錄同不同天
+    let isNewDate = true;
+    runTransaction(todayCookie.refDate, (date) => {
+        let dateNow = new Date().getDate(); // 今天幾日
+        isNewDate = dateNow != date;
+        return dateNow;
+    });
+    // 延遲以取得正確的同不同天判斷
+    setTimeout(() => {
         cookies.map((cookie, cIdx) => {
-            createUserCookie(cookie); // 建立 Cookie
-            runTransaction(cookie.ref, (hits) => { // 計數資料庫
-                if (hits && (cIdx == 1 || !newDate)) { // 存在資料庫 && (只要是累計 || 今日且同天)
-                    return (hits + 1);
-                } else { // 尚未建立資料庫 || 今日但新天
-                    return 1;
-                }
-            });
+            let reqexp = new RegExp(cookie.name, 'g');
+            let exists = document.cookie.match(reqexp);
+            if (!exists) { // Cookie 不存在
+                createUserCookie(cookie); // 建立 Cookie
+                runTransaction(cookie.ref, (hits) => {
+                    if (hits && (cIdx == 1 || isNewDate)) { // 已有資料庫 && (只要是累計 || 今天為新天)
+                        return (hits + 1);
+                    } else if (!hits) { // 尚未建立資料庫
+                        return 1;
+                    }
+                });
+            } else if (isNewDate) { // Cookie 存在 && 今天為新天
+                runTransaction(cookie.ref, (hits) => hits + 1);
+            }
         });
-    }
+    }, 1000);
 }
 // 建立 Cookie
 const createUserCookie = (cookie) => {
@@ -70,10 +76,10 @@ const Home = () => {
 
             <Footer />
             {/* 計數器 */}
-            <div id="hitCounter" className="d-inline-flex flex-wrap">
+            <div id="hitCounter" className="d-inline-flex flex-wrap pt-1 ps-1">
             {cookies.map((cookie, cIdx) => (
-                <div key={`homeRetroHitCounter-${cIdx}`} className="px-1">
-                    <label htmlFor={cookie.id} className="form-label text-muted">{cookie.nameChi}：</label>
+                <div key={`homeRetroHitCounter-${cIdx}`} className="me-1">
+                    <label htmlFor={cookie.id} className="form-label text-white">{cookie.nameChi}：</label>
                     <RetroHitCounter
                         id={cookie.id}
                         hits={newHits[cookie.name]}
