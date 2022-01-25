@@ -33,12 +33,4 @@
   top: calc(calc(100vh - 118px) / 2);
 }
 
-/* 計數器 */
-#hitCounter {
-  position: absolute;
-  right: 0;
-  bottom: 46px;
-  background-color: rgba(33, 37, 41, 0.5);
-}
-
 /*# sourceMappingURL=Home.css.map */

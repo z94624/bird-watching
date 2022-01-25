@@ -1,0 +1,8 @@
+@import "./css/_backgrounds";
+/* 計數器 */
+#hitCounter {
+	position: absolute;
+	right: 0;
+	bottom: 46px;
+	background-color: rgba($bs-bgDark, 0.5);
+}

@@ -28,10 +28,3 @@ $coverHeight: calc(100vh - #{$coverOffset});
 	left: calc(100vw/2 - 57px);
 	top: calc(#{$coverHeight} / 2);
 }
-/* 計數器 */
-#hitCounter {
-	position: absolute;
-	right: 0;
-	bottom: 46px;
-	background-color: rgba($bs-bgDark, 0.5);
-}

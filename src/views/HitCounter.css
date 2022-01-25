@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* Bootstrap 暗色背景背景顏色 */
+/* Bootstrap 暗色背景 Blur 的字體顏色 */
+/* 背景主題 */
+/* 背景圖片降低亮度 */
+/* 計數器 */
+#hitCounter {
+  position: absolute;
+  right: 0;
+  bottom: 46px;
+  background-color: rgba(33, 37, 41, 0.5);
+}
+
+/*# sourceMappingURL=HitCounter.css.map */
