@@ -5,6 +5,7 @@ import { ref, onValue, runTransaction } from "firebase/database";
 import RetroHitCounter from 'react-retro-hit-counter';
 
 import Footer from './../components/Footer';
+import { infiniteExpiryDate } from './../utils/tools';
 import './Home.css';
 /*
  * 檢查 Cookie
@@ -12,36 +13,44 @@ import './Home.css';
  */
 const checkUserCookie = (cookies) => {
     const [todayCookie, totalCookie] = cookies;
+    const dateCookie = {name: "LastDate", expire: infiniteExpiryDate.toUTCString()};
     // 判斷與前次紀錄同不同天
+    let dateRE = new RegExp(dateCookie.name, 'g');
+    let dateExists = document.cookie.match(dateRE);
+    let dateNow = new Date().getDate(); // 今天幾日
     let isNewDate = true;
-    runTransaction(todayCookie.refDate, (date) => {
-        let dateNow = new Date().getDate(); // 今天幾日
-        isNewDate = dateNow != date;
-        return dateNow;
+    if (!dateExists) { // Cookie 不存在
+        createUserCookie(dateCookie, dateNow);
+        isNewDate = true;
+    } else { // Cookie 存在
+        let dateLast = document.cookie
+            .split('; ')
+            .find(row => row.startsWith(dateCookie.name + '='))
+            .split('=')[1]; // 上次登入日
+        isNewDate = dateNow != dateLast;
+        createUserCookie(dateCookie, dateNow);
+    }
+    // 更新人次
+    cookies.map((cookie, cIdx) => {
+        let reqexp = new RegExp(cookie.name, 'g');
+        let exists = document.cookie.match(reqexp);
+        if (!exists) { // Cookie 不存在
+            createUserCookie(cookie, "True"); // 建立 Cookie
+            runTransaction(cookie.ref, (hits) => {
+                if (hits && (cIdx == 1 || isNewDate)) { // 已有資料庫 && (只要是累計 || 今天為新天)
+                    return (hits + 1);
+                } else if (!hits) { // 尚未建立資料庫
+                    return 1;
+                }
+            });
+        } else if (isNewDate) { // Cookie 存在 && 今天為新天
+            runTransaction(cookie.ref, (hits) => hits + 1);
+        }
     });
-    // 延遲以取得正確的同不同天判斷
-    setTimeout(() => {
-        cookies.map((cookie, cIdx) => {
-            let reqexp = new RegExp(cookie.name, 'g');
-            let exists = document.cookie.match(reqexp);
-            if (!exists) { // Cookie 不存在
-                createUserCookie(cookie); // 建立 Cookie
-                runTransaction(cookie.ref, (hits) => {
-                    if (hits && (cIdx == 1 || isNewDate)) { // 已有資料庫 && (只要是累計 || 今天為新天)
-                        return (hits + 1);
-                    } else if (!hits) { // 尚未建立資料庫
-                        return 1;
-                    }
-                });
-            } else if (isNewDate) { // Cookie 存在 && 今天為新天
-                runTransaction(cookie.ref, (hits) => hits + 1);
-            }
-        });
-    }, 1000);
 }
 // 建立 Cookie
-const createUserCookie = (cookie) => {
-    document.cookie = cookie.name + "=True; expires=" + new Date().setDate(cookie.last) + "path=/";
+const createUserCookie = (cookie, value) => {
+    document.cookie = cookie.name + "=" + value + "; expires=" + cookie.expire + "; path=/";
 }
 
 const Home = () => {
@@ -50,8 +59,8 @@ const Home = () => {
      */
     // Cookie 資訊
     const cookies = [
-        {name: "TodayHits", expire: new Date().getDate() + 1, ref: ref(database, '/TodayHits'), refDate: ref(database, '/TodayDate'), id: "todayHitCounter", nameChi: "今日人次"},
-        {name: "TotalHits", expire: new Date(2147483647 * 1000).getDate(), ref: ref(database, '/TotalHits'), id: "totalHitCounter", nameChi: "累計人次"}
+        {name: "TodayHits", expire: new Date(new Date().setDate(new Date().getDate() + 1)).toUTCString(), ref: ref(database, '/TodayHits'), id: "todayHitCounter", nameChi: "今日人次"},
+        {name: "TotalHits", expire: infiniteExpiryDate.toUTCString(), ref: ref(database, '/TotalHits'), id: "totalHitCounter", nameChi: "累計人次"}
     ];
     checkUserCookie(cookies);
     // 新計數

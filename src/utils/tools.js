@@ -1,3 +1,5 @@
+// Cookie 無限期
+export const infiniteExpiryDate = new Date(2147483647 * 1000);
 /*
  * 物件依照 value 排序
  * obj: value 為可排序值
