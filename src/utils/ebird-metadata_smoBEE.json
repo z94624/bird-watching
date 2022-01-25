@@ -95,6 +95,53 @@
     },
     {
         "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "小天鵝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            "多人目擊"
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98650541"
         ],
         "Common_Name": [
@@ -10905,6 +10952,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88870059"
         ],
         "Common_Name": [
@@ -12349,6 +12443,53 @@
         ],
         "Duration_Min": [
             60.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
         ],
         "Number_of_Observers": [
             2
@@ -15417,6 +15558,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90790630"
         ],
         "Common_Name": [
@@ -17757,6 +17945,53 @@
         ],
         "Number_of_Observers": [
             4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "小雨燕"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -22720,10 +22955,10 @@
             "台南北門IBA--井仔腳鹽田東區(Beimen IBA--Jingzaijiao Salt Pan East Area)"
         ],
         "Latitude": [
-            23.2621847
+            23.2581842
         ],
         "Longitude": [
-            120.1183856
+            120.11773329999998
         ],
         "Date": [
             "2021-12-09"
@@ -23190,10 +23425,10 @@
             "台南北門IBA--井仔腳鹽田東區(Beimen IBA--Jingzaijiao Salt Pan East Area)"
         ],
         "Latitude": [
-            23.2621847
+            23.2581842
         ],
         "Longitude": [
-            120.1183856
+            120.11773329999998
         ],
         "Date": [
             "2021-12-09"
@@ -26838,6 +27073,53 @@
     },
     {
         "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93710906"
         ],
         "Common_Name": [
@@ -30316,6 +30598,53 @@
     },
     {
         "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93352383"
         ],
         "Common_Name": [
@@ -31556,10 +31885,10 @@
             "台南北門IBA--井仔腳鹽田東區(Beimen IBA--Jingzaijiao Salt Pan East Area)"
         ],
         "Latitude": [
-            23.2621847
+            23.2581842
         ],
         "Longitude": [
-            120.1183856
+            120.11773329999998
         ],
         "Date": [
             "2021-12-09"
@@ -31838,10 +32167,10 @@
             "台南北門IBA--井仔腳鹽田東區(Beimen IBA--Jingzaijiao Salt Pan East Area)"
         ],
         "Latitude": [
-            23.2621847
+            23.2581842
         ],
         "Longitude": [
-            120.1183856
+            120.11773329999998
         ],
         "Date": [
             "2021-12-09"
@@ -32402,10 +32731,10 @@
             "台南北門IBA--井仔腳鹽田東區(Beimen IBA--Jingzaijiao Salt Pan East Area)"
         ],
         "Latitude": [
-            23.2621847
+            23.2581842
         ],
         "Longitude": [
-            120.1183856
+            120.11773329999998
         ],
         "Date": [
             "2021-12-09"
@@ -35345,6 +35674,53 @@
     },
     {
         "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "蒼鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93352383"
         ],
         "Common_Name": [
@@ -37807,10 +38183,10 @@
             "台南北門IBA--井仔腳鹽田東區(Beimen IBA--Jingzaijiao Salt Pan East Area)"
         ],
         "Latitude": [
-            23.2621847
+            23.2581842
         ],
         "Longitude": [
-            120.1183856
+            120.11773329999998
         ],
         "Date": [
             "2021-12-09"
@@ -38259,6 +38635,53 @@
     },
     {
         "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "中白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S95458878"
         ],
         "Common_Name": [
@@ -38635,6 +39058,53 @@
     },
     {
         "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "中白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S74449134"
         ],
         "Common_Name": [
@@ -38810,6 +39280,53 @@
         ],
         "Duration_Min": [
             48.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
         ],
         "Number_of_Observers": [
             2
@@ -43711,6 +44228,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88870059"
         ],
         "Common_Name": [
@@ -44810,10 +45374,10 @@
             "台南北門IBA--井仔腳鹽田東區(Beimen IBA--Jingzaijiao Salt Pan East Area)"
         ],
         "Latitude": [
-            23.2621847
+            23.2581842
         ],
         "Longitude": [
-            120.1183856
+            120.11773329999998
         ],
         "Date": [
             "2021-12-09"
@@ -44876,6 +45440,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -50278,6 +50889,53 @@
         ],
         "Duration_Min": [
             30.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "夜鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
         ],
         "Number_of_Observers": [
             2
@@ -56730,6 +57388,53 @@
     },
     {
         "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83435074"
         ],
         "Common_Name": [
@@ -57516,6 +58221,53 @@
         ],
         "Duration_Min": [
             ""
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
         ],
         "Number_of_Observers": [
             1
@@ -63297,6 +64049,53 @@
         ],
         "Duration_Min": [
             48.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "翠鳥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
         ],
         "Number_of_Observers": [
             2
@@ -71770,6 +72569,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90788209"
         ],
         "Common_Name": [
@@ -76376,6 +77222,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "綠畫眉"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88870060"
         ],
         "Common_Name": [
@@ -80183,6 +81076,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90788209"
         ],
         "Common_Name": [
@@ -81959,6 +82899,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "黑枕藍鶲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -87032,6 +88019,53 @@
         ],
         "Duration_Min": [
             17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "台灣藍鵲"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
         ],
         "Number_of_Observers": [
             1
@@ -102931,6 +103965,53 @@
     },
     {
         "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "褐頭鷦鶯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93352380"
         ],
         "Common_Name": [
@@ -104406,10 +105487,10 @@
             "台南北門IBA--井仔腳鹽田東區(Beimen IBA--Jingzaijiao Salt Pan East Area)"
         ],
         "Latitude": [
-            23.2621847
+            23.2581842
         ],
         "Longitude": [
-            120.1183856
+            120.11773329999998
         ],
         "Date": [
             "2021-12-09"
@@ -112707,6 +113788,53 @@
     },
     {
         "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S81527765"
         ],
         "Common_Name": [
@@ -118196,6 +119324,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -127277,6 +128452,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            35
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90788209"
         ],
         "Common_Name": [
@@ -130463,6 +131685,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "極北柳鶯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -139450,6 +140719,53 @@
     },
     {
         "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93352384"
         ],
         "Common_Name": [
@@ -141424,6 +142740,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "山紅頭"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90788209"
         ],
         "Common_Name": [
@@ -143385,6 +144748,53 @@
         ],
         "Duration_Min": [
             17.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
         ],
         "Number_of_Observers": [
             1
@@ -146312,6 +147722,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "頭烏線"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88263609"
         ],
         "Common_Name": [
@@ -148226,6 +149683,53 @@
         ],
         "Duration_Min": [
             48.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "黑領椋鳥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
         ],
         "Number_of_Observers": [
             2
@@ -151657,6 +153161,53 @@
         ],
         "Duration_Min": [
             48.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
         ],
         "Number_of_Observers": [
             2
@@ -156934,6 +158485,53 @@
     },
     {
         "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93352379"
         ],
         "Common_Name": [
@@ -159603,6 +161201,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "白尾八哥"
+        ],
+        "Count": [
+            25
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -169530,6 +171175,100 @@
     },
     {
         "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "鉛色水鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S76832409"
         ],
         "Common_Name": [
@@ -169755,6 +171494,53 @@
         ],
         "Number_of_Observers": [
             25
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -171682,6 +173468,53 @@
         ],
         "Number_of_Observers": [
             19
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "麻雀"
+        ],
+        "Count": [
+            20
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -174502,6 +176335,53 @@
         ],
         "Number_of_Observers": [
             4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -177661,6 +179541,53 @@
     },
     {
         "Submission_ID": [
+            "S101195788"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--內湖內溝溪(Taipei--Neihu Neigou River)"
+        ],
+        "Latitude": [
+            25.0893531
+        ],
+        "Longitude": [
+            121.62095900000001
+        ],
+        "Date": [
+            "2022-01-20"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            70.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S77652772"
         ],
         "Common_Name": [
@@ -178356,6 +180283,53 @@
         ],
         "Number_of_Observers": [
             20
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101256209"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-KEE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "基隆--暖暖親水公園(Keelung--Nuannuan Waterfront Park)"
+        ],
+        "Latitude": [
+            25.100672399999997
+        ],
+        "Longitude": [
+            121.735128
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "02:59 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            65.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -182113,6 +184087,53 @@
         ],
         "Duration_Min": [
             2.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S101253205"
+        ],
+        "Common_Name": [
+            "白鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "15號 七鄰, 金山區, 新北市, TW (25.221, 121.607)"
+        ],
+        "Latitude": [
+            25.220528299999998
+        ],
+        "Longitude": [
+            121.60701
+        ],
+        "Date": [
+            "2022-01-23"
+        ],
+        "Time": [
+            "12:33 PM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            17.0
         ],
         "Number_of_Observers": [
             2
