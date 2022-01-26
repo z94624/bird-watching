@@ -9,7 +9,6 @@ import './HitCounter.css';
  * cookies: Cookie 資訊
  */
 const checkUserCookie = (cookies) => {
-    const [todayCookie, totalCookie] = cookies;
     const dateCookie = {name: "LastDate", expire: infiniteExpiryDate.toUTCString()};
     // 判斷與前次紀錄同不同天
     let dateRE = new RegExp(dateCookie.name, 'g');
@@ -24,25 +23,25 @@ const checkUserCookie = (cookies) => {
             .split('; ')
             .find(row => row.startsWith(dateCookie.name + '='))
             .split('=')[1]; // 上次登入日
-        newDateForCookie = dateNow != dateLast;
+        newDateForCookie = dateNow !== dateLast;
         createUserCookie(dateCookie, dateNow);
     }
     // 判斷今日為新天且次數歸零
     let newDateForFirebase = false;
     runTransaction(ref(database, '/LastDate'), (date) => {
-        newDateForFirebase = dateNow != date;
+        newDateForFirebase = dateNow !== date;
         return dateNow;
     });
     // 更新人次
-    cookies.map((cookie, cIdx) => {
+    cookies.forEach((cookie, cIdx) => {
         let reqexp = new RegExp(cookie.name, 'g');
         let exists = document.cookie.match(reqexp);
         if (!exists) { // Cookie 不存在
             createUserCookie(cookie, "True"); // 建立 Cookie
             runTransaction(cookie.ref, (hits) => {
-                if (hits && (cIdx == 0 && newDateForFirebase)) { // 已有資料庫 && (今日 且 新天)
+                if (hits && (cIdx === 0 && newDateForFirebase)) { // 已有資料庫 && (今日 且 新天)
                     return 1;
-                } else if (hits && (cIdx == 1 || newDateForCookie)) { // 已有資料庫 && (只要是累計 || 今天為新天)
+                } else if (hits && (cIdx === 1 || newDateForCookie)) { // 已有資料庫 && (只要是累計 || 今天為新天)
                     return (hits + 1);
                 } else if (!hits) { // 尚未建立資料庫
                     return 1;
