@@ -34,26 +34,24 @@ const checkUserCookie = (cookies) => {
         return dateNow;
     });
     // 更新人次
-    setTimeout(() => {
-        cookies.map((cookie, cIdx) => {
-            let reqexp = new RegExp(cookie.name, 'g');
-            let exists = document.cookie.match(reqexp);
-            if (!exists) { // Cookie 不存在
-                createUserCookie(cookie, "True"); // 建立 Cookie
-                runTransaction(cookie.ref, (hits) => {
-                    if (hits && (cIdx == 0 && newDateForFirebase)) { // 已有資料庫 && (今日 且 新天)
-                        return 1;
-                    } else if (hits && (cIdx == 1 || newDateForCookie)) { // 已有資料庫 && (只要是累計 || 今天為新天)
-                        return (hits + 1);
-                    } else if (!hits) { // 尚未建立資料庫
-                        return 1;
-                    }
-                });
-            } else if (newDateForCookie) { // Cookie 存在 && 今天為新天
-                runTransaction(cookie.ref, (hits) => hits + 1);
-            }
-        });
-    }, 1000);
+    cookies.map((cookie, cIdx) => {
+        let reqexp = new RegExp(cookie.name, 'g');
+        let exists = document.cookie.match(reqexp);
+        if (!exists) { // Cookie 不存在
+            createUserCookie(cookie, "True"); // 建立 Cookie
+            runTransaction(cookie.ref, (hits) => {
+                if (hits && (cIdx == 0 && newDateForFirebase)) { // 已有資料庫 && (今日 且 新天)
+                    return 1;
+                } else if (hits && (cIdx == 1 || newDateForCookie)) { // 已有資料庫 && (只要是累計 || 今天為新天)
+                    return (hits + 1);
+                } else if (!hits) { // 尚未建立資料庫
+                    return 1;
+                }
+            });
+        } else if (newDateForCookie) { // Cookie 存在 && 今天為新天
+            runTransaction(cookie.ref, (hits) => hits + 1);
+        }
+    });
 }
 // 建立 Cookie
 const createUserCookie = (cookie, value) => {
