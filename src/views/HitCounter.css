@@ -4,7 +4,7 @@
 /* 背景主題 */
 /* 背景圖片降低亮度 */
 /* 計數器 */
-#hitCounter {
+#hitCounterContainer {
   position: absolute;
   right: 0;
   bottom: 46px;
