@@ -63,8 +63,9 @@ const HitCounter = () => {
      * Hit Counter: https://w3collective.com/hit-counter-javascript-firebase/
      */
     // Cookie 資訊
+    const today = new Date();
     const cookies = [
-        {name: "TodayHits", expire: new Date(new Date().setDate(new Date().getDate() + 1)).toUTCString(), ref: ref(database, '/TodayHits'), id: "todayHitCounter", nameChi: "今日人次"},
+        {name: "TodayHits", expire: new Date(today.getFullYear(), today.getMonth(), today.getDate()+1, 0, 0, 0).toUTCString(), ref: ref(database, '/TodayHits'), id: "todayHitCounter", nameChi: "今日人次"},
         {name: "TotalHits", expire: infiniteExpiryDate.toUTCString(), ref: ref(database, '/TotalHits'), id: "totalHitCounter", nameChi: "累計人次"}
     ];
     checkUserCookie(cookies);
