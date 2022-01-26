@@ -19,10 +19,10 @@ const checkUserCookie = (cookies) => {
         createUserCookie(dateCookie, dateNow);
         newDateForCookie = true;
     } else { // Cookie 存在
-        let dateLast = document.cookie
+        let dateLast = parseInt(document.cookie
             .split('; ')
             .find(row => row.startsWith(dateCookie.name + '='))
-            .split('=')[1]; // 上次登入日
+            .split('=')[1]); // 上次登入日
         newDateForCookie = dateNow !== dateLast;
         createUserCookie(dateCookie, dateNow);
     }
