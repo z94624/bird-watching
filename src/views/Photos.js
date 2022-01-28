@@ -8,22 +8,32 @@ import { itemsToRainbowSelectOptions } from './../utils/ytVideos_dataExtraction'
 import { collectPhotosByDate } from './../utils/phMetadata_dataExtraction';
 import { getItemsByKey } from './../utils/tools.js';
 import './Photos.css';
-import birdPhotosInfo from './../utils/birdPhotosInfo.json';
+import birdPhotosInfo from './../utils/birdPhotosInfo/GoogleDriveAPI/birdPhotosInfo.json';
 
 SwiperCore.use([Navigation, Scrollbar, Autoplay, Lazy, EffectCoverflow, Thumbs, Zoom, Keyboard, Mousewheel, FreeMode]);
 
 const Photos = () => {
-	// 不重複照片日期
-	const listDates = getItemsByKey(birdPhotosInfo, 'date');
+	// 重複照片日期
+	const listDates = getItemsByKey(birdPhotosInfo, 'date', true);
+	// 重複賞鳥地點
+	const listLocations = getItemsByKey(birdPhotosInfo, 'location', true);
+	// 日期 + 地點
+	const listDateLoc = listDates.map((date, dIdx) => date + "：" + listLocations[dIdx]);
 	// 照片日期降冪
-	const descendingDates = listDates.sort((a, b) => new Date(a).getTime() < new Date(b).getTime() ? 1 : -1);
+	const descendingDates = listDateLoc.sort((a, b) => {
+		let aStart = a.split('：')[0].split('~')[0]; // 起始日
+		let aSlashed = [aStart.substring(0, 4), aStart.substring(4, 6), aStart.substring(6, 8)].join('/');
+		let bStart = b.split('：')[0].split('~')[0]; // 起始日
+		let bSlashed = [bStart.substring(0, 4), bStart.substring(4, 6), bStart.substring(6, 8)].join('/');
+		return new Date(aSlashed).getTime() < new Date(bSlashed).getTime() ? 1 : -1
+	});
 	// 日期
 	const [date, setDate] = useState(descendingDates[0]);
 	const handleDateChange = e => setDate(e.target.value);
 	// 日期選項
 	const dateSelect = itemsToRainbowSelectOptions(descendingDates, "phDateSelect", "日期", true, date, handleDateChange);
 	// 該日期所有照片
-	const photosOfDate = collectPhotosByDate(date);
+	const photosOfDate = collectPhotosByDate(date.split('：')[0]);
 	// 投影片預覽
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 	/* https://swiperjs.com/swiper-api#modules */
@@ -52,17 +62,12 @@ const Photos = () => {
 		scrollbar: { draggable: true, hide: false, snapOnRelease: true },
 		freeMode: { enabled: true, sticky: true },
 		breakpoints: {
-			992: {
-				slidesPerView: "6"
-			},
-			768: {
-				slidesPerView: "5"
-			},
-			576: {
-				slidesPerView: "4"
-			}
+			2180: { slidesPerView: "8" },
+			1900: { slidesPerView: "7" },
+			1630: { slidesPerView: "6" },
+			1360: { slidesPerView: "5" },
+			1166: { slidesPerView: "4" }
 		},
-
 		onSwiper: setThumbsSwiper
 	}
 
@@ -77,10 +82,10 @@ const Photos = () => {
 					{/* 投影片播放 */}
 					<Swiper {...swiperPlayParams}>
 					{photosOfDate.map((photo, pIdx) => (
-						<SwiperSlide key={`phSwiperPlay-${photo}`}>
+						<SwiperSlide key={`phSwiperPlay-${photo.id}`}>
 							<div className="swiper-zoom-container">
 								{/* thumbnail: 檔案小；uc: 原檔 */}
-								<img className="swiper-lazy" data-src={`https://drive.google.com/uc?id=${photo}`} alt="" />
+								<img className="swiper-lazy" data-src={`https://drive.google.com/uc?id=${photo.id}`} alt={photo.name} title={photo.name} />
 							</div>
 							<div className="swiper-lazy-preloader"></div>
 						</SwiperSlide>
@@ -89,9 +94,9 @@ const Photos = () => {
 					{/* 投影片預覽 */}
 					<Swiper {...swiperPreviewParams}>
 					{photosOfDate.map((photo, pIdx) => (
-						<SwiperSlide key={`phSwiperPreview-${photo}`}>
+						<SwiperSlide key={`phSwiperPreview-${photo.id}`}>
 							{/* thumbnail: 檔案小；uc: 原檔 */}
-							<img src={`https://drive.google.com/thumbnail?id=${photo}`} alt="" />
+							<img src={`https://drive.google.com/thumbnail?id=${photo.id}`} alt={photo.name} title={photo.name} />
 						</SwiperSlide>
 					))}
 					</Swiper>

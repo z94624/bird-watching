@@ -2,7 +2,7 @@
 @import "./css/_themes";
 /* 日期選擇 */
 #phDateSelectContainer {
-	@include responsive-width(15%, 15%, 25%, 100%);
+	@include responsive-width(30%, 30%, 30%, 100%);
 	display: inline-block;
 }
 /* 攝影藝廊 */
