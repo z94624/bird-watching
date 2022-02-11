@@ -4,6 +4,8 @@ import reportWebVitals from './reportWebVitals';
 
 import RootRouter from './router';
 
+import Snowfall from 'react-snowfall';
+
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,6 +19,8 @@ import '../node_modules/react-custom-scroll/dist/customScroll.css';
 ReactDOM.render(
   <React.StrictMode>
     <RootRouter /> {/* 轉換頁面分流器 */}
+    {/* 12月下雪特效 */}
+    {new Date().getMonth() == 11 && <Snowfall snowflakeCount={new Date().getDate()*10} />}
   </React.StrictMode>,
   document.getElementById('root')
 );
