@@ -1,0 +1,6 @@
+@import "./css/_media";
+/* 鳥種選擇 */
+#reBirdSelectContainer {
+	@include responsive-width(20%, 20%, 20%, 100%);
+	display: inline-block;
+}

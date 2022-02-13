@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 字體大小 */
+/* 寬度 */
+/* 鳥種選擇 */
+#reBirdSelectContainer {
+  display: inline-block;
+}
+@media all and (min-width: 1200px) {
+  #reBirdSelectContainer {
+    width: 20%;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #reBirdSelectContainer {
+    width: 20%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #reBirdSelectContainer {
+    width: 20%;
+  }
+}
+@media all and (max-width: 767px) {
+  #reBirdSelectContainer {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=Records.css.map */
