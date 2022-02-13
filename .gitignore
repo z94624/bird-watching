@@ -22,5 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 *.env
-src/utils/birdPhotosInfo/GoogleDriveAPI/credentials.json
-src/utils/birdPhotosInfo/GoogleDriveAPI/token.json
+src/utils/birdsInGoogleDrive/credentials.json
+src/utils/birdsInGoogleDrive/token.json

@@ -44,6 +44,10 @@ if not creds or not creds.valid:
     with open('token.json', 'w') as token:
         token.write(creds.to_json())
 
+service = build('drive', 'v3', credentials=creds)
+# Call the Drive v3 API
+resource = service.files()
+
 
 # ## 取得資料夾的所有直接子資料
 
@@ -61,26 +65,28 @@ def getItemsInFolder(resource, fields, folderID):
 # In[ ]:
 
 
-def collectPhotosUnderFolder(resource, folderID, birdPhotos):
+def collectInfosUnderFolder(resource, folderID, birdInfos):
     items = getItemsInFolder(resource, "id, name, mimeType", folderID)
     for item in items: # 對於每個檔案
         mimeType = item['mimeType']
         if 'image' in mimeType: # 若為相片檔
-            birdPhotos.append({
+            birdInfos.append({
+                "id": item['id'],
+                "name": item['name']
+            })
+        elif 'audio' in mimeType: # 若為音檔
+            birdInfos.append({
                 "id": item['id'],
                 "name": item['name']
             })
         elif 'folder' in mimeType: # 若為資料夾
-            collectPhotosUnderFolder(resource, item['id'], birdPhotos) # 繼續尋找底下的照片
+            collectInfosUnderFolder(resource, item['id'], birdInfos) # 繼續尋找底下的照片
 
 
 # In[ ]:
 
 
 try:
-    service = build('drive', 'v3', credentials=creds)
-    # Call the Drive v3 API
-    resource = service.files()
     # 鳥照資料夾的所有照片
     birdFolderID = "1IrKOaV4fKzr2qG5uuxau0lHBgUi89LV_" # 鳥照資料夾 ID
     birdFolders = getItemsInFolder(resource, "id, name", birdFolderID) # 所有賞鳥資料夾
@@ -92,10 +98,33 @@ try:
         birdPhotoInfo['location'] = names[1]
         
         birdPhotos = []
-        collectPhotosUnderFolder(resource, birdFolder['id'], birdPhotos)
+        collectInfosUnderFolder(resource, birdFolder['id'], birdPhotos)
         birdPhotoInfo['images'] = birdPhotos
         
         birdPhotosInfo.append(birdPhotoInfo)
+except HttpError as error:
+    # TODO(developer) - Handle errors from drive API.
+    print(f'An error occurred: {error}')
+
+
+# In[ ]:
+
+
+try:
+    # 鳥音資料夾的所有音檔
+    birdFolderID = "1Z3aKqPNhY1l-tgKR3h_STmZMyzp_4YQW" # 鳥音資料夾 ID
+    birdFolders = getItemsInFolder(resource, "id, name, mimeType", birdFolderID) # 所有賞鳥資料夾
+    birdFolders = [item for item in birdFolders if 'folder' in item["mimeType"] and '-' not in item['name']]
+    birdRecordsInfo = []
+    for birdFolder in birdFolders: # 對於每個賞鳥資料夾
+        birdRecordInfo = {}
+        birdRecordInfo['bird'] = birdFolder['name']
+        
+        birdRecords = []
+        collectInfosUnderFolder(resource, birdFolder['id'], birdRecords)
+        birdRecordInfo['records'] = birdRecords
+        
+        birdRecordsInfo.append(birdRecordInfo)
 except HttpError as error:
     # TODO(developer) - Handle errors from drive API.
     print(f'An error occurred: {error}')
@@ -113,5 +142,12 @@ with open('birdPhotosInfo.json', 'w', encoding="utf-8") as f:
 # In[ ]:
 
 
-sys.exit('"birdPhotosInfo" has already been exported!')
+with open('birdRecordsInfo.json', 'w', encoding="utf-8") as f:
+    json.dump(birdRecordsInfo, f, ensure_ascii=False, indent=4)
+
+
+# In[ ]:
+
+
+sys.exit('"birdPhotosInfo" & "birdRecordsInfo" has already been exported!')
 

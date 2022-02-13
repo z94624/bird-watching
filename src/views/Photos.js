@@ -8,7 +8,7 @@ import { itemsToRainbowSelectOptions } from './../utils/ytVideos_dataExtraction'
 import { collectPhotosByDate } from './../utils/phMetadata_dataExtraction';
 import { getItemsByKey } from './../utils/tools.js';
 import './Photos.css';
-import birdPhotosInfo from './../utils/birdPhotosInfo/GoogleDriveAPI/birdPhotosInfo.json';
+import birdPhotosInfo from './../utils/birdsInGoogleDrive/birdPhotosInfo.json';
 
 SwiperCore.use([Navigation, Scrollbar, Autoplay, Lazy, EffectCoverflow, Thumbs, Zoom, Keyboard, Mousewheel, FreeMode]);
 
