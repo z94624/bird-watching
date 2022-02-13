@@ -1,4 +1,4 @@
-import birdPhotosInfo from './birdPhotosInfo/GoogleDriveAPI/birdPhotosInfo.json';
+import birdPhotosInfo from './birdsInGoogleDrive/birdPhotosInfo.json';
 /*
  * 依照日期收集照片
  * date: 欲查看之日期
