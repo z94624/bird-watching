@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bird-watching/static/css/main.f8f65818.css",
-    "main.js": "/bird-watching/static/js/main.0bcd4921.js",
+    "main.css": "/bird-watching/static/css/main.abdaa980.css",
+    "main.js": "/bird-watching/static/js/main.867a5662.js",
     "static/js/787.fba709df.chunk.js": "/bird-watching/static/js/787.fba709df.chunk.js",
     "static/media/headshot.JPG": "/bird-watching/static/media/headshot.b82c46c834fe9ae7a8cc.JPG",
     "static/media/birdsOfAFeather_68.jpg": "/bird-watching/static/media/birdsOfAFeather_68.dc593a7be7f10c7a3dc4.jpg",
@@ -15,6 +15,7 @@
     "static/media/peaceJudo.png": "/bird-watching/static/media/peaceJudo.3e0ba930e9353bc02ac4.png",
     "static/media/NCKU.png": "/bird-watching/static/media/NCKU.d83342d0da15644b6b88.png",
     "static/media/ebirder.png": "/bird-watching/static/media/ebirder.53c42286183e6acb6669.png",
+    "static/media/flyingEagle.jpg": "/bird-watching/static/media/flyingEagle.25d90fc540e802a2f629.jpg",
     "static/media/Sass.png": "/bird-watching/static/media/Sass.1c9a01e0c88e58a0b3ac.png",
     "static/media/MySQL.png": "/bird-watching/static/media/MySQL.167c88550478e6f0f85c.png",
     "static/media/JaneGoodall.jpg": "/bird-watching/static/media/JaneGoodall.04de601ceb1b017e1077.jpg",
@@ -22,6 +23,7 @@
     "static/media/間距查詢.png": "/bird-watching/static/media/間距查詢.af8f4b951d25a6a8705d.png",
     "static/media/logo.png": "/bird-watching/static/media/logo.4fc1974f0c15fe5f25a9.png",
     "static/media/綴詞分析.png": "/bird-watching/static/media/綴詞分析.8e221112b269812bc5a6.png",
+    "static/media/ChiefSeattle.jpg": "/bird-watching/static/media/ChiefSeattle.11de13c7fe6fc7f0515c.jpg",
     "static/media/文本目錄編輯.png": "/bird-watching/static/media/文本目錄編輯.3e539484ae25f1341fd1.png",
     "static/media/blackhole.png": "/bird-watching/static/media/blackhole.c63896e04eb04018a8c4.png",
     "static/media/marker-icon.png": "/bird-watching/static/media/marker-icon.16762ddcf08318906b83.png",
@@ -47,12 +49,12 @@
     "static/media/GIT.png": "/bird-watching/static/media/GIT.7d664489ed331806ddc8.png",
     "index.html": "/bird-watching/index.html",
     "static/media/resetZoom.svg": "/bird-watching/static/media/resetZoom.34ea8e1b285917431be8499b4dcc494e.svg",
-    "main.f8f65818.css.map": "/bird-watching/static/css/main.f8f65818.css.map",
-    "main.0bcd4921.js.map": "/bird-watching/static/js/main.0bcd4921.js.map",
+    "main.abdaa980.css.map": "/bird-watching/static/css/main.abdaa980.css.map",
+    "main.867a5662.js.map": "/bird-watching/static/js/main.867a5662.js.map",
     "787.fba709df.chunk.js.map": "/bird-watching/static/js/787.fba709df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8f65818.css",
-    "static/js/main.0bcd4921.js"
+    "static/css/main.abdaa980.css",
+    "static/js/main.867a5662.js"
   ]
 }
