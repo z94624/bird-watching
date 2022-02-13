@@ -4,6 +4,7 @@
 /* 背景主題 */
 /* 背景圖片降低亮度 */
 /* 字體大小 */
+/* 寬度 */
 .a-dark {
   text-decoration: none;
   color: #FE9AFF;
@@ -111,6 +112,16 @@
   background-repeat: no-repeat;
   background-color: #000000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/blackhole.png");
+}
+
+/* 西雅圖酋長 */
+#abGreatSeSeSection {
+  background-position: center;
+  background-size: cover;
+  /* auto, cover, contain */
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/flyingEagle.jpg");
 }
 
 /* 珍古德 */

@@ -49,6 +49,11 @@
 	@include background(cover);
 	@include backgroundImage_darken(url("./../images/blackhole.png"), 0.5);
 }
+/* 西雅圖酋長 */
+#abGreatSeSeSection {
+	@include background(cover);
+	@include backgroundImage_darken(url("./../images/flyingEagle.jpg"), 0.5);
+}
 /* 珍古德 */
 #abGreatJaneSection {
 	@include background(cover);
