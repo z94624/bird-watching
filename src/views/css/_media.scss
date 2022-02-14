@@ -61,3 +61,18 @@ $phoneMaxWidth: 767px;
 		width: $phone;
 	}
 }
+/* 高度 */
+@mixin responsive-height($pc, $lap, $pad, $phone) {
+	@include pc {
+		height: $pc;
+	}
+	@include lap {
+		height: $lap;
+	}
+	@include pad {
+		height: $pad;
+	}
+	@include phone {
+		height: $phone;
+	}
+}

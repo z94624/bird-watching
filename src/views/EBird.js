@@ -7,7 +7,6 @@ import { infos } from './../utils/ebird-ebirders.js';
 import { eBirderInfosToRainbowAvatars } from './../utils/ebEbirders_dataExtraction';
 import EBirdCharts from './EBirdCharts';
 import ScrollTopArrow from './../components/ScrollTopArrow';
-import Footer from './../components/Footer';
 import './EBird.css';
 
 const EBird = ({ scrollToElement }) => {
@@ -79,8 +78,6 @@ const EBird = ({ scrollToElement }) => {
 			<EBirdCharts avatarIndex={avatarIndex} />
 			{/* 滾動至頂按鈕 */}
 			<ScrollTopArrow showScroll={showScroll} scrollToElement={() => scrollToElement(document.getElementById("ebTabsetContainer"))} />
-
-			<Footer />
 		</main>
 	);
 }
