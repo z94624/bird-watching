@@ -1,12 +1,13 @@
 @import "./css/_buttons";
 @import "./css/_themes";
+@import "./css/_ui";
 
 @mixin widthHeight($width, $height) {
 	width: $width;
 	height: $height;
 }
 
-$containerHeight: calc(100vh - 61.95px - 64px);
+$containerHeight: calc(100vh - $mainHeaderHeight - 64px);
 // 選擇 eBirder 按鈕
 #ebDrawerBtn {
 	position: fixed;

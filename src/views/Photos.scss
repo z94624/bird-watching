@@ -1,5 +1,6 @@
 @import "./css/_media";
 @import "./css/_themes";
+@import "./css/_ui";
 /* 日期選擇 */
 #phDateSelectContainer {
 	@include responsive-width(30%, 30%, 30%, 100%);
@@ -8,7 +9,7 @@
 /* 攝影藝廊 */
 #phPhotosGallery {
 	width: 100%;
-	height: calc(100vh - 61.95px - 48px);
+	height: calc(100vh - $mainHeaderHeight - 48px);
 	/* 投影片播放 */
 	#swiperPlay {
 		width: 100%;

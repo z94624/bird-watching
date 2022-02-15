@@ -33,9 +33,22 @@
   overflow-y: auto;
 }
 
-/*
- * https://opensource.apple.com/source/WebCore/WebCore-1889.1/css/mediaControls.css.auto.html
- * 
- */
+/* 手機時，播放器簡化 */
+@media all and (max-width: 767px) {
+  audio {
+    width: 100px;
+  }
+}
+
+/* https://opensource.apple.com/source/WebCore/WebCore-1889.1/css/mediaControls.css.auto.html */
+@media all and (max-width: 767px) {
+  audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline {
+    display: none !important;
+  }
+}
 
 /*# sourceMappingURL=Records.css.map */
