@@ -18,18 +18,24 @@ const Table = ({ columns, data }) => {
 			<thead>
 			{headerGroups.map(headerGroup => (
 				<tr {...headerGroup.getHeaderGroupProps()}>
-				{headerGroup.headers.map(column => (
-					// Add the sorting props to control sorting.
-					<th {...column.getHeaderProps(column.getSortByToggleProps())}>
-					{column.render('Header')}
-					{/* Add a sort direction indicator */}
-					<span>
-					{column.isSorted ?
-						column.isSortedDesc ? ' 🔽' : ' 🔼'
-					 : ''}
-					</span>
-					</th>
-				))}
+				{headerGroup.headers.map((column, cIdx) => {
+					return cIdx !== 2 ? ( // Date, Location = Sortable
+							// Add the sorting props to control sorting.
+							<th {...column.getHeaderProps(column.getSortByToggleProps())}>
+							{column.render('Header')}
+							{/* Add a sort direction indicator */}
+							<span>
+							{column.isSorted ?
+								column.isSortedDesc ? ' 🔽' : ' 🔼'
+							 : ''}
+							</span>
+							</th>
+						) : ( // Record = Unsortable
+							<th {...column.getHeaderProps()}>
+							{column.render('Header')}
+							</th>
+						)
+				})}
 				</tr>
 			))}
 			</thead>
