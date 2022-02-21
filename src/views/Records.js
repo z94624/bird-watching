@@ -1,17 +1,50 @@
 import { useState, useMemo } from 'react';
 
 import BTable from 'react-bootstrap/Table';
-import { useTable, useSortBy } from 'react-table';
+import { useTable, useFilters, useSortBy } from 'react-table';
+import { matchSorter } from 'match-sorter';
 
 import { itemsToRainbowSelectOptions } from './../utils/ytVideos_dataExtraction';
 import { collectRecordsByBird, recordsToReactTableData } from './../utils/reMetadata_dataExtraction';
 import { getItemsByKey } from './../utils/tools.js';
 import './Records.css';
 import birdRecordsInfo from './../utils/birdsInGoogleDrive/birdRecordsInfo.json';
+// Define a default UI for filtering
+const DefaultColumnFilter = ({
+	column: { filterValue, preFilteredRows, setFilter }
+}) => (
+	<input
+		value={filterValue || ''}
+		onChange={e => {
+			setFilter(e.target.value || undefined) // Set undefined to remove the filter entirely
+		}}
+	/>
+);
+// 模糊查詢方法
+const fuzzyTextFilterFn = (rows, id, filterValue) => matchSorter(rows, filterValue, { keys: [row => row.values[id]] });
+// Let the table remove the filter if the string is empty
+fuzzyTextFilterFn.autoRemove = val => !val;
 // 載入資料建立表格
 const Table = ({ columns, data }) => {
+	// 查詢方法
+	const filterTypes = useMemo(() => ({
+		// 模糊查詢
+		fuzzyText: fuzzyTextFilterFn,
+		// 嚴謹查詢(按照出現順序)
+		text: (rows, id, filterValue) => rows.filter(row => {
+			const rowValue = row.values[id];
+			return rowValue !== undefined
+				? String(rowValue).toLowerCase().startsWith(String(filterValue).toLowerCase())
+				: true;
+		}),
+	}), []);
+	// 預設篩選器
+	const defaultColumn = useMemo(() => ({
+		// Let's set up our default Filter UI
+      	Filter: DefaultColumnFilter
+	}), []);
 	// Use the state and functions returned from useTable to build your UI
-	const { getTableProps, headerGroups, rows, prepareRow } = useTable({columns, data}, useSortBy);
+	const { getTableProps, headerGroups, rows, prepareRow } = useTable({columns, data, defaultColumn, filterTypes}, useFilters, useSortBy);
 	// Render the UI for your table
 	return (
 		<BTable striped hover variant="dark" responsive {...getTableProps()}>
@@ -23,12 +56,14 @@ const Table = ({ columns, data }) => {
 							// Add the sorting props to control sorting.
 							<th {...column.getHeaderProps(column.getSortByToggleProps())}>
 							{column.render('Header')}
-							{/* Add a sort direction indicator */}
-							<span>
-							{column.isSorted ?
-								column.isSortedDesc ? ' 🔽' : ' 🔼'
-							 : ''}
-							</span>
+								{/* Add a sort direction indicator */}
+								<span>
+								{column.isSorted ?
+									column.isSortedDesc ? ' 🔽' : ' 🔼'
+								 : ''}
+								</span>
+								{/* Render the columns filter UI */}
+                  				{cIdx === 1 ? <div>{column.canFilter ? column.render('Filter') : null}</div> : <></>}
 							</th>
 						) : ( // Record = Unsortable
 							<th {...column.getHeaderProps()}>
@@ -75,7 +110,8 @@ const Records = () => {
 		},
 		{
 			Header: 'Location',
-			accessor: 'location'
+			accessor: 'location',
+			filter: 'fuzzyText'
 		},
 		{
 			Header: 'Record',
