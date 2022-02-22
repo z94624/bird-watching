@@ -1,5 +1,6 @@
 @import "./css/_media";
 @import "./css/_ui";
+@import "./css/_themes";
 /* 鳥種選擇 */
 #reBirdSelectContainer {
 	@include responsive-width(20%, 30%, 30%, 100%);
@@ -24,5 +25,29 @@ audio::-webkit-media-controls-time-remaining-display, // 總時間
 audio::-webkit-media-controls-timeline { // 播放進度條
 	@include phone {
 		display: none !important;
+	}
+}
+
+.pagination {
+	a {
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		color: white;
+		float: left;
+		text-decoration: none;
+		transition: background-color .3s;
+
+		&.active {
+			color: black;
+			background-color: white;
+			border-radius: 100%;
+		}
+
+		&:not(.active):hover {
+			color: $highlightColor;
+		}
 	}
 }

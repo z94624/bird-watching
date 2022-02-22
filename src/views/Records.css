@@ -51,4 +51,24 @@ audio::-webkit-media-controls-timeline {
   }
 }
 
+.pagination a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  float: left;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.pagination a.active {
+  color: black;
+  background-color: white;
+  border-radius: 100%;
+}
+.pagination a:not(.active):hover {
+  color: #FE9AFF;
+}
+
 /*# sourceMappingURL=Records.css.map */

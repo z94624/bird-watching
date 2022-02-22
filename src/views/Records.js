@@ -100,19 +100,35 @@ const Table = ({ columns, data }) => {
 				</tbody>
 			</BTable>
 			{/* Pagination */}
-			<BPagination className="justify-content-center">
-				<BPagination.First onClick={() => gotoPage(0)} disabled={!canPreviousPage} />
-				<BPagination.Prev onClick={() => previousPage()} disabled={!canPreviousPage} />
-
-				{pageIndex+1 - 2 > 0 && <BPagination.Item onClick={() => gotoPage(pageIndex-2)} disabled={!canPreviousPage}>{pageIndex-1}</BPagination.Item>}
-				{pageIndex+1 - 1 > 0 && <BPagination.Item onClick={() => gotoPage(pageIndex-1)} disabled={!canPreviousPage}>{pageIndex}</BPagination.Item>}
-				<BPagination.Item active>{pageIndex+1}</BPagination.Item>
-				{pageIndex+1 + 1 <= pageCount && <BPagination.Item onClick={() => gotoPage(pageIndex+1)} disabled={!canNextPage}>{pageIndex+2}</BPagination.Item>}
-				{pageIndex+1 + 2 <= pageCount && <BPagination.Item onClick={() => gotoPage(pageIndex+2)} disabled={!canNextPage}>{pageIndex+3}</BPagination.Item>}
-				
-				<BPagination.Next onClick={() => nextPage()} disabled={!canNextPage} />
-				<BPagination.Last onClick={() => gotoPage(pageCount-1)} disabled={!canNextPage} />
-			</BPagination>
+			<div className="pagination justify-content-center p-3">
+				<a href="#" className={`${!canPreviousPage && "disabled"}`} onClick={() => gotoPage(0)}>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-double-left" viewBox="0 0 16 16">
+						<path fillRule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+						<path fillRule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+					</svg>
+				</a>
+				<a href="#" className={`${!canPreviousPage && "disabled"}`} onClick={() => previousPage()}>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-left" viewBox="0 0 16 16">
+						<path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+					</svg>
+				</a>
+				{pageIndex+1 - 2 > 0 && <a href="#" className={`${!canPreviousPage && "disabled"}`} onClick={() => gotoPage(pageIndex-2)}>{pageIndex-1}</a>}
+				{pageIndex+1 - 1 > 0 && <a href="#" className={`${!canPreviousPage && "disabled"}`} onClick={() => gotoPage(pageIndex-1)}>{pageIndex}</a>}
+				<a href="#" className="active">{pageIndex+1}</a>
+				{pageIndex+1 + 1 <= pageCount && <a href="#" className={`${!canNextPage && "disabled"}`} onClick={() => gotoPage(pageIndex+1)}>{pageIndex+2}</a>}
+				{pageIndex+1 + 2 <= pageCount && <a href="#" className={`${!canNextPage && "disabled"}`} onClick={() => gotoPage(pageIndex+2)}>{pageIndex+3}</a>}
+				<a className={`${!canNextPage && "disabled"}`} href="#" onClick={() => nextPage()}>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-right" viewBox="0 0 16 16">
+						<path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+					</svg>
+				</a>
+				<a className={`${!canNextPage && "disabled"}`} href="#" onClick={() => gotoPage(pageCount-1)}>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-double-right" viewBox="0 0 16 16">
+						<path fillRule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+						<path fillRule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+					</svg>
+				</a>
+			</div>
 		</>
 	);
 }
