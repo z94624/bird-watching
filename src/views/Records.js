@@ -1,7 +1,8 @@
 import { useState, useMemo } from 'react';
 
 import BTable from 'react-bootstrap/Table';
-import { useTable, useFilters, useSortBy } from 'react-table';
+import BPagination from 'react-bootstrap/Pagination';
+import { useTable, useFilters, useSortBy, usePagination } from 'react-table';
 import { matchSorter } from 'match-sorter';
 
 import { itemsToRainbowSelectOptions } from './../utils/ytVideos_dataExtraction';
@@ -44,51 +45,75 @@ const Table = ({ columns, data }) => {
       	Filter: DefaultColumnFilter
 	}), []);
 	// Use the state and functions returned from useTable to build your UI
-	const { getTableProps, headerGroups, rows, prepareRow } = useTable({columns, data, defaultColumn, filterTypes}, useFilters, useSortBy);
+	const {
+		getTableProps, headerGroups, prepareRow,
+		page, canPreviousPage, canNextPage, pageCount, gotoPage, nextPage, previousPage, setPageSize, state: { pageIndex, pageSize }
+	} = useTable(
+		{
+			columns, data, defaultColumn, filterTypes,
+			initialState: { pageIndex: 0, pageSize: 5 }
+		},
+		useFilters, useSortBy, usePagination);
 	// Render the UI for your table
 	return (
-		<BTable striped hover variant="dark" responsive {...getTableProps()}>
-			<thead>
-			{headerGroups.map(headerGroup => (
-				<tr {...headerGroup.getHeaderGroupProps()}>
-				{headerGroup.headers.map((column, cIdx) => {
-					return cIdx !== 2 ? ( // Date, Location = Sortable
-							// Add the sorting props to control sorting.
-							<th {...column.getHeaderProps(column.getSortByToggleProps())}>
-							{column.render('Header')}
-								{/* Add a sort direction indicator */}
-								<span>
-								{column.isSorted ?
-									column.isSortedDesc ? ' 🔽' : ' 🔼'
-								 : ''}
-								</span>
-								{/* Render the columns filter UI */}
-                  				{cIdx === 1 ? <div>{column.canFilter ? column.render('Filter') : null}</div> : <></>}
-							</th>
-						) : ( // Record = Unsortable
-							<th {...column.getHeaderProps()}>
-							{column.render('Header')}
-							</th>
-						)
-				})}
-				</tr>
-			))}
-			</thead>
-			<tbody>
-			{rows.map((row, rIdx) => {
-				prepareRow(row);
-				return (
-					<tr {...row.getRowProps()}>
-					{row.cells.map(cell => (
-						<td {...cell.getCellProps()}>
-						{cell.render('Cell')}
-						</td>
-					))}
+		<>
+			<BTable striped hover variant="dark" responsive {...getTableProps()}>
+				<thead>
+				{headerGroups.map(headerGroup => (
+					<tr {...headerGroup.getHeaderGroupProps()}>
+					{headerGroup.headers.map((column, cIdx) => {
+						return cIdx !== 2 ? ( // Date, Location = Sortable
+								// Add the sorting props to control sorting.
+								<th {...column.getHeaderProps(column.getSortByToggleProps())}>
+								{column.render('Header')}
+									{/* Add a sort direction indicator */}
+									<span>
+									{column.isSorted ?
+										column.isSortedDesc ? ' 🔽' : ' 🔼'
+									 : ''}
+									</span>
+									{/* Render the columns filter UI */}
+	                  				{cIdx === 1 ? <div>{column.canFilter ? column.render('Filter') : null}</div> : <></>}
+								</th>
+							) : ( // Record = Unsortable
+								<th {...column.getHeaderProps()}>
+								{column.render('Header')}
+								</th>
+							)
+					})}
 					</tr>
-				);
-			})}
-			</tbody>
-		</BTable>
+				))}
+				</thead>
+				<tbody>
+				{page.map((row, rIdx) => {
+					prepareRow(row);
+					return (
+						<tr {...row.getRowProps()}>
+						{row.cells.map(cell => (
+							<td {...cell.getCellProps()}>
+							{cell.render('Cell')}
+							</td>
+						))}
+						</tr>
+					);
+				})}
+				</tbody>
+			</BTable>
+			{/* Pagination */}
+			<BPagination className="justify-content-center">
+				<BPagination.First onClick={() => gotoPage(0)} disabled={!canPreviousPage} />
+				<BPagination.Prev onClick={() => previousPage()} disabled={!canPreviousPage} />
+
+				{pageIndex+1 - 2 > 0 && <BPagination.Item onClick={() => gotoPage(pageIndex-2)} disabled={!canPreviousPage}>{pageIndex-1}</BPagination.Item>}
+				{pageIndex+1 - 1 > 0 && <BPagination.Item onClick={() => gotoPage(pageIndex-1)} disabled={!canPreviousPage}>{pageIndex}</BPagination.Item>}
+				<BPagination.Item active>{pageIndex+1}</BPagination.Item>
+				{pageIndex+1 + 1 <= pageCount && <BPagination.Item onClick={() => gotoPage(pageIndex+1)} disabled={!canNextPage}>{pageIndex+2}</BPagination.Item>}
+				{pageIndex+1 + 2 <= pageCount && <BPagination.Item onClick={() => gotoPage(pageIndex+2)} disabled={!canNextPage}>{pageIndex+3}</BPagination.Item>}
+				
+				<BPagination.Next onClick={() => nextPage()} disabled={!canNextPage} />
+				<BPagination.Last onClick={() => gotoPage(pageCount-1)} disabled={!canNextPage} />
+			</BPagination>
+		</>
 	);
 }
 
