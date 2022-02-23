@@ -33,6 +33,11 @@
   overflow-y: auto;
 }
 
+/* 鳥音表格 */
+.table-responsive {
+  height: 480px;
+}
+
 /* 手機時，播放器簡化 */
 @media all and (max-width: 767px) {
   audio {
@@ -51,24 +56,32 @@ audio::-webkit-media-controls-timeline {
   }
 }
 
+/* 鳥音分頁 */
 .pagination a {
-  display: inline-block;
   width: 40px;
   height: 40px;
   line-height: 40px;
-  text-align: center;
+  margin: 0px 5px;
   color: white;
-  float: left;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
   text-decoration: none;
+  border-radius: 100%;
   transition: background-color 0.3s;
 }
 .pagination a.active {
-  color: black;
-  background-color: white;
-  border-radius: 100%;
+  background-color: #FE9AFF;
+  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+  cursor: inherit;
+}
+.pagination a.active:hover {
+  color: white;
+}
+.pagination a.disabled {
+  visibility: hidden;
 }
 .pagination a:not(.active):hover {
   color: #FE9AFF;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /*# sourceMappingURL=Records.css.map */

@@ -11,6 +11,10 @@
 	height: calc(100vh - $mainHeaderHeight - 56px);
 	overflow-y: auto;
 }
+/* 鳥音表格 */
+.table-responsive {
+	height: 480px;
+}
 /* 手機時，播放器簡化 */
 audio {
 	@include phone {
@@ -27,27 +31,38 @@ audio::-webkit-media-controls-timeline { // 播放進度條
 		display: none !important;
 	}
 }
-
+/* 鳥音分頁 */
 .pagination {
 	a {
-		display: inline-block;
 		width: 40px;
 		height: 40px;
 		line-height: 40px;
-		text-align: center;
+		margin: 0px 5px;
 		color: white;
-		float: left;
+		box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 		text-decoration: none;
+		border-radius: 100%;
 		transition: background-color .3s;
 
 		&.active {
-			color: black;
-			background-color: white;
-			border-radius: 100%;
+			background-color: $highlightColor;
+			box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+			cursor: inherit;
+
+			&:hover {
+				color: white;
+			}
 		}
 
-		&:not(.active):hover {
-			color: $highlightColor;
+		&.disabled {
+			visibility: hidden;
+		}
+
+		&:not(.active) {
+			&:hover {
+				color: $highlightColor;
+				background-color: rgba(white, .1);
+			}
 		}
 	}
 }
