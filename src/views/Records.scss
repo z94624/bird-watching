@@ -1,6 +1,7 @@
 @import "./css/_media";
 @import "./css/_ui";
 @import "./css/_themes";
+@import "./css/_buttons";
 /* 鳥種選擇 */
 #reBirdSelectContainer {
 	@include responsive-width(20%, 30%, 30%, 100%);
@@ -11,24 +12,28 @@
 	height: calc(100vh - $mainHeaderHeight - 56px);
 	overflow-y: auto;
 }
-/* 鳥音表格 */
-.table-responsive {
-	height: 480px;
-}
 /* 手機時，播放器簡化 */
 audio {
 	@include phone {
 		width: 100px;
 	}
-}
-/* https://opensource.apple.com/source/WebCore/WebCore-1889.1/css/mediaControls.css.auto.html */
-audio::-webkit-media-controls-mute-button, // 聲音圖示
-audio::-webkit-media-controls-volume-slider, // 聲音滑桿
-audio::-webkit-media-controls-current-time-display, // 播放進度
-audio::-webkit-media-controls-time-remaining-display, // 總時間
-audio::-webkit-media-controls-timeline { // 播放進度條
-	@include phone {
-		display: none !important;
+	/* https://opensource.apple.com/source/WebCore/WebCore-1889.1/css/mediaControls.css.auto.html */
+	&::-webkit-media-controls-play-button { // 播放按鈕
+		border-radius: 100%;
+		box-shadow: $panelBtn-boxShadow;
+
+		&:active {
+			box-shadow: none;
+		}
+	}
+	&::-webkit-media-controls-mute-button, // 聲音圖示
+	&::-webkit-media-controls-volume-slider, // 聲音滑桿
+	&::-webkit-media-controls-current-time-display, // 播放進度
+	&::-webkit-media-controls-time-remaining-display, // 總時間
+	&::-webkit-media-controls-timeline { // 播放進度條
+		@include phone {
+			display: none !important;
+		}
 	}
 }
 /* 鳥音分頁 */
@@ -39,29 +44,29 @@ audio::-webkit-media-controls-timeline { // 播放進度條
 		line-height: 40px;
 		margin: 0px 5px;
 		color: white;
-		box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+		box-shadow: $panelBtn-boxShadow;
 		text-decoration: none;
 		border-radius: 100%;
-		transition: background-color .3s;
-
+		transition: color .3s;
+		/* 當前頁面 */
 		&.active {
 			background-color: $highlightColor;
-			box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+			box-shadow: $panelBtn-boxShadow-inset;
 			cursor: inherit;
-
+			/* 預設的字體顏色會變 */
 			&:hover {
 				color: white;
 			}
 		}
-
-		&.disabled {
-			visibility: hidden;
-		}
-
+		/* 非當前頁面 */
 		&:not(.active) {
+			/* 不需要顯示的按鈕 */
+			&.disabled {
+				visibility: hidden;
+			}
+
 			&:hover {
 				color: $highlightColor;
-				background-color: rgba(white, .1);
 			}
 		}
 	}

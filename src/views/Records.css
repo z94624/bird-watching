@@ -2,6 +2,8 @@
 /* 字體大小 */
 /* 寬度 */
 /* 高度 */
+/* Panel 上面小按鈕陰影 */
+/* 按鈕點擊動畫 1：位移與透明度 */
 /* 鳥種選擇 */
 #reBirdSelectContainer {
   display: inline-block;
@@ -33,25 +35,24 @@
   overflow-y: auto;
 }
 
-/* 鳥音表格 */
-.table-responsive {
-  height: 480px;
-}
-
 /* 手機時，播放器簡化 */
+audio {
+  /* https://opensource.apple.com/source/WebCore/WebCore-1889.1/css/mediaControls.css.auto.html */
+}
 @media all and (max-width: 767px) {
   audio {
     width: 100px;
   }
 }
-
-/* https://opensource.apple.com/source/WebCore/WebCore-1889.1/css/mediaControls.css.auto.html */
+audio::-webkit-media-controls-play-button {
+  border-radius: 100%;
+  box-shadow: -3px -3px 7px #ffffff75, 3px 3px 5px rgba(94, 104, 121, 0.3);
+}
+audio::-webkit-media-controls-play-button:active {
+  box-shadow: none;
+}
 @media all and (max-width: 767px) {
-  audio::-webkit-media-controls-mute-button,
-audio::-webkit-media-controls-volume-slider,
-audio::-webkit-media-controls-current-time-display,
-audio::-webkit-media-controls-time-remaining-display,
-audio::-webkit-media-controls-timeline {
+  audio::-webkit-media-controls-mute-button, audio::-webkit-media-controls-volume-slider, audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-time-remaining-display, audio::-webkit-media-controls-timeline {
     display: none !important;
   }
 }
@@ -63,25 +64,30 @@ audio::-webkit-media-controls-timeline {
   line-height: 40px;
   margin: 0px 5px;
   color: white;
-  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  box-shadow: -3px -3px 7px #ffffff75, 3px 3px 5px rgba(94, 104, 121, 0.3);
   text-decoration: none;
   border-radius: 100%;
-  transition: background-color 0.3s;
+  transition: color 0.3s;
+  /* 當前頁面 */
+  /* 非當前頁面 */
 }
 .pagination a.active {
   background-color: #FE9AFF;
-  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+  box-shadow: inset -3px -3px 7px #ffffff75, inset 3px 3px 5px rgba(94, 104, 121, 0.3);
   cursor: inherit;
+  /* 預設的字體顏色會變 */
 }
 .pagination a.active:hover {
   color: white;
 }
-.pagination a.disabled {
+.pagination a:not(.active) {
+  /* 不需要顯示的按鈕 */
+}
+.pagination a:not(.active).disabled {
   visibility: hidden;
 }
 .pagination a:not(.active):hover {
   color: #FE9AFF;
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /*# sourceMappingURL=Records.css.map */

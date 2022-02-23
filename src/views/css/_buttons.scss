@@ -1,3 +1,6 @@
+/* Panel 上面小按鈕陰影 */
+$panelBtn-boxShadow: -3px -3px 7px #ffffff75, 3px 3px 5px rgba(94, 104, 121, 0.3);
+$panelBtn-boxShadow-inset: inset -3px -3px 7px #ffffff75, inset 3px 3px 5px rgba(94, 104, 121, 0.3);
 /* 按鈕點擊動畫 1：位移與透明度 */
 @mixin button-click-animation1 {
 	opacity: .5;
