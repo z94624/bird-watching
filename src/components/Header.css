@@ -1,8 +1,66 @@
+@charset "UTF-8";
+/* Bootstrap 暗色背景背景顏色 */
+/* Bootstrap 暗色背景 Blur 的字體顏色 */
+/* 背景主題 */
+/* 背景圖片降低亮度 */
+/* 小視窗時的選單閉合按鈕 */
 .navbar-toggler {
   transition: background-color 0.2s ease;
 }
 .navbar-toggler:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* 自定義下拉式選單 */
+.navItem {
+  padding: 0.5rem;
+  position: relative;
+}
+.navItem, .navItem .dropdownItem {
+  list-style: none;
+  cursor: pointer;
+}
+.navItem a {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+}
+.navItem a.navLinkActive {
+  color: rgba(255, 255, 255, 0.75);
+}
+.navItem a:hover {
+  color: rgba(255, 255, 255, 0.55);
+}
+.navItem .dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  text-align: left;
+  background-color: #212529;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0.25rem;
+}
+.navItem:hover .dropdownMenu {
+  display: block;
+}
+.navItem .dropdownItem {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  background-color: transparent;
+}
+.navItem .dropdownItem .dropdownLink {
+  transition: all 0.5s ease;
+}
+.navItem .dropdownItem .dropdownLink.navLinkActive, .navItem .dropdownItem .dropdownLink:hover {
+  color: rgba(255, 255, 255, 0.75);
+  padding-left: 10px;
+  border-left: 2px solid #3ca0e7;
 }
 
 /*# sourceMappingURL=Header.css.map */

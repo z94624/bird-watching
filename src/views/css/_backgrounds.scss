@@ -2,6 +2,7 @@
 $bs-bgDark: rgba(33, 37, 41, 1);
 /* Bootstrap 暗色背景 Blur 的字體顏色 */
 $bs-bgDark_blur: rgba(255, 255, 255, .55);
+$bs-bgDark_hover: rgba(255, 255, 255, .75);
 /* 背景主題 */
 @mixin background($size) {
 	background: {

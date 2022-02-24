@@ -32,7 +32,7 @@ const RootRouter = () => {
 					} />
 					<Route exact path="/bird-watching/photos" component={Photos} />
 					<Route exact path="/bird-watching/records" component={Records} />
-					<Route exact path="/bird-watching/about" component={About} />
+					<Route exact path="/bird-watching/about/smoBEE" component={About} />
 				</Switch>
 			</Layout>
 		</Router>

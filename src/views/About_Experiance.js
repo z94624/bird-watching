@@ -193,12 +193,12 @@ const AboutExperiance = () => {
 								<CarouselCard
 									scrollDuration={3} // 每 ? 秒下一張
 								>
-								{projects.map((project, pIdx) => (
+								{projects.map(({src, header, desc}, pIdx) => (
 									<CarouselImage
 										key={`abProject-${pIdx}`}
-										src={project.src}
-										header={project.header} // text|Component
-										description={project.desc} // text|Component
+										src={src}
+										header={header} // text|Component
+										description={desc} // text|Component
 										assistiveText="數位人文平台" // A description for assistive screen readers.
 										href="https://dh.ascdc.sinica.edu.tw/member/"
 									/>
@@ -211,10 +211,10 @@ const AboutExperiance = () => {
 								label="Others"
 							>
 								<div className="d-flex justify-content-between align-items-center flex-wrap">
-								{ascdcGroups.map((group, gIdx) => (
+								{ascdcGroups.map(({name, src, group}, gIdx) => (
 									<div key={`abExpGroup-${gIdx}`}>
-										<img className="me-3" src={group.src} alt={group.group} title={group.group} height="auto" width="50" />
-										{group.name}
+										<img className="me-3" src={src} alt={group} title={group} height="auto" width="50" />
+										{name}
 									</div>
 								))}
 								</div>
@@ -229,9 +229,9 @@ const AboutExperiance = () => {
 					<span className="border-bottom border-dark border-3 fs-4 bold-900 py-2">SKILLS</span>
 				</div>
 				<div className="col-md-9 d-flex justify-content-around align-items-center flex-wrap py-5">
-				{skills.map((skill, sIdx) => (
+				{skills.map(({name, src}, sIdx) => (
 					<div key={`abExpSkill-${sIdx}`} className="abExpSkill p-3 m-3">
-						<img src={skill.src} alt={skill.name} title={skill.name} width="auto" height="80" />
+						<img src={src} alt={name} title={name} width="auto" height="80" />
 					</div>
 				))}
 				</div>

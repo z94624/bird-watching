@@ -17,51 +17,51 @@ const greats = [
 const AboutGreat = () => {
 	return (
 		<div id="abGreat" className="h-auto">
-		{greats.map((great, gIdx) => {
+		{greats.map(({name, briefName, src, quote}, gIdx) => {
 			if (gIdx % 2) {
 				return (
-					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${great.briefName}Section`} className="abGreatFigure row px-3">
+					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${briefName}Section`} className="abGreatFigure row px-3">
 						{/* 名言 */}
 						<div className="col-md-9 d-flex flex-column justify-content-center text-white px-5 py-3">
 							<div className="col-md-12 align-self-center">
 								<blockquote className="blockquote text-start fs-4" >
 									<p>
 										<FontAwesomeIcon icon={faQuoteLeft} className="me-2" />
-										{great.quote}
+										{quote}
 									</p>
 								</blockquote>
 							</div>
 							<span className="col-md-5 fs-6 fst-italic align-self-end" >
-								- {great.name}
+								- {name}
 							</span>
 						</div>
 						{/* 頭像 */}
 						<div className="col-md-3 m-auto p-3">
 							<Avatar
-								id={`abGreat${great.briefName}`}
-								name={great.name}
-								alt={great.name}
-								title={great.name}
+								id={`abGreat${briefName}`}
+								name={name}
+								alt={name}
+								title={name}
 								size="150px" // 圖像大小
 								round={true} // border-radius；number, true(100%), false(0%)
-								src={great.src} // 載入照片
+								src={src} // 載入照片
 							/>
 						</div>
 					</div>
 				);
 			} else {
 				return (
-					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${great.briefName}Section`} className="abGreatFigure row px-3">
+					<div key={`abGreatGreat-${gIdx}`} id={`abGreat${briefName}Section`} className="abGreatFigure row px-3">
 						{/* 頭像 */}
 						<div className="col-md-3 m-auto p-3">
 							<Avatar
-								id={`abGreat${great.briefName}`}
-								name={great.name}
-								alt={great.name}
-								title={great.name}
+								id={`abGreat${briefName}`}
+								name={name}
+								alt={name}
+								title={name}
 								size="150px" // 圖像大小
 								round={true} // border-radius；number, true(100%), false(0%)
-								src={great.src} // 載入照片
+								src={src} // 載入照片
 							/>
 						</div>
 						{/* 名言 */}
@@ -70,12 +70,12 @@ const AboutGreat = () => {
 								<blockquote className="blockquote text-start fs-4" >
 									<p>
 										<FontAwesomeIcon icon={faQuoteLeft} className="me-2" />
-										{great.quote}
+										{quote}
 									</p>
 								</blockquote>
 							</div>
 							<span className="col-md-5 fs-6 fst-italic align-self-end" >
-								- {great.name}
+								- {name}
 							</span>
 						</div>
 					</div>

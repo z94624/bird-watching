@@ -7,15 +7,20 @@ import LogoIcon from './../images/logo.png';
 // 各分頁的名稱與路徑
 const navList = [
     // 呈現 eBird 輸出的 MetaData
-	{to: "/bird-watching/ebird", text: "eBird"},
+	{to: "/bird-watching/ebird", text: "eBird", children: []},
     // 展示 smoBEE Universe 的"賞鳥紀錄"播放清單所有影片
-	{to: "/bird-watching/youtube", text: "YouTube"},
+	{to: "/bird-watching/youtube", text: "YouTube", children: []},
     // Google Drive 中的鳥照
-	{to: "/bird-watching/photos", text: "Photos"},
+	{to: "/bird-watching/photos", text: "Photos", children: []},
     // Google Drive 中的鳥音
-	{to: "/bird-watching/records", text: "Records"},
+	{to: "/bird-watching/records", text: "Records", children: []},
     // 關於我
-    {to: "/bird-watching/about", text: "About"}
+    {to: "/bird-watching/about", text: "About", children: [
+        // 紫嘯鶇
+        {to: "/bird-watching/about/smoBEE", text: "紫嘯鶇"},
+        // 五色鳥
+        {to: "/bird-watching/about/LFW", text: "五色鳥"}
+    ]}
 ];
 
 const Header = () => {
@@ -62,19 +67,53 @@ const Header = () => {
                         //onMouseLeave={() => setNavCollapsed(true)}
                     >
                         <ul className="navbar-nav">
-                        	{navList.map(({to, text}, idx) => (
-                        		<li key={"navItem-"+idx} className="nav-item">
-                        			<NavLink
-                        				exact
-                        				className="nav-link"
-                        				activeClassName="nav-link active"
-                                        aria-current="page"
-                        				to={to} // 分頁路徑
-                        			>
-                        				{text} {/* 分頁名稱 */}
-                        			</NavLink>
-                        		</li>
-                    		))}
+                        	{navList.map(({to, text, children}, nIdx) => {
+                                if (children.length === 0) { // 無子選單
+                                    return (
+                                        <li key={"navItem-"+nIdx} className="nav-item">
+                                            <NavLink
+                                                exact
+                                                className="nav-link"
+                                                activeClassName="navLinkActive"
+                                                aria-current="page"
+                                                to={to} // 分頁路徑
+                                            >
+                                                {text} {/* 分頁名稱 */}
+                                            </NavLink>
+                                        </li>
+                                    );
+                                } else { // 有子選單則變為下拉式
+                                    return (
+                                        <li key={"navItem-"+nIdx} className="navItem">
+                                            <NavLink
+                                                className="navLink"
+                                                activeClassName="navLinkActive"
+                                                to={to} // 分頁路徑
+                                            >
+                                                {text} {/* 分頁名稱 */}
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                                </svg>
+                                            </NavLink>
+                                            <ul className="dropdownMenu">
+                                                {children.map(({to, text}, cIdx) => (
+                                                    <li key={"dropdownItem-"+cIdx} className="dropdownItem">
+                                                        <NavLink
+                                                            exact
+                                                            className="dropdownLink"
+                                                            activeClassName="navLinkActive"
+                                                            aria-current="page"
+                                                            to={to}
+                                                        >
+                                                            {text}
+                                                        </NavLink>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </li>
+                                    );
+                                }
+                            })}
                         </ul>
                     </div>
                 </div>

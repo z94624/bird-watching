@@ -24,8 +24,8 @@ const AboutHome = () => {
 			<div id="abHomeContainer">
 				<h1 id="abHomeTitle" className="text-white bold-900">黃健峯</h1>
 				<div id="abHomeKeywords">
-				{keywords.map((kw, kIdx) => (
-					<span key={`abHomeKeywords-${kIdx}`} className={`badge rounded-pill bg-${kw.bgColor} m-1`}>{kw.word}</span>
+				{keywords.map(({word, bgColor}, kIdx) => (
+					<span key={`abHomeKeywords-${kIdx}`} className={`badge rounded-pill bg-${bgColor} m-1`}>{word}</span>
 				))}
 				</div>
 				<h3 id="abHomeDescription" className="text-white my-3">
@@ -36,10 +36,10 @@ const AboutHome = () => {
 				<hr />
 				{/* 社群媒體 */}
 				<ul id="abHomeSocialMedia" className="nav justify-content-center mt-3">
-				{socialMedias.map((sm, sIdx) => (
-					<li key={`abHomeSocialMedia-${sIdx}`} id={sm.id} className="nav-item">
-						<a className="nav-link" href={sm.href} target="_blank" rel="noopener noreferrer">
-							{sm.component}
+				{socialMedias.map(({id, component, href}, sIdx) => (
+					<li key={`abHomeSocialMedia-${sIdx}`} id={id} className="nav-item">
+						<a className="nav-link" href={href} target="_blank" rel="noopener noreferrer">
+							{component}
 						</a>
 					</li>
 				))}
