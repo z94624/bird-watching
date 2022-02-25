@@ -3,6 +3,7 @@
 /* Bootstrap 暗色背景 Blur 的字體顏色 */
 /* 背景主題 */
 /* 背景圖片降低亮度 */
+/* 全站使用玄鳳鼠標 */
 /* 小視窗時的選單閉合按鈕 */
 .navbar-toggler {
   transition: background-color 0.2s ease;
@@ -15,28 +16,28 @@
 .navItem {
   padding: 0.5rem;
   position: relative;
-}
-.navItem, .navItem .dropdownItem {
   list-style: none;
-  cursor: pointer;
+}
+.navItem .navLinkActive {
+  color: rgba(255, 255, 255, 0.75);
+}
+.navItem .navLinkDisabled {
+  cursor: url("C:/Users/ressa/ReactHooks/bird-watching/src/images/cursor.png") 5 10, auto;
 }
 .navItem a {
   color: rgba(255, 255, 255, 0.55);
   text-decoration: none;
 }
-.navItem a.navLinkActive {
-  color: rgba(255, 255, 255, 0.75);
-}
 .navItem a:hover {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.75);
 }
 .navItem .dropdownMenu {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
+  z-index: 1021;
+  visibility: hidden;
+  opacity: 0;
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
@@ -44,23 +45,26 @@
   background-color: #212529;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0.25rem;
+  transition: all 0.3s ease-out;
 }
-.navItem:hover .dropdownMenu {
-  display: block;
-}
-.navItem .dropdownItem {
+.navItem .dropdownMenu .dropdownItem {
   display: block;
   width: 100%;
   padding: 0.25rem 1.5rem;
-  background-color: transparent;
+  list-style: none;
 }
-.navItem .dropdownItem .dropdownLink {
+.navItem .dropdownMenu .dropdownItem .dropdownLink {
+  cursor: pointer;
   transition: all 0.5s ease;
 }
-.navItem .dropdownItem .dropdownLink.navLinkActive, .navItem .dropdownItem .dropdownLink:hover {
-  color: rgba(255, 255, 255, 0.75);
+.navItem .dropdownMenu .dropdownItem .dropdownLink:hover, .navItem .dropdownMenu .dropdownItem .dropdownLink.navLinkActive {
+  font-weight: bold;
   padding-left: 10px;
-  border-left: 2px solid #3ca0e7;
+  border-left: 5px solid #0dcaf0;
+}
+.navItem:hover .dropdownMenu {
+  visibility: visible;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=Header.css.map */

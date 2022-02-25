@@ -13,7 +13,7 @@ html, body {
     margin: $mp0;
     padding: $mp0;
     /* 鼠標圖案 */
-    @include cursor("./images/cursor.png");
+    @include cursor();
 }
 // 反白
 ::selection {

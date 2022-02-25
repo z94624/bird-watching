@@ -9,7 +9,7 @@ html, body {
   margin: 0;
   padding: 0;
   /* 鼠標圖案 */
-  cursor: url("./images/cursor.png") 5 10, auto;
+  cursor: url("C:/Users/ressa/ReactHooks/bird-watching/src/images/cursor.png") 5 10, auto;
 }
 
 ::selection {

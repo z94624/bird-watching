@@ -15,7 +15,7 @@ const navList = [
     // Google Drive 中的鳥音
 	{to: "/bird-watching/records", text: "Records", children: []},
     // 關於我
-    {to: "/bird-watching/about", text: "About", children: [
+    {to: "/bird-watching/about/", text: "About", children: [
         // 紫嘯鶇
         {to: "/bird-watching/about/smoBEE", text: "紫嘯鶇"},
         // 五色鳥
@@ -75,7 +75,6 @@ const Header = () => {
                                                 exact
                                                 className="nav-link"
                                                 activeClassName="navLinkActive"
-                                                aria-current="page"
                                                 to={to} // 分頁路徑
                                             >
                                                 {text} {/* 分頁名稱 */}
@@ -86,7 +85,8 @@ const Header = () => {
                                     return (
                                         <li key={"navItem-"+nIdx} className="navItem">
                                             <NavLink
-                                                className="navLink"
+                                                strict
+                                                className="navLink navLinkDisabled"
                                                 activeClassName="navLinkActive"
                                                 to={to} // 分頁路徑
                                             >
@@ -95,6 +95,7 @@ const Header = () => {
                                                     <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
                                                 </svg>
                                             </NavLink>
+                                            {/* 子選單 */}
                                             <ul className="dropdownMenu">
                                                 {children.map(({to, text}, cIdx) => (
                                                     <li key={"dropdownItem-"+cIdx} className="dropdownItem">
@@ -102,7 +103,6 @@ const Header = () => {
                                                             exact
                                                             className="dropdownLink"
                                                             activeClassName="navLinkActive"
-                                                            aria-current="page"
                                                             to={to}
                                                         >
                                                             {text}

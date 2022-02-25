@@ -1,4 +1,4 @@
 /* 全站使用玄鳳鼠標 */
-@mixin cursor($path) {
+@mixin cursor($path: "C:/Users/ressa/ReactHooks/bird-watching/src/images/cursor.png") {
 	cursor: url($path) 5 10, auto;
 }
