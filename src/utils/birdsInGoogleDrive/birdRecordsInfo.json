@@ -1,32 +1,45 @@
 [
     {
+        "bird": "小卷尾",
+        "records": [
+            {
+                "id": "1CusVDPCt9Uop7Tk9-IrtaR0GE91n7JWi",
+                "name": "20220226-104309_烏來_小卷尾.aac"
+            }
+        ]
+    },
+    {
         "bird": "玄鳳",
         "records": [
             {
                 "id": "17eZ9hXvzejaGta0vOdzgGK2kc2HUGZ_S",
-                "name": "20220223-073156__峯峯.aac"
+                "name": "20220223-073156_峯峯_.aac"
             },
             {
                 "id": "16JksNFf5p28X1n43Lo_l6qerwMe4X632",
-                "name": "20220221-180241__拉拉.aac"
+                "name": "20220221-180241_拉拉_.aac"
             },
             {
                 "id": "1z23U-0TcRWpsBkpyyN-taJr4vKspFcMG",
-                "name": "20210929-170034__拉拉.aac"
+                "name": "20210929-170034_拉拉_.aac"
             },
             {
                 "id": "1FPzN8sOgmi3PEUpXBXTgDebiP7l_ldiu",
-                "name": "20210805-124530__拉拉.aac"
+                "name": "20210805-124530_拉拉_.aac"
             },
             {
                 "id": "1CDe97UEs989wWVI_AOxg_eD0d4L0Vt-M",
-                "name": "20210526-162738__拉拉.aac"
+                "name": "20210526-162738_拉拉_.aac"
             }
         ]
     },
     {
         "bird": "紅嘴黑鵯",
         "records": [
+            {
+                "id": "1CjY7j3b7dlJ_Hb98QSCCJ318PfoUBhy_",
+                "name": "20220227-085428_忠義小徑_紅嘴黑鵯.aac"
+            },
             {
                 "id": "1z2na6vfutMuD-6QQTwuF7sgXPUureKUw",
                 "name": "20220212-094637_車新路_紅嘴黑鵯.aac"
@@ -222,6 +235,10 @@
     {
         "bird": "台灣紫嘯鶇",
         "records": [
+            {
+                "id": "1DOsk-J9DOU04yDGElBKrZv-yeQtp56Lm",
+                "name": "20220301-134650_中研院_台灣紫嘯鶇.aac"
+            },
             {
                 "id": "1ypFLxZir4QntIXQJJuQDM-bw9LtyitOB",
                 "name": "20220212-054924_宜興家_台灣紫嘯鶇.aac"

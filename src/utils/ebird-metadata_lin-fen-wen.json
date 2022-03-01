@@ -2178,7 +2178,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -3870,7 +3870,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -5111,6 +5111,53 @@
         ],
         "Duration_Min": [
             41.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "台灣竹雞"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -7301,7 +7348,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -7348,7 +7395,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -7395,7 +7442,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -8119,6 +8166,53 @@
         ],
         "Duration_Min": [
             41.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "野鴿(野化)"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -9933,7 +10027,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -10845,6 +10939,53 @@
         ],
         "Duration_Min": [
             22.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -12377,7 +12518,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -15432,7 +15573,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -15479,7 +15620,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -15526,7 +15667,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -15573,7 +15714,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -21025,7 +21166,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -21072,7 +21213,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -22172,6 +22313,53 @@
         ],
         "Duration_Min": [
             24.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "小雨燕"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -26524,7 +26712,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -38635,6 +38823,53 @@
     },
     {
         "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "蒼鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80495913"
         ],
         "Common_Name": [
@@ -40787,6 +41022,53 @@
         ],
         "Number_of_Observers": [
             25
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "大白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -45262,6 +45544,53 @@
     },
     {
         "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80495913"
         ],
         "Common_Name": [
@@ -48003,7 +48332,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -52515,7 +52844,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -52562,7 +52891,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -55617,7 +55946,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -56604,7 +56933,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -56999,6 +57328,53 @@
         ],
         "Duration_Min": [
             78.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "東方蜂鷹"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -58108,7 +58484,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -58926,6 +59302,53 @@
         ],
         "Duration_Min": [
             41.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -60020,6 +60443,53 @@
     },
     {
         "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "林鵰"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S87053320"
         ],
         "Common_Name": [
@@ -60834,7 +61304,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -67085,7 +67555,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -67132,7 +67602,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -67179,7 +67649,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -69185,6 +69655,53 @@
     },
     {
         "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S93442858"
         ],
         "Common_Name": [
@@ -70704,7 +71221,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -70751,7 +71268,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -72114,7 +72631,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -72465,6 +72982,53 @@
         ],
         "Number_of_Observers": [
             25
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "隼屬"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -72885,6 +73449,53 @@
         ],
         "Duration_Min": [
             165.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "灰喉山椒鳥"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -74154,6 +74765,53 @@
         ],
         "Duration_Min": [
             41.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "綠畫眉"
+        ],
+        "Count": [
+            12
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -75733,7 +76391,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -75780,7 +76438,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -75827,7 +76485,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -78444,6 +79102,53 @@
     },
     {
         "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "小卷尾"
+        ],
+        "Count": [
+            9
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80053435"
         ],
         "Common_Name": [
@@ -78929,7 +79634,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -78976,7 +79681,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -81420,7 +82125,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -81467,7 +82172,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -81514,7 +82219,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -83755,6 +84460,53 @@
     },
     {
         "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "台灣藍鵲"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80495913"
         ],
         "Common_Name": [
@@ -85744,7 +86496,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -85791,7 +86543,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -85838,7 +86590,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -85885,7 +86637,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -87925,6 +88677,53 @@
         ],
         "Duration_Min": [
             24.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -92794,7 +93593,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -94016,7 +94815,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -94063,7 +94862,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -94110,7 +94909,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -97776,7 +98575,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -103322,7 +104121,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -113239,7 +114038,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -113286,7 +114085,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -113333,7 +114132,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -113380,7 +114179,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -115984,6 +116783,53 @@
         ],
         "Duration_Min": [
             41.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -121699,7 +122545,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -121746,7 +122592,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -123940,6 +124786,53 @@
     },
     {
         "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            33
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80495913"
         ],
         "Common_Name": [
@@ -125882,7 +126775,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -127527,7 +128420,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -128796,7 +129689,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -132368,7 +133261,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -132415,7 +133308,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -132462,7 +133355,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -132509,7 +133402,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -134784,6 +135677,53 @@
         ],
         "Duration_Min": [
             41.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            9
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -137679,7 +138619,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -140076,7 +141016,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -140123,7 +141063,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -140170,7 +141110,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -141270,6 +142210,53 @@
         ],
         "Duration_Min": [
             41.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            11
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -143905,6 +144892,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "繡眼畫眉"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -146960,6 +147994,53 @@
         ],
         "Number_of_Observers": [
             19
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "河烏"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -152343,7 +153424,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -156949,7 +158030,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -157795,7 +158876,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -159628,7 +160709,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -160788,6 +161869,53 @@
     },
     {
         "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "銅藍鶲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S95464901"
         ],
         "Common_Name": [
@@ -161856,6 +162984,53 @@
         ],
         "Duration_Min": [
             130.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "台灣紫嘯鶇"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -163467,6 +164642,53 @@
     },
     {
         "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "鉛色水鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88251352"
         ],
         "Common_Name": [
@@ -164093,7 +165315,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -164140,7 +165362,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -166490,7 +167712,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -170203,7 +171425,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -170250,7 +171472,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -173775,7 +174997,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -174546,6 +175768,53 @@
         ],
         "Duration_Min": [
             41.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S103724100"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--烏來迷你谷(Taipei--Wulai Mini Valley)"
+        ],
+        "Latitude": [
+            24.8623116
+        ],
+        "Longitude": [
+            121.5544295
+        ],
+        "Date": [
+            "2022-02-26"
+        ],
+        "Time": [
+            "08:48 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            187.0
         ],
         "Number_of_Observers": [
             2
@@ -177065,7 +178334,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -177112,7 +178381,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -177159,7 +178428,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
@@ -179744,7 +181013,7 @@
             ""
         ],
         "Location": [
-            "台中--台中都會公園(Taichung--Taichung Metropolitan Park)"
+            "台中--台中都會公園全區(Taichung--Taichung Metropolitan Park All Area)"
         ],
         "Latitude": [
             24.2077413
