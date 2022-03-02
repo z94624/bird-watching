@@ -4,6 +4,9 @@
 /* 背景主題 */
 /* 背景圖片降低亮度 */
 /* 全站使用玄鳳鼠標 */
+/* w3school's Dropdown Content */
+/* Bootstrap's Dropdown Menu */
+/* Bootstrap's Dropdown Item */
 /* 小視窗時的選單閉合按鈕 */
 .navbar-toggler {
   transition: background-color 0.2s ease;
@@ -16,13 +19,8 @@
 .navItem {
   padding: 0.5rem;
   position: relative;
-  list-style: none;
-}
-.navItem .navLinkActive {
-  color: rgba(255, 255, 255, 0.75);
-}
-.navItem .navLinkDisabled {
-  cursor: url("C:/Users/ressa/ReactHooks/bird-watching/src/images/cursor.png") 5 10, auto;
+  /* 連結字體顏色 */
+  /* 選單 */
 }
 .navItem a {
   color: rgba(255, 255, 255, 0.55);
@@ -33,25 +31,29 @@
 }
 .navItem .dropdownMenu {
   position: absolute;
+  padding: 0.5rem 0;
+  margin-top: 0.125rem;
+  min-width: 10rem;
+  text-align: left;
+  border-radius: 0.25rem;
+  z-index: 1000;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
   top: 100%;
-  left: 0;
   z-index: 1021;
   visibility: hidden;
   opacity: 0;
-  min-width: 10rem;
-  padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
-  text-align: left;
+  min-width: 7rem;
   background-color: #212529;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0.25rem;
   transition: all 0.3s ease-out;
+  /* 選項 */
 }
 .navItem .dropdownMenu .dropdownItem {
   display: block;
   width: 100%;
-  padding: 0.25rem 1.5rem;
-  list-style: none;
+  padding: 0.25rem 1rem;
+  clear: both;
+  /* 選項連結 */
 }
 .navItem .dropdownMenu .dropdownItem .dropdownLink {
   cursor: pointer;
@@ -60,11 +62,20 @@
 .navItem .dropdownMenu .dropdownItem .dropdownLink:hover, .navItem .dropdownMenu .dropdownItem .dropdownLink.navLinkActive {
   font-weight: bold;
   padding-left: 10px;
-  border-left: 5px solid #0dcaf0;
+  border-left: 3px solid #0dcaf0;
 }
 .navItem:hover .dropdownMenu {
   visibility: visible;
   opacity: 1;
+}
+
+/* 連結 */
+.navLinkActive {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.navLinkDisabled {
+  cursor: url("C:/Users/ressa/ReactHooks/bird-watching/src/images/cursor.png") 5 10, auto;
 }
 
 /*# sourceMappingURL=Header.css.map */

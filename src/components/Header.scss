@@ -1,5 +1,6 @@
 @import "./../views/css/_backgrounds";
 @import "./../views/css/_mouses";
+@import "./../views/css/_dropdown";
 /* 小視窗時的選單閉合按鈕 */
 .navbar-toggler {
 	transition: background-color 0.2s ease;
@@ -12,15 +13,7 @@
 .navItem {
 	padding: 0.5rem;
 	position: relative;
-	list-style: none;
-
-	.navLinkActive {
-		color: $bs-bgDark_hover;
-	}
-	.navLinkDisabled {
-		@include cursor();
-	}
-
+	/* 連結字體顏色 */
 	& a {
 		color: $bs-bgDark_blur;
 		text-decoration: none;
@@ -29,37 +22,30 @@
 			color: $bs-bgDark_hover;
 		}
 	}
-
+	/* 選單 */
 	.dropdownMenu {
-		position: absolute;
+		@include bs-dropdownMenu();
+		@include w3-dropdownContent-boxShadow(rgba(0, 0, 0, 0.8));
 		top: 100%;
-		left: 0;
-		z-index: 1021;
+		z-index: 1021; // YouTube's sortPanel: 1020
 		visibility: hidden;
 		opacity: 0;
-		min-width: 10rem;
-		padding: 0.5rem 0;
-		margin: 0.125rem 0 0;
-		text-align: left;
+		min-width: 7rem;
 		background-color: $bs-bgDark;
 		border: 1px solid rgba(255, 255, 255, .5);
-		border-radius: 0.25rem;
 		transition: all .3s ease-out;
-
+		/* 選項 */
 		.dropdownItem {
-			display: block;
-			width: 100%;
-			padding: 0.25rem 1.5rem;
-			list-style: none;
-
+			@include bs-dropdownItem();
+			/* 選項連結 */
 			.dropdownLink {
 				cursor: pointer;
-				transition: all 0.5s ease;
+				transition: all .5s ease;
 
 				&:hover, &.navLinkActive {
 					font-weight: bold;
 					padding-left: 10px;
-					border-left: 5px solid #0dcaf0;
+					border-left: 3px solid #0dcaf0;
 				}
 			}
 		}
@@ -71,4 +57,11 @@
 			opacity: 1;
 		}
 	}
+}
+/* 連結 */
+.navLinkActive {
+	color: $bs-bgDark_hover !important;
+}
+.navLinkDisabled {
+	@include cursor();
 }
