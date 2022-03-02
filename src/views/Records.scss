@@ -11,6 +11,19 @@
 #reRecordsTable {
 	height: calc(100vh - $mainHeaderHeight - 56px);
 	overflow-y: auto;
+	/* 手機時，表格欄位寬度 */
+	@include phone {
+		& th:nth-child(3) { // Record
+			min-width: 116px;
+		}
+		& th:nth-child(2) { // Location
+			max-width: 135px; // 最窄
+			/* 地點篩選框 */
+			input {
+				max-width: 100%;
+			}
+		}
+	}
 }
 /* 手機時，播放器簡化 */
 audio {

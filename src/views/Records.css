@@ -33,6 +33,19 @@
 #reRecordsTable {
   height: calc(100vh - 61.95px - 56px);
   overflow-y: auto;
+  /* 手機時，表格欄位寬度 */
+}
+@media all and (max-width: 767px) {
+  #reRecordsTable th:nth-child(3) {
+    min-width: 116px;
+  }
+  #reRecordsTable th:nth-child(2) {
+    max-width: 135px;
+    /* 地點篩選框 */
+  }
+  #reRecordsTable th:nth-child(2) input {
+    max-width: 100%;
+  }
 }
 
 /* 手機時，播放器簡化 */
