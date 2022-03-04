@@ -24,6 +24,7 @@
     "emotion-theming": "^11.0.0",
     "firebase": "^9.6.6",
     "gh-pages": "^3.2.3",
+    "gsap": "^3.9.1",
     "leaflet": "^1.7.1",
     "leaflet.markercluster": "^1.5.3",
     "match-sorter": "^6.3.1",

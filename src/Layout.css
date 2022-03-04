@@ -1,0 +1,19 @@
+#backgroundPlaylist {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+}
+#backgroundPlaylist iframe {
+  width: 68px;
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid red;
+  transition: all 0.3s;
+}
+#backgroundPlaylist:hover iframe {
+  width: 300px;
+  height: 169px;
+}
+
+/*# sourceMappingURL=Layout.css.map */

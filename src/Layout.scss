@@ -1,0 +1,21 @@
+#backgroundPlaylist {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 9999;
+
+	iframe {
+		width: 68px;
+		height: 48px;
+		border-radius: 10px;
+		border: 1px solid red;
+		transition: all .3s;
+	}
+
+	&:hover {
+		iframe {
+			width: 300px;
+			height: 169px;
+		}
+	}
+}
