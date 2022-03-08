@@ -1,21 +1,37 @@
 #backgroundPlaylist {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+	position: fixed;
+	top: 90px;
+	left: -210px;
 	z-index: 9999;
-
-	iframe {
-		width: 68px;
-		height: 48px;
-		border-radius: 10px;
-		border: 1px solid red;
-		transition: all .3s;
+	transition: left .3s ease-out;
+	/* 滑鼠掠過滑出來 */
+	&:hover {
+		left: 0;
+		
+		iframe {
+			height: 169px;
+			visibility: visible;
+			opacity: 1;
+		}
 	}
 
-	&:hover {
-		iframe {
-			width: 300px;
-			height: 169px;
+	#bpImg {
+		height: 120px;
+		overflow-y: hidden;
+		position: absolute;
+		top: -80px;
+		left: 0;
+
+		img {
+			width: 80%;
+			height: auto;
 		}
+	}
+
+	iframe {
+		height: 0;
+		visibility: hidden;
+		opacity: 0;
+		transition: all .2s;
 	}
 }
