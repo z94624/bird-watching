@@ -1,37 +1,36 @@
+@import "./views/css/_themes";
+
 #backgroundPlaylist {
 	position: fixed;
-	top: 90px;
-	left: -210px;
+	top: 5px;
+	left: -34px;
 	z-index: 9999;
 	transition: left .3s ease-out;
-	/* 滑鼠掠過滑出來 */
-	&:hover {
-		left: 0;
-		
-		iframe {
-			height: 169px;
-			visibility: visible;
-			opacity: 1;
-		}
-	}
 
 	#bpImg {
-		height: 120px;
-		overflow-y: hidden;
-		position: absolute;
-		top: -80px;
-		left: 0;
+		height: 50px;
 
 		img {
-			width: 80%;
-			height: auto;
+			width: auto;
+			height: 100%;
 		}
 	}
 
 	iframe {
-		height: 0;
-		visibility: hidden;
-		opacity: 0;
-		transition: all .2s;
+		width: 68px;
+		height: 41px;
+		border-radius: 10px;
+		border: 4px solid transparent;
+		background: linear-gradient(to bottom, $cockatiel-milan 25%, $cockatiel-vividTangerine 75%, $cockatiel-milan) border-box;
+		transition: all .3s;
+
+		&:hover {
+			width: 296px;
+			height: 169px;
+		}
+	}
+
+	&:hover {
+		left: 0;
 	}
 }

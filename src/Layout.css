@@ -1,36 +1,31 @@
-@charset "UTF-8";
 #backgroundPlaylist {
   position: fixed;
-  top: 90px;
-  left: -210px;
+  top: 5px;
+  left: -34px;
   z-index: 9999;
   transition: left 0.3s ease-out;
-  /* 滑鼠掠過滑出來 */
+}
+#backgroundPlaylist #bpImg {
+  height: 50px;
+}
+#backgroundPlaylist #bpImg img {
+  width: auto;
+  height: 100%;
+}
+#backgroundPlaylist iframe {
+  width: 68px;
+  height: 41px;
+  border-radius: 10px;
+  border: 4px solid transparent;
+  background: linear-gradient(to bottom, #FFFCAB 25%, #FF8C8C 75%, #FFFCAB) border-box;
+  transition: all 0.3s;
+}
+#backgroundPlaylist iframe:hover {
+  width: 296px;
+  height: 169px;
 }
 #backgroundPlaylist:hover {
   left: 0;
-}
-#backgroundPlaylist:hover iframe {
-  height: 169px;
-  visibility: visible;
-  opacity: 1;
-}
-#backgroundPlaylist #bpImg {
-  height: 120px;
-  overflow-y: hidden;
-  position: absolute;
-  top: -80px;
-  left: 0;
-}
-#backgroundPlaylist #bpImg img {
-  width: 80%;
-  height: auto;
-}
-#backgroundPlaylist iframe {
-  height: 0;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.2s;
 }
 
 /*# sourceMappingURL=Layout.css.map */
