@@ -1,14 +1,15 @@
 @import "./views/css/_themes";
+@import "./views/css/_backgrounds";
 
 #backgroundPlaylist {
 	position: fixed;
-	top: 5px;
-	left: -34px;
 	z-index: 9999;
-	transition: left .3s ease-out;
+	cursor: grab;
 
 	#bpImg {
 		height: 50px;
+		position: relative;
+		top: 2px;
 
 		img {
 			width: auto;
@@ -17,20 +18,30 @@
 	}
 
 	iframe {
-		width: 68px;
-		height: 41px;
-		border-radius: 10px;
-		border: 4px solid transparent;
+		@include boxShadow_smallElevation();
+		width: 100px;
+		height: 60px;
+		border-radius: 15px;
+		border: 5px solid transparent;
 		background: linear-gradient(to bottom, $cockatiel-milan 25%, $cockatiel-vividTangerine 75%, $cockatiel-milan) border-box;
-		transition: all .3s;
+		transition-property: width, height;
+		transition-duration: .3s;
+		transition-timing-function: cubic-bezier(.25,-0.6,.7,1.5);
 
 		&:hover {
-			width: 296px;
-			height: 169px;
+			width: 300px;
+			height: 175px;
 		}
 	}
 
-	&:hover {
-		left: 0;
+	&:active {
+		cursor: grabbing;
+
+		iframe {
+			@include boxShadow_mediumElevation();
+			width: 120px;
+			height: 74px;
+			transition: all .3s;
+		}
 	}
 }

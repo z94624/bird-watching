@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["Layout.scss"],"names":[],"mappings":"AAEA;EACC;EACA;EACA;EACA;EACA;;AAEA;EACC;;AAEA;EACC;EACA;;AAIF;EACC;EACA;EACA;EACA;EACA;EACA;;AAEA;EACC;EACA;;AAIF;EACC","file":"Layout.css"}
+{"version":3,"sourceRoot":"","sources":["views/css/_backgrounds.scss","Layout.scss"],"names":[],"mappings":";AAAA;AAEA;AAGA;AASA;AAKA;AChBA;EACC;EACA;EACA;;AAEA;EACC;EACA;EACA;;AAEA;EACC;EACA;;AAIF;EDEA;ECAC;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACC;EACA;;AAIF;EACC;;AAEA;EDfD;ECiBE;EACA;EACA","file":"Layout.css"}

@@ -1,31 +1,46 @@
+@charset "UTF-8";
+/* Bootstrap 暗色背景背景顏色 */
+/* Bootstrap 暗色背景 Blur 的字體顏色 */
+/* 背景主題 */
+/* 背景圖片降低亮度 */
+/* 物體高度陰影 */
 #backgroundPlaylist {
   position: fixed;
-  top: 5px;
-  left: -34px;
   z-index: 9999;
-  transition: left 0.3s ease-out;
+  cursor: grab;
 }
 #backgroundPlaylist #bpImg {
   height: 50px;
+  position: relative;
+  top: 2px;
 }
 #backgroundPlaylist #bpImg img {
   width: auto;
   height: 100%;
 }
 #backgroundPlaylist iframe {
-  width: 68px;
-  height: 41px;
-  border-radius: 10px;
-  border: 4px solid transparent;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.44);
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
+  border: 5px solid transparent;
   background: linear-gradient(to bottom, #FFFCAB 25%, #FF8C8C 75%, #FFFCAB) border-box;
-  transition: all 0.3s;
+  transition-property: width, height;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.25, -0.6, 0.7, 1.5);
 }
 #backgroundPlaylist iframe:hover {
-  width: 296px;
-  height: 169px;
+  width: 300px;
+  height: 175px;
 }
-#backgroundPlaylist:hover {
-  left: 0;
+#backgroundPlaylist:active {
+  cursor: grabbing;
+}
+#backgroundPlaylist:active iframe {
+  box-shadow: 4.8px 9.6px 9.6px rgba(0, 0, 0, 0.35);
+  width: 120px;
+  height: 74px;
+  transition: all 0.3s;
 }
 
 /*# sourceMappingURL=Layout.css.map */
