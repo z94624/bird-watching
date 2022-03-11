@@ -18,12 +18,12 @@ $bs-bgDark_hover: rgba(255, 255, 255, .75);
                        rgba(0, 0, 0, $alpha)), $url;
 }
 /* 物體高度陰影 */
-@mixin boxShadow_smallElevation($hsl: hsl(0deg 0% 0% / 0.44)) {
-	box-shadow: 2.0px 4.0px 4.0px $hsl;
-}
-@mixin boxShadow_mediumElevation($hsl: hsl(0deg 0% 0% / 0.35)) {
-	box-shadow: 4.8px 9.6px 9.6px $hsl;
-}
-@mixin boxShadow_largeElevation($hsl: hsl(0deg 0% 0% / 0.25)) {
-	box-shadow: 8.0px 16.0px 16.0px $hsl;
+@mixin boxShadow($elevation, $color) {
+	@if $elevation == sm { // 低高度
+		box-shadow: 2.0px 4.0px 4.0px $color;
+	} @else if $elevation == md { // 中高度
+		box-shadow: 4.8px 9.6px 9.6px $color;
+	} @else if $elevation == lg { // 高高度
+		box-shadow: 8.0px 16.0px 16.0px $color;
+	}
 }
