@@ -11,7 +11,7 @@ import EBird from './views/EBird';
 import YouTube from './views/YouTube';
 import Photos from './views/Photos';
 import Records from './views/Records';
-import About from './views/About';
+import MyophonusInsularis from './views/MyophonusInsularis';
 
 const RootRouter = () => {
 	// 頁面滾動至某元素
@@ -32,7 +32,7 @@ const RootRouter = () => {
 					} />
 					<Route exact path="/bird-watching/photos" component={Photos} />
 					<Route exact path="/bird-watching/records" component={Records} />
-					<Route exact path="/bird-watching/about/smoBEE" component={About} />
+					<Route exact path="/bird-watching/about/smoBEE" component={MyophonusInsularis} />
 				</Switch>
 			</Layout>
 		</Router>

@@ -55,3 +55,4 @@ export const getItemsByKey = (data, key, duplicate=false, chunk=false) => {
 export const getRandomColor = (alpha=1) => {
     return "rgba(" + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + "," + alpha + ")";
  };
+ 
