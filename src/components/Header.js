@@ -36,13 +36,13 @@ const Header = () => {
     }, [browseHistory]);
 
 	return (
-		<header className="ps-3">
+		<header>
             <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                 <div className="container-fluid">
                     {/* 網頁品牌 */}
-                    <NavLink className="navbar-brand float-md-start" to="/bird-watching">
+                    <NavLink className="navbar-brand" to="/bird-watching">
                         <img src={LogoIcon} alt="島羽" width="30" height="auto" /> {/* 品牌圖示 */}
-                        <span className="ms-2">楓楓與小芬的島羽</span> {/* 品牌名稱 */}
+                        <span className="ms-1">楓楓與小芬的島羽</span> {/* 品牌名稱 */}
                     </NavLink>
                     {/* 分頁列表的展開按鈕 */}
                     <button
