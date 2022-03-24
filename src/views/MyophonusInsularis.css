@@ -3,19 +3,21 @@
 /* Bootstrap 暗色背景 Blur 的字體顏色 */
 /* 背景主題 */
 /* 背景圖片降低亮度 */
+/* 物體高度陰影 */
 /* 字體大小 */
 /* 寬度 */
+/* 高度 */
+/* 最粗粗體 */
+.bold-900 {
+  font-weight: 900;
+}
+
 .a-dark {
   text-decoration: none;
   color: #FE9AFF;
 }
 .a-dark:hover {
   color: #FD4DFF;
-}
-
-/* 最粗粗體 */
-.bold-900 {
-  font-weight: 900;
 }
 
 /* 首頁背景 */
@@ -148,4 +150,4 @@
   width: 230px;
 }
 
-/*# sourceMappingURL=About.css.map */
+/*# sourceMappingURL=MyophonusInsularis.css.map */

@@ -19,7 +19,7 @@ const socialMedias = [
 
 const AboutHome = () => {
 	return (
-		<div id="abHome" className="row h-100 d-flex flex-column align-items-center justify-content-center">
+		<div id="abHome" className="h-100 d-flex flex-column align-items-center justify-content-center">
 			{/* 首頁內容 */}
 			<div id="abHomeContainer">
 				<h1 id="abHomeTitle" className="text-white bold-900">黃健峯</h1>

@@ -2,10 +2,6 @@
 @import "./css/_media";
 @import "./css/_texts";
 @import "./css/_themes";
-/* 最粗粗體 */
-.bold-900 {
-	font-weight: 900;
-}
 /* 首頁背景 */
 #abHome {
 	@include background(cover);

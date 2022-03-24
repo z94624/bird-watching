@@ -1,3 +1,79 @@
+@charset "UTF-8";
+/* Bootstrap 暗色背景背景顏色 */
+/* Bootstrap 暗色背景 Blur 的字體顏色 */
+/* 背景主題 */
+/* 背景圖片降低亮度 */
+/* 物體高度陰影 */
+/* 字體大小 */
+/* 寬度 */
+/* 高度 */
+/* 最粗粗體 */
+.bold-900 {
+  font-weight: 900;
+}
 
+.a-dark {
+  text-decoration: none;
+  color: #FE9AFF;
+}
+.a-dark:hover {
+  color: #FD4DFF;
+}
+
+/* 海洋色 */
+.text-ocean {
+  color: #005477;
+}
+
+/* 首頁背景 */
+#pnHome {
+  background-position: center;
+  background-size: cover;
+  /* auto, cover, contain */
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-image: url("./../images/waterColor_blue.jpg");
+  position: relative;
+}
+
+/* 首頁標題 */
+@media all and (min-width: 1200px) {
+  #pnHomeTitle {
+    font-size: 72px;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #pnHomeTitle {
+    font-size: 60px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #pnHomeTitle {
+    font-size: 48px;
+  }
+}
+@media all and (max-width: 767px) {
+  #pnHomeTitle {
+    font-size: 36px;
+  }
+}
+
+/* 海洋動物 */
+#pnHomeSeaTurtle {
+  width: 25%;
+  height: auto;
+}
+
+/* Credit */
+#pnHomeCredit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#pnHomeCredit a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
 
 /*# sourceMappingURL=PsilopogonNuchalis.css.map */

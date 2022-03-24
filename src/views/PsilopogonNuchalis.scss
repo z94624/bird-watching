@@ -1,0 +1,34 @@
+@import "./css/_backgrounds";
+@import "./css/_media";
+@import "./css/_texts";
+/* 海洋色 */
+.text-ocean {
+	color: #005477;
+}
+/* 首頁背景 */
+#pnHome {
+	@include background(cover);
+	background-image: url("./../images/waterColor_blue.jpg");
+	position: relative;
+}
+/* 首頁標題 */
+#pnHomeTitle {
+	@include responsive-fontSize(72px, 60px, 48px, 36px);
+}
+/* 海洋動物 */
+#pnHomeSeaTurtle {
+	width: 25%;
+	height: auto;
+}
+/* Credit */
+#pnHomeCredit {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	a {
+		text-decoration: none;
+		color: white;
+		font-size: 10px;
+	}
+}
