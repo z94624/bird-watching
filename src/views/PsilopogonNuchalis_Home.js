@@ -1,6 +1,13 @@
+import { useRef, useEffect } from 'react';
+
+import { gsap } from "gsap";
+import ScrollTrigger from 'gsap/ScrollTrigger';
+
 import { Youtube, Facebook, Instagram } from './../components/SocialMedia';
 
 import seaTurtle from './../images/seaTurtle.png';
+
+gsap.registerPlugin(ScrollTrigger);
 // 社群媒體清單
 const socialMediaSize = "32";
 const socialMediaFill = "#005477";
@@ -10,7 +17,22 @@ const socialMedias = [
 	{id: "pnHomeYoutube", component: (<Youtube size={socialMediaSize} fill={socialMediaFill} />), href: "https://www.youtube.com/c/smoBEEUniverse"}
 ];
 
-const PsilopogonNuchalisHome = () => {
+const PsilopogonNuchalisHome = ({ main }) => {
+	// Targeting elements
+	const seaTurtleRef = useRef();
+	// In order to avoid targeting a null element
+	useEffect(() => {
+		gsap.to(seaTurtleRef.current, {
+			x: 500,
+			duration: 5,
+			scrollTrigger: {
+				scroller: main.current,
+				trigger: seaTurtleRef.current,
+				markers: true
+			}
+		});
+	}, []);
+
 	return (
 		<div id="pnHome" className="h-100 d-flex flex-column align-items-center justify-content-center">
 			{/* 首頁內容 */}
@@ -29,7 +51,9 @@ const PsilopogonNuchalisHome = () => {
 				</ul>
 			</div>
 			{/* 海洋動物 */}
-			<img id="pnHomeSeaTurtle" src={seaTurtle} />
+			<div id="pnHomeSeaTurtle" ref={seaTurtleRef}>
+				<img src={seaTurtle} />
+			</div>
 			{/* Credit */}
 			<footer id="pnHomeCredit">
 				<a href='https://www.freepik.com/vectors/background'>Creative_hat</a>

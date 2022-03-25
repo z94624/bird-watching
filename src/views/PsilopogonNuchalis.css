@@ -62,6 +62,13 @@
 #pnHomeSeaTurtle {
   width: 25%;
   height: auto;
+  position: absolute;
+  bottom: 10%;
+  left: -300px;
+}
+#pnHomeSeaTurtle img {
+  width: 100%;
+  height: auto;
 }
 
 /* Credit */
