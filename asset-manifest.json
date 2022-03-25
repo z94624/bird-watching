@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bird-watching/static/css/main.3e55d818.css",
-    "main.js": "/bird-watching/static/js/main.78ad401f.js",
+    "main.css": "/bird-watching/static/css/main.9c1753da.css",
+    "main.js": "/bird-watching/static/js/main.797f2ba6.js",
     "static/js/787.fba709df.chunk.js": "/bird-watching/static/js/787.fba709df.chunk.js",
     "static/media/headshot.JPG": "/bird-watching/static/media/headshot.b82c46c834fe9ae7a8cc.JPG",
     "static/media/birdsOfAFeather_68.jpg": "/bird-watching/static/media/birdsOfAFeather_68.dc593a7be7f10c7a3dc4.jpg",
@@ -52,12 +52,12 @@
     "static/media/GIT.png": "/bird-watching/static/media/GIT.7d664489ed331806ddc8.png",
     "index.html": "/bird-watching/index.html",
     "static/media/resetZoom.svg": "/bird-watching/static/media/resetZoom.34ea8e1b285917431be8499b4dcc494e.svg",
-    "main.3e55d818.css.map": "/bird-watching/static/css/main.3e55d818.css.map",
-    "main.78ad401f.js.map": "/bird-watching/static/js/main.78ad401f.js.map",
+    "main.9c1753da.css.map": "/bird-watching/static/css/main.9c1753da.css.map",
+    "main.797f2ba6.js.map": "/bird-watching/static/js/main.797f2ba6.js.map",
     "787.fba709df.chunk.js.map": "/bird-watching/static/js/787.fba709df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e55d818.css",
-    "static/js/main.78ad401f.js"
+    "static/css/main.9c1753da.css",
+    "static/js/main.797f2ba6.js"
   ]
 }
