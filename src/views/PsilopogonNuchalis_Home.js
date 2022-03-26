@@ -1,36 +1,46 @@
 import { useRef, useEffect } from 'react';
 
-import { gsap } from "gsap";
+import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
-import { Youtube, Facebook, Instagram } from './../components/SocialMedia';
+import { Instagram, Facebook, Youtube } from './../components/SocialMedia';
 
 import seaTurtle from './../images/seaTurtle.png';
+import vaquita from './../images/Vaquita.png';
 
 gsap.registerPlugin(ScrollTrigger);
+// Browser Viewport
+const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 // 社群媒體清單
 const socialMediaSize = "32";
 const socialMediaFill = "#005477";
 const socialMedias = [
 	{id: "pnHomeInstagram", component: (<Instagram size={socialMediaSize} fill="url(#pnHomeInstagramRG)" radialGradientID="pnHomeInstagramRG" stopColor={socialMediaFill} />), href: "https://www.instagram.com/fenwenlin/"},
-	{id: "pnHomeFacebook", component: (<Facebook size={socialMediaSize} fill={socialMediaFill} />), href: "https://www.facebook.com/profile.php?id=100009152306483"},
+	{id: "pnHomeFacebook", component: (<Facebook size={socialMediaSize} fill={socialMediaFill} />), href: "https://about.facebook.com/"},
 	{id: "pnHomeYoutube", component: (<Youtube size={socialMediaSize} fill={socialMediaFill} />), href: "https://www.youtube.com/c/smoBEEUniverse"}
 ];
 
-const PsilopogonNuchalisHome = ({ main }) => {
+const PsilopogonNuchalisHome = ({ mainRef }) => {
 	// Targeting elements
 	const seaTurtleRef = useRef();
+	const vaquitaRef = useRef();
 	// In order to avoid targeting a null element
 	useEffect(() => {
-		gsap.to(seaTurtleRef.current, {
-			x: 500,
-			duration: 5,
+		const stTl = gsap.timeline({
 			scrollTrigger: {
-				scroller: main.current,
+				scroller: mainRef.current,
 				trigger: seaTurtleRef.current,
-				markers: true
+				scrub: 1,
+				start: "top 70%",
+				end: "bottom 30%",
+				markers: false
 			}
 		});
+		stTl.to(seaTurtleRef.current, {x: vw*(1/4), y: -5, rotation: -5});
+		stTl.to(seaTurtleRef.current, {x: vw*(2/4), y: -20, rotation: -15});
+		stTl.to(seaTurtleRef.current, {x: vw*(3/4), y: 5, rotation: 5});
+		stTl.to(seaTurtleRef.current, {x: vw*(4/4), y: 20, rotation: 15});
 	}, []);
 
 	return (
@@ -51,8 +61,24 @@ const PsilopogonNuchalisHome = ({ main }) => {
 				</ul>
 			</div>
 			{/* 海洋動物 */}
-			<div id="pnHomeSeaTurtle" ref={seaTurtleRef}>
+			<div id="pnHomeSeaTurtle" className="gsapDiv" ref={seaTurtleRef}>
 				<img src={seaTurtle} />
+			</div>
+			<div id="pnHomeVaquita" className="gsapDiv" ref={vaquitaRef}>
+				<img src={vaquita} />
+				<div>
+					<svg className="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
+						<defs>
+							<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+						</defs>
+						<g className="parallax">
+							<use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+							<use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+							<use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+							<use xlinkHref="#gentle-wave" x="48" y="7" fill="#fff" />
+						</g>
+					</svg>
+				</div>
 			</div>
 			{/* Credit */}
 			<footer id="pnHomeCredit">
