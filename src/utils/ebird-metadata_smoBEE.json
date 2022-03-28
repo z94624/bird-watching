@@ -19,10 +19,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -1053,10 +1053,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -3027,10 +3027,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -4735,6 +4735,53 @@
         ],
         "Duration_Min": [
             84.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "台灣竹雞"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -7085,6 +7132,100 @@
         ],
         "Duration_Min": [
             11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "野鴿(野化)"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "野鴿(野化)"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
         ],
         "Number_of_Observers": [
             1
@@ -9607,10 +9748,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -12503,6 +12644,100 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98426692"
         ],
         "Common_Name": [
@@ -15153,10 +15388,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -17738,10 +17973,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -17785,10 +18020,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -22203,10 +22438,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -24412,10 +24647,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -26386,10 +26621,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -27749,10 +27984,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -27796,10 +28031,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -28971,10 +29206,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -33888,6 +34123,53 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97861047"
         ],
         "Common_Name": [
@@ -33906,10 +34188,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -35739,10 +36021,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -36961,10 +37243,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -37807,10 +38089,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -40016,10 +40298,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -42742,10 +43024,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -50291,6 +50573,53 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98650541"
         ],
         "Common_Name": [
@@ -50403,10 +50732,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -50450,10 +50779,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -66130,6 +66459,53 @@
     },
     {
         "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S94956554"
         ],
         "Common_Name": [
@@ -67527,6 +67903,53 @@
         ],
         "Duration_Min": [
             89.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -69044,6 +69467,53 @@
     },
     {
         "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "鳳頭蒼鷹"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97861047"
         ],
         "Common_Name": [
@@ -69062,10 +69532,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -69548,6 +70018,53 @@
         ],
         "Duration_Min": [
             103.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "鳳頭蒼鷹"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -74859,6 +75376,53 @@
         ],
         "Duration_Min": [
             11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "翠鳥"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
         ],
         "Number_of_Observers": [
             1
@@ -80841,6 +81405,100 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -82943,6 +83601,53 @@
         ],
         "Duration_Min": [
             84.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -85183,10 +85888,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -85700,10 +86405,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -86703,6 +87408,53 @@
         ],
         "Duration_Min": [
             84.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "綠畫眉"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -92497,6 +93249,53 @@
     },
     {
         "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "黑枕藍鶲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88263609"
         ],
         "Common_Name": [
@@ -93173,10 +93972,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -97244,6 +98043,53 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "台灣藍鵲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S75164061"
         ],
         "Common_Name": [
@@ -98644,6 +99490,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "台灣藍鵲"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -103777,6 +104670,100 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -106161,6 +107148,53 @@
         ],
         "Duration_Min": [
             84.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -111156,6 +112190,53 @@
     },
     {
         "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "巨嘴鴉"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97496965"
         ],
         "Common_Name": [
@@ -112396,10 +113477,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -114558,10 +115639,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -119240,6 +120321,53 @@
     },
     {
         "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "家燕"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83364545"
         ],
         "Common_Name": [
@@ -120496,6 +121624,53 @@
         ],
         "Duration_Min": [
             89.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "家燕"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -129721,6 +130896,100 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98650541"
         ],
         "Common_Name": [
@@ -129974,10 +131243,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -132484,6 +133753,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -139920,6 +141236,100 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83364545"
         ],
         "Common_Name": [
@@ -141505,6 +142915,53 @@
         ],
         "Duration_Min": [
             27.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -145766,10 +147223,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -150401,6 +151858,100 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            12
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -150654,10 +152205,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -150701,10 +152252,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -157639,6 +159190,53 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S101937452"
         ],
         "Common_Name": [
@@ -159365,6 +160963,53 @@
         ],
         "Duration_Min": [
             84.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -161527,6 +163172,53 @@
         ],
         "Duration_Min": [
             103.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "繡眼畫眉"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -165005,6 +166697,53 @@
         ],
         "Duration_Min": [
             19.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "黑領椋鳥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
         ],
         "Number_of_Observers": [
             1
@@ -170611,6 +172350,53 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S102463020"
         ],
         "Common_Name": [
@@ -174295,10 +176081,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -177695,6 +179481,53 @@
         ],
         "Duration_Min": [
             84.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "鶇科"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -184194,6 +186027,53 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "台灣紫嘯鶇"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -186468,10 +188348,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -186675,6 +188555,53 @@
         ],
         "Number_of_Observers": [
             8
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "黃尾鴝"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -189664,10 +191591,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -195051,6 +196978,53 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98426692"
         ],
         "Common_Name": [
@@ -195116,10 +197090,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -195837,6 +197811,53 @@
         ],
         "Duration_Min": [
             84.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104710843"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--石碇區第十四公墓(Taipei--Shihdeng Fourteenth Cemetery)"
+        ],
+        "Latitude": [
+            25.033068
+        ],
+        "Longitude": [
+            121.672132
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "09:36 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            78.0
         ],
         "Number_of_Observers": [
             1
@@ -197965,6 +199986,100 @@
     },
     {
         "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "東方黃鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104783775"
+        ],
+        "Common_Name": [
+            "東方黃鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-14"
+        ],
+        "Time": [
+            "09:08 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S96568031"
         ],
         "Common_Name": [
@@ -198030,10 +200145,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -206647,6 +208762,53 @@
         ],
         "Duration_Min": [
             11.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104717868"
+        ],
+        "Common_Name": [
+            "白鶺鴒(白面)"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-03-13"
+        ],
+        "Time": [
+            "03:07 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            66.0
         ],
         "Number_of_Observers": [
             1

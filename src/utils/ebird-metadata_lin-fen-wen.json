@@ -19,10 +19,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -1288,10 +1288,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -3291,6 +3291,53 @@
     },
     {
         "Submission_ID": [
+            "S104184407"
+        ],
+        "Common_Name": [
+            "鴨屬"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--松山文創園區(Taipei--Songshan Cultural and Creative Park)"
+        ],
+        "Latitude": [
+            25.0429705
+        ],
+        "Longitude": [
+            121.5626043
+        ],
+        "Date": [
+            "2022-03-05"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S102716811"
         ],
         "Common_Name": [
@@ -3403,10 +3450,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -9419,10 +9466,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -10751,6 +10798,53 @@
         ],
         "Duration_Min": [
             93.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104184407"
+        ],
+        "Common_Name": [
+            "金背鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--松山文創園區(Taipei--Songshan Cultural and Creative Park)"
+        ],
+        "Latitude": [
+            25.0429705
+        ],
+        "Longitude": [
+            121.5626043
+        ],
+        "Date": [
+            "2022-03-05"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            5.0
         ],
         "Number_of_Observers": [
             2
@@ -12850,10 +12944,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -16469,10 +16563,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -16516,10 +16610,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -23566,10 +23660,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -23820,6 +23914,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104184407"
+        ],
+        "Common_Name": [
+            "紅冠水雞"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--松山文創園區(Taipei--Songshan Cultural and Creative Park)"
+        ],
+        "Latitude": [
+            25.0429705
+        ],
+        "Longitude": [
+            121.5626043
+        ],
+        "Date": [
+            "2022-03-05"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -25869,10 +26010,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -27026,6 +27167,53 @@
     },
     {
         "Submission_ID": [
+            "S104184407"
+        ],
+        "Common_Name": [
+            "白腹秧雞"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--松山文創園區(Taipei--Songshan Cultural and Creative Park)"
+        ],
+        "Latitude": [
+            25.0429705
+        ],
+        "Longitude": [
+            121.5626043
+        ],
+        "Date": [
+            "2022-03-05"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88625651"
         ],
         "Common_Name": [
@@ -27702,10 +27890,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -29253,10 +29441,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -29535,10 +29723,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -30945,10 +31133,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -33436,10 +33624,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -34799,10 +34987,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -35927,10 +36115,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -36773,10 +36961,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -38747,10 +38935,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -41003,10 +41191,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -44998,10 +45186,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -45045,10 +45233,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -61636,10 +61824,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -72822,10 +73010,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -72963,10 +73151,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -82692,10 +82880,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -90711,6 +90899,53 @@
     },
     {
         "Submission_ID": [
+            "S104184407"
+        ],
+        "Common_Name": [
+            "喜鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--松山文創園區(Taipei--Songshan Cultural and Creative Park)"
+        ],
+        "Latitude": [
+            25.0429705
+        ],
+        "Longitude": [
+            121.5626043
+        ],
+        "Date": [
+            "2022-03-05"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S73193730"
         ],
         "Common_Name": [
@@ -95335,10 +95570,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -98907,10 +99142,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -115686,10 +115921,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -116454,6 +116689,53 @@
         ],
         "Duration_Min": [
             93.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104184407"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--松山文創園區(Taipei--Songshan Cultural and Creative Park)"
+        ],
+        "Latitude": [
+            25.0429705
+        ],
+        "Longitude": [
+            121.5626043
+        ],
+        "Date": [
+            "2022-03-05"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            5.0
         ],
         "Number_of_Observers": [
             2
@@ -129974,10 +130256,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -135003,10 +135285,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -135050,10 +135332,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -135492,6 +135774,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S104184407"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--松山文創園區(Taipei--Songshan Cultural and Creative Park)"
+        ],
+        "Latitude": [
+            25.0429705
+        ],
+        "Longitude": [
+            121.5626043
+        ],
+        "Date": [
+            "2022-03-05"
+        ],
+        "Time": [
+            "12:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            5.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -154085,10 +154414,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -165835,10 +166164,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -172462,10 +172791,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -175564,10 +175893,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
@@ -176645,10 +176974,10 @@
             "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
         ],
         "Latitude": [
-            24.306672
+            24.310435100000003
         ],
         "Longitude": [
-            120.54863329999999
+            120.54600690000001
         ],
         "Date": [
             "2021-11-21"
