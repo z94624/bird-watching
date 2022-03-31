@@ -85,16 +85,4 @@
   right: 0;
 }
 
-/* Credit */
-#pnHomeCredit {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-#pnHomeCredit a {
-  text-decoration: none;
-  color: white;
-  font-size: 1px;
-}
-
 /*# sourceMappingURL=PsilopogonNuchalis.css.map */

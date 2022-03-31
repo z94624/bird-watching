@@ -71,10 +71,6 @@ const PsilopogonNuchalisHome = ({ mainRef }) => {
 			<div id="pnHomeVaquita" className="gsapDiv" ref={vaquitaRef}>
 				<img src={vaquita} />
 			</div>
-			{/* Credit */}
-			<footer id="pnHomeCredit">
-				<a href='https://www.freepik.com/vectors/background'>Creative_hat</a>
-			</footer>
 		</div>
 	);
 }
