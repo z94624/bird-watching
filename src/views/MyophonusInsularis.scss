@@ -2,14 +2,17 @@
 @import "./css/_media";
 @import "./css/_texts";
 @import "./css/_themes";
-/* 首頁背景 */
+/* 首頁 */
 #abHome {
-	@include background(cover);
-	background-image: url("./../images/ngc2775_68.jpg");
+	position: relative;
+	z-index: 0;
 }
 /* 首頁容器 */
 #abHomeContainer {
 	width: 85%;
+	z-index: 2;
+	padding: 10px 20px;
+	background-color: rgba(black, 0.5);
 }
 /* 首頁標題 */
 #abHomeTitle {

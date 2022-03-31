@@ -1,4 +1,7 @@
 import { Github, Youtube, Facebook, Instagram, LinkedIn } from './../components/SocialMedia';
+import BackgroundVideo from './../components/BackgroundVideo';
+
+import universe from './../videos/universe.mp4';
 // 關鍵字清單
 const keywords = [
 	{word: "#紫嘯鶇", bgColor: "dark"},
@@ -20,6 +23,8 @@ const socialMedias = [
 const AboutHome = () => {
 	return (
 		<div id="abHome" className="h-100 d-flex flex-column align-items-center justify-content-center">
+			{/* 首頁背景 */}
+			<BackgroundVideo src={universe} />
 			{/* 首頁內容 */}
 			<div id="abHomeContainer">
 				<h1 id="abHomeTitle" className="text-white bold-900">黃健峯</h1>

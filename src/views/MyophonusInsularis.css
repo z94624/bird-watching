@@ -20,19 +20,18 @@
   color: #FD4DFF;
 }
 
-/* 首頁背景 */
+/* 首頁 */
 #abHome {
-  background-position: center;
-  background-size: cover;
-  /* auto, cover, contain */
-  background-repeat: no-repeat;
-  background-color: #000000;
-  background-image: url("./../images/ngc2775_68.jpg");
+  position: relative;
+  z-index: 0;
 }
 
 /* 首頁容器 */
 #abHomeContainer {
   width: 85%;
+  z-index: 2;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* 首頁標題 */
