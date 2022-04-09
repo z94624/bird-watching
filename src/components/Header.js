@@ -14,6 +14,8 @@ const navList = [
 	{to: "/bird-watching/photos", text: "Photos", children: []},
     // Google Drive 中的鳥音
 	{to: "/bird-watching/records", text: "Records", children: []},
+    // 辨識
+    {to: "/bird-watching/identity", text: "Identity", children: []},
     // 關於我
     {to: "/bird-watching/about/", text: "About", children: [
         // 紫嘯鶇
