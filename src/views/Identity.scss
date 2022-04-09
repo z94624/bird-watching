@@ -1,3 +1,7 @@
+@import "./css/_ui";
+
+$containerHeight: calc(100vh - $mainHeaderHeight - 64px);
+
 #idMain {
     background: lightblue;
     overflow: hidden;
@@ -9,7 +13,7 @@
 #idMain > div {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: $containerHeight;
     will-change: transform;
     display: flex;
     align-items: center;
@@ -21,11 +25,12 @@
     background-size: auto 85%;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 45vh;
-    max-width: 300px;
-    height: 85vh;
-    max-height: 570px;
+    width: 80vh;
+    max-width: 800px;
+    height: 53vh;
+    max-height: 533px;
     will-change: transform;
     border-radius: 10px;
     box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+    touch-action: none;
 }
