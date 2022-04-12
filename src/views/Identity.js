@@ -9,63 +9,72 @@ import pseudozizeeriaMaha from './../images/identity/butterfly/藍灰蝶.jpg';
 import zizinaOtis from './../images/identity/butterfly/折列藍灰蝶.jpg';
 import zizulaHylax from './../images/identity/butterfly/迷你藍灰蝶.jpg';
 import zizeeriaKarsandra from './../images/identity/butterfly/莧藍灰蝶.jpg';
-
+// 牌組
 const cards = [pseudozizeeriaMaha, zizinaOtis, zizulaHylax, zizeeriaKarsandra];
-// 套牌初始載入
-const to = (i: number) => ({
+// 載入牌組
+const from = (_i: number) => ({ // 起始狀態
 	x: 0,
-	y: i * -4,
+	y: -1000,
+	rot: 0,
+	scale: 1.5
+});
+const to = (i: number) => ({ // 結束狀態
+	x: 0,
+	y: i * (-4),
+	rot: (-10) + Math.random() * 20,
 	scale: 1,
-	rot: -10 + Math.random() * 20,
 	delay: i * 100,
 });
-const from = (_i: number) => ({ x: 0, rot: 0, scale: 1.5, y: -1000 });
 // 每張卡牌擺放狀態
 const trans = (r: number, s: number) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`;
 
 const Identity = () => {
-	 // The set flags all the cards that are flicked out
+	 // 不在牌組中的卡牌們
 	const [gone] = useState(() => new Set());
-	// Create a bunch of springs using the helpers above
+	// 每張卡牌一個 Spring
 	const [props, api] = useSprings(cards.length, i => ({
 		...to(i),
 		from: from(i),
 	}));
 	// Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
 	const bind = useDrag(({ args: [index], active, movement: [mx], direction: [xDir], velocity: [vx] }) => {
-		const trigger = vx > 0.2 // If you flick hard enough it should trigger the card to fly out
-		if (!active && trigger) gone.add(index) // If button/finger's up and trigger velocity is reached, we flag the card ready to fly out
+		const trigger = vx > 0.2; // 卡牌的逃逸速度
+		if (!active && trigger) {gone.add(index);} // 當放開且達逃逸速度，該卡牌可飛走
 		api.start(i => {
-			if (index !== i) return // We're only interested in changing spring-data for the current spring
-			const isGone = gone.has(index)
-			const x = isGone ? (200 + window.innerWidth) * xDir : active ? mx : 0 // When a card is gone it flys out left or right, otherwise goes back to zero
-			const rot = mx / 100 + (isGone ? xDir * 10 * vx : 0) // How much the card tilts, flicking it harder makes it rotate faster
-			const scale = active ? 1.1 : 1 // Active cards lift up a bit
+			if (index !== i) {return;} // 只改變該卡牌的 Spring 資料
+			const isGone = gone.has(index); // 若該卡牌準備飛走
+			const x = isGone ? (200 + window.innerWidth) * xDir : active ? mx : 0; // 往左飛或往右飛，否則回歸原位
+			const rot = mx / 100 + (isGone ? xDir * 10 * vx : 0); // 丟得越用力，轉動程度越大
+			const scale = active ? 1.1 : 1; // 抓取的卡牌往上抬升
 			return {
 				x,
 				rot,
 				scale,
 				delay: undefined,
-				config: { friction: 50, tension: active ? 800 : isGone ? 200 : 500 },
-			}
-		})
-		if (!active && gone.size === cards.length)
-			setTimeout(() => {
-				gone.clear()
-				api.start(i => to(i))
-			}, 600)
+				config: { friction: 50, tension: active ? 800 : isGone ? 200 : 500 }
+			};
 		});
+		// 若所有卡牌都飛走了
+		if (!active && gone.size === cards.length) {
+			setTimeout(() => {
+				gone.clear();
+				api.start(i => to(i)); // 所有卡牌回歸牌組中
+			}, 600);
+		}
+	});
 
 	return (
 		<main id="idMain" className="h-100">
-		{props.map(({ x, y, rot, scale }, i) => (
-			<animated.div key={i} style={{ x, y }}>
-				{/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
+		{/* 牌組 */}
+		{props.map(({ x, y, rot, scale }, pIdx) => (
+			// 卡牌容器
+			<animated.div key={`idAnimatedDiv-${pIdx}`} style={{ x, y }}>
+				{/* 卡牌 */}
 				<animated.div
-					{...bind(i)}
+					{...bind(pIdx)} // 偵測動作
 					style={{
 						transform: interpolate([rot, scale], trans),
-						backgroundImage: `url(${cards[i]})`,
+						backgroundImage: `url(${cards[pIdx]})`
 					}}
 				/>
 			</animated.div>
