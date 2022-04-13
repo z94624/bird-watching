@@ -7,7 +7,7 @@
 	height: $height;
 }
 
-$containerHeight: calc(100vh - $mainHeaderHeight - 64px);
+$containerHeight: calc($mainContentHeight - 64px);
 // 選擇 eBirder 按鈕
 #ebDrawerBtn {
 	position: fixed;

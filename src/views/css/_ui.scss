@@ -1,1 +1,4 @@
+// 分頁列表高度
 $mainHeaderHeight: 61.95px;
+// 內容區高度
+$mainContentHeight: calc(100vh - $mainHeaderHeight);

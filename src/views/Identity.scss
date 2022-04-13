@@ -1,36 +1,33 @@
 @import "./css/_ui";
-
-$containerHeight: calc(100vh - $mainHeaderHeight - 64px);
+@import "./css/_backgrounds";
 
 #idMain {
-    background: lightblue;
-    overflow: hidden;
     width: 100%;
     height: 100%;
-    cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39, auto;
-}
-
-#idMain > div {
-    position: absolute;
-    width: 100vw;
-    height: $containerHeight;
-    will-change: transform;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#idMain > div > div {
-    background-color: white;
-    background-size: auto 85%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 80vh;
-    max-width: 800px;
-    height: 53vh;
-    max-height: 533px;
-    will-change: transform;
-    border-radius: 10px;
-    box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
-    touch-action: none;
+    overflow: hidden;
+    // 卡牌容器
+    div {
+        position: absolute;
+        width: 100%;
+        height: $mainContentHeight; /* 不超過分頁列表 */
+        will-change: transform; /* 優化動畫 */
+        // 卡牌
+        div {
+            @include background(cover);
+            width: 60vw;
+            max-width: 800px; /* 依據"台灣產蝶蛾圖鑑"格式 */
+            height: 40vw;
+            max-height: 533px; /* 依據"台灣產蝶蛾圖鑑"格式 */
+            border: 5px solid white;
+            border-radius: 10px;
+            box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+            cursor: grab;
+            will-change: transform; /* 優化動畫 */
+            touch-action: none; /* @use-gesture/react */
+            // 抓取卡牌
+            &:active {
+                cursor: grabbing;
+            }
+        }
+    }
 }

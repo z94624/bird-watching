@@ -9,7 +9,7 @@
 }
 /* 鳥音列表 */
 #reRecordsTable {
-	height: calc(100vh - $mainHeaderHeight - 56px);
+	height: calc($mainContentHeight - 56px);
 	overflow-y: auto;
 	/* 手機時，表格欄位寬度 */
 	@include phone {

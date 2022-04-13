@@ -9,7 +9,7 @@
 /* 攝影藝廊 */
 #phPhotosGallery {
 	width: 100%;
-	height: calc(100vh - $mainHeaderHeight - 48px);
+	height: calc($mainContentHeight - 48px);
 	/* 投影片播放 */
 	#swiperPlay {
 		width: 100%;

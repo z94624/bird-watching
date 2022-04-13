@@ -5,9 +5,9 @@ import { useDrag } from '@use-gesture/react';
 
 import './Identity.css';
 
-import pseudozizeeriaMaha from './../images/identity/butterfly/藍灰蝶.jpg';
-import zizinaOtis from './../images/identity/butterfly/折列藍灰蝶.jpg';
-import zizulaHylax from './../images/identity/butterfly/迷你藍灰蝶.jpg';
+import pseudozizeeriaMaha from './../images/identity/butterfly/藍灰蝶♂.jpg';
+import zizinaOtis from './../images/identity/butterfly/折列藍灰蝶♂.jpg';
+import zizulaHylax from './../images/identity/butterfly/迷你藍灰蝶♂.jpg';
 import zizeeriaKarsandra from './../images/identity/butterfly/莧藍灰蝶.jpg';
 // 牌組
 const cards = [pseudozizeeriaMaha, zizinaOtis, zizulaHylax, zizeeriaKarsandra];
@@ -68,7 +68,10 @@ const Identity = () => {
 		{/* 牌組 */}
 		{props.map(({ x, y, rot, scale }, pIdx) => (
 			// 卡牌容器
-			<animated.div key={`idAnimatedDiv-${pIdx}`} style={{ x, y }}>
+			<animated.div
+				key={`idAnimatedDiv-${pIdx}`}
+				className="d-flex justify-content-center align-items-center"
+				style={{ x, y }}>
 				{/* 卡牌 */}
 				<animated.div
 					{...bind(pIdx)} // 偵測動作

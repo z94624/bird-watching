@@ -3,6 +3,8 @@
 html, body, #root {
   height: 100%;
   width: 100%;
+  /* Identity: 飛走卡牌 */
+  overflow: hidden;
 }
 
 html, body {
