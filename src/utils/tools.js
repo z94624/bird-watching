@@ -54,5 +54,16 @@ export const getItemsByKey = (data, key, duplicate=false, chunk=false) => {
  */
 export const getRandomColor = (alpha=1) => {
     return "rgba(" + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + "," + alpha + ")";
- };
+};
+/*
+ * 洗牌：陣列隨機排序
+ * 演算法：Fisher–Yates shuffle (Durstenfeld)
+ */
+export const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1)); // 隨機位置
+        [array[i], array[j]] = [array[j], array[i]]; // 與目標位置的元素交換
+    }
+    return array;
+}
  

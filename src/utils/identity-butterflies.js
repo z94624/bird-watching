@@ -8,7 +8,7 @@ import euploeaEunice_fs from './../images/identity/butterfly/圓翅紫斑蝶♀.
 import euploeaSylvester_xs from './../images/identity/butterfly/雙標紫斑蝶.jpg';
 import euploeaMulciber_ms from './../images/identity/butterfly/異紋紫斑蝶♂.jpg';
 // 蝴蝶基本資料
-export const infos = [
+export const butterflyInfos = [
 	{
 		"name_chi": "藍灰蝶", // 中文名
 		"name_latin": "Zizeeria maha okinawana", // 拉丁名

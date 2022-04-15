@@ -4,13 +4,10 @@ import { useSprings, animated, to as interpolate } from '@react-spring/web';
 import { useDrag } from '@use-gesture/react';
 
 import './Identity.css';
-
-import pseudozizeeriaMaha from './../images/identity/butterfly/藍灰蝶♂.jpg';
-import zizinaOtis from './../images/identity/butterfly/折列藍灰蝶♂.jpg';
-import zizulaHylax from './../images/identity/butterfly/迷你藍灰蝶♂.jpg';
-import zizeeriaKarsandra from './../images/identity/butterfly/莧藍灰蝶.jpg';
-// 牌組
-const cards = [pseudozizeeriaMaha, zizinaOtis, zizulaHylax, zizeeriaKarsandra];
+import { butterflyInfos } from './../utils/identity-butterflies.js';
+import { shuffleArray } from './../utils/tools.js';
+// 蝴蝶照片集
+const butterflies = butterflyInfos.map(info => {return info.butterfly;});
 // 載入牌組
 const from = (_i: number) => ({ // 起始狀態
 	x: 0,
@@ -29,7 +26,9 @@ const to = (i: number) => ({ // 結束狀態
 const trans = (r: number, s: number) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`;
 
 const Identity = () => {
-	 // 不在牌組中的卡牌們
+	// 牌組(洗牌)
+	const cards = shuffleArray(butterflies);
+	// 不在牌組中的卡牌們
 	const [gone] = useState(() => new Set());
 	// 每張卡牌一個 Spring
 	const [props, api] = useSprings(cards.length, i => ({

@@ -23,6 +23,7 @@
   /* auto, cover, contain */
   background-repeat: no-repeat;
   background-color: #000000;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.44);
   width: 60vw;
   max-width: 800px;
   /* 依據"台灣產蝶蛾圖鑑"格式 */
@@ -31,14 +32,15 @@
   /* 依據"台灣產蝶蛾圖鑑"格式 */
   border: 5px solid white;
   border-radius: 10px;
-  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
   cursor: grab;
   will-change: transform;
   /* 優化動畫 */
+  transition: box-shadow 0.2s;
   touch-action: none;
   /* @use-gesture/react */
 }
 #idMain div div:active {
+  box-shadow: 4.8px 9.6px 9.6px rgba(0, 0, 0, 0.44);
   cursor: grabbing;
 }
 
