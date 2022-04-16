@@ -27,7 +27,11 @@ const trans = (r: number, s: number) => `perspective(1500px) rotateX(30deg) rota
 
 const Identity = () => {
 	// 牌組(洗牌)
-	const cards = shuffleArray(butterflies);
+	const [cards, setCards] = useState(butterflies);
+	const onCardsChange = () => {
+		let shuffledCards = shuffleArray(cards);
+		setCards([...shuffledCards]);
+	}
 	// 不在牌組中的卡牌們
 	const [gone] = useState(() => new Set());
 	// 每張卡牌一個 Spring
@@ -64,6 +68,12 @@ const Identity = () => {
 
 	return (
 		<main id="idMain" className="h-100">
+			{/* 洗牌按鈕 */}
+			<button
+				type="button"
+				className="btn btn-outline-warning btn-lg shuffleBtn"
+				onClick={onCardsChange}
+			>洗牌</button>
 		{/* 牌組 */}
 		{props.map(({ x, y, rot, scale }, pIdx) => (
 			// 卡牌容器
