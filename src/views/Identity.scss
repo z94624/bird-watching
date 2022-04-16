@@ -1,5 +1,6 @@
 @import "./css/_ui";
 @import "./css/_backgrounds";
+@import "./css/_texts";
 
 #idMain {
     position: relative;
@@ -25,26 +26,32 @@
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        // 卡牌正反面
-        .react-card-front > div, .react-card-back > div {
-            @include background(cover);
-            @include boxShadow("sm", rgba(black, 0.44));
-            width: 60vw;
-            max-width: 800px; /* 依據"台灣產蝶蛾圖鑑"格式 */
-            height: 40vw;
-            max-height: 533px; /* 依據"台灣產蝶蛾圖鑑"格式 */
-            border: 5px solid white;
-            border-radius: 10px;
-            background-color: white;
-            cursor: grab;
-            will-change: transform; /* 優化動畫 */
-            transition: box-shadow 0.2s;
-            touch-action: none; /* @use-gesture/react */
-            // 抓取卡牌
-            &:active {
-                @include boxShadow("md", rgba(black, 0.44));
-                cursor: grabbing;
+            // 卡牌正反面
+            div {
+                @include background(cover);
+                @include boxShadow("sm", rgba(black, 0.44));
+                width: 60vw;
+                max-width: 800px; /* 依據"台灣產蝶蛾圖鑑"格式 */
+                height: 40vw;
+                max-height: 533px; /* 依據"台灣產蝶蛾圖鑑"格式 */
+                border: 5px solid white;
+                border-radius: 10px;
+                background-color: white;
+                cursor: grab;
+                will-change: transform; /* 優化動畫 */
+                transition: box-shadow 0.2s;
+                touch-action: none; /* @use-gesture/react */
+                // 抓取卡牌
+                &:active {
+                    @include boxShadow("md", rgba(black, 0.44));
+                    cursor: grabbing;
+                }
+            }
+            // 卡牌反面內容容器
+            .react-card-back-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
     }

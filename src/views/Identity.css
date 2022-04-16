@@ -4,6 +4,19 @@
 /* 背景主題 */
 /* 背景圖片降低亮度 */
 /* 物體高度陰影 */
+/* 最粗粗體 */
+.bold-900 {
+  font-weight: 900;
+}
+
+.a-dark {
+  text-decoration: none;
+  color: #FE9AFF;
+}
+.a-dark:hover {
+  color: #FD4DFF;
+}
+
 #idMain {
   position: relative;
   width: 100%;
@@ -30,7 +43,7 @@
   justify-content: center;
   align-items: center;
 }
-#idMain div .react-card-front > div, #idMain div .react-card-back > div {
+#idMain div .react-card-front div, #idMain div .react-card-back div {
   background-position: center;
   background-size: cover;
   /* auto, cover, contain */
@@ -53,9 +66,14 @@
   touch-action: none;
   /* @use-gesture/react */
 }
-#idMain div .react-card-front > div:active, #idMain div .react-card-back > div:active {
+#idMain div .react-card-front div:active, #idMain div .react-card-back div:active {
   box-shadow: 4.8px 9.6px 9.6px rgba(0, 0, 0, 0.44);
   cursor: grabbing;
+}
+#idMain div .react-card-front .react-card-back-container, #idMain div .react-card-back .react-card-back-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=Identity.css.map */

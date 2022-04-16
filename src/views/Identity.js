@@ -8,7 +8,7 @@ import './Identity.css';
 import { butterflyInfos } from './../utils/identity-butterflies.js';
 import { shuffleArray } from './../utils/tools.js';
 // 蝴蝶照片集
-const butterflies = butterflyInfos.map(info => {
+const butterflyImages = butterflyInfos.map(info => {
 	return {
 		"butterfly": info.butterfly, // 照片
 		"isFlipped": false // 翻轉狀態
@@ -33,9 +33,9 @@ const trans = (r: number, s: number) => `perspective(1500px) rotateX(30deg) rota
 
 const Identity = () => {
 	// 牌組
-	const [cards, setCards] = useState(butterflies);
+	const [cards, setCards] = useState(butterflyImages);
 	const onShuffling = () => { // 洗牌
-		let shuffledCards = shuffleArray(butterflies);
+		let shuffledCards = shuffleArray(butterflyImages);
 		setCards([...shuffledCards]);
 	}
 	const onFlipping = (e, pIdx) => { // 翻轉
@@ -89,6 +89,9 @@ const Identity = () => {
 		{/* 牌組 */}
 		{props.map(({ x, y, rot, scale }, pIdx) => {
 			let card = cards[pIdx];
+			// 該蝴蝶其他資訊
+			let butterflyOthers = butterflyInfos.find(info => info.butterfly === card["butterfly"]);
+			let sexColor = butterflyOthers["sex"] === "♂" ? "primary" : "danger";
 			return (
 				// 卡牌容器
 				<animated.div
@@ -111,9 +114,14 @@ const Identity = () => {
 							style={{
 								transform: interpolate([rot, scale], trans)
 							}}
+							className="react-card-back-container"
 							onContextMenu={e => onFlipping(e, pIdx)} // 右鍵翻轉
 						>
-							OK
+							<a className="btn btn-lg" href={butterflyOthers["href"]} target="_blank" rel="noopener noreferrer" role="button">
+								<h1 className="bold-900">{butterflyOthers["name_chi"]}</h1>
+								<h5>{butterflyOthers["name_latin"]}</h5>
+								<h1><span className={`badge rounded-pill bg-${sexColor}`}>{butterflyOthers["sex"]}</span></h1>
+							</a>
 						</animated.div>
 					</ReactCardFlip>
 				</animated.div>
