@@ -25,7 +25,12 @@
   will-change: transform;
   /* 優化動畫 */
 }
-#idMain div div {
+#idMain div .react-card-front, #idMain div .react-card-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#idMain div .react-card-front > div, #idMain div .react-card-back > div {
   background-position: center;
   background-size: cover;
   /* auto, cover, contain */
@@ -40,6 +45,7 @@
   /* 依據"台灣產蝶蛾圖鑑"格式 */
   border: 5px solid white;
   border-radius: 10px;
+  background-color: white;
   cursor: grab;
   will-change: transform;
   /* 優化動畫 */
@@ -47,7 +53,7 @@
   touch-action: none;
   /* @use-gesture/react */
 }
-#idMain div div:active {
+#idMain div .react-card-front > div:active, #idMain div .react-card-back > div:active {
   box-shadow: 4.8px 9.6px 9.6px rgba(0, 0, 0, 0.44);
   cursor: grabbing;
 }

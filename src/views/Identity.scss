@@ -20,8 +20,14 @@
         width: 100%;
         height: $mainContentHeight; /* 不超過分頁列表 */
         will-change: transform; /* 優化動畫 */
-        // 卡牌
-        div {
+        // 卡牌正反面容器
+        .react-card-front, .react-card-back {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        // 卡牌正反面
+        .react-card-front > div, .react-card-back > div {
             @include background(cover);
             @include boxShadow("sm", rgba(black, 0.44));
             width: 60vw;
@@ -30,6 +36,7 @@
             max-height: 533px; /* 依據"台灣產蝶蛾圖鑑"格式 */
             border: 5px solid white;
             border-radius: 10px;
+            background-color: white;
             cursor: grab;
             will-change: transform; /* 優化動畫 */
             transition: box-shadow 0.2s;

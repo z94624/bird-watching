@@ -2,12 +2,18 @@ import { useState } from 'react';
 
 import { useSprings, animated, to as interpolate } from '@react-spring/web';
 import { useDrag } from '@use-gesture/react';
+import ReactCardFlip from 'react-card-flip';
 
 import './Identity.css';
 import { butterflyInfos } from './../utils/identity-butterflies.js';
 import { shuffleArray } from './../utils/tools.js';
 // 蝴蝶照片集
-const butterflies = butterflyInfos.map(info => {return info.butterfly;});
+const butterflies = butterflyInfos.map(info => {
+	return {
+		"butterfly": info.butterfly, // 照片
+		"isFlipped": false // 翻轉狀態
+	};
+});
 // 載入牌組
 const from = (_i: number) => ({ // 起始狀態
 	x: 0,
@@ -26,11 +32,17 @@ const to = (i: number) => ({ // 結束狀態
 const trans = (r: number, s: number) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`;
 
 const Identity = () => {
-	// 牌組(洗牌)
+	// 牌組
 	const [cards, setCards] = useState(butterflies);
-	const onCardsChange = () => {
-		let shuffledCards = shuffleArray(cards);
+	const onShuffling = () => { // 洗牌
+		let shuffledCards = shuffleArray(butterflies);
 		setCards([...shuffledCards]);
+	}
+	const onFlipping = (e, pIdx) => { // 翻轉
+		e.preventDefault(); // 避免選單跳出
+		// 除了該張卡牌其他蓋牌，重置套牌後，幾乎還可以不洗牌重新測驗
+		let newCards = cards.map((card, cIdx) => cIdx === pIdx ? {...card, "isFlipped": !card.isFlipped} : {...card, "isFlipped": false});
+		setCards([...newCards]);
 	}
 	// 不在牌組中的卡牌們
 	const [gone] = useState(() => new Set());
@@ -72,25 +84,41 @@ const Identity = () => {
 			<button
 				type="button"
 				className="btn btn-outline-warning btn-lg shuffleBtn"
-				onClick={onCardsChange}
+				onClick={onShuffling}
 			>洗牌</button>
 		{/* 牌組 */}
-		{props.map(({ x, y, rot, scale }, pIdx) => (
-			// 卡牌容器
-			<animated.div
-				key={`idAnimatedDiv-${pIdx}`}
-				className="d-flex justify-content-center align-items-center"
-				style={{ x, y }}>
-				{/* 卡牌 */}
+		{props.map(({ x, y, rot, scale }, pIdx) => {
+			let card = cards[pIdx];
+			return (
+				// 卡牌容器
 				<animated.div
-					{...bind(pIdx)} // 偵測動作
-					style={{
-						transform: interpolate([rot, scale], trans),
-						backgroundImage: `url(${cards[pIdx]})`
-					}}
-				/>
-			</animated.div>
-		))}
+					key={`idAnimatedDiv-${pIdx}`}
+					style={{ x, y }}>
+					{/* 翻轉功能 */}
+					<ReactCardFlip isFlipped={card["isFlipped"]}>
+						{/* 卡牌 */}
+						<animated.div
+							{...bind(pIdx)} // 偵測動作
+							style={{
+								transform: interpolate([rot, scale], trans),
+								backgroundImage: `url(${card["butterfly"]})`
+							}}
+							onContextMenu={e => onFlipping(e, pIdx)} // 右鍵翻轉
+						/>
+						{/* 解答 */}
+						<animated.div
+							{...bind(pIdx)} // 偵測動作
+							style={{
+								transform: interpolate([rot, scale], trans)
+							}}
+							onContextMenu={e => onFlipping(e, pIdx)} // 右鍵翻轉
+						>
+							OK
+						</animated.div>
+					</ReactCardFlip>
+				</animated.div>
+			);
+		})}
 		</main>
 	);
 }
