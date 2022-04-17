@@ -52,7 +52,39 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                padding: 10px 20px;
+                // 卡牌反面內容
+                .react-card-back-content {
+                    text-decoration: none;
+                    color: black;
+                    transition: all 0.3s;
+                    // 字體變流動彩虹色
+                    &:hover {
+                        color: transparent;
+                        background-image: linear-gradient(
+                            60deg,
+                            hsl(224, 85%, 66%),
+                            hsl(269, 85%, 66%),
+                            hsl(314, 85%, 66%),
+                            hsl(359, 85%, 66%),
+                            hsl(44, 85%, 66%),
+                            hsl(89, 85%, 66%),
+                            hsl(134, 85%, 66%),
+                            hsl(179, 85%, 66%)
+                        );
+                        background-size: 300% 300%;
+                        background-position: 0 50%;
+                        background-clip: text; // 僅針對字
+                        animation: moveGradient 4s alternate infinite;
+                    }
+                }
             }
         }
+    }
+}
+
+@keyframes moveGradient {
+    50% {
+        background-position: 100% 50%;
     }
 }

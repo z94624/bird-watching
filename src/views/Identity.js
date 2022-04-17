@@ -117,10 +117,10 @@ const Identity = () => {
 							className="react-card-back-container"
 							onContextMenu={e => onFlipping(e, pIdx)} // 右鍵翻轉
 						>
-							<a className="btn btn-lg" href={butterflyOthers["href"]} target="_blank" rel="noopener noreferrer" role="button">
+							<a className="react-card-back-content gradient-border" href={butterflyOthers["href"]} target="_blank" rel="noopener noreferrer" role="button">
 								<h1 className="bold-900">{butterflyOthers["name_chi"]}</h1>
 								<h5>{butterflyOthers["name_latin"]}</h5>
-								<h1><span className={`badge rounded-pill bg-${sexColor}`}>{butterflyOthers["sex"]}</span></h1>
+								<h2><span className={`badge rounded-pill bg-${sexColor}`}>{butterflyOthers["sex"]}</span></h2>
 							</a>
 						</animated.div>
 					</ReactCardFlip>
