@@ -76,8 +76,8 @@
   /* 依據"台灣產蝶蛾圖鑑"格式 */
   max-height: 533px;
   /* 依據"台灣產蝶蛾圖鑑"格式 */
-  border: 5px solid white;
-  border-radius: 10px;
+  border: 7px solid white;
+  border-radius: 20px;
   background-color: white;
   cursor: grab;
   will-change: transform;
@@ -129,6 +129,17 @@
 #idMain div .react-card-front div:active, #idMain div .react-card-back div:active {
   box-shadow: 4.8px 9.6px 9.6px rgba(0, 0, 0, 0.44);
   cursor: grabbing;
+}
+#idMain div .react-card-front .react-card-front-container .hintIcon, #idMain div .react-card-back .react-card-front-container .hintIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+  transition: color 0.2s;
+}
+#idMain div .react-card-front .react-card-front-container .hintIcon:hover, #idMain div .react-card-back .react-card-front-container .hintIcon:hover {
+  color: #FE9AFF;
 }
 #idMain div .react-card-front .react-card-back-container, #idMain div .react-card-back .react-card-back-container {
   display: flex;

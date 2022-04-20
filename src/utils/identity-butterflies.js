@@ -13,8 +13,8 @@ export const butterflyInfos = [
 		"name_chi": "藍灰蝶", // 中文名
 		"name_latin": "Zizeeria maha okinawana", // 拉丁名
 		"sex": "♂", // 性別
-		"direction": "s",
-		"feature": "藍灰蝶後翅中央的小斑紋排成環形，折列藍灰蝶則因為從前往後數來的第二個斑紋向內偏移而使這些小斑排成兩列；莧藍灰蝶的翅背面藍色的鱗片顏色較深，而且前翅中央的斑列顏色特別深。", // 觀察方向：head=h, tail=t, side=s
+		"direction": "s", // 觀察方向：head=h, tail=t, side=s
+		"feature": "藍灰蝶後翅中央的小斑紋排成環形，折列藍灰蝶則因為從前往後數來的第二個斑紋向內偏移而使這些小斑排成兩列；莧藍灰蝶的翅背面藍色的鱗片顏色較深，而且前翅中央的斑列顏色特別深。", // 辨識重點
 		"href": "http://dearlep.tw/species.html?namecode=345798&photo_id=7d56bda86cd86e72ca85921d2b19e47c", // Source Path
 		"butterfly": pseudozizeeriaMaha_ms // 在地照片
 	},

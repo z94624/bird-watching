@@ -2,6 +2,7 @@
 @import "./css/_backgrounds";
 @import "./css/_texts";
 @import "./css/_media";
+@import "./css/_themes";
 
 #idMain {
     position: relative;
@@ -35,8 +36,8 @@
                 @include boxShadow("sm", rgba(black, 0.44));
                 max-width: 800px; /* 依據"台灣產蝶蛾圖鑑"格式 */
                 max-height: 533px; /* 依據"台灣產蝶蛾圖鑑"格式 */
-                border: 5px solid white;
-                border-radius: 10px;
+                border: 7px solid white;
+                border-radius: 20px;
                 background-color: white;
                 cursor: grab;
                 will-change: transform; /* 優化動畫 */
@@ -46,6 +47,22 @@
                 &:active {
                     @include boxShadow("md", rgba(black, 0.44));
                     cursor: grabbing;
+                }
+            }
+            // 卡牌正面內容容器
+            .react-card-front-container {
+                // 卡牌提示
+                .hintIcon {
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    cursor: pointer;
+                    color: white;
+                    transition: color 0.2s;
+
+                    &:hover {
+                        color: $highlightColor;
+                    }
                 }
             }
             // 卡牌反面內容容器

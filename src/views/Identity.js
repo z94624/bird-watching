@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { useSprings, animated, to as interpolate } from '@react-spring/web';
 import { useDrag } from '@use-gesture/react';
 import ReactCardFlip from 'react-card-flip';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 
 import './Identity.css';
 import { butterflyInfos } from './../utils/identity-butterflies.js';
@@ -10,6 +12,7 @@ import { shuffleArray } from './../utils/tools.js';
 // 蝴蝶照片集
 const butterflyImages = butterflyInfos.map(info => {
 	return {
+		"feature": info.feature, // 辨識重點
 		"butterfly": info.butterfly, // 照片
 		"isFlipped": false // 翻轉狀態
 	};
@@ -83,9 +86,15 @@ const Identity = () => {
 			{/* 洗牌按鈕 */}
 			<button
 				type="button"
-				className="btn btn-outline-warning btn-lg shuffleBtn"
+				className="btn btn-outline-warning shuffleBtn"
+				title="洗牌"
 				onClick={onShuffling}
-			>洗牌</button>
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-shuffle" viewBox="0 0 16 16">
+					<path fillRule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"/>
+					<path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"/>
+				</svg>
+			</button>
 		{/* 牌組 */}
 		{props.map(({ x, y, rot, scale }, pIdx) => {
 			let card = cards[pIdx];
@@ -106,8 +115,21 @@ const Identity = () => {
 								transform: interpolate([rot, scale], trans),
 								backgroundImage: `url(${card["butterfly"]})`
 							}}
+							className="react-card-front-container"
 							onContextMenu={e => onFlipping(e, pIdx)} // 右鍵翻轉
-						/>
+						>
+							{/* 提示 */}
+							<OverlayTrigger
+								placement="auto"
+								overlay={<Tooltip id={`hintTooltip-${pIdx}`}>【提示】{card["feature"]}</Tooltip>}
+							>
+								<span className="hintIcon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
+										<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+									</svg>
+								</span>
+							</OverlayTrigger>
+						</animated.div>
 						{/* 解答 */}
 						<animated.div
 							{...bind(pIdx)} // 偵測動作
@@ -119,8 +141,8 @@ const Identity = () => {
 						>
 							<a className="react-card-back-content gradient-border" href={butterflyOthers["href"]} target="_blank" rel="noopener noreferrer" role="button">
 								<h1 className="bold-900">{butterflyOthers["name_chi"]}</h1>
-								<h5>{butterflyOthers["name_latin"]}</h5>
-								<h2><span className={`badge rounded-pill bg-${sexColor}`}>{butterflyOthers["sex"]}</span></h2>
+								<h6>{butterflyOthers["name_latin"]}</h6>
+								<h3><span className={`badge rounded-pill bg-${sexColor}`}>{butterflyOthers["sex"]}</span></h3>
 							</a>
 						</animated.div>
 					</ReactCardFlip>
