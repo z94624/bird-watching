@@ -17,6 +17,9 @@
   color: #FD4DFF;
 }
 
+/* 字體大小 */
+/* 寬度 */
+/* 高度 */
 #idMain {
   position: relative;
   width: 100%;
@@ -28,7 +31,26 @@
   top: 0;
   right: 0;
   z-index: 1000;
-  width: 100%;
+}
+@media all and (min-width: 1200px) {
+  #idMain .shuffleBtn {
+    width: auto;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #idMain .shuffleBtn {
+    width: auto;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #idMain .shuffleBtn {
+    width: auto;
+  }
+}
+@media all and (max-width: 767px) {
+  #idMain .shuffleBtn {
+    width: 100%;
+  }
 }
 #idMain div {
   position: absolute;
@@ -50,10 +72,8 @@
   background-repeat: no-repeat;
   background-color: #000000;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.44);
-  width: 60vw;
   max-width: 800px;
   /* 依據"台灣產蝶蛾圖鑑"格式 */
-  height: 40vw;
   max-height: 533px;
   /* 依據"台灣產蝶蛾圖鑑"格式 */
   border: 5px solid white;
@@ -65,6 +85,46 @@
   transition: box-shadow 0.2s;
   touch-action: none;
   /* @use-gesture/react */
+}
+@media all and (min-width: 1200px) {
+  #idMain div .react-card-front div, #idMain div .react-card-back div {
+    width: 48vw;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #idMain div .react-card-front div, #idMain div .react-card-back div {
+    width: 48vw;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #idMain div .react-card-front div, #idMain div .react-card-back div {
+    width: 54vw;
+  }
+}
+@media all and (max-width: 767px) {
+  #idMain div .react-card-front div, #idMain div .react-card-back div {
+    width: 75vw;
+  }
+}
+@media all and (min-width: 1200px) {
+  #idMain div .react-card-front div, #idMain div .react-card-back div {
+    height: 32vw;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #idMain div .react-card-front div, #idMain div .react-card-back div {
+    height: 32vw;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #idMain div .react-card-front div, #idMain div .react-card-back div {
+    height: 36vw;
+  }
+}
+@media all and (max-width: 767px) {
+  #idMain div .react-card-front div, #idMain div .react-card-back div {
+    height: 50vw;
+  }
 }
 #idMain div .react-card-front div:active, #idMain div .react-card-back div:active {
   box-shadow: 4.8px 9.6px 9.6px rgba(0, 0, 0, 0.44);

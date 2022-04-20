@@ -1,6 +1,7 @@
 @import "./css/_ui";
 @import "./css/_backgrounds";
 @import "./css/_texts";
+@import "./css/_media";
 
 #idMain {
     position: relative;
@@ -9,11 +10,11 @@
     overflow: hidden;
     // 洗牌按鈕
     .shuffleBtn {
+        @include responsive-width(auto, auto, auto, 100%);
         position: absolute;
         top: 0;
         right: 0;
         z-index: 1000;
-        width: 100%;
     }
     // 卡牌容器
     div {
@@ -28,11 +29,11 @@
             align-items: center;
             // 卡牌正反面
             div {
+                @include responsive-width(48vw, 48vw, 54vw, 75vw);
+                @include responsive-height(32vw, 32vw, 36vw, 50vw);
                 @include background(cover);
                 @include boxShadow("sm", rgba(black, 0.44));
-                width: 60vw;
                 max-width: 800px; /* 依據"台灣產蝶蛾圖鑑"格式 */
-                height: 40vw;
                 max-height: 533px; /* 依據"台灣產蝶蛾圖鑑"格式 */
                 border: 5px solid white;
                 border-radius: 10px;
