@@ -1,8 +1,8 @@
-@import "./css/_ui";
 @import "./css/_backgrounds";
-@import "./css/_texts";
 @import "./css/_media";
+@import "./css/_texts";
 @import "./css/_themes";
+@import "./css/_ui";
 
 #idMain {
     position: relative;
@@ -54,11 +54,16 @@
                 // 卡牌提示
                 .hintIcon {
                     position: absolute;
-                    bottom: 10px;
-                    right: 10px;
+                    bottom: 5px;
+                    right: 5px;
                     cursor: pointer;
                     color: white;
                     transition: color 0.2s;
+
+                    svg {
+                        @include responsive-width(3vw, 3vw, 4vw, 5vw);
+                        @include responsive-height(3vw, 3vw, 4vw, 5vw);
+                    }
 
                     &:hover {
                         color: $highlightColor;

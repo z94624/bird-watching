@@ -4,6 +4,9 @@
 /* 背景主題 */
 /* 背景圖片降低亮度 */
 /* 物體高度陰影 */
+/* 字體大小 */
+/* 寬度 */
+/* 高度 */
 /* 最粗粗體 */
 .bold-900 {
   font-weight: 900;
@@ -17,9 +20,6 @@
   color: #FD4DFF;
 }
 
-/* 字體大小 */
-/* 寬度 */
-/* 高度 */
 #idMain {
   position: relative;
   width: 100%;
@@ -132,11 +132,51 @@
 }
 #idMain div .react-card-front .react-card-front-container .hintIcon, #idMain div .react-card-back .react-card-front-container .hintIcon {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 5px;
+  right: 5px;
   cursor: pointer;
   color: white;
   transition: color 0.2s;
+}
+@media all and (min-width: 1200px) {
+  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+    width: 3vw;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+    width: 3vw;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+    width: 4vw;
+  }
+}
+@media all and (max-width: 767px) {
+  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+    width: 5vw;
+  }
+}
+@media all and (min-width: 1200px) {
+  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+    height: 3vw;
+  }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+    height: 3vw;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+    height: 4vw;
+  }
+}
+@media all and (max-width: 767px) {
+  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+    height: 5vw;
+  }
 }
 #idMain div .react-card-front .react-card-front-container .hintIcon:hover, #idMain div .react-card-back .react-card-front-container .hintIcon:hover {
   color: #FE9AFF;
