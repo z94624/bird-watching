@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bird-watching/static/css/main.6a25867d.css",
-    "main.js": "/bird-watching/static/js/main.0de6cc2b.js",
+    "main.css": "/bird-watching/static/css/main.9b331d47.css",
+    "main.js": "/bird-watching/static/js/main.fc206717.js",
     "static/js/787.fba709df.chunk.js": "/bird-watching/static/js/787.fba709df.chunk.js",
     "static/media/universe.mp4": "/bird-watching/static/media/universe.3f86bb905cb013c017ef.mp4",
     "static/media/headshot.JPG": "/bird-watching/static/media/headshot.b82c46c834fe9ae7a8cc.JPG",
@@ -12,11 +12,17 @@
     "static/media/avatar2_half.JPG": "/bird-watching/static/media/avatar2_half.f87680b87ee10c00b05c.JPG",
     "static/media/avatar1_half.JPG": "/bird-watching/static/media/avatar1_half.a80f1f9ecca570fb3a4f.JPG",
     "static/media/seaTurtle.png": "/bird-watching/static/media/seaTurtle.a6c2ad63ecbd01812392.png",
+    "static/media/大絹斑蝶1.jpg": "/bird-watching/static/media/大絹斑蝶1.80e7526378b880c66288.jpg",
+    "static/media/小紋青斑蝶1.jpg": "/bird-watching/static/media/小紋青斑蝶1.15d9635fc0931605235f.jpg",
     "static/media/ffEco.png": "/bird-watching/static/media/ffEco.f6246ddf853e41d295b3.png",
+    "static/media/淡紋青斑蝶1.jpg": "/bird-watching/static/media/淡紋青斑蝶1.52943ad9b40d4c9f41c5.jpg",
     "static/media/ASCDC.png": "/bird-watching/static/media/ASCDC.ebb6f62b0ced76043f77.png",
     "static/media/雙標紫斑蝶1.jpg": "/bird-watching/static/media/雙標紫斑蝶1.c136d02e88fc4514e6a9.jpg",
     "static/media/peaceJudo.png": "/bird-watching/static/media/peaceJudo.3e0ba930e9353bc02ac4.png",
     "static/media/異紋紫斑蝶1.jpg": "/bird-watching/static/media/異紋紫斑蝶1.e36766110012043b5fb6.jpg",
+    "static/media/絹斑蝶1.jpg": "/bird-watching/static/media/絹斑蝶1.4c253001596d12cf6666.jpg",
+    "static/media/旖斑蝶1.jpg": "/bird-watching/static/media/旖斑蝶1.143cee19b3ddb454d6fa.jpg",
+    "static/media/斯氏絹斑蝶1.jpg": "/bird-watching/static/media/斯氏絹斑蝶1.576f70391c0e485909bc.jpg",
     "static/media/圓翅紫斑蝶1.jpg": "/bird-watching/static/media/圓翅紫斑蝶1.7a0b4a5de01755a8dc1a.jpg",
     "static/media/小紫斑蝶1.jpg": "/bird-watching/static/media/小紫斑蝶1.b664efd1c5f83c079099.jpg",
     "static/media/莧藍灰蝶1.jpg": "/bird-watching/static/media/莧藍灰蝶1.8e0b31f1486f95281d96.jpg",
@@ -61,12 +67,12 @@
     "static/media/GIT.png": "/bird-watching/static/media/GIT.7d664489ed331806ddc8.png",
     "index.html": "/bird-watching/index.html",
     "static/media/resetZoom.svg": "/bird-watching/static/media/resetZoom.34ea8e1b285917431be8499b4dcc494e.svg",
-    "main.6a25867d.css.map": "/bird-watching/static/css/main.6a25867d.css.map",
-    "main.0de6cc2b.js.map": "/bird-watching/static/js/main.0de6cc2b.js.map",
+    "main.9b331d47.css.map": "/bird-watching/static/css/main.9b331d47.css.map",
+    "main.fc206717.js.map": "/bird-watching/static/js/main.fc206717.js.map",
     "787.fba709df.chunk.js.map": "/bird-watching/static/js/787.fba709df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a25867d.css",
-    "static/js/main.0de6cc2b.js"
+    "static/css/main.9b331d47.css",
+    "static/js/main.fc206717.js"
   ]
 }
