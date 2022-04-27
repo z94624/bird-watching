@@ -21,6 +21,18 @@
         "bird": "玄鳳",
         "records": [
             {
+                "id": "1pYawXHXBPoTczejSX7f-B2d-_bf8ZNCH",
+                "name": "20220411-131349_拉拉_.aac"
+            },
+            {
+                "id": "1pYFqJm5-aRbB172CWVwHBsvVKueJ-phV",
+                "name": "20220410-142514_拉拉_.aac"
+            },
+            {
+                "id": "1kt5RoYGCV06mbAH8sVmY5MqOdTmXL6Ef",
+                "name": "20220407-030555_拉拉_.aac"
+            },
+            {
                 "id": "1bE6Z-9SMTa6yWf05ISzzf8FqizBDPODJ",
                 "name": "20220325-075929_拉拉_.aac"
             },
@@ -190,6 +202,10 @@
         "bird": "白鶺鴒",
         "records": [
             {
+                "id": "1cfFEvyzeLWqHeHxqm4Lk48kMCG-yrfqL",
+                "name": "20220307-120200_中研院_白鶺鴒(白面).aac"
+            },
+            {
                 "id": "17g54xQAwbtY1MGu9E6KyBAZk8nEWcPJ3",
                 "name": "20210429-111237_中研院_白鶺鴒.aac"
             }
@@ -217,12 +233,16 @@
         "bird": "斯氏繡眼",
         "records": [
             {
-                "id": "1yt-GgXXo9ATbHghF57RNRu1TwyinaG1G",
-                "name": "20220212-123355_車新路_斯氏繡眼.aac"
+                "id": "1nDWjlTcZKwf_ycrnGdnA09t4_tA14t33",
+                "name": "20210408-082155_九如綠地_斯氏繡眼.aac"
             },
             {
-                "id": "1nDWjlTcZKwf_ycrnGdnA09t4_tA14t33",
-                "name": "20210408-082155_九如綠地_綠繡眼.aac"
+                "id": "1pY-cnNVzXmY1FjPyIMQkOFabIKzm1BeC",
+                "name": "20220408-135118_中研院_斯氏繡眼.aac"
+            },
+            {
+                "id": "1yt-GgXXo9ATbHghF57RNRu1TwyinaG1G",
+                "name": "20220212-123355_車新路_斯氏繡眼.aac"
             }
         ]
     },
