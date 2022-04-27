@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import { useSprings, animated, to as interpolate } from '@react-spring/web';
 import { useDrag } from '@use-gesture/react';
@@ -29,7 +29,7 @@ const to = (i: number) => ({ // 結束狀態
 	y: i * (-4),
 	rot: (-10) + Math.random() * 20,
 	scale: 1,
-	delay: i * 100,
+	delay: i * 30 // 每張間隔(越多張要越短，不會載入很久)
 });
 // 每張卡牌擺放狀態
 const trans = (r: number, s: number) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`;
@@ -38,26 +38,36 @@ const Identity = () => {
 	// 牌組
 	const [cards, setCards] = useState(butterflyImages);
 	const onShuffling = () => { // 洗牌
+		// 步驟一：拿起牌組
+		gone.clear();
+		api.start(i => from(i));
+		// 步驟二：洗牌
 		let shuffledCards = shuffleArray(butterflyImages);
 		setCards([...shuffledCards]);
 	}
-	const onFlipping = (e, pIdx) => { // 翻轉
+	useEffect(() => { // 步驟三：洗完後重新發牌
+		setTimeout(() => {
+			api.start(i => to(i));
+		}, 200);
+	}, [cards]);
+	const onFlipping = (e, sIdx) => { // 翻轉
 		e.preventDefault(); // 避免選單跳出
 		// 除了該張卡牌其他蓋牌，重置套牌後，幾乎還可以不洗牌重新測驗
-		let newCards = cards.map((card, cIdx) => cIdx === pIdx ? {...card, "isFlipped": !card.isFlipped} : {...card, "isFlipped": false});
+		let newCards = cards.map((card, cIdx) => cIdx === sIdx ? {...card, "isFlipped": !card.isFlipped} : {...card, "isFlipped": false});
 		setCards([...newCards]);
 	}
 	// 不在牌組中的卡牌們
 	const [gone] = useState(() => new Set());
-	// 每張卡牌一個 Spring
-	const [props, api] = useSprings(cards.length, i => ({
+	// 每張卡牌一個 Spring(創建多組 Spring)
+	const [springs, api] = useSprings(cards.length, i => ({
 		...to(i),
-		from: from(i),
+		from: from(i) // Base values(optional)
 	}));
 	// Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
 	const bind = useDrag(({ args: [index], active, movement: [mx], direction: [xDir], velocity: [vx] }) => {
 		const trigger = vx > 0.2; // 卡牌的逃逸速度
 		if (!active && trigger) {gone.add(index);} // 當放開且達逃逸速度，該卡牌可飛走
+		// Update springs with new props
 		api.start(i => {
 			if (index !== i) {return;} // 只改變該卡牌的 Spring 資料
 			const isGone = gone.has(index); // 若該卡牌準備飛走
@@ -77,7 +87,7 @@ const Identity = () => {
 			setTimeout(() => {
 				gone.clear();
 				api.start(i => to(i)); // 所有卡牌回歸牌組中
-			}, 600);
+			}, 500); // 最後一張飛走後，多久回歸
 		}
 	});
 
@@ -96,32 +106,32 @@ const Identity = () => {
 				</svg>
 			</button>
 		{/* 牌組 */}
-		{props.map(({ x, y, rot, scale }, pIdx) => {
-			let card = cards[pIdx];
+		{springs.map(({ x, y, rot, scale }, sIdx) => {
+			let card = cards[sIdx];
 			// 該蝴蝶其他資訊
 			let butterflyOthers = butterflyInfos.find(info => info.butterfly === card["butterfly"]);
 			let sexColor = butterflyOthers["sex"] === "♂" ? "primary" : "danger";
 			return (
 				// 卡牌容器
 				<animated.div
-					key={`idAnimatedDiv-${pIdx}`}
+					key={`idAnimatedDiv-${sIdx}`}
 					style={{ x, y }}>
 					{/* 翻轉功能 */}
 					<ReactCardFlip isFlipped={card["isFlipped"]}>
 						{/* 卡牌 */}
 						<animated.div
-							{...bind(pIdx)} // 偵測動作
+							{...bind(sIdx)} // 偵測動作
 							style={{
 								transform: interpolate([rot, scale], trans),
 								backgroundImage: `url(${card["butterfly"]})`
 							}}
 							className="react-card-front-container"
-							onContextMenu={e => onFlipping(e, pIdx)} // 右鍵翻轉
+							onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
 						>
 							{/* 提示 */}
 							<OverlayTrigger
 								placement="auto"
-								overlay={<Tooltip id={`hintTooltip-${pIdx}`}>【提示】{card["feature"]}</Tooltip>}
+								overlay={<Tooltip id={`hintTooltip-${sIdx}`}>【提示】{card["feature"]}</Tooltip>}
 							>
 								<span className="hintIcon">
 									<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
@@ -132,12 +142,12 @@ const Identity = () => {
 						</animated.div>
 						{/* 解答 */}
 						<animated.div
-							{...bind(pIdx)} // 偵測動作
+							{...bind(sIdx)} // 偵測動作
 							style={{
 								transform: interpolate([rot, scale], trans)
 							}}
 							className="react-card-back-container"
-							onContextMenu={e => onFlipping(e, pIdx)} // 右鍵翻轉
+							onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
 						>
 							<a className="react-card-back-content gradient-border" href={butterflyOthers["href"]} target="_blank" rel="noopener noreferrer" role="button">
 								<h1 className="bold-900">{butterflyOthers["name_chi"]}</h1>
