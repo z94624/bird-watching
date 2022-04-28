@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 import { useSprings, animated, to as interpolate } from '@react-spring/web';
 import { useDrag } from '@use-gesture/react';
@@ -47,12 +47,11 @@ const Identity = () => {
 		// 步驟二：洗牌
 		let shuffledCards = shuffleArray(butterflyImages);
 		setCards([...shuffledCards]);
-	}
-	useEffect(() => { // 步驟三：洗完後重新發牌
+		// 步驟三：洗完後重新發牌
 		setTimeout(() => {
 			api.start(i => to(i));
 		}, 200);
-	}, [cards]);
+	}
 	const onFlipping = (e, sIdx) => { // 翻轉
 		e.preventDefault(); // 避免選單跳出
 		// 除了該張卡牌其他蓋牌，重置套牌後，幾乎還可以不洗牌重新測驗
@@ -96,10 +95,7 @@ const Identity = () => {
 		});
 		// 若所有卡牌都飛走了
 		if (!active && gone.size === cards.length) {
-			setTimeout(() => {
-				gone.clear();
-				api.start(i => to(i)); // 所有卡牌回歸牌組中
-			}, 500); // 最後一張飛走後，多久回歸
+			onShuffling(); // 洗牌重新測驗
 		}
 	});
 
