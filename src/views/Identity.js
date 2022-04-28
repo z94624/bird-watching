@@ -17,7 +17,10 @@ const butterflyImages = butterflyInfos.map(info => {
 		"isFlipped": false // 翻轉狀態
 	};
 });
-// 載入牌組
+/*
+ * https://react-spring.io/common/props
+ * 載入牌組
+ */
 const from = (_i: number) => ({ // 起始狀態
 	x: 0,
 	y: -1000,
@@ -25,10 +28,10 @@ const from = (_i: number) => ({ // 起始狀態
 	scale: 1.5
 });
 const to = (i: number) => ({ // 結束狀態
-	x: 0,
-	y: i * (-4),
-	rot: (-10) + Math.random() * 20,
-	scale: 1,
+	x: (-30) + Math.random() * 60, // 橫向飄移
+	y: i * (-3), // 牌組高低差，卡越多間距要小
+	rot: (-12) + Math.random() * 24, // 轉動角度介於正負 x 度
+	scale: 1, // 原大小
 	delay: i * 30 // 每張間隔(越多張要越短，不會載入很久)
 });
 // 每張卡牌擺放狀態
@@ -60,8 +63,13 @@ const Identity = () => {
 	const [gone] = useState(() => new Set());
 	// 每張卡牌一個 Spring(創建多組 Spring)
 	const [springs, api] = useSprings(cards.length, i => ({
-		...to(i),
-		from: from(i) // Base values(optional)
+		...to(i), // Animates to...
+		from: from(i), // Base values(optional)
+		/*
+		 * https://react-spring.io/common/configs
+		 * 模擬卡牌落地因氣流而浮動且影響下層卡牌震動
+		 */
+		config: { round: true }
 	}));
 	// Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
 	const bind = useDrag(({ args: [index], active, movement: [mx], direction: [xDir], velocity: [vx] }) => {
@@ -79,7 +87,11 @@ const Identity = () => {
 				rot,
 				scale,
 				delay: undefined,
-				config: { friction: 50, tension: active ? 800 : isGone ? 200 : 500 }
+				config: {
+					round: false,
+					tension: active ? 800 : isGone ? 200 : 500,
+					friction: 50
+				}
 			};
 		});
 		// 若所有卡牌都飛走了
