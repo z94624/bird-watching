@@ -51,8 +51,15 @@
             }
             // 卡牌正面內容容器
             .react-card-front-container {
+                // 卡牌編號
+                .idNumbering {
+                    position: absolute;
+                    bottom: 5px;
+                    left: 5px;
+                    color: white;
+                }
                 // 卡牌提示
-                .hintIcon {
+                .idHintIcon {
                     position: absolute;
                     bottom: 5px;
                     right: 5px;

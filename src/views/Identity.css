@@ -130,7 +130,13 @@
   box-shadow: 4.8px 9.6px 9.6px rgba(0, 0, 0, 0.44);
   cursor: grabbing;
 }
-#idMain div .react-card-front .react-card-front-container .hintIcon, #idMain div .react-card-back .react-card-front-container .hintIcon {
+#idMain div .react-card-front .react-card-front-container .idNumbering, #idMain div .react-card-back .react-card-front-container .idNumbering {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}
+#idMain div .react-card-front .react-card-front-container .idHintIcon, #idMain div .react-card-back .react-card-front-container .idHintIcon {
   position: absolute;
   bottom: 5px;
   right: 5px;
@@ -139,46 +145,46 @@
   transition: color 0.2s;
 }
 @media all and (min-width: 1200px) {
-  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
     width: 3vw;
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
     width: 3vw;
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
     width: 4vw;
   }
 }
 @media all and (max-width: 767px) {
-  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
     width: 5vw;
   }
 }
 @media all and (min-width: 1200px) {
-  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
     height: 3vw;
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
     height: 3vw;
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
     height: 4vw;
   }
 }
 @media all and (max-width: 767px) {
-  #idMain div .react-card-front .react-card-front-container .hintIcon svg, #idMain div .react-card-back .react-card-front-container .hintIcon svg {
+  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
     height: 5vw;
   }
 }
-#idMain div .react-card-front .react-card-front-container .hintIcon:hover, #idMain div .react-card-back .react-card-front-container .hintIcon:hover {
+#idMain div .react-card-front .react-card-front-container .idHintIcon:hover, #idMain div .react-card-back .react-card-front-container .idHintIcon:hover {
   color: #FE9AFF;
 }
 #idMain div .react-card-front .react-card-back-container, #idMain div .react-card-back .react-card-back-container {

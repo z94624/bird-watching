@@ -10,9 +10,8 @@ import './Identity.css';
 import { butterflyInfos } from './../utils/identity-butterflies.js';
 import { shuffleArray } from './../utils/tools.js';
 // 蝴蝶照片集
-const butterflyImages = butterflyInfos.map(info => {
+const butterflyCards = butterflyInfos.map(info => {
 	return {
-		"feature": info.feature, // 辨識重點
 		"butterfly": info.butterfly, // 照片
 		"isFlipped": false // 翻轉狀態
 	};
@@ -21,36 +20,37 @@ const butterflyImages = butterflyInfos.map(info => {
  * https://react-spring.io/common/props
  * 載入牌組
  */
-const from = (_i: number) => ({ // 起始狀態
+const inHand = (_i: number) => ({ // 起始狀態
 	x: 0,
 	y: -1000,
 	rotation: 0,
 	scale: 1.5
 });
-const to = (i: number) => ({ // 結束狀態
+const onTable = (i: number) => ({ // 結束狀態
 	x: (-30) + Math.random() * 60, // 橫向飄移
-	y: i * (-3), // 牌組高低差，卡越多間距要小
-	rotation: (-12) + Math.random() * 24, // 轉動角度介於正負 x 度
+	y: (-30) + Math.random() * 60, // 縱向飄移
+	rotation: (-15) + Math.random() * 30, // 轉動角度介於正負 x 度
 	scale: 1, // 原大小
 	delay: i * 30 // 每張間隔(越多張要越短，不會載入很久)
 });
 // 每張卡牌擺放狀態
-const trans = (r: number, s: number) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`;
+const transformation = (r: number, s: number) => (`perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`);
 
 const Identity = () => {
 	// 牌組
-	const [cards, setCards] = useState(butterflyImages);
+	const [cards, setCards] = useState(butterflyCards);
+	const cardDeckSize = cards.length;
 	const onShuffling = () => { // 洗牌
 		// 步驟一：拿起牌組
 		gone.clear();
-		api.start(i => from(i));
-		// 步驟二：洗牌
-		let shuffledCards = shuffleArray(butterflyImages);
-		setCards([...shuffledCards]);
-		// 步驟三：洗完後重新發牌
+		api.start(i => ({...inHand(i), delay: Math.random() * cardDeckSize * 30})); // 隨機收集
 		setTimeout(() => {
-			api.start(i => to(i));
-		}, 200);
+			// 步驟二：洗牌
+			let shuffledCards = shuffleArray(butterflyCards);
+			setCards([...shuffledCards]);
+			// 步驟三：洗完後重新發牌
+			api.start(i => onTable(i));
+		}, cardDeckSize * 50);
 	}
 	const onFlipping = (e, sIdx) => { // 翻轉
 		e.preventDefault(); // 避免選單跳出
@@ -61,9 +61,9 @@ const Identity = () => {
 	// 不在牌組中的卡牌們
 	const [gone] = useState(() => new Set());
 	// 每張卡牌一個 Spring(創建多組 Spring)
-	const [springs, api] = useSprings(cards.length, i => ({
-		...to(i), // Animates to...
-		from: from(i), // Base values(optional)
+	const [springs, api] = useSprings(cardDeckSize, i => ({
+		...onTable(i), // Animates to...
+		from: inHand(i), // Base values(optional)
 		/*
 		 * https://react-spring.io/common/configs
 		 * 模擬卡牌落地因氣流而浮動且影響下層卡牌震動
@@ -106,7 +106,7 @@ const Identity = () => {
 			};
 		});
 		// 若所有卡牌都飛走了
-		if (!active && gone.size === cards.length) {
+		if (!active && gone.size === cardDeckSize) {
 			onShuffling(); // 洗牌重新測驗
 		}
 	});
@@ -142,18 +142,20 @@ const Identity = () => {
 						<animated.div
 							{...bind(sIdx)} // 偵測動作[<div {...bind(arg)} />]
 							style={{
-								transform: interpolate([rotation, scale], trans),
+								transform: interpolate([rotation, scale], transformation),
 								backgroundImage: `url(${card["butterfly"]})`
 							}}
 							className="react-card-front-container"
 							onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
 						>
+							{/* 編號 */}
+							<span className="idNumbering">{`${cardDeckSize - sIdx}/${cardDeckSize}`}</span>
 							{/* 提示 */}
 							<OverlayTrigger
 								placement="auto"
-								overlay={<Tooltip id={`hintTooltip-${sIdx}`}>【提示】{card["feature"]}</Tooltip>}
+								overlay={<Tooltip id={`hintTooltip-${sIdx}`}>【提示】{butterflyOthers["feature"]}</Tooltip>}
 							>
-								<span className="hintIcon">
+								<span className="idHintIcon">
 									<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
 										<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
 									</svg>
@@ -164,7 +166,7 @@ const Identity = () => {
 						<animated.div
 							{...bind(sIdx)} // 偵測動作
 							style={{
-								transform: interpolate([rotation, scale], trans)
+								transform: interpolate([rotation, scale], transformation)
 							}}
 							className="react-card-back-container"
 							onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
