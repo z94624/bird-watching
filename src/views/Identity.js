@@ -24,13 +24,13 @@ const butterflyImages = butterflyInfos.map(info => {
 const from = (_i: number) => ({ // 起始狀態
 	x: 0,
 	y: -1000,
-	rot: 0,
+	rotation: 0,
 	scale: 1.5
 });
 const to = (i: number) => ({ // 結束狀態
 	x: (-30) + Math.random() * 60, // 橫向飄移
 	y: i * (-3), // 牌組高低差，卡越多間距要小
-	rot: (-12) + Math.random() * 24, // 轉動角度介於正負 x 度
+	rotation: (-12) + Math.random() * 24, // 轉動角度介於正負 x 度
 	scale: 1, // 原大小
 	delay: i * 30 // 每張間隔(越多張要越短，不會載入很久)
 });
@@ -70,20 +70,32 @@ const Identity = () => {
 		 */
 		config: { round: true }
 	}));
-	// Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
-	const bind = useDrag(({ args: [index], active, movement: [mx], direction: [xDir], velocity: [vx] }) => {
-		const trigger = vx > 0.2; // 卡牌的逃逸速度
-		if (!active && trigger) {gone.add(index);} // 當放開且達逃逸速度，該卡牌可飛走
+	/*
+	 * Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
+	 * const bind = useDrag((state) => doSomethingWith(state), config)
+	 * state: https://use-gesture.netlify.app/docs/state/
+	 * config: https://use-gesture.netlify.app/docs/options/
+	 */
+	const bind = useDrag(({ args: [index],
+		movement: [mx], // displacement between offset and lastOffset
+		velocity: [vx], // momentum of the gesture per axis (in px/ms)
+		direction: [dx], // direction per axis; 1(右), 0(不動), -1(左)
+		active // true when the gesture is active; true(操作中), false(不操作)
+	}) => {
+		const escape = vx > 0.2; // 卡牌的逃逸速度
+		if (!active && escape) {gone.add(index);} // 當放開且達逃逸速度，該卡牌可飛走
 		// Update springs with new props
 		api.start(i => {
-			if (index !== i) {return;} // 只改變該卡牌的 Spring 資料
+			if (i !== index) {return;} // 只改變該卡牌的 Spring 資料
 			const isGone = gone.has(index); // 若該卡牌準備飛走
-			const x = isGone ? (200 + window.innerWidth) * xDir : active ? mx : 0; // 往左飛或往右飛，否則回歸原位
-			const rot = mx / 100 + (isGone ? xDir * 10 * vx : 0); // 丟得越用力，轉動程度越大
-			const scale = active ? 1.1 : 1; // 抓取的卡牌往上抬升
+			const x = isGone ? window.innerWidth * dx : active ? mx : 0; // 達逃逸速度，往左飛或往右飛；未達逃逸速度，拉多少動多少，放開回歸原位
+			const rotation = mx / 87 + (isGone ? 10 * vx * dx : 0); // 丟得越用力，轉動程度越大
+			const y = active ? -20 : 0; // 抓取的卡牌向上位移
+			const scale = active ? 1.3 : 1; // 抓取的卡牌往上抬升
 			return {
 				x,
-				rot,
+				y,
+				rotation,
 				scale,
 				delay: undefined,
 				config: {
@@ -114,7 +126,7 @@ const Identity = () => {
 				</svg>
 			</button>
 		{/* 牌組 */}
-		{springs.map(({ x, y, rot, scale }, sIdx) => {
+		{springs.map(({ x, y, rotation, scale }, sIdx) => {
 			let card = cards[sIdx];
 			// 該蝴蝶其他資訊
 			let butterflyOthers = butterflyInfos.find(info => info.butterfly === card["butterfly"]);
@@ -128,9 +140,9 @@ const Identity = () => {
 					<ReactCardFlip isFlipped={card["isFlipped"]}>
 						{/* 卡牌 */}
 						<animated.div
-							{...bind(sIdx)} // 偵測動作
+							{...bind(sIdx)} // 偵測動作[<div {...bind(arg)} />]
 							style={{
-								transform: interpolate([rot, scale], trans),
+								transform: interpolate([rotation, scale], trans),
 								backgroundImage: `url(${card["butterfly"]})`
 							}}
 							className="react-card-front-container"
@@ -152,7 +164,7 @@ const Identity = () => {
 						<animated.div
 							{...bind(sIdx)} // 偵測動作
 							style={{
-								transform: interpolate([rot, scale], trans)
+								transform: interpolate([rotation, scale], trans)
 							}}
 							className="react-card-back-container"
 							onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉

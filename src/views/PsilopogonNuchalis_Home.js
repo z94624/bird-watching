@@ -52,6 +52,7 @@ const PsilopogonNuchalisHome = ({ mainRef }) => {
 			{/* 首頁內容 */}
 			<div id="pnHomeContainer">
 				<h1 id="pnHomeTitle" className="text-ocean bold-900">林芬雯</h1>
+				<span className="badge bg-primary fs-6 fst-italic text-wrap">As within, so without; as above, so below.</span>
 				<hr />
 				{/* 社群媒體 */}
 				<ul id="pnHomeSocialMedia" className="nav justify-content-center mt-3">
