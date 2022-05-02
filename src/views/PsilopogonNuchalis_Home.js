@@ -8,6 +8,7 @@ import BackgroundVideo from './../components/BackgroundVideo';
 
 import seaTurtle from './../images/seaTurtle.png';
 import vaquita from './../images/Vaquita.png';
+import whaleShark from './../images/whaleShark.png';
 import ocean from './../videos/ocean.mp4';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -27,7 +28,12 @@ const PsilopogonNuchalisHome = ({ mainRef }) => {
 	// Targeting elements
 	const seaTurtleRef = useRef();
 	const vaquitaRef = useRef();
-	// In order to avoid targeting a null element
+	const whaleSharkRef = useRef();
+	/*
+	 * GSAP: In order to avoid targeting a null element
+	 * Timeline Properties: https://greensock.com/docs/v3/GSAP/Timeline
+	 * ScrollTrigger Properties: https://greensock.com/docs/v3/Plugins/ScrollTrigger
+	 */
 	useEffect(() => {
 		const stTl = gsap.timeline({
 			scrollTrigger: {
@@ -39,10 +45,29 @@ const PsilopogonNuchalisHome = ({ mainRef }) => {
 				markers: false
 			}
 		});
-		stTl.to(seaTurtleRef.current, {x: vw*(1/4), y: -5, rotation: -5});
-		stTl.to(seaTurtleRef.current, {x: vw*(2/4), y: -20, rotation: -15});
-		stTl.to(seaTurtleRef.current, {x: vw*(3/4), y: 5, rotation: 5});
-		stTl.to(seaTurtleRef.current, {x: vw*(4/4), y: 20, rotation: 15});
+		stTl.to(seaTurtleRef.current, {x: vw*(2/3)});
+		const vqTl = gsap.timeline({
+			scrollTrigger: {
+				scroller: mainRef.current,
+				trigger: vaquitaRef.current,
+				// "onEnter onLeave onEnterBack onLeaveBack"; play, pause, resume, reverse, restart, reset, complete, none
+				toggleActions: "play reset play none",
+				start: "top bottom",
+				end: "bottom top",
+				markers: false
+			}
+		});
+		vqTl.to(vaquitaRef.current, {x: vw*(-2/5), duration: 5});
+		const wsTl = gsap.timeline({
+			scrollTrigger: {
+				scroller: mainRef.current,
+				trigger: whaleSharkRef.current,
+				start: "top bottom",
+				end: "bottom top",
+				markers: false
+			}
+		});
+		wsTl.to(whaleSharkRef.current, {y: vh*(-3.5), duration: 20});
 	}, []);
 
 	return (
@@ -71,6 +96,9 @@ const PsilopogonNuchalisHome = ({ mainRef }) => {
 			</div>
 			<div id="pnHomeVaquita" className="gsapDiv" ref={vaquitaRef}>
 				<img src={vaquita} />
+			</div>
+			<div id="pnHomeWhaleShark" className="gsapDiv" ref={whaleSharkRef}>
+				<img src={whaleShark} />
 			</div>
 		</div>
 	);

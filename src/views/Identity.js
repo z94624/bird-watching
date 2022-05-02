@@ -55,7 +55,7 @@ const Identity = () => {
 	const onFlipping = (e, sIdx) => { // 翻轉
 		e.preventDefault(); // 避免選單跳出
 		// 除了該張卡牌其他蓋牌，重置套牌後，幾乎還可以不洗牌重新測驗
-		let newCards = cards.map((card, cIdx) => cIdx === sIdx ? {...card, "isFlipped": !card.isFlipped} : {...card, "isFlipped": false});
+		let newCards = cards.map((card, cIdx) => cIdx === sIdx ? {...card, "isFlipped": !card.isFlipped} : card.isFlipped ? {...card, "isFlipped": false} : card);
 		setCards([...newCards]);
 	}
 	// 不在牌組中的卡牌們
@@ -76,21 +76,25 @@ const Identity = () => {
 	 * state: https://use-gesture.netlify.app/docs/state/
 	 * config: https://use-gesture.netlify.app/docs/options/
 	 */
-	const bind = useDrag(({ args: [index],
-		movement: [mx], // displacement between offset and lastOffset
+	const bind = useDrag(({
+		args: [sIdx],
+		movement: [mx, my], // displacement between offset and lastOffset
 		velocity: [vx], // momentum of the gesture per axis (in px/ms)
 		direction: [dx], // direction per axis; 1(右), 0(不動), -1(左)
 		active // true when the gesture is active; true(操作中), false(不操作)
 	}) => {
-		const escape = vx > 0.2; // 卡牌的逃逸速度
-		if (!active && escape) {gone.add(index);} // 當放開且達逃逸速度，該卡牌可飛走
+		const escape = vx > 0.3; // 卡牌的逃逸速度
+		let isGone = false;
+		if (!active && escape) { // 當放開且達逃逸速度，該卡牌可飛走
+			gone.add(sIdx);
+			isGone = true;
+		}
 		// Update springs with new props
 		api.start(i => {
-			if (i !== index) {return;} // 只改變該卡牌的 Spring 資料
-			const isGone = gone.has(index); // 若該卡牌準備飛走
+			if (i !== sIdx) {return;} // 只改變該卡牌的 Spring 資料
 			const x = isGone ? window.innerWidth * dx : active ? mx : 0; // 達逃逸速度，往左飛或往右飛；未達逃逸速度，拉多少動多少，放開回歸原位
 			const rotation = mx / 87 + (isGone ? 10 * vx * dx : 0); // 丟得越用力，轉動程度越大
-			const y = active ? -20 : 0; // 抓取的卡牌向上位移
+			const y = active ? my : 0; // 抓取的卡牌向上位移
 			const scale = active ? 1.3 : 1; // 抓取的卡牌往上抬升
 			return {
 				x,

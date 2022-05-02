@@ -15,7 +15,7 @@
 	width: 85%;
 	z-index: 2;
 	padding: 10px 20px;
-	background-color: rgba(white, 0.3);
+	background-color: rgba(white, 0.2);
 }
 /* 首頁標題 */
 #pnHomeTitle {
@@ -32,14 +32,21 @@
 	}
 }
 #pnHomeSeaTurtle {
-	width: 25%;
+	width: 200px;
 	height: auto;
 	bottom: 7%;
-	left: -100px;
+	left: 0;
 }
 #pnHomeVaquita {
-	width: 28%;
+	width: 250px;
 	height: auto;
 	top: 15%;
-	right: 0;
+	right: -248px;
+}
+#pnHomeWhaleShark {
+	width: 1500px;
+	height: auto;
+	bottom: -2500px;
+	right: -300px;
+	z-index: 1;
 }
