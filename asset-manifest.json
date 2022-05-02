@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bird-watching/static/css/main.90c4ce26.css",
-    "main.js": "/bird-watching/static/js/main.814877ae.js",
+    "main.css": "/bird-watching/static/css/main.0210bc79.css",
+    "main.js": "/bird-watching/static/js/main.f8c5d6d9.js",
     "static/js/787.fba709df.chunk.js": "/bird-watching/static/js/787.fba709df.chunk.js",
     "static/media/universe.mp4": "/bird-watching/static/media/universe.3f86bb905cb013c017ef.mp4",
     "static/media/headshot.JPG": "/bird-watching/static/media/headshot.b82c46c834fe9ae7a8cc.JPG",
@@ -35,6 +35,7 @@
     "static/media/MySQL.png": "/bird-watching/static/media/MySQL.167c88550478e6f0f85c.png",
     "static/media/JaneGoodall.jpg": "/bird-watching/static/media/JaneGoodall.04de601ceb1b017e1077.jpg",
     "static/media/權威檔統計資料.jpg": "/bird-watching/static/media/權威檔統計資料.2cf9cb149ec51815558e.jpg",
+    "static/media/whaleShark.png": "/bird-watching/static/media/whaleShark.8bc9633041a38bf5f5b9.png",
     "static/media/間距查詢.png": "/bird-watching/static/media/間距查詢.af8f4b951d25a6a8705d.png",
     "static/media/迷你藍灰蝶1.jpg": "/bird-watching/static/media/迷你藍灰蝶1.2415413854c6a09f74f7.jpg",
     "static/media/logo.png": "/bird-watching/static/media/logo.4fc1974f0c15fe5f25a9.png",
@@ -67,12 +68,12 @@
     "static/media/GIT.png": "/bird-watching/static/media/GIT.7d664489ed331806ddc8.png",
     "index.html": "/bird-watching/index.html",
     "static/media/resetZoom.svg": "/bird-watching/static/media/resetZoom.34ea8e1b285917431be8499b4dcc494e.svg",
-    "main.90c4ce26.css.map": "/bird-watching/static/css/main.90c4ce26.css.map",
-    "main.814877ae.js.map": "/bird-watching/static/js/main.814877ae.js.map",
+    "main.0210bc79.css.map": "/bird-watching/static/css/main.0210bc79.css.map",
+    "main.f8c5d6d9.js.map": "/bird-watching/static/js/main.f8c5d6d9.js.map",
     "787.fba709df.chunk.js.map": "/bird-watching/static/js/787.fba709df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c4ce26.css",
-    "static/js/main.814877ae.js"
+    "static/css/main.0210bc79.css",
+    "static/js/main.f8c5d6d9.js"
   ]
 }
