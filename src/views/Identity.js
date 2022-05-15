@@ -20,13 +20,13 @@ const butterflyCards = butterflyInfos.map(info => {
  * https://react-spring.io/common/props
  * 載入牌組
  */
-const inHand = (_i: number) => ({ // 起始狀態
+const inHand = () => ({ // 起始狀態
 	x: 0,
 	y: -1000,
 	rotation: 0,
 	scale: 1.5
 });
-const onTable = (i: number) => ({ // 結束狀態
+const onTable = (i) => ({ // 結束狀態
 	x: (-30) + Math.random() * 60, // 橫向飄移
 	y: (-30) + Math.random() * 60, // 縱向飄移
 	rotation: (-15) + Math.random() * 30, // 轉動角度介於正負 x 度
@@ -34,7 +34,7 @@ const onTable = (i: number) => ({ // 結束狀態
 	delay: i * 30 // 每張間隔(越多張要越短，不會載入很久)
 });
 // 每張卡牌擺放狀態
-const transformation = (r: number, s: number) => (`perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`);
+const transformation = (r, s) => (`perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`);
 
 const Identity = () => {
 	// 牌組

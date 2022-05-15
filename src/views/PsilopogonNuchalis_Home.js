@@ -62,12 +62,13 @@ const PsilopogonNuchalisHome = ({ mainRef }) => {
 			scrollTrigger: {
 				scroller: mainRef.current,
 				trigger: whaleSharkRef.current,
+				toggleActions: "play reset play none",
 				start: "top bottom",
-				end: "bottom top",
+				end: "85% top",
 				markers: false
 			}
 		});
-		wsTl.to(whaleSharkRef.current, {y: vh*(-3.5), duration: 20});
+		wsTl.to(whaleSharkRef.current, {x: 2000+vw, duration: 50, delay: 3});
 	}, []);
 
 	return (

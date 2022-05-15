@@ -36,7 +36,7 @@
   width: 85%;
   z-index: 2;
   padding: 10px 20px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* 首頁標題 */
@@ -81,15 +81,15 @@
 #pnHomeVaquita {
   width: 250px;
   height: auto;
-  top: 15%;
+  top: 18%;
   right: -248px;
 }
 
 #pnHomeWhaleShark {
-  width: 1500px;
+  width: 2000px;
   height: auto;
-  bottom: -2500px;
-  right: -300px;
+  top: 20%;
+  left: -2000px;
   z-index: 1;
 }
 
