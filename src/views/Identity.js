@@ -9,6 +9,7 @@ import Tooltip from 'react-bootstrap/Tooltip';
 import './Identity.css';
 import { butterflyInfos } from './../utils/identity-butterflies.js';
 import { shuffleArray } from './../utils/tools.js';
+import { itemsToRainbowSelectOptions } from './../utils/ytVideos_dataExtraction';
 // 蝴蝶照片集
 const butterflyCards = butterflyInfos.map(info => {
 	return {
@@ -37,6 +38,12 @@ const onTable = (i) => ({ // 結束狀態
 const transformation = (r, s) => (`perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`);
 
 const Identity = () => {
+	// 資料庫
+	const [database, setDatabase] = useState("蝴蝶");
+	const handleDatabaseChange = userDatabase => {
+		setDatabase(userDatabase.target.value);
+	}
+	const databaseSelect = itemsToRainbowSelectOptions(["蝴蝶", "鳥"], "idDatabaseSelect", "資料庫", undefined, database, handleDatabaseChange, undefined);
 	// 牌組
 	const [cards, setCards] = useState(butterflyCards);
 	const cardDeckSize = cards.length;
@@ -117,74 +124,91 @@ const Identity = () => {
 
 	return (
 		<main id="idMain" className="h-100">
-			{/* 洗牌按鈕 */}
-			<button
-				type="button"
-				className="btn btn-outline-warning shuffleBtn"
-				title="洗牌"
-				onClick={onShuffling}
-			>
-				<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-shuffle" viewBox="0 0 16 16">
-					<path fillRule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"/>
-					<path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"/>
-				</svg>
-			</button>
-		{/* 牌組 */}
-		{springs.map(({ x, y, rotation, scale }, sIdx) => {
-			let card = cards[sIdx];
-			// 該蝴蝶其他資訊
-			let butterflyOthers = butterflyInfos.find(info => info.butterfly === card["butterfly"]);
-			let sexColor = butterflyOthers["sex"] === "♂" ? "primary" : "danger";
-			return (
-				// 卡牌容器
-				<animated.div
-					key={`idAnimatedDiv-${sIdx}`}
-					style={{ x, y }}>
-					{/* 翻轉功能 */}
-					<ReactCardFlip isFlipped={card["isFlipped"]}>
-						{/* 卡牌 */}
+			{/* 參數區 */}
+			<div id="idSortPanel" className="w-100 d-inline-flex justify-content-evenly row">
+				{/* 資料庫 */}
+				<div className="col-sm-4">
+					{databaseSelect}
+				</div>
+				{/* 分科 */}
+				<div className="col-sm-4">
+					
+				</div>
+				{/* 洗牌按鈕 */}
+				<div className="col-sm-4">
+					<button
+						type="button"
+						className="btn btn-outline-warning shuffleBtn"
+						title="洗牌"
+						onClick={onShuffling}
+					>
+						<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-shuffle" viewBox="0 0 16 16">
+							<path fillRule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"/>
+							<path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+			{/* 牌組容器 */}
+			<div id="idCardDeckContainer">
+				{/* 牌組 */}
+				{springs.map(({ x, y, rotation, scale }, sIdx) => {
+					let card = cards[sIdx];
+					// 該蝴蝶其他資訊
+					let butterflyOthers = butterflyInfos.find(info => info.butterfly === card["butterfly"]);
+					let sexColor = butterflyOthers["sex"] === "♂" ? "primary" : "danger";
+					return (
+						// 卡牌容器
 						<animated.div
-							{...bind(sIdx)} // 偵測動作[<div {...bind(arg)} />]
-							style={{
-								transform: interpolate([rotation, scale], transformation),
-								backgroundImage: `url(${card["butterfly"]})`
-							}}
-							className="react-card-front-container"
-							onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
+							key={`idAnimatedDiv-${sIdx}`}
+							style={{ x, y }}
 						>
-							{/* 編號 */}
-							<span className="idNumbering">{`${cardDeckSize - sIdx}/${cardDeckSize}`}</span>
-							{/* 提示 */}
-							<OverlayTrigger
-								placement="auto"
-								overlay={<Tooltip id={`hintTooltip-${sIdx}`}>【提示】{butterflyOthers["feature"]}</Tooltip>}
-							>
-								<span className="idHintIcon">
-									<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
-										<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-									</svg>
-								</span>
-							</OverlayTrigger>
+							{/* 翻轉功能 */}
+							<ReactCardFlip isFlipped={card["isFlipped"]}>
+								{/* 卡牌 */}
+								<animated.div
+									{...bind(sIdx)} // 偵測動作[<div {...bind(arg)} />]
+									style={{
+										transform: interpolate([rotation, scale], transformation),
+										backgroundImage: `url(${card["butterfly"]})`
+									}}
+									className="react-card-front-container"
+									onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
+								>
+									{/* 編號 */}
+									<span className="idNumbering">{`${cardDeckSize - sIdx}/${cardDeckSize}`}</span>
+									{/* 提示 */}
+									<OverlayTrigger
+										placement="auto"
+										overlay={<Tooltip id={`hintTooltip-${sIdx}`}>【提示】{butterflyOthers["feature"]}</Tooltip>}
+									>
+										<span className="idHintIcon">
+											<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
+												<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+											</svg>
+										</span>
+									</OverlayTrigger>
+								</animated.div>
+								{/* 解答 */}
+								<animated.div
+									{...bind(sIdx)} // 偵測動作
+									style={{
+										transform: interpolate([rotation, scale], transformation)
+									}}
+									className="react-card-back-container"
+									onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
+								>
+									<a className="react-card-back-content gradient-border" href={butterflyOthers["href"]} target="_blank" rel="noopener noreferrer" role="button">
+										<h1 className="bold-900">{butterflyOthers["name_chi"]}</h1>
+										<h6>{butterflyOthers["name_latin"]}</h6>
+										<h3><span className={`badge rounded-pill bg-${sexColor}`}>{butterflyOthers["sex"]}</span></h3>
+									</a>
+								</animated.div>
+							</ReactCardFlip>
 						</animated.div>
-						{/* 解答 */}
-						<animated.div
-							{...bind(sIdx)} // 偵測動作
-							style={{
-								transform: interpolate([rotation, scale], transformation)
-							}}
-							className="react-card-back-container"
-							onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
-						>
-							<a className="react-card-back-content gradient-border" href={butterflyOthers["href"]} target="_blank" rel="noopener noreferrer" role="button">
-								<h1 className="bold-900">{butterflyOthers["name_chi"]}</h1>
-								<h6>{butterflyOthers["name_latin"]}</h6>
-								<h3><span className={`badge rounded-pill bg-${sexColor}`}>{butterflyOthers["sex"]}</span></h3>
-							</a>
-						</animated.div>
-					</ReactCardFlip>
-				</animated.div>
-			);
-		})}
+					);
+				})}
+			</div>
 		</main>
 	);
 }

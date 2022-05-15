@@ -9,103 +9,104 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    // 洗牌按鈕
-    .shuffleBtn {
-        @include responsive-width(auto, auto, auto, 100%);
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 1000;
+    // 參數區
+    #idSortPanel {
+        div {
+            z-index: 1000;
+        }
     }
-    // 卡牌容器
-    div {
-        position: absolute;
-        width: 100%;
-        height: $mainContentHeight; /* 不超過分頁列表 */
-        will-change: transform; /* 優化動畫 */
-        // 卡牌正反面容器
-        .react-card-front, .react-card-back {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            // 卡牌正反面
-            div {
-                @include responsive-width(48vw, 48vw, 54vw, 75vw);
-                @include responsive-height(32vw, 32vw, 36vw, 50vw);
-                @include background(cover);
-                @include boxShadow("sm", rgba(black, 0.44));
-                max-width: 800px; /* 依據"台灣產蝶蛾圖鑑"格式 */
-                max-height: 533px; /* 依據"台灣產蝶蛾圖鑑"格式 */
-                border: 7px solid white;
-                border-radius: 20px;
-                background-color: white;
-                cursor: grab;
-                will-change: transform; /* 優化動畫 */
-                transition: box-shadow 0.2s;
-                touch-action: none; /* @use-gesture/react */
-                // 抓取卡牌
-                &:active {
-                    @include boxShadow("md", rgba(black, 0.44));
-                    cursor: grabbing;
-                }
-            }
-            // 卡牌正面內容容器
-            .react-card-front-container {
-                // 卡牌編號
-                .idNumbering {
-                    position: absolute;
-                    bottom: 5px;
-                    left: 5px;
-                    color: white;
-                }
-                // 卡牌提示
-                .idHintIcon {
-                    position: absolute;
-                    bottom: 5px;
-                    right: 5px;
-                    cursor: pointer;
-                    color: white;
-                    transition: color 0.2s;
-
-                    svg {
-                        @include responsive-width(3vw, 3vw, 4vw, 5vw);
-                        @include responsive-height(3vw, 3vw, 4vw, 5vw);
-                    }
-
-                    &:hover {
-                        color: $highlightColor;
-                    }
-                }
-            }
-            // 卡牌反面內容容器
-            .react-card-back-container {
+    // 牌組容器
+    #idCardDeckContainer {
+        // 卡牌容器
+        div {
+            position: absolute;
+            width: 100%;
+            height: $mainContentHeight; /* 不超過分頁列表 */
+            will-change: transform; /* 優化動畫 */
+            // 卡牌正反面容器
+            .react-card-front, .react-card-back {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding: 10px 20px;
-                // 卡牌反面內容
-                .react-card-back-content {
-                    text-decoration: none;
-                    color: black;
-                    transition: all 0.3s;
-                    // 字體變流動彩虹色
-                    &:hover {
-                        color: transparent;
-                        background-image: linear-gradient(
-                            60deg,
-                            hsl(224, 85%, 66%),
-                            hsl(269, 85%, 66%),
-                            hsl(314, 85%, 66%),
-                            hsl(359, 85%, 66%),
-                            hsl(44, 85%, 66%),
-                            hsl(89, 85%, 66%),
-                            hsl(134, 85%, 66%),
-                            hsl(179, 85%, 66%)
-                        );
-                        background-size: 300% 300%;
-                        background-position: 0 50%;
-                        background-clip: text; // 僅針對字
-                        animation: moveGradient 4s alternate infinite;
+                // 卡牌正反面
+                div {
+                    @include responsive-width(48vw, 48vw, 54vw, 75vw);
+                    @include responsive-height(32vw, 32vw, 36vw, 50vw);
+                    @include background(cover);
+                    @include boxShadow("sm", rgba(black, 0.44));
+                    max-width: 800px; /* 依據"台灣產蝶蛾圖鑑"格式 */
+                    max-height: 533px; /* 依據"台灣產蝶蛾圖鑑"格式 */
+                    border: 7px solid white;
+                    border-radius: 20px;
+                    background-color: white;
+                    cursor: grab;
+                    will-change: transform; /* 優化動畫 */
+                    transition: box-shadow 0.2s;
+                    touch-action: none; /* @use-gesture/react */
+                    // 抓取卡牌
+                    &:active {
+                        @include boxShadow("md", rgba(black, 0.44));
+                        cursor: grabbing;
+                    }
+                }
+                // 卡牌正面內容容器
+                .react-card-front-container {
+                    // 卡牌編號
+                    .idNumbering {
+                        position: absolute;
+                        bottom: 5px;
+                        left: 5px;
+                        color: white;
+                    }
+                    // 卡牌提示
+                    .idHintIcon {
+                        position: absolute;
+                        bottom: 5px;
+                        right: 5px;
+                        cursor: pointer;
+                        color: white;
+                        transition: color 0.2s;
+
+                        svg {
+                            @include responsive-width(3vw, 3vw, 4vw, 5vw);
+                            @include responsive-height(3vw, 3vw, 4vw, 5vw);
+                        }
+
+                        &:hover {
+                            color: $highlightColor;
+                        }
+                    }
+                }
+                // 卡牌反面內容容器
+                .react-card-back-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 20px;
+                    // 卡牌反面內容
+                    .react-card-back-content {
+                        text-decoration: none;
+                        color: black;
+                        transition: all 0.3s;
+                        // 字體變流動彩虹色
+                        &:hover {
+                            color: transparent;
+                            background-image: linear-gradient(
+                                60deg,
+                                hsl(224, 85%, 66%),
+                                hsl(269, 85%, 66%),
+                                hsl(314, 85%, 66%),
+                                hsl(359, 85%, 66%),
+                                hsl(44, 85%, 66%),
+                                hsl(89, 85%, 66%),
+                                hsl(134, 85%, 66%),
+                                hsl(179, 85%, 66%)
+                            );
+                            background-size: 300% 300%;
+                            background-position: 0 50%;
+                            background-clip: text; // 僅針對字
+                            animation: moveGradient 4s alternate infinite;
+                        }
                     }
                 }
             }

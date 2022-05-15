@@ -26,33 +26,10 @@
   height: 100%;
   overflow: hidden;
 }
-#idMain .shuffleBtn {
-  position: absolute;
-  top: 0;
-  right: 0;
+#idMain #idSortPanel div {
   z-index: 1000;
 }
-@media all and (min-width: 1200px) {
-  #idMain .shuffleBtn {
-    width: auto;
-  }
-}
-@media all and (min-width: 992px) and (max-width: 1199px) {
-  #idMain .shuffleBtn {
-    width: auto;
-  }
-}
-@media all and (min-width: 768px) and (max-width: 991px) {
-  #idMain .shuffleBtn {
-    width: auto;
-  }
-}
-@media all and (max-width: 767px) {
-  #idMain .shuffleBtn {
-    width: 100%;
-  }
-}
-#idMain div {
+#idMain #idCardDeckContainer div {
   position: absolute;
   width: 100%;
   height: calc(100vh - 61.95px);
@@ -60,12 +37,12 @@
   will-change: transform;
   /* 優化動畫 */
 }
-#idMain div .react-card-front, #idMain div .react-card-back {
+#idMain #idCardDeckContainer div .react-card-front, #idMain #idCardDeckContainer div .react-card-back {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#idMain div .react-card-front div, #idMain div .react-card-back div {
+#idMain #idCardDeckContainer div .react-card-front div, #idMain #idCardDeckContainer div .react-card-back div {
   background-position: center;
   background-size: cover;
   /* auto, cover, contain */
@@ -87,56 +64,56 @@
   /* @use-gesture/react */
 }
 @media all and (min-width: 1200px) {
-  #idMain div .react-card-front div, #idMain div .react-card-back div {
+  #idMain #idCardDeckContainer div .react-card-front div, #idMain #idCardDeckContainer div .react-card-back div {
     width: 48vw;
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-  #idMain div .react-card-front div, #idMain div .react-card-back div {
+  #idMain #idCardDeckContainer div .react-card-front div, #idMain #idCardDeckContainer div .react-card-back div {
     width: 48vw;
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  #idMain div .react-card-front div, #idMain div .react-card-back div {
+  #idMain #idCardDeckContainer div .react-card-front div, #idMain #idCardDeckContainer div .react-card-back div {
     width: 54vw;
   }
 }
 @media all and (max-width: 767px) {
-  #idMain div .react-card-front div, #idMain div .react-card-back div {
+  #idMain #idCardDeckContainer div .react-card-front div, #idMain #idCardDeckContainer div .react-card-back div {
     width: 75vw;
   }
 }
 @media all and (min-width: 1200px) {
-  #idMain div .react-card-front div, #idMain div .react-card-back div {
+  #idMain #idCardDeckContainer div .react-card-front div, #idMain #idCardDeckContainer div .react-card-back div {
     height: 32vw;
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-  #idMain div .react-card-front div, #idMain div .react-card-back div {
+  #idMain #idCardDeckContainer div .react-card-front div, #idMain #idCardDeckContainer div .react-card-back div {
     height: 32vw;
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  #idMain div .react-card-front div, #idMain div .react-card-back div {
+  #idMain #idCardDeckContainer div .react-card-front div, #idMain #idCardDeckContainer div .react-card-back div {
     height: 36vw;
   }
 }
 @media all and (max-width: 767px) {
-  #idMain div .react-card-front div, #idMain div .react-card-back div {
+  #idMain #idCardDeckContainer div .react-card-front div, #idMain #idCardDeckContainer div .react-card-back div {
     height: 50vw;
   }
 }
-#idMain div .react-card-front div:active, #idMain div .react-card-back div:active {
+#idMain #idCardDeckContainer div .react-card-front div:active, #idMain #idCardDeckContainer div .react-card-back div:active {
   box-shadow: 4.8px 9.6px 9.6px rgba(0, 0, 0, 0.44);
   cursor: grabbing;
 }
-#idMain div .react-card-front .react-card-front-container .idNumbering, #idMain div .react-card-back .react-card-front-container .idNumbering {
+#idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idNumbering, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idNumbering {
   position: absolute;
   bottom: 5px;
   left: 5px;
   color: white;
 }
-#idMain div .react-card-front .react-card-front-container .idHintIcon, #idMain div .react-card-back .react-card-front-container .idHintIcon {
+#idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon {
   position: absolute;
   bottom: 5px;
   right: 5px;
@@ -145,60 +122,60 @@
   transition: color 0.2s;
 }
 @media all and (min-width: 1200px) {
-  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
+  #idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon svg, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon svg {
     width: 3vw;
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
+  #idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon svg, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon svg {
     width: 3vw;
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
+  #idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon svg, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon svg {
     width: 4vw;
   }
 }
 @media all and (max-width: 767px) {
-  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
+  #idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon svg, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon svg {
     width: 5vw;
   }
 }
 @media all and (min-width: 1200px) {
-  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
+  #idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon svg, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon svg {
     height: 3vw;
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
+  #idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon svg, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon svg {
     height: 3vw;
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
+  #idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon svg, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon svg {
     height: 4vw;
   }
 }
 @media all and (max-width: 767px) {
-  #idMain div .react-card-front .react-card-front-container .idHintIcon svg, #idMain div .react-card-back .react-card-front-container .idHintIcon svg {
+  #idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon svg, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon svg {
     height: 5vw;
   }
 }
-#idMain div .react-card-front .react-card-front-container .idHintIcon:hover, #idMain div .react-card-back .react-card-front-container .idHintIcon:hover {
+#idMain #idCardDeckContainer div .react-card-front .react-card-front-container .idHintIcon:hover, #idMain #idCardDeckContainer div .react-card-back .react-card-front-container .idHintIcon:hover {
   color: #FE9AFF;
 }
-#idMain div .react-card-front .react-card-back-container, #idMain div .react-card-back .react-card-back-container {
+#idMain #idCardDeckContainer div .react-card-front .react-card-back-container, #idMain #idCardDeckContainer div .react-card-back .react-card-back-container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 20px;
 }
-#idMain div .react-card-front .react-card-back-container .react-card-back-content, #idMain div .react-card-back .react-card-back-container .react-card-back-content {
+#idMain #idCardDeckContainer div .react-card-front .react-card-back-container .react-card-back-content, #idMain #idCardDeckContainer div .react-card-back .react-card-back-container .react-card-back-content {
   text-decoration: none;
   color: black;
   transition: all 0.3s;
 }
-#idMain div .react-card-front .react-card-back-container .react-card-back-content:hover, #idMain div .react-card-back .react-card-back-container .react-card-back-content:hover {
+#idMain #idCardDeckContainer div .react-card-front .react-card-back-container .react-card-back-content:hover, #idMain #idCardDeckContainer div .react-card-back .react-card-back-container .react-card-back-content:hover {
   color: transparent;
   background-image: linear-gradient(60deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, #f2cb5f, #abf25f, #5ff281, #5ff2f0);
   background-size: 300% 300%;
