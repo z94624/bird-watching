@@ -4528,7 +4528,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -4970,6 +4970,53 @@
         ],
         "Duration_Min": [
             8.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "台灣竹雞"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -11845,6 +11892,53 @@
     },
     {
         "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S91819247"
         ],
         "Common_Name": [
@@ -14712,6 +14806,53 @@
     },
     {
         "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S84363922"
         ],
         "Common_Name": [
@@ -15996,7 +16137,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -21401,7 +21542,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -21448,7 +21589,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -23303,6 +23444,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "紅冠水雞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -34922,6 +35110,53 @@
     },
     {
         "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "青足鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S102721130"
         ],
         "Common_Name": [
@@ -41141,7 +41376,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -42912,6 +43147,53 @@
     },
     {
         "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "中白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S101253204"
         ],
         "Common_Name": [
@@ -43795,6 +44077,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -44854,7 +45183,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -50714,6 +51043,53 @@
     },
     {
         "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "夜鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88440195"
         ],
         "Common_Name": [
@@ -53126,7 +53502,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -53991,6 +54367,53 @@
         ],
         "Duration_Min": [
             22.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "鷺科"
+        ],
+        "Count": [
+            11
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
         ],
         "Number_of_Observers": [
             1
@@ -57262,7 +57685,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -58813,7 +59236,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -58860,7 +59283,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -59349,6 +59772,53 @@
         ],
         "Duration_Min": [
             1.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "大冠鷲"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -61586,7 +62056,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -62639,6 +63109,53 @@
         ],
         "Duration_Min": [
             182.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "黑鳶"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -67978,7 +68495,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -69454,6 +69971,53 @@
         ],
         "Duration_Min": [
             8.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -71597,7 +72161,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -71644,7 +72208,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -73430,7 +73994,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -73477,7 +74041,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -74417,7 +74981,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -74464,7 +75028,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -77598,6 +78162,53 @@
     },
     {
         "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S73193730"
         ],
         "Common_Name": [
@@ -79117,7 +79728,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -79164,7 +79775,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -80057,7 +80668,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -81016,6 +81627,53 @@
         ],
         "Duration_Min": [
             93.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "黑枕藍鶲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -87013,7 +87671,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -87060,7 +87718,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -88536,6 +89194,53 @@
         ],
         "Duration_Min": [
             93.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            7
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -91854,7 +92559,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -92606,7 +93311,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -92653,7 +93358,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -92700,7 +93405,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -94320,6 +95025,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "灰頭鷦鶯"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -97855,6 +98607,53 @@
     },
     {
         "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "褐頭鷦鶯"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S101253204"
         ],
         "Common_Name": [
@@ -98904,7 +99703,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -104403,7 +105202,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -107255,6 +108054,53 @@
     },
     {
         "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "洋燕"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88375449"
         ],
         "Common_Name": [
@@ -108304,7 +109150,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -110169,6 +111015,53 @@
     },
     {
         "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "赤腰燕"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S91819247"
         ],
         "Common_Name": [
@@ -111500,7 +112393,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -112274,6 +113167,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            13
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -114602,7 +115542,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -116689,6 +117629,53 @@
         ],
         "Duration_Min": [
             93.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -123062,7 +124049,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -123109,7 +124096,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -124679,6 +125666,53 @@
         ],
         "Duration_Min": [
             8.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -127198,7 +128232,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -131554,6 +132588,53 @@
     },
     {
         "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88375449"
         ],
         "Common_Name": [
@@ -133872,7 +134953,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -133919,7 +135000,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -135724,6 +136805,53 @@
         ],
         "Duration_Min": [
             93.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            9
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -139089,7 +140217,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -139136,7 +140264,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -139766,6 +140894,53 @@
         ],
         "Duration_Min": [
             93.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "山紅頭"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -141627,7 +142802,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -141674,7 +142849,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -142257,6 +143432,53 @@
         ],
         "Duration_Min": [
             130.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -143586,6 +144808,53 @@
     },
     {
         "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "大彎嘴"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88510176"
         ],
         "Common_Name": [
@@ -143977,7 +145246,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -144870,7 +146139,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -144917,7 +146186,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -145221,6 +146490,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "繡眼畫眉"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -147803,6 +149119,53 @@
         ],
         "Duration_Min": [
             182.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "黑喉噪眉"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
         ],
         "Number_of_Observers": [
             2
@@ -152412,6 +153775,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "白尾八哥"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
         ],
         "Breeding_Code": [
             ""
@@ -158030,7 +159440,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -163326,6 +164736,53 @@
     },
     {
         "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "台灣紫嘯鶇"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S103724100"
         ],
         "Common_Name": [
@@ -164140,7 +165597,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -164187,7 +165644,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -164892,7 +166349,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -165738,7 +167195,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -169639,7 +171096,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -169686,7 +171143,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -170369,6 +171826,53 @@
         ],
         "Breeding_Code": [
             ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S109843411"
+        ],
+        "Common_Name": [
+            "麻雀"
+        ],
+        "Count": [
+            21
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "120 四草大道, 安南區, 台南市, TW (23.002, 120.139)"
+        ],
+        "Latitude": [
+            23.002369199999997
+        ],
+        "Longitude": [
+            120.139375
+        ],
+        "Date": [
+            "2022-05-13"
+        ],
+        "Time": [
+            "02:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            16.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            "FL 剛離巢的幼鳥"
         ],
         "Observation_Details": [
             ""
@@ -171942,7 +173446,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -175467,7 +176971,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -175514,7 +177018,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068
@@ -178945,7 +180449,7 @@
             ""
         ],
         "Location": [
-            "台中--德芙蘭步道(Taichuang--Defulan Trail)"
+            "台中--德芙蘭步道(Taichung--Defulan Trail)"
         ],
         "Latitude": [
             24.182068

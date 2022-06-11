@@ -1,5 +1,41 @@
 [
     {
+        "bird": "巨嘴鴉",
+        "records": [
+            {
+                "id": "1ihvewTZp1Gz-TnQZoGumaC250R3pxf1x",
+                "name": "20220601-105914_水源路二段墳墓區_巨嘴鴉.wav"
+            }
+        ]
+    },
+    {
+        "bird": "黑領椋鳥",
+        "records": [
+            {
+                "id": "1iR3RxN3biKVqiUOX5gq6HcURA7IkJTOl",
+                "name": "20220528-170029_感恩動物醫院_黑領椋鳥.aac"
+            }
+        ]
+    },
+    {
+        "bird": "黑冠麻鷺",
+        "records": [
+            {
+                "id": "1W4FVf85XWVyopDnlcUMLuLwKtYD79HqD",
+                "name": "20220419-181127_中研院_黑冠麻鷺.aac"
+            }
+        ]
+    },
+    {
+        "bird": "白頭翁",
+        "records": [
+            {
+                "id": "1VxrnumiLa2xiHkEmgDJF-SHM2LigBsUo",
+                "name": "20220504-174646_宜興家_白頭翁.aac"
+            }
+        ]
+    },
+    {
         "bird": "樹鵲",
         "records": [
             {
@@ -20,6 +56,30 @@
     {
         "bird": "玄鳳",
         "records": [
+            {
+                "id": "1VqFVvEBKFrEu03JEkWXNwdRUJZZMoC6v",
+                "name": "20220516-205106_拉拉_.aac"
+            },
+            {
+                "id": "1VoGeEtWSHdBCFYmM-G5Yrk6hbAKmRjLv",
+                "name": "20220516-132444_拉拉_.aac"
+            },
+            {
+                "id": "1VdqFmzJha2ZstbPfsQSqd9YSRIPxKV4p",
+                "name": "20220514-142932_拉拉_.aac"
+            },
+            {
+                "id": "1VO5wzekVhhCY1BioKuun4HYCEk9pwH2p",
+                "name": "20220509-005233_拉拉_.aac"
+            },
+            {
+                "id": "1VO1dRMdwBZedW9uJwLQmNFIRHooO5koX",
+                "name": "20220421-130845_拉拉_.aac"
+            },
+            {
+                "id": "1VGRYNAEZc2ijuomXcCk1iVrbD1regJsK",
+                "name": "20220412-205445_拉拉_.aac"
+            },
             {
                 "id": "1pYawXHXBPoTczejSX7f-B2d-_bf8ZNCH",
                 "name": "20220411-131349_拉拉_.aac"
@@ -193,6 +253,14 @@
         "bird": "台灣竹雞",
         "records": [
             {
+                "id": "1itcBcb8P48FPbDF1p01bwSHNq1cCUpj1",
+                "name": "20220603-100302_耳空龜_台灣竹雞.wav"
+            },
+            {
+                "id": "1WJdHnL2ksGHJiUbZ-HfpLmFfTVdk1W6T",
+                "name": "20220421-135304_中研院_台灣竹雞.aac"
+            },
+            {
                 "id": "17lk-xlZKMAE8cRI2qS6VQu7pBuEmIrsd",
                 "name": "20210513-111706_中研後山_台灣竹雞.aac"
             }
@@ -233,6 +301,10 @@
         "bird": "斯氏繡眼",
         "records": [
             {
+                "id": "1izZqdAG5HAGsX3Y7Qo-DlvNDCIK5jus_",
+                "name": "20220602-080921_中研院_斯氏繡眼.wav"
+            },
+            {
                 "id": "1nDWjlTcZKwf_ycrnGdnA09t4_tA14t33",
                 "name": "20210408-082155_九如綠地_斯氏繡眼.aac"
             },
@@ -249,6 +321,10 @@
     {
         "bird": "大冠鷲",
         "records": [
+            {
+                "id": "1iVo90gQmWWm0iV9NF93NBIN8w05pSsA3",
+                "name": "20220601-105105_水源路二段墳墓區_大冠鷲.wav"
+            },
             {
                 "id": "1DtdG2BlYdfCakaDV0QJoV7YqwH8Mm2gr",
                 "name": "20210603-102748_水源路二段墳墓區_大冠鷲.aac"
@@ -280,6 +356,10 @@
     {
         "bird": "台灣紫嘯鶇",
         "records": [
+            {
+                "id": "1W6tHhAuD-xw5Jjg4tjQfWTzUN1APg0GM",
+                "name": "20220412-080452_中研院_台灣紫嘯鶇.aac"
+            },
             {
                 "id": "1OnK2iO4dELrEfwWv20OpHgsgfbrcPbgH",
                 "name": "20220310-035710_宜興家_台灣紫嘯鶇.aac"
@@ -329,6 +409,10 @@
     {
         "bird": "大卷尾",
         "records": [
+            {
+                "id": "1iXNKoZYobHaq8ILWDSGxZ--9T2tj9LFg",
+                "name": "20220601-131153_宜興家_大卷尾.wav"
+            },
             {
                 "id": "17iJEoRpzfxd2QTNXSYDMLTd1rrVsAZE6",
                 "name": "20210507-021804_宜興家_大卷尾.aac"
