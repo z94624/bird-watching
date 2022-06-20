@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 import { useSprings, animated, to as interpolate } from '@react-spring/web';
 import { useDrag } from '@use-gesture/react';
-import ReactCardFlip from 'react-card-flip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
@@ -154,6 +153,7 @@ const Identity = () => {
 				{/* 牌組 */}
 				{springs.map(({ x, y, rotation, scale }, sIdx) => {
 					let card = cards[sIdx];
+					let isFlipped = card["isFlipped"];
 					// 該蝴蝶其他資訊
 					let butterflyOthers = butterflyInfos.find(info => info.butterfly === card["butterfly"]);
 					let sexColor = butterflyOthers["sex"] === "♂" ? "primary" : "danger";
@@ -163,48 +163,66 @@ const Identity = () => {
 							key={`idAnimatedDiv-${sIdx}`}
 							style={{ x, y }}
 						>
-							{/* 翻轉功能 */}
-							<ReactCardFlip isFlipped={card["isFlipped"]}>
-								{/* 卡牌 */}
-								<animated.div
-									{...bind(sIdx)} // 偵測動作[<div {...bind(arg)} />]
-									style={{
-										transform: interpolate([rotation, scale], transformation),
-										backgroundImage: `url(${card["butterfly"]})`
-									}}
-									className="react-card-front-container"
-									onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
+							{/* 模仿 react-card-flip 結構，因其故障 */}
+							<animated.div className="react-card-flip"
+								style={{ perspective: "1000px", "z-index": "auto" }}
+							>
+								<animated.div className="react-card-flipper"
+									style={{ height: "100%", position: "relative", width: "100%" }}
 								>
-									{/* 編號 */}
-									<span className="idNumbering">{`${cardDeckSize - sIdx}/${cardDeckSize}`}</span>
-									{/* 提示 */}
-									<OverlayTrigger
-										placement="auto"
-										overlay={<Tooltip id={`hintTooltip-${sIdx}`}>【提示】{butterflyOthers["feature"]}</Tooltip>}
+									<animated.div className="react-card-front"
+										style={{ "backface-visibility": "hidden", height: "100%", left: "0px", position: isFlipped ? "absolute" : "relative", top: "0px", transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)", "transform-style": "preserve-3d", transition: "all 0.6s ease 0s", width: "100%", "z-index": 2 }}
 									>
-										<span className="idHintIcon">
-											<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
-												<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-											</svg>
-										</span>
-									</OverlayTrigger>
+										{/* 卡牌 */}
+										<animated.div
+											{...bind(sIdx)} // 偵測動作[<div {...bind(arg)} />]
+											style={{
+												opacity: isFlipped ? 0 : 1,
+												transition: "opacity 0.3s",
+												transform: interpolate([rotation, scale], transformation),
+												backgroundImage: `url(${card["butterfly"]})`
+											}}
+											className="react-card-front-container"
+											onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
+										>
+											{/* 編號 */}
+											<span className="idNumbering">{`${cardDeckSize - sIdx}/${cardDeckSize}`}</span>
+											{/* 提示 */}
+											<OverlayTrigger
+												placement="auto"
+												overlay={<Tooltip id={`hintTooltip-${sIdx}`}>【提示】{butterflyOthers["feature"]}</Tooltip>}
+											>
+												<span className="idHintIcon">
+													<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
+														<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+													</svg>
+												</span>
+											</OverlayTrigger>
+										</animated.div>
+									</animated.div>
+									<animated.div className="react-card-back"
+										style={{ "backface-visibility": "hidden", height: "100%", left: "0px", position: isFlipped ? "relative" : "absolute", top: "0px", transform: isFlipped ? "rotateY(0deg)" : "rotateY(-180deg)", "transform-style": "preserve-3d", transition: "all 0.6s ease 0s", width: "100%" }}
+									>
+										{/* 解答 */}
+										<animated.div
+											{...bind(sIdx)} // 偵測動作
+											style={{
+												opacity: isFlipped ? 1 : 0,
+												transition: "opacity 0.3s",
+												transform: interpolate([rotation, scale], transformation)
+											}}
+											className="react-card-back-container"
+											onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
+										>
+											<a className="react-card-back-content gradient-border" href={butterflyOthers["href"]} target="_blank" rel="noopener noreferrer" role="button">
+												<h1 className="bold-900">{butterflyOthers["name_chi"]}</h1>
+												<h6>{butterflyOthers["name_latin"]}</h6>
+												<h3><span className={`badge rounded-pill bg-${sexColor}`}>{butterflyOthers["sex"]}</span></h3>
+											</a>
+										</animated.div>
+									</animated.div>
 								</animated.div>
-								{/* 解答 */}
-								<animated.div
-									{...bind(sIdx)} // 偵測動作
-									style={{
-										transform: interpolate([rotation, scale], transformation)
-									}}
-									className="react-card-back-container"
-									onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
-								>
-									<a className="react-card-back-content gradient-border" href={butterflyOthers["href"]} target="_blank" rel="noopener noreferrer" role="button">
-										<h1 className="bold-900">{butterflyOthers["name_chi"]}</h1>
-										<h6>{butterflyOthers["name_latin"]}</h6>
-										<h3><span className={`badge rounded-pill bg-${sexColor}`}>{butterflyOthers["sex"]}</span></h3>
-									</a>
-								</animated.div>
-							</ReactCardFlip>
+							</animated.div>
 						</animated.div>
 					);
 				})}
