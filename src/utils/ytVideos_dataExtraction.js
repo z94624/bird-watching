@@ -18,7 +18,7 @@ export const itemsToRainbowSelectOptions = (items, id, label, hideLabel=false, v
 			label={label}
 			labelAlignment="left"
 			hideLabel={hideLabel}
-			options={hasDefault ? [...options, allOption] : options}
+			options={hasDefault ? [allOption, ...options] : options}
 			value={value}
 			onChange={onChange}
 			variant="default" // 篩選框 style；default, shaded

@@ -9,13 +9,6 @@ import './Identity.css';
 import { butterflyInfos } from './../utils/identity-butterflies.js';
 import { shuffleArray } from './../utils/tools.js';
 import { itemsToRainbowSelectOptions } from './../utils/ytVideos_dataExtraction';
-// 蝴蝶照片集
-const butterflyCards = butterflyInfos.map(info => {
-	return {
-		"butterfly": info.butterfly, // 照片
-		"isFlipped": false // 翻轉狀態
-	};
-});
 /*
  * https://react-spring.io/common/props
  * 載入牌組
@@ -43,8 +36,31 @@ const Identity = () => {
 		setDatabase(userDatabase.target.value);
 	}
 	const databaseSelect = itemsToRainbowSelectOptions(["蝴蝶", "鳥"], "idDatabaseSelect", "資料庫", undefined, database, handleDatabaseChange, undefined);
+	// 資料庫資料
+	var animalInfos = butterflyInfos;
+	switch (database) {
+		case "蝴蝶":
+			animalInfos = butterflyInfos; break;
+		case "鳥":
+	}
+	// 分科
+	const animalFamilies = [...new Set(animalInfos.map(info => {return info.family_chi;}))];
+	const [family, setFamily] = useState(animalFamilies[0]);
+	const handleFamilyChange = userFamily => {
+		setFamily(userFamily.target.value);
+	}
+	const familySelect = itemsToRainbowSelectOptions(animalFamilies, "idFamilySelect", "科別", undefined, family, handleFamilyChange, true);
+	// 資料集
+	const animalCards = animalInfos
+		.filter(info => family === "*全部" || info.family_chi === family)
+		.map(info => {
+			return {
+				"image": info.image, // 照片
+				"isFlipped": false // 翻轉狀態
+			};
+		});
 	// 牌組
-	const [cards, setCards] = useState(butterflyCards);
+	const [cards, setCards] = useState(animalCards);
 	const cardDeckSize = cards.length;
 	const onShuffling = () => { // 洗牌
 		// 步驟一：拿起牌組
@@ -52,7 +68,7 @@ const Identity = () => {
 		api.start(i => ({...inHand(i), delay: Math.random() * cardDeckSize * 30})); // 隨機收集
 		setTimeout(() => {
 			// 步驟二：洗牌
-			let shuffledCards = shuffleArray(butterflyCards);
+			let shuffledCards = shuffleArray(animalCards);
 			setCards([...shuffledCards]);
 			// 步驟三：洗完後重新發牌
 			api.start(i => onTable(i));
@@ -131,10 +147,10 @@ const Identity = () => {
 				</div>
 				{/* 分科 */}
 				<div className="col-sm-4">
-					
+					{familySelect}
 				</div>
 				{/* 洗牌按鈕 */}
-				<div className="col-sm-4">
+				<div className="col-sm-4 text-start">
 					<button
 						type="button"
 						className="btn btn-outline-warning shuffleBtn"
@@ -155,7 +171,7 @@ const Identity = () => {
 					let card = cards[sIdx];
 					let isFlipped = card["isFlipped"];
 					// 該蝴蝶其他資訊
-					let butterflyOthers = butterflyInfos.find(info => info.butterfly === card["butterfly"]);
+					let butterflyOthers = animalInfos.find(info => info.image === card["image"]);
 					let sexColor = butterflyOthers["sex"] === "♂" ? "primary" : "danger";
 					return (
 						// 卡牌容器
@@ -165,13 +181,13 @@ const Identity = () => {
 						>
 							{/* 模仿 react-card-flip 結構，因其故障 */}
 							<animated.div className="react-card-flip"
-								style={{ perspective: "1000px", "z-index": "auto" }}
+								style={{ perspective: "1000px", zIndex: "auto" }}
 							>
 								<animated.div className="react-card-flipper"
 									style={{ height: "100%", position: "relative", width: "100%" }}
 								>
 									<animated.div className="react-card-front"
-										style={{ "backface-visibility": "hidden", height: "100%", left: "0px", position: isFlipped ? "absolute" : "relative", top: "0px", transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)", "transform-style": "preserve-3d", transition: "all 0.6s ease 0s", width: "100%", "z-index": 2 }}
+										style={{ backfaceVisibility: "hidden", height: "100%", left: "0px", position: isFlipped ? "absolute" : "relative", top: "0px", transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)", transformStyle: "preserve-3d", transition: "all 0.6s ease 0s", width: "100%", zIndex: 2 }}
 									>
 										{/* 卡牌 */}
 										<animated.div
@@ -180,7 +196,7 @@ const Identity = () => {
 												opacity: isFlipped ? 0 : 1,
 												transition: "opacity 0.3s",
 												transform: interpolate([rotation, scale], transformation),
-												backgroundImage: `url(${card["butterfly"]})`
+												backgroundImage: `url(${card["image"]})`
 											}}
 											className="react-card-front-container"
 											onContextMenu={e => onFlipping(e, sIdx)} // 右鍵翻轉
@@ -201,7 +217,7 @@ const Identity = () => {
 										</animated.div>
 									</animated.div>
 									<animated.div className="react-card-back"
-										style={{ "backface-visibility": "hidden", height: "100%", left: "0px", position: isFlipped ? "relative" : "absolute", top: "0px", transform: isFlipped ? "rotateY(0deg)" : "rotateY(-180deg)", "transform-style": "preserve-3d", transition: "all 0.6s ease 0s", width: "100%" }}
+										style={{ backfaceVisibility: "hidden", height: "100%", left: "0px", position: isFlipped ? "relative" : "absolute", top: "0px", transform: isFlipped ? "rotateY(0deg)" : "rotateY(-180deg)", transformStyle: "preserve-3d", transition: "all 0.6s ease 0s", width: "100%" }}
 									>
 										{/* 解答 */}
 										<animated.div
