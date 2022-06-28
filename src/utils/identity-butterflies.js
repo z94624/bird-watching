@@ -14,6 +14,11 @@ import tirumalaLimniace_xs from './../images/identity/butterfly/淡紋青斑蝶1
 import tirumalaSeptentrionis_xs from './../images/identity/butterfly/小紋青斑蝶1.jpg';
 import paranticaSwinhoei_fs from './../images/identity/butterfly/斯氏絹斑蝶1.jpg';
 import paranticaSita_xs from './../images/identity/butterfly/大絹斑蝶1.jpg';
+
+import nacadubaKurava_ms from './../images/identity/butterfly/大娜波灰蝶1.jpg';
+import nacadubaBeroe_xs from './../images/identity/butterfly/南方娜波灰蝶1.jpg';
+import prosotasDubiosa_xs from './../images/identity/butterfly/密紋波灰蝶1.jpg';
+import prosotasNora_ms from './../images/identity/butterfly/波灰蝶1.jpg';
 // 蝴蝶基本資料
 export const butterflyInfos = [
 	{
@@ -169,5 +174,49 @@ export const butterflyInfos = [
 		"image": paranticaSita_xs,
 		"family_chi": "蛺蝶科",
 		"family_latin": "Nymphalidae"
+	},
+	{
+		"name_chi": "大娜波灰蝶",
+		"name_latin": "Nacaduba kurava therasia",
+		"sex": "♂",
+		"direction": "s",
+		"feature": "有尾突，前翅三條波狀紋，靠外緣波狀紋較『平整』。",
+		"href": "http://dearlep.tw/species.html?namecode=345753&photo_id=ececc2eef664fc6715ce25f870684929",
+		"image": nacadubaKurava_ms,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
+	},
+	{
+		"name_chi": "南方娜波灰蝶",
+		"name_latin": "Nacaduba beroe asakusa",
+		"sex": "",
+		"direction": "s",
+		"feature": "有尾突，前翅三條波狀紋，靠翅基波狀紋『只及於中室前脈』。",
+		"href": "https://www.tbn.org.tw/taxa/69f43c68-c5a7-4c68-8304-2c1e21dbfdce?ft=datatype%3Aoccurrence",
+		"image": nacadubaBeroe_xs,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
+	},
+	{
+		"name_chi": "密紋波灰蝶",
+		"name_latin": "Prosotas dubiosa asbolodes",
+		"sex": "",
+		"direction": "s",
+		"feature": "『無尾突』，前翅三條波狀紋，靠外緣波狀紋形成弧形，主要分佈南部地區。",
+		"href": "http://dearlep.tw/species.html?namecode=349780&photo_id=f649899a23479244c8e2165dc2b5ffb0",
+		"image": prosotasDubiosa_xs,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
+	},
+	{
+		"name_chi": "波灰蝶",
+		"name_latin": "Prosotas nora formosana",
+		"sex": "♂",
+		"direction": "s",
+		"feature": "有尾突，前翅三條『金色』波狀紋，靠外緣波狀紋凹凸不平，第四小段排列歪斜。",
+		"href": "http://dearlep.tw/species.html?namecode=345764&photo_id=2569c5fa1c4dd45b9031b2f7595f310e",
+		"image": prosotasNora_ms,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
 	}
 ];
