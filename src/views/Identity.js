@@ -6,7 +6,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 import './Identity.css';
-import { butterflyInfos } from './../utils/identity-butterflies.js';
+import { butterflyInfos } from './../utils/identity/butterflies.js';
 import { shuffleArray } from './../utils/tools.js';
 import { itemsToRainbowSelectOptions } from './../utils/ytVideos_dataExtraction';
 /*
