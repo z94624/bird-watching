@@ -19,6 +19,15 @@ import nacadubaKurava_ms from './../images/identity/butterfly/大娜波灰蝶1.j
 import nacadubaBeroe_xs from './../images/identity/butterfly/南方娜波灰蝶1.jpg';
 import prosotasDubiosa_xs from './../images/identity/butterfly/密紋波灰蝶1.jpg';
 import prosotasNora_ms from './../images/identity/butterfly/波灰蝶1.jpg';
+
+import acytolepisPuspa_ms from './../images/identity/butterfly/靛色琉灰蝶1.jpg';
+import celastrinaLavendularis_ms from './../images/identity/butterfly/細邊琉灰蝶1.jpg';
+import neopithecopsZalmora_fs from './../images/identity/butterfly/黑點灰蝶1.jpg';
+import megisbaMalaya_fs from './../images/identity/butterfly/黑星灰蝶1.jpg';
+import deudorixEpijarbas_xs from './../images/identity/butterfly/玳灰蝶1.jpg';
+import rapalaVaruna_xs from './../images/identity/butterfly/燕灰蝶1.jpg';
+
+
 // 蝴蝶基本資料
 export const butterflyInfos = [
 	{
@@ -180,7 +189,7 @@ export const butterflyInfos = [
 		"name_latin": "Nacaduba kurava therasia",
 		"sex": "♂",
 		"direction": "s",
-		"feature": "有尾突，前翅三條波狀紋，靠外緣波狀紋較『平整』。",
+		"feature": "有尾突，前翅三條波狀紋，靠外緣波狀紋較『平整』。波紋白線明顯。",
 		"href": "http://dearlep.tw/species.html?namecode=345753&photo_id=ececc2eef664fc6715ce25f870684929",
 		"image": nacadubaKurava_ms,
 		"family_chi": "灰蝶科",
@@ -213,9 +222,75 @@ export const butterflyInfos = [
 		"name_latin": "Prosotas nora formosana",
 		"sex": "♂",
 		"direction": "s",
-		"feature": "有尾突，前翅三條『金色』波狀紋，靠外緣波狀紋凹凸不平，第四小段排列歪斜。",
+		"feature": "有尾突，前翅三條『金色』波狀紋，靠外緣波狀紋凹凸不平，第四小段排列歪斜。波紋白線不明顯，白線內黑邊明顯。",
 		"href": "http://dearlep.tw/species.html?namecode=345764&photo_id=2569c5fa1c4dd45b9031b2f7595f310e",
 		"image": prosotasNora_ms,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
+	},
+	{
+		"name_chi": "靛色琉灰蝶",
+		"name_latin": "Acytolepis puspa myla",
+		"sex": "♂",
+		"direction": "s",
+		"feature": "前翅 3+2 黑色點，後翅上外緣兩點底色同。",
+		"href": "http://dearlep.tw/species.html?namecode=431963&photo_id=0ad79dfe9c44f0e7838875a277d36f65",
+		"image": acytolepisPuspa_ms,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
+	},
+	{
+		"name_chi": "細邊琉灰蝶",
+		"name_latin": "Celastrina lavendularis himilcon",
+		"sex": "♂",
+		"direction": "s",
+		"feature": "前翅 4 枚灰色點，後翅上外緣兩點底色不同。",
+		"href": "http://dearlep.tw/species.html?namecode=345701&photo_id=140b9c56f256fc75ea7637f3bc00c854",
+		"image": celastrinaLavendularis_ms,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
+	},
+	{
+		"name_chi": "黑點灰蝶",
+		"name_latin": "Neopithecops zalmora",
+		"sex": "♀",
+		"direction": "s",
+		"feature": "後翅基部無黑點，無尾突。",
+		"href": "http://dearlep.tw/species.html?namecode=345755&photo_id=be1d8b58f11b7ad0c662143263f9a8b7",
+		"image": neopithecopsZalmora_fs,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
+	},
+	{
+		"name_chi": "黑星灰蝶",
+		"name_latin": "Megisba malaya sikkima Moore",
+		"sex": "♀",
+		"direction": "s",
+		"feature": "後翅基部有黑點，有尾突。",
+		"href": "http://dearlep.tw/species.html?namecode=345750&photo_id=95355d80823af0563dfd2a644e8dba05",
+		"image": megisbaMalaya_fs,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
+	},
+	{
+		"name_chi": "玳灰蝶",
+		"name_latin": "Deudorix epijarbas menesicles Fruhstorfer",
+		"sex": "",
+		"direction": "s",
+		"feature": "波紋較寬，內外同色，白邊明顯，假眼直瞪。",
+		"href": "http://dearlep.tw/species.html?namecode=345720&photo_id=05375b08e7a084e8b56b60ad86bee5fc",
+		"image": deudorixEpijarbas_xs,
+		"family_chi": "灰蝶科",
+		"family_latin": "Lycaenidae"
+	},
+	{
+		"name_chi": "燕灰蝶",
+		"name_latin": "Rapala varuna formosana Fruhstorfer",
+		"sex": "",
+		"direction": "s",
+		"feature": "波紋較細，內外異色，白邊不明顯，假眼往後看。",
+		"href": "http://dearlep.tw/species.html?namecode=345768&photo_id=26e2a964e4d4997cea09b7b5288cf250",
+		"image": rapalaVaruna_xs,
 		"family_chi": "灰蝶科",
 		"family_latin": "Lycaenidae"
 	}
