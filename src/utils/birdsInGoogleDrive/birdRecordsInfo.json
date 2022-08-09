@@ -175,19 +175,6 @@
         ]
     },
     {
-        "bird": "待解之謎",
-        "records": [
-            {
-                "id": "1u9iyGXcqgmIVh4LDXOgGLpTuZ8VCbNkx",
-                "name": "20210523-100431_水源路二段_34s長耳鴞？.aac"
-            },
-            {
-                "id": "1ErJe3CL25DaqvaehkIiAqXvkFzglf_6Y",
-                "name": "20210323-075343_宜興家_鵲鴝？.aac"
-            }
-        ]
-    },
-    {
         "bird": "小彎嘴",
         "records": [
             {
@@ -460,6 +447,10 @@
     {
         "bird": "鵲鴝",
         "records": [
+            {
+                "id": "1ErJe3CL25DaqvaehkIiAqXvkFzglf_6Y",
+                "name": "20210323-075343_宜興家_鵲鴝.aac"
+            },
             {
                 "id": "1bQj8mEk04WWxCw-NaysN1rQ7ON_jGj3O",
                 "name": "20220325-115529_中研院_鵲鴝.aac"

@@ -16,7 +16,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -1285,7 +1285,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -3447,7 +3447,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -9510,7 +9510,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -13020,53 +13020,6 @@
     },
     {
         "Submission_ID": [
-            "S97862798"
-        ],
-        "Common_Name": [
-            "紅鳩"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "01:02 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            135.0
-        ],
-        "Number_of_Observers": [
-            25
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S96179545"
         ],
         "Common_Name": [
@@ -13104,6 +13057,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97862798"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "01:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            135.0
+        ],
+        "Number_of_Observers": [
+            25
         ],
         "Breeding_Code": [
             ""
@@ -16686,6 +16686,53 @@
     },
     {
         "Submission_ID": [
+            "S94956553"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道0-15K(標示在9K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
+        ],
+        "Latitude": [
+            24.215199899999998
+        ],
+        "Longitude": [
+            120.8839345
+        ],
+        "Date": [
+            "2021-09-21"
+        ],
+        "Time": [
+            "09:24 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            61.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97862798"
         ],
         "Common_Name": [
@@ -16701,7 +16748,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -16748,7 +16795,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -16770,53 +16817,6 @@
         ],
         "Number_of_Observers": [
             5
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S94956553"
-        ],
-        "Common_Name": [
-            "珠頸斑鳩"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中大雪山IBA--大雪山林道0-15K(標示在9K附近)(Dasyueshan IBA--Dasyueshan Forest-Road 0-15K)"
-        ],
-        "Latitude": [
-            24.215199899999998
-        ],
-        "Longitude": [
-            120.8839345
-        ],
-        "Date": [
-            "2021-09-21"
-        ],
-        "Time": [
-            "09:24 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            61.0
-        ],
-        "Number_of_Observers": [
-            2
         ],
         "Breeding_Code": [
             ""
@@ -19966,6 +19966,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S114068933"
+        ],
+        "Common_Name": [
+            "北方中杜鵑"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (21.915, 120.848)"
+        ],
+        "Latitude": [
+            21.9147008
+        ],
+        "Longitude": [
+            120.8479817
+        ],
+        "Date": [
+            "2022-06-30"
+        ],
+        "Time": [
+            "07:02 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            5
         ],
         "Breeding_Code": [
             ""
@@ -23845,7 +23892,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -26195,7 +26242,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -28075,7 +28122,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -29626,7 +29673,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -29908,7 +29955,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -31318,7 +31365,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -33809,7 +33856,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -35219,7 +35266,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -36347,7 +36394,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -37193,7 +37240,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -39167,7 +39214,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -41423,7 +41470,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -45497,100 +45544,6 @@
     },
     {
         "Submission_ID": [
-            "S97862798"
-        ],
-        "Common_Name": [
-            "小白鷺"
-        ],
-        "Count": [
-            4
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "01:02 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            135.0
-        ],
-        "Number_of_Observers": [
-            25
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S97861083"
-        ],
-        "Common_Name": [
-            "小白鷺"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "04:34 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            3.0
-        ],
-        "Number_of_Observers": [
-            5
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S94956553"
         ],
         "Common_Name": [
@@ -45675,6 +45628,100 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97862798"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "01:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            135.0
+        ],
+        "Number_of_Observers": [
+            25
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97861083"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "04:34 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
+        ],
+        "Number_of_Observers": [
+            5
         ],
         "Breeding_Code": [
             ""
@@ -57905,6 +57952,53 @@
     },
     {
         "Submission_ID": [
+            "S112639308"
+        ],
+        "Common_Name": [
+            "東方蜂鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--新店四崁水(Taipei--Xindian Sikanshui)[台北鳥會例行路線(WBST Birdwatching Route)]"
+        ],
+        "Latitude": [
+            24.9029629
+        ],
+        "Longitude": [
+            121.55815890000001
+        ],
+        "Date": [
+            "2022-06-11"
+        ],
+        "Time": [
+            "09:03 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            94.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88625651"
         ],
         "Common_Name": [
@@ -62276,53 +62370,6 @@
     },
     {
         "Submission_ID": [
-            "S97862798"
-        ],
-        "Common_Name": [
-            "鳳頭蒼鷹"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "01:02 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            135.0
-        ],
-        "Number_of_Observers": [
-            25
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S96179556"
         ],
         "Common_Name": [
@@ -62360,6 +62407,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97862798"
+        ],
+        "Common_Name": [
+            "鳳頭蒼鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "01:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            135.0
+        ],
+        "Number_of_Observers": [
+            25
         ],
         "Breeding_Code": [
             ""
@@ -71300,6 +71394,53 @@
     },
     {
         "Submission_ID": [
+            "S114068933"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (21.915, 120.848)"
+        ],
+        "Latitude": [
+            21.9147008
+        ],
+        "Longitude": [
+            120.8479817
+        ],
+        "Date": [
+            "2022-06-30"
+        ],
+        "Time": [
+            "07:02 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88241262"
         ],
         "Common_Name": [
@@ -73571,7 +73712,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -73712,7 +73853,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -83520,53 +83661,6 @@
     },
     {
         "Submission_ID": [
-            "S97862798"
-        ],
-        "Common_Name": [
-            "紅尾伯勞"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "01:02 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            135.0
-        ],
-        "Number_of_Observers": [
-            25
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S96179545"
         ],
         "Common_Name": [
@@ -83651,6 +83745,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97862798"
+        ],
+        "Common_Name": [
+            "紅尾伯勞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "01:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            135.0
+        ],
+        "Number_of_Observers": [
+            25
         ],
         "Breeding_Code": [
             ""
@@ -84146,13 +84287,13 @@
             ""
         ],
         "Location": [
-            "台北--幸福水漾公園(Taipei--Xingfushuiyang Park)"
+            "台北--新北大都會公園(Taipei--New Taipei Metropolitan Park)"
         ],
         "Latitude": [
-            25.0573904
+            25.055486600000002
         ],
         "Longitude": [
-            121.47974909999999
+            121.4799503
         ],
         "Date": [
             "2021-11-14"
@@ -96319,7 +96460,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -99923,53 +100064,6 @@
     },
     {
         "Submission_ID": [
-            "S97862798"
-        ],
-        "Common_Name": [
-            "褐頭鷦鶯"
-        ],
-        "Count": [
-            5
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "01:02 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            135.0
-        ],
-        "Number_of_Observers": [
-            25
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S96179545"
         ],
         "Common_Name": [
@@ -100007,6 +100101,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97862798"
+        ],
+        "Common_Name": [
+            "褐頭鷦鶯"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "01:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            135.0
+        ],
+        "Number_of_Observers": [
+            25
         ],
         "Breeding_Code": [
             ""
@@ -110639,6 +110780,53 @@
     },
     {
         "Submission_ID": [
+            "S114068933"
+        ],
+        "Common_Name": [
+            "洋燕"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (21.915, 120.848)"
+        ],
+        "Latitude": [
+            21.9147008
+        ],
+        "Longitude": [
+            120.8479817
+        ],
+        "Date": [
+            "2022-06-30"
+        ],
+        "Time": [
+            "07:02 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80349104"
         ],
         "Common_Name": [
@@ -112838,6 +113026,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S114068933"
+        ],
+        "Common_Name": [
+            "烏頭翁"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (21.915, 120.848)"
+        ],
+        "Latitude": [
+            21.9147008
+        ],
+        "Longitude": [
+            120.8479817
+        ],
+        "Date": [
+            "2022-06-30"
+        ],
+        "Time": [
+            "07:02 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            5
         ],
         "Breeding_Code": [
             ""
@@ -116843,53 +117078,6 @@
     },
     {
         "Submission_ID": [
-            "S97862798"
-        ],
-        "Common_Name": [
-            "白頭翁"
-        ],
-        "Count": [
-            15
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "01:02 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            135.0
-        ],
-        "Number_of_Observers": [
-            25
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S94956553"
         ],
         "Common_Name": [
@@ -116974,6 +117162,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97862798"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            15
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "01:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            135.0
+        ],
+        "Number_of_Observers": [
+            25
         ],
         "Breeding_Code": [
             ""
@@ -127089,6 +127324,53 @@
     },
     {
         "Submission_ID": [
+            "S114068933"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            9
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (21.915, 120.848)"
+        ],
+        "Latitude": [
+            21.9147008
+        ],
+        "Longitude": [
+            120.8479817
+        ],
+        "Date": [
+            "2022-06-30"
+        ],
+        "Time": [
+            "07:02 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88241262"
         ],
         "Common_Name": [
@@ -131287,7 +131569,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -136348,6 +136630,53 @@
     },
     {
         "Submission_ID": [
+            "S96179556"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            15
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
+        ],
+        "Latitude": [
+            24.2208817
+        ],
+        "Longitude": [
+            120.89413619999999
+        ],
+        "Date": [
+            "2021-10-01"
+        ],
+        "Time": [
+            "12:26 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            18.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S97862798"
         ],
         "Common_Name": [
@@ -136363,7 +136692,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -136410,7 +136739,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -136432,53 +136761,6 @@
         ],
         "Number_of_Observers": [
             5
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S96179556"
-        ],
-        "Common_Name": [
-            "斯氏繡眼"
-        ],
-        "Count": [
-            15
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中大雪山IBA--大雪山林道12K(Dasyueshan IBA--Dasyueshan Forest-Road 12K)"
-        ],
-        "Latitude": [
-            24.2208817
-        ],
-        "Longitude": [
-            120.89413619999999
-        ],
-        "Date": [
-            "2021-10-01"
-        ],
-        "Time": [
-            "12:26 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            18.0
-        ],
-        "Number_of_Observers": [
-            3
         ],
         "Breeding_Code": [
             ""
@@ -144234,6 +144516,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S114068933"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (21.915, 120.848)"
+        ],
+        "Latitude": [
+            21.9147008
+        ],
+        "Longitude": [
+            120.8479817
+        ],
+        "Date": [
+            "2022-06-30"
+        ],
+        "Time": [
+            "07:02 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            5
         ],
         "Breeding_Code": [
             ""
@@ -152892,6 +153221,53 @@
     },
     {
         "Submission_ID": [
+            "S114068933"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-PIF"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "恆春鎮, TW (21.915, 120.848)"
+        ],
+        "Latitude": [
+            21.9147008
+        ],
+        "Longitude": [
+            120.8479817
+        ],
+        "Date": [
+            "2022-06-30"
+        ],
+        "Time": [
+            "07:02 AM"
+        ],
+        "Protocol": [
+            "eBird - Stationary Count"
+        ],
+        "Duration_Min": [
+            30.0
+        ],
+        "Number_of_Observers": [
+            5
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S84366190"
         ],
         "Common_Name": [
@@ -155806,53 +156182,6 @@
     },
     {
         "Submission_ID": [
-            "S97862798"
-        ],
-        "Common_Name": [
-            "白尾八哥"
-        ],
-        "Count": [
-            2
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "01:02 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            135.0
-        ],
-        "Number_of_Observers": [
-            25
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S96179545"
         ],
         "Common_Name": [
@@ -155890,6 +156219,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97862798"
+        ],
+        "Common_Name": [
+            "白尾八哥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "01:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            135.0
+        ],
+        "Number_of_Observers": [
+            25
         ],
         "Breeding_Code": [
             ""
@@ -167618,7 +167994,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
@@ -168464,13 +168840,13 @@
             ""
         ],
         "Location": [
-            "台北--幸福水漾公園(Taipei--Xingfushuiyang Park)"
+            "台北--新北大都會公園(Taipei--New Taipei Metropolitan Park)"
         ],
         "Latitude": [
-            25.0573904
+            25.055486600000002
         ],
         "Longitude": [
-            121.47974909999999
+            121.4799503
         ],
         "Date": [
             "2021-11-14"
@@ -174277,53 +174653,6 @@
     },
     {
         "Submission_ID": [
-            "S97862798"
-        ],
-        "Common_Name": [
-            "麻雀"
-        ],
-        "Count": [
-            185
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "01:02 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            135.0
-        ],
-        "Number_of_Observers": [
-            25
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S96179545"
         ],
         "Common_Name": [
@@ -174361,6 +174690,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97862798"
+        ],
+        "Common_Name": [
+            "麻雀"
+        ],
+        "Count": [
+            185
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "01:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            135.0
+        ],
+        "Number_of_Observers": [
+            25
         ],
         "Breeding_Code": [
             ""
@@ -177379,53 +177755,6 @@
     },
     {
         "Submission_ID": [
-            "S97862798"
-        ],
-        "Common_Name": [
-            "灰鶺鴒"
-        ],
-        "Count": [
-            2
-        ],
-        "State_Province": [
-            "TW-TXG"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
-        ],
-        "Latitude": [
-            24.310435100000003
-        ],
-        "Longitude": [
-            120.54600690000001
-        ],
-        "Date": [
-            "2021-11-21"
-        ],
-        "Time": [
-            "01:02 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            135.0
-        ],
-        "Number_of_Observers": [
-            25
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S94956553"
         ],
         "Common_Name": [
@@ -177510,6 +177839,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S97862798"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TXG"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
+        ],
+        "Latitude": [
+            24.310435100000003
+        ],
+        "Longitude": [
+            120.54600690000001
+        ],
+        "Date": [
+            "2021-11-21"
+        ],
+        "Time": [
+            "01:02 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            135.0
+        ],
+        "Number_of_Observers": [
+            25
         ],
         "Breeding_Code": [
             ""
@@ -178475,7 +178851,7 @@
             ""
         ],
         "Location": [
-            "台中--高美濕地IBA (Taichung--Gaomei Wetland IBA)"
+            "台中高美濕地IBA--全區(Gaomei Wetland IBA)"
         ],
         "Latitude": [
             24.310435100000003
