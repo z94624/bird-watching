@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bird-watching/static/css/main.35ee443c.css",
-    "main.js": "/bird-watching/static/js/main.c00adc11.js",
+    "main.js": "/bird-watching/static/js/main.0ab3faec.js",
     "static/js/787.fba709df.chunk.js": "/bird-watching/static/js/787.fba709df.chunk.js",
     "static/media/universe.mp4": "/bird-watching/static/media/universe.3f86bb905cb013c017ef.mp4",
     "static/media/headshot.JPG": "/bird-watching/static/media/headshot.b82c46c834fe9ae7a8cc.JPG",
@@ -144,6 +144,7 @@
     "static/media/切翅眉眼蝶1.jpg": "/bird-watching/static/media/切翅眉眼蝶1.bc175be5b4cde940f92f.jpg",
     "static/media/箭環蝶1.jpg": "/bird-watching/static/media/箭環蝶1.a1c5860454e517314a53.jpg",
     "static/media/黑點灰蝶1.jpg": "/bird-watching/static/media/黑點灰蝶1.d9d36a075abf471f5a9a.jpg",
+    "static/media/間距查詢.jpg": "/bird-watching/static/media/間距查詢.f179a69320354c47b5fb.jpg",
     "static/media/藍灰蝶1.jpg": "/bird-watching/static/media/藍灰蝶1.9bb857ec2d5d646b95da.jpg",
     "static/media/白斑弄蝶1.jpg": "/bird-watching/static/media/白斑弄蝶1.b02d5e8654d446b229b5.jpg",
     "static/media/東方喙蝶1.jpg": "/bird-watching/static/media/東方喙蝶1.4ea4fa4a062ed39ea6a7.jpg",
@@ -162,17 +163,16 @@
     "static/media/白蛺蝶1.jpg": "/bird-watching/static/media/白蛺蝶1.755d17d52b5ef80795cd.jpg",
     "static/media/玉帶弄蝶1.jpg": "/bird-watching/static/media/玉帶弄蝶1.a6cb7a9d4c2366c63856.jpg",
     "static/media/Sass.png": "/bird-watching/static/media/Sass.1c9a01e0c88e58a0b3ac.png",
+    "static/media/綴詞分析.jpg": "/bird-watching/static/media/綴詞分析.833304ae13ab67155453.jpg",
     "static/media/MySQL.png": "/bird-watching/static/media/MySQL.167c88550478e6f0f85c.png",
     "static/media/黑星弄蝶1.jpg": "/bird-watching/static/media/黑星弄蝶1.48084676bd39f4437c6c.jpg",
     "static/media/JaneGoodall.jpg": "/bird-watching/static/media/JaneGoodall.04de601ceb1b017e1077.jpg",
     "static/media/權威檔統計資料.jpg": "/bird-watching/static/media/權威檔統計資料.2cf9cb149ec51815558e.jpg",
     "static/media/琉璃翠鳳蝶1.jpg": "/bird-watching/static/media/琉璃翠鳳蝶1.1c5f45b43af163d8da63.jpg",
-    "static/media/間距查詢.png": "/bird-watching/static/media/間距查詢.af8f4b951d25a6a8705d.png",
     "static/media/玳灰蝶1.jpg": "/bird-watching/static/media/玳灰蝶1.e48b2f4e32418c8dd656.jpg",
     "static/media/迷你藍灰蝶1.jpg": "/bird-watching/static/media/迷你藍灰蝶1.2415413854c6a09f74f7.jpg",
     "static/media/logo.png": "/bird-watching/static/media/logo.4fc1974f0c15fe5f25a9.png",
     "static/media/無尾白紋鳳蝶1.jpg": "/bird-watching/static/media/無尾白紋鳳蝶1.5b2d1eed13bf7d7b7599.jpg",
-    "static/media/綴詞分析.png": "/bird-watching/static/media/綴詞分析.8e221112b269812bc5a6.png",
     "static/media/ChiefSeattle.jpg": "/bird-watching/static/media/ChiefSeattle.11de13c7fe6fc7f0515c.jpg",
     "static/media/whaleShark.png": "/bird-watching/static/media/whaleShark.4ba330a23c45aaed9073.png",
     "static/media/麝鳳蝶1.jpg": "/bird-watching/static/media/麝鳳蝶1.c729484211cf4b81e84d.jpg",
@@ -207,11 +207,11 @@
     "index.html": "/bird-watching/index.html",
     "static/media/resetZoom.svg": "/bird-watching/static/media/resetZoom.34ea8e1b285917431be8499b4dcc494e.svg",
     "main.35ee443c.css.map": "/bird-watching/static/css/main.35ee443c.css.map",
-    "main.c00adc11.js.map": "/bird-watching/static/js/main.c00adc11.js.map",
+    "main.0ab3faec.js.map": "/bird-watching/static/js/main.0ab3faec.js.map",
     "787.fba709df.chunk.js.map": "/bird-watching/static/js/787.fba709df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35ee443c.css",
-    "static/js/main.c00adc11.js"
+    "static/js/main.0ab3faec.js"
   ]
 }
