@@ -4983,6 +4983,53 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "台灣竹雞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S88988424"
         ],
         "Common_Name": [
@@ -7536,7 +7583,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -7696,6 +7743,53 @@
         ],
         "Duration_Min": [
             126.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "野鴿(野化)"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
         ],
         "Number_of_Observers": [
             2
@@ -9670,53 +9764,6 @@
         ],
         "Duration_Min": [
             31.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "野鴿(野化)"
-        ],
-        "Count": [
-            4
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
         ],
         "Number_of_Observers": [
             2
@@ -13082,7 +13129,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -15667,7 +15714,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -15783,6 +15830,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -16075,6 +16169,100 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117432054"
+        ],
+        "Common_Name": [
+            "紅鳩"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--黑琵保護區(Qigu IBA--Black-faced Spoonbill Sanctuary)"
+        ],
+        "Latitude": [
+            23.0754315
+        ],
+        "Longitude": [
+            120.0486356
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "02:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98650451"
         ],
         "Common_Name": [
@@ -16297,53 +16485,6 @@
         ],
         "Duration_Min": [
             17.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "紅鳩"
-        ],
-        "Count": [
-            4
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
         ],
         "Number_of_Observers": [
             2
@@ -18252,7 +18393,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -18647,6 +18788,53 @@
         ],
         "Duration_Min": [
             126.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "珠頸斑鳩"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
         ],
         "Number_of_Observers": [
             2
@@ -19788,53 +19976,6 @@
     },
     {
         "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "珠頸斑鳩"
-        ],
-        "Count": [
-            2
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S81051125"
         ],
         "Common_Name": [
@@ -20884,7 +21025,7 @@
             ""
         ],
         "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
         ],
         "Latitude": [
             25.1667169
@@ -21213,7 +21354,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -21329,6 +21470,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "小雨燕"
+        ],
+        "Count": [
+            12
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -22467,53 +22655,6 @@
     },
     {
         "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "小雨燕"
-        ],
-        "Count": [
-            12
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S88988424"
         ],
         "Common_Name": [
@@ -22833,6 +22974,53 @@
         ],
         "Number_of_Observers": [
             25
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "紅冠水雞"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -24619,53 +24807,6 @@
         ],
         "Number_of_Observers": [
             4
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "紅冠水雞"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
         ],
         "Breeding_Code": [
             ""
@@ -28718,6 +28859,100 @@
     },
     {
         "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "東方環頸鴴"
+        ],
+        "Count": [
+            19
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "東方環頸鴴"
+        ],
+        "Count": [
+            30
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85091547"
         ],
         "Common_Name": [
@@ -29047,6 +29282,53 @@
     },
     {
         "Submission_ID": [
+            "S117432187"
+        ],
+        "Common_Name": [
+            "東方環頸鴴"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--國聖燈塔(Qigu IBA--Guosheng Lighthouse)"
+        ],
+        "Latitude": [
+            23.1006992
+        ],
+        "Longitude": [
+            120.03584860000001
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "03:00 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80406013"
         ],
         "Common_Name": [
@@ -29081,100 +29363,6 @@
         ],
         "Duration_Min": [
             79.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "東方環頸鴴"
-        ],
-        "Count": [
-            19
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "東方環頸鴴"
-        ],
-        "Count": [
-            30
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
         ],
         "Number_of_Observers": [
             2
@@ -29601,6 +29789,53 @@
         ],
         "Number_of_Observers": [
             25
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "小環頸鴴"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -30081,53 +30316,6 @@
     },
     {
         "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "小環頸鴴"
-        ],
-        "Count": [
-            2
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S88263611"
         ],
         "Common_Name": [
@@ -30598,6 +30786,53 @@
     },
     {
         "Submission_ID": [
+            "S117432187"
+        ],
+        "Common_Name": [
+            "中杓鷸"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--國聖燈塔(Qigu IBA--Guosheng Lighthouse)"
+        ],
+        "Latitude": [
+            23.1006992
+        ],
+        "Longitude": [
+            120.03584860000001
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "03:00 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98170679"
         ],
         "Common_Name": [
@@ -30707,7 +30942,7 @@
             ""
         ],
         "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
         ],
         "Latitude": [
             25.1667169
@@ -34781,6 +35016,53 @@
     },
     {
         "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "磯鷸"
+        ],
+        "Count": [
+            12
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S77652772"
         ],
         "Common_Name": [
@@ -35711,53 +35993,6 @@
         ],
         "Number_of_Observers": [
             4
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "磯鷸"
-        ],
-        "Count": [
-            12
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
         ],
         "Breeding_Code": [
             ""
@@ -43758,6 +43993,53 @@
     },
     {
         "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "大白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S77652772"
         ],
         "Common_Name": [
@@ -44980,6 +45262,53 @@
     },
     {
         "Submission_ID": [
+            "S117432187"
+        ],
+        "Common_Name": [
+            "大白鷺"
+        ],
+        "Count": [
+            25
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--國聖燈塔(Qigu IBA--Guosheng Lighthouse)"
+        ],
+        "Latitude": [
+            23.1006992
+        ],
+        "Longitude": [
+            120.03584860000001
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "03:00 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S109177452"
         ],
         "Common_Name": [
@@ -45014,6 +45343,53 @@
         ],
         "Duration_Min": [
             16.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117432316"
+        ],
+        "Common_Name": [
+            "大白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--頂頭額防風林(Qigu IBA--Dingtouer Coastal Forest)"
+        ],
+        "Latitude": [
+            23.1119238
+        ],
+        "Longitude": [
+            120.04206040000001
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "04:00 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
         ],
         "Number_of_Observers": [
             2
@@ -45111,6 +45487,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117432054"
+        ],
+        "Common_Name": [
+            "大白鷺"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--黑琵保護區(Qigu IBA--Black-faced Spoonbill Sanctuary)"
+        ],
+        "Latitude": [
+            23.0754315
+        ],
+        "Longitude": [
+            120.0486356
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "02:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -45534,53 +45957,6 @@
         ],
         "Number_of_Observers": [
             4
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "大白鷺"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
         ],
         "Breeding_Code": [
             ""
@@ -51466,6 +51842,53 @@
     },
     {
         "Submission_ID": [
+            "S117512023"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-08-25"
+        ],
+        "Time": [
+            "07:43 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98650541"
         ],
         "Common_Name": [
@@ -51528,7 +51951,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -53158,6 +53581,53 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S109177452"
         ],
         "Common_Name": [
@@ -53242,6 +53712,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117432054"
+        ],
+        "Common_Name": [
+            "小白鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--黑琵保護區(Qigu IBA--Black-faced Spoonbill Sanctuary)"
+        ],
+        "Latitude": [
+            23.0754315
+        ],
+        "Longitude": [
+            120.0486356
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "02:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -54380,6 +54897,53 @@
     },
     {
         "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "岩鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S80683009"
         ],
         "Common_Name": [
@@ -54511,53 +55075,6 @@
         ],
         "Number_of_Observers": [
             35
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "岩鷺"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
         ],
         "Breeding_Code": [
             ""
@@ -54931,6 +55448,100 @@
         ],
         "Duration_Min": [
             72.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "黃頭鷺"
+        ],
+        "Count": [
+            17
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "黃頭鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
         ],
         "Number_of_Observers": [
             2
@@ -56777,100 +57388,6 @@
     },
     {
         "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "黃頭鷺"
-        ],
-        "Count": [
-            17
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "黃頭鷺"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S94806054"
         ],
         "Common_Name": [
@@ -57284,6 +57801,100 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117432316"
+        ],
+        "Common_Name": [
+            "綠簑鷺"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--頂頭額防風林(Qigu IBA--Dingtouer Coastal Forest)"
+        ],
+        "Latitude": [
+            23.1119238
+        ],
+        "Longitude": [
+            120.04206040000001
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "04:00 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117432054"
+        ],
+        "Common_Name": [
+            "綠簑鷺"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--黑琵保護區(Qigu IBA--Black-faced Spoonbill Sanctuary)"
+        ],
+        "Latitude": [
+            23.0754315
+        ],
+        "Longitude": [
+            120.0486356
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "02:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -57895,6 +58506,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "夜鷺"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -59678,53 +60336,6 @@
         ],
         "Duration_Min": [
             33.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "夜鷺"
-        ],
-        "Count": [
-            8
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
         ],
         "Number_of_Observers": [
             3
@@ -63451,6 +64062,53 @@
     },
     {
         "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "埃及聖䴉"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S86695813"
         ],
         "Common_Name": [
@@ -63921,53 +64579,6 @@
     },
     {
         "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "埃及聖䴉"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S102721505"
         ],
         "Common_Name": [
@@ -64381,6 +64992,53 @@
         ],
         "Number_of_Observers": [
             30
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "魚鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -64814,53 +65472,6 @@
     },
     {
         "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "魚鷹"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S98120413"
         ],
         "Common_Name": [
@@ -65133,6 +65744,53 @@
         ],
         "Number_of_Observers": [
             25
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "黑翅鳶"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -65459,53 +66117,6 @@
         ],
         "Duration_Min": [
             48.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "黑翅鳶"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
         ],
         "Number_of_Observers": [
             2
@@ -72099,6 +72710,53 @@
     },
     {
         "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "松雀鷹"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S83704819"
         ],
         "Common_Name": [
@@ -72277,53 +72935,6 @@
         ],
         "Number_of_Observers": [
             5
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "松雀鷹"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
         ],
         "Breeding_Code": [
             ""
@@ -83379,6 +83990,53 @@
     },
     {
         "Submission_ID": [
+            "S117512023"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-08-25"
+        ],
+        "Time": [
+            "07:43 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -83535,7 +84193,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -86810,6 +87468,53 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "五色鳥"
+        ],
+        "Count": [
+            6
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S76530558"
         ],
         "Common_Name": [
@@ -87483,7 +88188,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -87530,7 +88235,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -93123,7 +93828,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -93170,7 +93875,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -94518,6 +95223,53 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "大卷尾"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S109177452"
         ],
         "Common_Name": [
@@ -95238,7 +95990,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -95285,7 +96037,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -102288,7 +103040,7 @@
             ""
         ],
         "Location": [
-            "台北--胡適公園 (Taipei--Hushih Park)"
+            "台北--胡適公園(Taipei--Hushih Park)"
         ],
         "Latitude": [
             25.040368899999997
@@ -107584,6 +108336,53 @@
     },
     {
         "Submission_ID": [
+            "S117512023"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-08-25"
+        ],
+        "Time": [
+            "07:43 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -107740,7 +108539,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -107787,7 +108586,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -108370,6 +109169,100 @@
         ],
         "Duration_Min": [
             126.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
         ],
         "Number_of_Observers": [
             2
@@ -110921,6 +111814,53 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "樹鵲"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S76530558"
         ],
         "Common_Name": [
@@ -111096,100 +112036,6 @@
         ],
         "Duration_Min": [
             60.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "樹鵲"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "樹鵲"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
         ],
         "Number_of_Observers": [
             2
@@ -112848,6 +113694,53 @@
     },
     {
         "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "喜鵲"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S103796699"
         ],
         "Common_Name": [
@@ -114480,53 +115373,6 @@
         ],
         "Duration_Min": [
             5.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "喜鵲"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
         ],
         "Number_of_Observers": [
             3
@@ -116420,6 +117266,100 @@
     },
     {
         "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "小雲雀"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "小雲雀"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S85283294"
         ],
         "Common_Name": [
@@ -116551,100 +117491,6 @@
         ],
         "Number_of_Observers": [
             9
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "小雲雀"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "小雲雀"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
         ],
         "Breeding_Code": [
             ""
@@ -116880,6 +117726,100 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "灰頭鷦鶯"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "灰頭鷦鶯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -118300,100 +119240,6 @@
     },
     {
         "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "灰頭鷦鶯"
-        ],
-        "Count": [
-            4
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "灰頭鷦鶯"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S81051125"
         ],
         "Common_Name": [
@@ -119136,6 +119982,100 @@
         ],
         "Number_of_Observers": [
             25
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "褐頭鷦鶯"
+        ],
+        "Count": [
+            16
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "褐頭鷦鶯"
+        ],
+        "Count": [
+            4
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -120697,6 +121637,53 @@
     },
     {
         "Submission_ID": [
+            "S117432054"
+        ],
+        "Common_Name": [
+            "褐頭鷦鶯"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--黑琵保護區(Qigu IBA--Black-faced Spoonbill Sanctuary)"
+        ],
+        "Latitude": [
+            23.0754315
+        ],
+        "Longitude": [
+            120.0486356
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "02:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98650742"
         ],
         "Common_Name": [
@@ -121157,100 +122144,6 @@
         ],
         "Number_of_Observers": [
             4
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "褐頭鷦鶯"
-        ],
-        "Count": [
-            16
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "褐頭鷦鶯"
-        ],
-        "Count": [
-            4
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
         ],
         "Breeding_Code": [
             ""
@@ -121793,7 +122686,7 @@
             ""
         ],
         "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
         ],
         "Latitude": [
             25.1667169
@@ -121872,53 +122765,6 @@
     },
     {
         "Submission_ID": [
-            "S85283294"
-        ],
-        "Common_Name": [
-            "黃頭扇尾鶯"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "台北挖仔尾自然保留區IBA--全區(Taipei Waziwei Nature Reserve IBA)"
-        ],
-        "Latitude": [
-            25.1672977
-        ],
-        "Longitude": [
-            121.41681270000001
-        ],
-        "Date": [
-            "2021-04-11"
-        ],
-        "Time": [
-            "07:40 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            127.0
-        ],
-        "Number_of_Observers": [
-            35
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S85778117"
         ],
         "Common_Name": [
@@ -121934,7 +122780,7 @@
             ""
         ],
         "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
         ],
         "Latitude": [
             25.1667169
@@ -121981,7 +122827,7 @@
             ""
         ],
         "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
         ],
         "Latitude": [
             25.1667169
@@ -122003,6 +122849,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85283294"
+        ],
+        "Common_Name": [
+            "黃頭扇尾鶯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北挖仔尾自然保留區IBA--全區(Taipei Waziwei Nature Reserve IBA)"
+        ],
+        "Latitude": [
+            25.1672977
+        ],
+        "Longitude": [
+            121.41681270000001
+        ],
+        "Date": [
+            "2021-04-11"
+        ],
+        "Time": [
+            "07:40 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            127.0
+        ],
+        "Number_of_Observers": [
+            35
         ],
         "Breeding_Code": [
             ""
@@ -122097,6 +122990,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "棕沙燕"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -122238,53 +123178,6 @@
         ],
         "Number_of_Observers": [
             4
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "棕沙燕"
-        ],
-        "Count": [
-            2
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
         ],
         "Breeding_Code": [
             ""
@@ -124002,7 +124895,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -124115,6 +125008,100 @@
         ],
         "Duration_Min": [
             21.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "家燕"
+        ],
+        "Count": [
+            90
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "家燕"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
         ],
         "Number_of_Observers": [
             2
@@ -126149,100 +127136,6 @@
     },
     {
         "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "家燕"
-        ],
-        "Count": [
-            90
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "家燕"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S112001991"
         ],
         "Common_Name": [
@@ -127997,7 +128890,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -129476,6 +130369,53 @@
         ],
         "Number_of_Observers": [
             17
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "赤腰燕"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -134891,6 +135831,53 @@
     },
     {
         "Submission_ID": [
+            "S117512023"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-08-25"
+        ],
+        "Time": [
+            "07:43 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S98650541"
         ],
         "Common_Name": [
@@ -135047,7 +136034,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -135094,7 +136081,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -135818,6 +136805,100 @@
         ],
         "Duration_Min": [
             126.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            10
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
         ],
         "Number_of_Observers": [
             2
@@ -138102,7 +139183,7 @@
             ""
         ],
         "Location": [
-            "台北--胡適公園 (Taipei--Hushih Park)"
+            "台北--胡適公園(Taipei--Hushih Park)"
         ],
         "Latitude": [
             25.040368899999997
@@ -139732,6 +140813,53 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S109176363"
         ],
         "Common_Name": [
@@ -139813,6 +140941,53 @@
         ],
         "Duration_Min": [
             16.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117432316"
+        ],
+        "Common_Name": [
+            "白頭翁"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--頂頭額防風林(Qigu IBA--Dingtouer Coastal Forest)"
+        ],
+        "Latitude": [
+            23.1119238
+        ],
+        "Longitude": [
+            120.04206040000001
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "04:00 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
         ],
         "Number_of_Observers": [
             2
@@ -140427,100 +141602,6 @@
         ],
         "Number_of_Observers": [
             3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "白頭翁"
-        ],
-        "Count": [
-            10
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "白頭翁"
-        ],
-        "Count": [
-            5
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
         ],
         "Breeding_Code": [
             ""
@@ -145763,7 +146844,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -146208,6 +147289,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -148427,6 +149555,53 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "紅嘴黑鵯"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S84147476"
         ],
         "Common_Name": [
@@ -148511,53 +149686,6 @@
         ],
         "Number_of_Observers": [
             2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "紅嘴黑鵯"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
         ],
         "Breeding_Code": [
             ""
@@ -149570,7 +150698,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -156605,6 +157733,53 @@
     },
     {
         "Submission_ID": [
+            "S117512023"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-08-25"
+        ],
+        "Time": [
+            "07:43 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S90262309"
         ],
         "Common_Name": [
@@ -156761,7 +157936,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -156808,7 +157983,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -157300,6 +158475,100 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            16
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
+        ],
+        "Number_of_Observers": [
+            2
         ],
         "Breeding_Code": [
             ""
@@ -158453,7 +159722,7 @@
             ""
         ],
         "Location": [
-            "台北--胡適公園 (Taipei--Hushih Park)"
+            "台北--胡適公園(Taipei--Hushih Park)"
         ],
         "Latitude": [
             25.040368899999997
@@ -159707,6 +160976,53 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            12
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S109175578"
         ],
         "Common_Name": [
@@ -159744,6 +161060,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117432054"
+        ],
+        "Common_Name": [
+            "斯氏繡眼"
+        ],
+        "Count": [
+            5
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--黑琵保護區(Qigu IBA--Black-faced Spoonbill Sanctuary)"
+        ],
+        "Latitude": [
+            23.0754315
+        ],
+        "Longitude": [
+            120.0486356
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "02:30 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -160026,100 +161389,6 @@
         ],
         "Number_of_Observers": [
             4
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "斯氏繡眼"
-        ],
-        "Count": [
-            16
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "斯氏繡眼"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
         ],
         "Breeding_Code": [
             ""
@@ -161837,7 +163106,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -162188,6 +163457,53 @@
         ],
         "Number_of_Observers": [
             2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "山紅頭"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -163081,53 +164397,6 @@
         ],
         "Number_of_Observers": [
             2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "山紅頭"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
-        ],
-        "Number_of_Observers": [
-            3
         ],
         "Breeding_Code": [
             ""
@@ -166321,6 +167590,53 @@
         ],
         "Duration_Min": [
             20.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "小彎嘴"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
         ],
         "Number_of_Observers": [
             4
@@ -172256,6 +173572,53 @@
     },
     {
         "Submission_ID": [
+            "S117512023"
+        ],
+        "Common_Name": [
+            "黑領椋鳥"
+        ],
+        "Count": [
+            13
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-08-25"
+        ],
+        "Time": [
+            "07:43 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S102463020"
         ],
         "Common_Name": [
@@ -177943,6 +179306,53 @@
     },
     {
         "Submission_ID": [
+            "S117512023"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TPE"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "中央研究院 - 歷史語言研究所"
+        ],
+        "Latitude": [
+            25.0392146
+        ],
+        "Longitude": [
+            121.61570559999998
+        ],
+        "Date": [
+            "2022-08-25"
+        ],
+        "Time": [
+            "07:43 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            3.0
+        ],
+        "Number_of_Observers": [
+            1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S102463020"
         ],
         "Common_Name": [
@@ -178212,6 +179622,53 @@
         ],
         "Duration_Min": [
             126.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S88870057"
+        ],
+        "Common_Name": [
+            "家八哥"
+        ],
+        "Count": [
+            8
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-05-22"
+        ],
+        "Time": [
+            "03:44 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            99.0
         ],
         "Number_of_Observers": [
             2
@@ -180105,53 +181562,6 @@
     },
     {
         "Submission_ID": [
-            "S88870057"
-        ],
-        "Common_Name": [
-            "家八哥"
-        ],
-        "Count": [
-            8
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-05-22"
-        ],
-        "Time": [
-            "03:44 PM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            99.0
-        ],
-        "Number_of_Observers": [
-            2
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
             "S94806054"
         ],
         "Common_Name": [
@@ -181624,7 +183034,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -183009,6 +184419,53 @@
         ],
         "Number_of_Observers": [
             3
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "白尾八哥"
+        ],
+        "Count": [
+            2
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
         ],
         "Breeding_Code": [
             ""
@@ -184444,7 +185901,7 @@
             ""
         ],
         "Location": [
-            "台北--胡適公園 (Taipei--Hushih Park)"
+            "台北--胡適公園(Taipei--Hushih Park)"
         ],
         "Latitude": [
             25.040368899999997
@@ -186230,7 +187687,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -186277,7 +187734,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -187499,7 +188956,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -187546,7 +189003,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -187565,6 +189022,53 @@
         ],
         "Duration_Min": [
             103.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "白腰鵲鴝"
+        ],
+        "Count": [
+            3
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
         ],
         "Number_of_Observers": [
             4
@@ -194126,7 +195630,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -195395,7 +196899,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -197463,7 +198967,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -199093,6 +200597,53 @@
     },
     {
         "Submission_ID": [
+            "S117246290"
+        ],
+        "Common_Name": [
+            "麻雀"
+        ],
+        "Count": [
+            11
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南--虎形山公園(Tainan-Huxingshan Park)"
+        ],
+        "Latitude": [
+            22.9643943
+        ],
+        "Longitude": [
+            120.35970459999999
+        ],
+        "Date": [
+            "2022-08-20"
+        ],
+        "Time": [
+            "02:21 PM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            64.0
+        ],
+        "Number_of_Observers": [
+            4
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
             "S109176363"
         ],
         "Common_Name": [
@@ -199127,6 +200678,53 @@
         ],
         "Duration_Min": [
             19.0
+        ],
+        "Number_of_Observers": [
+            2
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S117432316"
+        ],
+        "Common_Name": [
+            "麻雀"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TNN"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台南七股IBA--頂頭額防風林(Qigu IBA--Dingtouer Coastal Forest)"
+        ],
+        "Latitude": [
+            23.1119238
+        ],
+        "Longitude": [
+            120.04206040000001
+        ],
+        "Date": [
+            "2022-08-21"
+        ],
+        "Time": [
+            "04:00 PM"
+        ],
+        "Protocol": [
+            "eBird - Casual Observation"
+        ],
+        "Duration_Min": [
+            ""
         ],
         "Number_of_Observers": [
             2
@@ -203009,7 +204607,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -203313,6 +204911,53 @@
         ],
         "Number_of_Observers": [
             1
+        ],
+        "Breeding_Code": [
+            ""
+        ],
+        "Observation_Details": [
+            ""
+        ]
+    },
+    {
+        "Submission_ID": [
+            "S85778117"
+        ],
+        "Common_Name": [
+            "灰鶺鴒"
+        ],
+        "Count": [
+            1
+        ],
+        "State_Province": [
+            "TW-TPQ"
+        ],
+        "County": [
+            ""
+        ],
+        "Location": [
+            "台北--八里北堤沙灘(Taipei--Bali North Seawall Beach)"
+        ],
+        "Latitude": [
+            25.1667169
+        ],
+        "Longitude": [
+            121.4097473
+        ],
+        "Date": [
+            "2021-04-18"
+        ],
+        "Time": [
+            "07:00 AM"
+        ],
+        "Protocol": [
+            "eBird - Traveling Count"
+        ],
+        "Duration_Min": [
+            225.0
+        ],
+        "Number_of_Observers": [
+            3
         ],
         "Breeding_Code": [
             ""
@@ -204297,53 +205942,6 @@
         ],
         "Duration_Min": [
             33.0
-        ],
-        "Number_of_Observers": [
-            3
-        ],
-        "Breeding_Code": [
-            ""
-        ],
-        "Observation_Details": [
-            ""
-        ]
-    },
-    {
-        "Submission_ID": [
-            "S85778117"
-        ],
-        "Common_Name": [
-            "灰鶺鴒"
-        ],
-        "Count": [
-            1
-        ],
-        "State_Province": [
-            "TW-TPQ"
-        ],
-        "County": [
-            ""
-        ],
-        "Location": [
-            "新北市-台北港北堤沙灘(Taipei--Beach in the North of Taipei Harbor)"
-        ],
-        "Latitude": [
-            25.1667169
-        ],
-        "Longitude": [
-            121.4097473
-        ],
-        "Date": [
-            "2021-04-18"
-        ],
-        "Time": [
-            "07:00 AM"
-        ],
-        "Protocol": [
-            "eBird - Traveling Count"
-        ],
-        "Duration_Min": [
-            225.0
         ],
         "Number_of_Observers": [
             3
@@ -206064,7 +207662,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -209918,7 +211516,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -210717,7 +212315,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
@@ -214853,7 +216451,7 @@
             ""
         ],
         "Location": [
-            "台中--東海大學(Taichuang--Tunghai University)"
+            "台中--東海大學(Taichung--Tunghai University)"
         ],
         "Latitude": [
             24.1795688
