@@ -26,8 +26,8 @@ import project1 from "./../images/ascdc/上傳Excel格式文本.png";
 import project2 from "./../images/ascdc/權威檔統計資料.jpg";
 import project3 from "./../images/ascdc/文本目錄編輯.png";
 import project4 from "./../images/ascdc/權威檔目錄編輯.png";
-import project5 from "./../images/ascdc/綴詞分析.png";
-import project6 from "./../images/ascdc/間距查詢.png";
+import project5 from "./../images/ascdc/綴詞分析.jpg";
+import project6 from "./../images/ascdc/間距查詢.jpg";
 
 import ecopark from "./../images/ecoPark.png";
 import ffeco from "./../images/ffEco.png";
