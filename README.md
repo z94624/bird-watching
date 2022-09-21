@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 楓楓與小芬的島羽
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 賞鳥資料更新項目
+`YouTube` `eBird` `Google Drive`
 
-## Available Scripts
+## 待處理
 
-In the project directory, you can run:
+### 待新增功能
+* 變更網站字型
+* 新年倒數
+  - [11 月開始倒數](https://www.npmjs.com/package/react-countdown)
+  - [倒數看板](https://codepen.io/MarkBoots/pen/VwMrMQQ)
+  - [倒數結束放煙火](https://www.npmjs.com/package/fireworks-js)
+  - [設計原理](https://www.digitalocean.com/community/tutorials/react-countdown-timer-react-hooks)
+* 每日稀有鳥地圖
+* 圖表
+  - [下載圖表](https://dev.to/noemelo/how-to-save-chart-as-image-chart-js-2l0i)
+  - 列印網頁
+* 研究
+  - 長條圖 = \[地點, 種數+隻數\]
+  - 豐量曲線 = \[Rank(豐量等級), Abundance(log)\]
+* 小遊戲
+  - [Flappy Bird](https://yudhajitadhikary.medium.com/developing-flappy-birds-in-react-and-javascript-ae54ff0eadb1)
+* YouTube
+  - [影片 Floating](https://cutt.ly/VmvCtHS)
+  - 主題選單(特展)：台北都市常見鳥類、台灣特有種、台灣特有亞種、台灣猛禽、特殊行為、築巢育雛
+* 辨識
+  - 猛禽剪影 VS 解答原色
+* eBird
+  - 鳥種查詢頁面
+* 特展(DaPainter)
+  - [原民與台灣鳥類](https://m.facebook.com/Pure.Taiwan/photos/a.348053841949679/400116416743421/)
+  - 台灣保育類
+* 天文
+  - 哈伯三年曆
+  - [梅西耶](https://www.nasa.gov/content/goddard/hubble-s-messier-catalog)
+  - [小行星](http://hcepaper.ncu.edu.tw/content/26)
 
-### `npm start`
+### 待修正補充
+* 關於
+  - 教育區展示照片
+* 分享
+  - 圖表
+  - YouTube
+* [eBirder 選擇按鈕](https://gist.github.com/hobo71/fca98984a6aa35e4eb19391cd5fad332)
+* 時間軸
+  - 文字雲：數量與稀有度加權
+  - 漂浮鳥：大小、點選開 eBird
+* YouTube
+  - 關鍵字搜尋框 + [語音](https://www.npmjs.com/package/react-speech-recognition) + 下拉式推薦選單
+  - 三種篩選參數互相限縮選項
+  - [分頁1](https://www.npmjs.com/package/react-paginate) / [分頁2](https://react-bootstrap.netlify.app/components/pagination/#rb-docs-content)
+* 地圖
+  - [鳥點依鳥種數配色](https://ebird.org/taiwan/hotspots)
+  - 鳥種超連結 eBird 頁面或介紹(需要中英鳥名轉換)
+  - 使用者位置動畫(漣漪)
+* 照片
+  - [特效](https://w3bits.com/labs/css-image-hover-zoom/)
+* 人次
+  - 初始值修正
+* 鳥音
+  - 建立多棲地背景，鳥種放置適當位置，點擊顯示鳥音列表
+* 賞鳥地點/鳥種 以代號替換資料
+* 鳥種篩選以 Modal 顯示與勾選
+* 時間軸鳥種按鈕/圓餅圖區塊 依稀有度上色排序分類
+* 使用者同意 Cookie
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 待最後作業
+* 下拉式分頁的主分頁都要做入口頁面方便行動裝置進入子分頁
+* 甚麼東西都要配個小圖示(個人特色)
+* 數字放大凸顯，Mechanical Scoreboard 設計
+* 加入可與使用者互動的元素 EX: 拖曳、滑動...(個人特色)
+* 載入中骨架：react-loading-skeleton
+* [分頁組成群組1](https://pjchender.blogspot.com/2018/11/react-react-router-dynamic-breadcrumb.html?m=1) [分頁組成群組2](https://www.npmjs.com/package/use-react-router-breadcrumbs)
+* 網頁主題設計：羽宙(流星)、羽林(飛鳥) | 白天晚上(顏料圖示點擊動畫上色) | 新年、聖誕、萬聖 | 各種鳥代表的顏色
+* [react-visualized > react-window](https://medium.com/%E6%89%8B%E5%AF%AB%E7%AD%86%E8%A8%98/virtualize-long-list-with-react-window-95bac3673a91)
+* [滾動 lazyload](https://betterprogramming.pub/lazy-load-youtube-video-iframe-8838e1913751)
+* React Suspense & React Lazy
+* 重構：Profiler 配合 useEffect, useMemo, useCallback & useContext(Context自成一檔：React.createContext())
+* [自動執行](https://stackoverflow.com/questions/19762350/execute-an-exe-file-using-node-js)
+* 解決分頁網址無法瀏覽問題(Github 才這樣？)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 使用的外部服務
+* `Leaflet`: 建立賞鳥地圖
+* `Google Cloud Platform`: 獲取 Google Drive 資料
+* `Firebase`: 網站拜訪人次
+* `EmailJS`: 網站 email 聯絡
