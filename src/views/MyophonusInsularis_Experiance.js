@@ -32,7 +32,12 @@ import project6 from "./../images/ascdc/間距查詢.jpg";
 import project7 from "./../images/ascdc/標記詞的屬性.jpg";
 
 import ecopark from "./../images/ecoPark.png";
+import hwga from "./../images/hwga.png";
 import ffeco from "./../images/ffEco.png";
+import tron from "./../images/tron.png";
+import bcst from "./../images/bcst.jpg";
+import sow from "./../images/sow.jpg";
+import fgbh from "./../images/fgbh.png";
 import peacejudo from "./../images/peaceJudo.png";
 // ASCDC 專案
 const projects = [
@@ -47,7 +52,12 @@ const projects = [
 // 研替團體
 const ascdcGroups = [
 	{name: "台北萬華青年公園志工隊", src: ecopark, group: "荒野保護協會"},
+	{name: "華江溼地守護聯盟", src: hwga, group: "華江溼地守護聯盟"},
 	{name: "淡水河流域同步鳥類調查", src: ffeco, group: "羽林生態公司"},
+	{name: "台灣動物路死觀察網", src: tron, group: "路殺社"},
+	{name: "台灣蝴蝶保育學會", src: bcst, group: "台灣蝴蝶保育學會"},
+	{name: "荒野保護協會", src: sow, group: "荒野保護協會"},
+	{name: "黃金蝙蝠生態館", src: fgbh, group: "台灣永續聯盟"},
 	{name: "和平柔道館", src: peacejudo, group: "和平柔道館"}
 ];
 // 技能
@@ -214,10 +224,10 @@ const AboutExperiance = () => {
 								icon={<FontAwesomeIcon icon={faFeather} />}
 								label="Others"
 							>
-								<div className="d-flex justify-content-between align-items-center flex-wrap">
+								<div className="d-flex justify-content-start align-items-center flex-wrap">
 								{ascdcGroups.map(({name, src, group}, gIdx) => (
-									<div key={`abExpGroup-${gIdx}`}>
-										<img className="me-3" src={src} alt={group} title={group} height="auto" width="50" />
+									<div key={`abExpGroup-${gIdx}`} className="m-3">
+										<img className="me-2" src={src} alt={group} title={group} height="auto" width="50" />
 										{name}
 									</div>
 								))}
