@@ -18,28 +18,31 @@ import js from "./../images/language/JS.png";
 import jquery from "./../images/language/JQuery.png";
 import bootstrap from "./../images/language/Bootstrap.png";
 import react from "./../images/language/React.png";
+import reactNative from "./../images/language/ReactNative.png";
 import git from "./../images/language/GIT.png";
 import solr from "./../images/language/Solr.png";
 import mysql from "./../images/language/MySQL.png";
 
-import project1 from "./../images/ascdc/上傳Excel格式文本.png";
-import project2 from "./../images/ascdc/權威檔統計資料.jpg";
+import project1 from "./../images/ascdc/Excel 文本編輯.png";
+import project2 from "./../images/ascdc/權威檔管理後臺.jpg";
 import project3 from "./../images/ascdc/文本目錄編輯.png";
 import project4 from "./../images/ascdc/權威檔目錄編輯.png";
-import project5 from "./../images/ascdc/綴詞分析.jpg";
+import project5 from "./../images/ascdc/推導查詢.jpg";
 import project6 from "./../images/ascdc/間距查詢.jpg";
+import project7 from "./../images/ascdc/標記詞的屬性.jpg";
 
 import ecopark from "./../images/ecoPark.png";
 import ffeco from "./../images/ffEco.png";
 import peacejudo from "./../images/peaceJudo.png";
 // ASCDC 專案
 const projects = [
-	{src: project1, header: "Excel 目錄編輯", desc: ""},
-	{src: project2, header: "統計資訊後臺", desc: ""},
-	{src: project3, header: "文本目錄編輯", desc: ""},
-	{src: project4, header: "權威檔目錄編輯", desc: ""},
-	{src: project5, header: "綴詞分析", desc: ""},
-	{src: project6, header: "間距查詢", desc: ""}
+	{src: project1, header: "Excel 文本編輯", desc: "EXCEL/XML 轉檔"},
+	{src: project2, header: "權威檔管理後臺", desc: "後臺管理介面雛形"},
+	{src: project3, header: "文本目錄編輯", desc: "編修電子文本內容"},
+	{src: project4, header: "權威檔目錄編輯", desc: "編修權威檔的權威詞"},
+	{src: project5, header: "推導查詢", desc: "文本進行查詢詞推導與綴詞統計分析"},
+	{src: project6, header: "間距查詢", desc: "文本進行多查詢詞間隔查詢"},
+	{src: project7, header: "標記詞的屬性", desc: "屬性管理 、屬性檔上傳介面"}
 ]
 // 研替團體
 const ascdcGroups = [
@@ -59,6 +62,7 @@ const skills = [
 	{name: "JQuery", src: jquery},
 	{name: "Bootstrap", src: bootstrap},
 	{name: "React", src: react},
+	{name: "React Native", src: reactNative},
 	{name: "GIT", src: git},
 	{name: "Solr", src: solr},
 	{name: "MySQL", src: mysql}

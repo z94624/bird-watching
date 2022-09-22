@@ -7,7 +7,7 @@ const programmingTools = [
 	"Java", "JSP",
 	"HTML",
 	"CSS", "SCSS",
-	"JS","JQuery", "Bootstrap", "React",
+	"JS","JQuery", "Bootstrap", "React", "React Native",
 	"GIT", "Solr", "MySQL"
 ];
 // 自學語言
