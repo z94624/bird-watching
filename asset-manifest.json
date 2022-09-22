@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bird-watching/static/css/main.35ee443c.css",
-    "main.js": "/bird-watching/static/js/main.f2bb2f2e.js",
+    "main.js": "/bird-watching/static/js/main.a7bbed2a.js",
     "static/js/787.fba709df.chunk.js": "/bird-watching/static/js/787.fba709df.chunk.js",
     "static/media/universe.mp4": "/bird-watching/static/media/universe.3f86bb905cb013c017ef.mp4",
     "static/media/headshot.JPG": "/bird-watching/static/media/headshot.b82c46c834fe9ae7a8cc.JPG",
@@ -169,6 +169,7 @@
     "static/media/JaneGoodall.jpg": "/bird-watching/static/media/JaneGoodall.04de601ceb1b017e1077.jpg",
     "static/media/權威檔管理後臺.jpg": "/bird-watching/static/media/權威檔管理後臺.2cf9cb149ec51815558e.jpg",
     "static/media/琉璃翠鳳蝶1.jpg": "/bird-watching/static/media/琉璃翠鳳蝶1.1c5f45b43af163d8da63.jpg",
+    "static/media/fgbh.png": "/bird-watching/static/media/fgbh.3371833f4a84fb0f4df3.png",
     "static/media/玳灰蝶1.jpg": "/bird-watching/static/media/玳灰蝶1.e48b2f4e32418c8dd656.jpg",
     "static/media/迷你藍灰蝶1.jpg": "/bird-watching/static/media/迷你藍灰蝶1.2415413854c6a09f74f7.jpg",
     "static/media/logo.png": "/bird-watching/static/media/logo.4fc1974f0c15fe5f25a9.png",
@@ -195,11 +196,14 @@
     "static/media/JS.png": "/bird-watching/static/media/JS.166865dacb77d214f485.png",
     "static/media/point3.png": "/bird-watching/static/media/point3.2432f3733760b4530555.png",
     "static/media/巨波眼蝶中臺灣亞種1.jpg": "/bird-watching/static/media/巨波眼蝶中臺灣亞種1.7d37fb565ebdf1277d97.jpg",
+    "static/media/bcst.jpg": "/bird-watching/static/media/bcst.74788ff18a36af3d261f.jpg",
     "static/media/point2.png": "/bird-watching/static/media/point2.c2efd565d703870407e1.png",
     "static/media/point1.png": "/bird-watching/static/media/point1.e4e00c5579113775075d.png",
     "static/media/HTML.png": "/bird-watching/static/media/HTML.5b4f7830e55f859417f6.png",
     "static/media/Solr.png": "/bird-watching/static/media/Solr.0f16f1e1e3140722020c.png",
+    "static/media/sow.jpg": "/bird-watching/static/media/sow.e7c72fc43571e4f11ba1.jpg",
     "static/media/React.png": "/bird-watching/static/media/React.ac14d2f265d39f14fb97.png",
+    "static/media/tron.png": "/bird-watching/static/media/tron.bc3cb9186d45d543e54b.png",
     "static/media/StephenHawking.jpg": "/bird-watching/static/media/StephenHawking.d2d4abadd5dc91d85838.jpg",
     "static/media/IDL.png": "/bird-watching/static/media/IDL.449305671ee652aaaced.png",
     "static/media/belugaWhales.webp": "/bird-watching/static/media/belugaWhales.7ce305a7a18c4bc96cf9.webp",
@@ -208,11 +212,11 @@
     "index.html": "/bird-watching/index.html",
     "static/media/resetZoom.svg": "/bird-watching/static/media/resetZoom.34ea8e1b285917431be8499b4dcc494e.svg",
     "main.35ee443c.css.map": "/bird-watching/static/css/main.35ee443c.css.map",
-    "main.f2bb2f2e.js.map": "/bird-watching/static/js/main.f2bb2f2e.js.map",
+    "main.a7bbed2a.js.map": "/bird-watching/static/js/main.a7bbed2a.js.map",
     "787.fba709df.chunk.js.map": "/bird-watching/static/js/787.fba709df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35ee443c.css",
-    "static/js/main.f2bb2f2e.js"
+    "static/js/main.a7bbed2a.js"
   ]
 }
