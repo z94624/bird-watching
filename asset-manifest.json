@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bird-watching/static/css/main.35ee443c.css",
-    "main.js": "/bird-watching/static/js/main.dbd9c907.js",
+    "main.js": "/bird-watching/static/js/main.f2bb2f2e.js",
     "static/js/787.fba709df.chunk.js": "/bird-watching/static/js/787.fba709df.chunk.js",
     "static/media/universe.mp4": "/bird-watching/static/media/universe.3f86bb905cb013c017ef.mp4",
     "static/media/headshot.JPG": "/bird-watching/static/media/headshot.b82c46c834fe9ae7a8cc.JPG",
@@ -163,11 +163,11 @@
     "static/media/白蛺蝶1.jpg": "/bird-watching/static/media/白蛺蝶1.755d17d52b5ef80795cd.jpg",
     "static/media/玉帶弄蝶1.jpg": "/bird-watching/static/media/玉帶弄蝶1.a6cb7a9d4c2366c63856.jpg",
     "static/media/Sass.png": "/bird-watching/static/media/Sass.1c9a01e0c88e58a0b3ac.png",
-    "static/media/綴詞分析.jpg": "/bird-watching/static/media/綴詞分析.833304ae13ab67155453.jpg",
+    "static/media/推導查詢.jpg": "/bird-watching/static/media/推導查詢.833304ae13ab67155453.jpg",
     "static/media/MySQL.png": "/bird-watching/static/media/MySQL.167c88550478e6f0f85c.png",
     "static/media/黑星弄蝶1.jpg": "/bird-watching/static/media/黑星弄蝶1.48084676bd39f4437c6c.jpg",
     "static/media/JaneGoodall.jpg": "/bird-watching/static/media/JaneGoodall.04de601ceb1b017e1077.jpg",
-    "static/media/權威檔統計資料.jpg": "/bird-watching/static/media/權威檔統計資料.2cf9cb149ec51815558e.jpg",
+    "static/media/權威檔管理後臺.jpg": "/bird-watching/static/media/權威檔管理後臺.2cf9cb149ec51815558e.jpg",
     "static/media/琉璃翠鳳蝶1.jpg": "/bird-watching/static/media/琉璃翠鳳蝶1.1c5f45b43af163d8da63.jpg",
     "static/media/玳灰蝶1.jpg": "/bird-watching/static/media/玳灰蝶1.e48b2f4e32418c8dd656.jpg",
     "static/media/迷你藍灰蝶1.jpg": "/bird-watching/static/media/迷你藍灰蝶1.2415413854c6a09f74f7.jpg",
@@ -184,13 +184,14 @@
     "static/media/ecoPark.png": "/bird-watching/static/media/ecoPark.48872a6b5005964b6965.png",
     "static/media/南方娜波灰蝶1.jpg": "/bird-watching/static/media/南方娜波灰蝶1.83e9488a19f04ab35a1c.jpg",
     "static/media/巨波眼蝶北臺灣亞種1.jpg": "/bird-watching/static/media/巨波眼蝶北臺灣亞種1.101d7deaec491bcca521.jpg",
-    "static/media/上傳Excel格式文本.png": "/bird-watching/static/media/上傳Excel格式文本.097fb40af77f70daec02.png",
+    "static/media/Excel 文本編輯.png": "/bird-watching/static/media/Excel 文本編輯.097fb40af77f70daec02.png",
     "static/media/timeline-icon.png": "/bird-watching/static/media/timeline-icon.5b0ecd5b572350eaf568.png",
     "static/media/Interwind-1s-200px.gif": "/bird-watching/static/media/Interwind-1s-200px.57cc0d475793d5a8189a.gif",
     "static/media/Python.png": "/bird-watching/static/media/Python.dcdbea523c28ba01206f.png",
     "static/media/JQuery.png": "/bird-watching/static/media/JQuery.53178394da149bd9dc73.png",
     "static/media/CSS.png": "/bird-watching/static/media/CSS.1334cb45a7d5ad096543.png",
     "static/media/Java.png": "/bird-watching/static/media/Java.5d5cffa04d820ba0644c.png",
+    "static/media/標記詞的屬性.jpg": "/bird-watching/static/media/標記詞的屬性.17d4e8dad02a5dfd61a2.jpg",
     "static/media/JS.png": "/bird-watching/static/media/JS.166865dacb77d214f485.png",
     "static/media/point3.png": "/bird-watching/static/media/point3.2432f3733760b4530555.png",
     "static/media/巨波眼蝶中臺灣亞種1.jpg": "/bird-watching/static/media/巨波眼蝶中臺灣亞種1.7d37fb565ebdf1277d97.jpg",
@@ -207,11 +208,11 @@
     "index.html": "/bird-watching/index.html",
     "static/media/resetZoom.svg": "/bird-watching/static/media/resetZoom.34ea8e1b285917431be8499b4dcc494e.svg",
     "main.35ee443c.css.map": "/bird-watching/static/css/main.35ee443c.css.map",
-    "main.dbd9c907.js.map": "/bird-watching/static/js/main.dbd9c907.js.map",
+    "main.f2bb2f2e.js.map": "/bird-watching/static/js/main.f2bb2f2e.js.map",
     "787.fba709df.chunk.js.map": "/bird-watching/static/js/787.fba709df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35ee443c.css",
-    "static/js/main.dbd9c907.js"
+    "static/js/main.f2bb2f2e.js"
   ]
 }
