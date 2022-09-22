@@ -50,6 +50,7 @@
   - 關鍵字搜尋框 + [語音](https://www.npmjs.com/package/react-speech-recognition) + 下拉式推薦選單
   - 三種篩選參數互相限縮選項
   - [分頁1](https://www.npmjs.com/package/react-paginate) / [分頁2](https://react-bootstrap.netlify.app/components/pagination/#rb-docs-content)
+  - [載入中骨架](https://www.npmjs.com/package/react-loading-skeleton)
 * 地圖
   - [鳥點依鳥種數配色](https://ebird.org/taiwan/hotspots)
   - 鳥種超連結 eBird 頁面或介紹(需要中英鳥名轉換)
