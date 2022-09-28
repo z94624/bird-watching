@@ -76,7 +76,7 @@
 * 載入中骨架：react-loading-skeleton
 * [分頁組成群組1](https://pjchender.blogspot.com/2018/11/react-react-router-dynamic-breadcrumb.html?m=1) [分頁組成群組2](https://www.npmjs.com/package/use-react-router-breadcrumbs)
 * 網頁主題設計：羽宙(流星)、羽林(飛鳥) | 白天晚上(顏料圖示點擊動畫上色) | 新年、聖誕、萬聖 | 各種鳥代表的顏色
-* [react-visualized > react-window](https://medium.com/%E6%89%8B%E5%AF%AB%E7%AD%86%E8%A8%98/virtualize-long-list-with-react-window-95bac3673a91)
+* Virtualized List: [react-visualized > react-window](https://medium.com/%E6%89%8B%E5%AF%AB%E7%AD%86%E8%A8%98/virtualize-long-list-with-react-window-95bac3673a91)
 * [滾動 lazyload](https://betterprogramming.pub/lazy-load-youtube-video-iframe-8838e1913751)
 * React Suspense & React Lazy
 * 重構：Profiler 配合 useEffect, useMemo, useCallback & useContext(Context自成一檔：React.createContext())
