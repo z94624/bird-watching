@@ -65,6 +65,7 @@
 * 賞鳥地點/鳥種 以代號替換資料
 * 鳥種篩選以 Modal 顯示與勾選
 * 時間軸鳥種按鈕/圓餅圖區塊 依稀有度上色排序分類
+* Lazy Loading: [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer)
 * 使用者同意 Cookie
 
 ### 待最後作業
