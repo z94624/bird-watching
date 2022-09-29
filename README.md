@@ -57,6 +57,7 @@
   - 鳥種超連結 eBird 頁面或介紹(需要中英鳥名轉換)
   - 使用者位置動畫(漣漪)
 * 照片
+  - 全部格式轉換為 WebP
   - [特效](https://w3bits.com/labs/css-image-hover-zoom/)
 * 人次
   - 初始值修正
