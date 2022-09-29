@@ -18,7 +18,7 @@ $coverHeight: calc(100vh - #{$coverOffset});
 /* 封面圖片 */
 #homeCover {
 	@include background(cover);
-	background-image: url("./../images/cover_77.JPG");
+	background-image: url("./../images/cover_50.JPG");
 	height: 100%;
 	transition: transform 1s; // Mouse enter&leave
 }

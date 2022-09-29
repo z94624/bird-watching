@@ -3,6 +3,7 @@
 /* Bootstrap 暗色背景 Blur 的字體顏色 */
 /* 背景主題 */
 /* 背景圖片降低亮度 */
+/* 物體高度陰影 */
 /* 留 Footer 位置 */
 /* 封面高度 */
 #homeContainer {
@@ -17,11 +18,10 @@
 /* 封面圖片 */
 #homeCover {
   background-position: center;
-  background-size: cover;
-  /* auto, cover, contain */
+  background-size: cover; /* auto, cover, contain */
   background-repeat: no-repeat;
   background-color: #000000;
-  background-image: url("./../images/cover_77.JPG");
+  background-image: url("./../images/cover_50.JPG");
   height: 100%;
   transition: transform 1s;
 }
@@ -29,7 +29,7 @@
 /* 入口按鈕 */
 #homeEntrance {
   position: absolute;
-  left: calc(100vw/2 - 57px);
+  left: calc(50vw - 57px);
   top: calc(calc(100vh - 118px) / 2);
 }
 
