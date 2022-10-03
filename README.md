@@ -70,6 +70,7 @@
 * 使用者同意 Cookie
 
 ### 待最後作業
+* reduce 裡面盡量避免使用 Spread Operator = 大大降低效能
 * 下拉式分頁的主分頁都要做入口頁面方便行動裝置進入子分頁
 * 甚麼東西都要配個小圖示(個人特色)
 * 數字放大凸顯，Mechanical Scoreboard 設計
