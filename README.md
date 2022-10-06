@@ -36,6 +36,7 @@
   - 哈伯三年曆
   - [梅西耶](https://www.nasa.gov/content/goddard/hubble-s-messier-catalog)
   - [小行星](http://hcepaper.ncu.edu.tw/content/26)
+  - [學術](https://ithelp.ithome.com.tw/users/20103436/ironman/5820?fbclid=IwAR0GpXLQpcStcJHUYL9fU8E_-5LwTkxrpeyV8eQzyDg7WGwYi-XtpbCjLAY)
 
 ### 待修正補充
 * 關於
