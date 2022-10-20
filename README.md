@@ -12,15 +12,12 @@
   - [倒數看板](https://codepen.io/MarkBoots/pen/VwMrMQQ)
   - [倒數結束放煙火](https://www.npmjs.com/package/fireworks-js)
   - [設計原理](https://www.digitalocean.com/community/tutorials/react-countdown-timer-react-hooks)
-* 每日稀有鳥地圖
 * 圖表
   - [下載圖表](https://dev.to/noemelo/how-to-save-chart-as-image-chart-js-2l0i)
   - 列印網頁
 * 研究
   - 長條圖 = \[地點, 種數+隻數\]
   - 豐量曲線 = \[Rank(豐量等級), Abundance(log)\]
-* 小遊戲
-  - [Flappy Bird](https://yudhajitadhikary.medium.com/developing-flappy-birds-in-react-and-javascript-ae54ff0eadb1)
 * YouTube
   - [影片 Floating](https://cutt.ly/VmvCtHS)
   - 主題選單(特展)：台北都市常見鳥類、台灣特有種、台灣特有亞種、台灣猛禽、特殊行為、築巢育雛
@@ -92,3 +89,4 @@
 * `Google Cloud Platform`: 獲取 Google Drive 資料
 * `Firebase`: 網站拜訪人次
 * `EmailJS`: 網站 email 聯絡
+* `Facebook Graph API`: 顯示粉絲專業
