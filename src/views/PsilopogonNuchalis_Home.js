@@ -19,8 +19,6 @@ const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeig
 const socialMediaSize = "32";
 const socialMediaFill = "#005477";
 const socialMedias = [
-	{id: "pnHomeInstagram", component: (<Instagram size={socialMediaSize} fill="url(#pnHomeInstagramRG)" radialGradientID="pnHomeInstagramRG" stopColor={socialMediaFill} />), href: "https://www.instagram.com/fenwenlin/"},
-	{id: "pnHomeFacebook", component: (<Facebook size={socialMediaSize} fill={socialMediaFill} />), href: "https://about.facebook.com/"},
 	{id: "pnHomeYoutube", component: (<Youtube size={socialMediaSize} fill={socialMediaFill} />), href: "https://www.youtube.com/c/smoBEEUniverse"}
 ];
 

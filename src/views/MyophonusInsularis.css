@@ -98,8 +98,7 @@
 /* 愛因斯坦 */
 #abGreatEinsteinSection {
   background-position: center;
-  background-size: cover;
-  /* auto, cover, contain */
+  background-size: cover; /* auto, cover, contain */
   background-repeat: no-repeat;
   background-color: #000000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/einsteinRing.jpg");
@@ -108,8 +107,7 @@
 /* 霍金 */
 #abGreatHawkingSection {
   background-position: center;
-  background-size: cover;
-  /* auto, cover, contain */
+  background-size: cover; /* auto, cover, contain */
   background-repeat: no-repeat;
   background-color: #000000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/blackhole.png");
@@ -118,18 +116,25 @@
 /* 西雅圖酋長 */
 #abGreatSeSeSection {
   background-position: center;
-  background-size: cover;
-  /* auto, cover, contain */
+  background-size: cover; /* auto, cover, contain */
   background-repeat: no-repeat;
   background-color: #000000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/flyingEagle.jpg");
 }
 
+/* 喬治夏勒 */
+#abGreatGeorgeSection {
+  background-position: center;
+  background-size: cover; /* auto, cover, contain */
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/snowLeopard.jpg");
+}
+
 /* 珍古德 */
 #abGreatJaneSection {
   background-position: center;
-  background-size: cover;
-  /* auto, cover, contain */
+  background-size: cover; /* auto, cover, contain */
   background-repeat: no-repeat;
   background-color: #000000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/belugaWhales.webp");
