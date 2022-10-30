@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bird-watching/static/css/main.926af045.css",
-    "main.js": "/bird-watching/static/js/main.e2cba8e7.js",
+    "main.css": "/bird-watching/static/css/main.06a8d8a3.css",
+    "main.js": "/bird-watching/static/js/main.c4c92508.js",
     "static/js/787.fba709df.chunk.js": "/bird-watching/static/js/787.fba709df.chunk.js",
     "static/media/universe.mp4": "/bird-watching/static/media/universe.3f86bb905cb013c017ef.mp4",
     "static/media/headshot.JPG": "/bird-watching/static/media/headshot.b82c46c834fe9ae7a8cc.JPG",
@@ -188,12 +188,14 @@
     "static/media/Excel 文本編輯.png": "/bird-watching/static/media/Excel 文本編輯.097fb40af77f70daec02.png",
     "static/media/timeline-icon.png": "/bird-watching/static/media/timeline-icon.5b0ecd5b572350eaf568.png",
     "static/media/Interwind-1s-200px.gif": "/bird-watching/static/media/Interwind-1s-200px.57cc0d475793d5a8189a.gif",
+    "static/media/snowLeopard.jpg": "/bird-watching/static/media/snowLeopard.43de3912e381777c9b58.jpg",
     "static/media/Python.png": "/bird-watching/static/media/Python.dcdbea523c28ba01206f.png",
     "static/media/JQuery.png": "/bird-watching/static/media/JQuery.53178394da149bd9dc73.png",
     "static/media/CSS.png": "/bird-watching/static/media/CSS.1334cb45a7d5ad096543.png",
     "static/media/Java.png": "/bird-watching/static/media/Java.5d5cffa04d820ba0644c.png",
     "static/media/標記詞的屬性.jpg": "/bird-watching/static/media/標記詞的屬性.17d4e8dad02a5dfd61a2.jpg",
     "static/media/JS.png": "/bird-watching/static/media/JS.166865dacb77d214f485.png",
+    "static/media/GeorgeSchaller.jpg": "/bird-watching/static/media/GeorgeSchaller.3baa478b12903d44b9b5.jpg",
     "static/media/point3.png": "/bird-watching/static/media/point3.2432f3733760b4530555.png",
     "static/media/巨波眼蝶中臺灣亞種1.jpg": "/bird-watching/static/media/巨波眼蝶中臺灣亞種1.7d37fb565ebdf1277d97.jpg",
     "static/media/bcst.jpg": "/bird-watching/static/media/bcst.74788ff18a36af3d261f.jpg",
@@ -211,12 +213,12 @@
     "static/media/GIT.png": "/bird-watching/static/media/GIT.7d664489ed331806ddc8.png",
     "index.html": "/bird-watching/index.html",
     "static/media/resetZoom.svg": "/bird-watching/static/media/resetZoom.34ea8e1b285917431be8499b4dcc494e.svg",
-    "main.926af045.css.map": "/bird-watching/static/css/main.926af045.css.map",
-    "main.e2cba8e7.js.map": "/bird-watching/static/js/main.e2cba8e7.js.map",
+    "main.06a8d8a3.css.map": "/bird-watching/static/css/main.06a8d8a3.css.map",
+    "main.c4c92508.js.map": "/bird-watching/static/js/main.c4c92508.js.map",
     "787.fba709df.chunk.js.map": "/bird-watching/static/js/787.fba709df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.926af045.css",
-    "static/js/main.e2cba8e7.js"
+    "static/css/main.06a8d8a3.css",
+    "static/js/main.c4c92508.js"
   ]
 }
