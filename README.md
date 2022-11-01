@@ -1,4 +1,4 @@
-# 楓楓與小芬的島羽
+# 島羽
 
 ## 賞鳥資料更新項目
 `YouTube` `eBird` `Google Drive`
